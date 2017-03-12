@@ -1,0 +1,8 @@
+How to install?
+---------------
+
+1) Go to this URL: http://steamcommunity.com/sharedfiles/filedetails/?id=621431572
+2) Subscribe to the workshop item
+3) Start the Arma 3 Launcher
+4) Wait until the mod is downloaded (this step should be automatic)
+5) Ensure the mod is activated, then click play from the launcher

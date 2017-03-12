@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><Project name="FR2035">
+  <Package name="FR2035_Language">
+    <Container name="FR2035_Data_F">
+      <Container name="Mod">
+        <Key ID="str_fr2035_name">
+          <Original>French Army 2035</Original>
+          <French>French Army 2035</French>
+          <Spanish>French Army 2035</Spanish>
+          <Italian>French Army 2035</Italian>
+          <Polish>French Army 2035</Polish>
+          <Russian>French Army 2035</Russian>
+          <German>French Army 2035</German>
+          <Czech>French Army 2035</Czech>
+          <English>French Army 2035</English>
+          <Portuguese>French Army 2035</Portuguese>
+          <Korean>French Army 2035</Korean>
+          <Japanese>French Army 2035</Japanese>
+        </Key>
+        <Key ID="str_fr2035_author">
+          <Original>Hector Corral</Original>
+          <French>Hector Corral</French>
+          <Spanish>Hector Corral</Spanish>
+          <Italian>Hector Corral</Italian>
+          <Polish>Hector Corral</Polish>
+          <Russian>Hector Corral</Russian>
+          <German>Hector Corral</German>
+          <Czech>Hector Corral</Czech>
+          <English>Hector Corral</English>
+          <Portuguese>Hector Corral</Portuguese>
+          <Korean>Hector Corral</Korean>
+          <Japanese>Hector Corral</Japanese>
+        </Key>
+        <Key ID="str_fr2035_desc">
+          <Original>Join the battle with the French army! Its role within NATO is crucial because of the gain of influence of CSAT in the Mediterranean Sea. Get ready to join one of the last pillars of the falling European Union.</Original>
+          <French>Rejoignez le combat avec l'armée française! Son rôle au sein de l'OTAN est crucial à cause du gain d'influence du CSAT autour du bassin méditerranéen. Préparez-vous à rejoindre l'un des derniers pilliers de l'Union Européenne encore debout.</French>
+          <English>Join the battle with the French army! Its role within NATO is crucial because of the gain of influence of CSAT in the Mediterranean Sea. Get ready to join one of the last pillars of the falling European Union.</English>
+        </Key>
+      </Container>
+    </Container>
+  </Package>
+</Project>
