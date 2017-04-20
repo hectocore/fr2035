@@ -5909,6 +5909,34 @@
           <Korean>전투병 전투복(CE)</Korean>
           <Japanese>戦闘服（CE）</Japanese>
         </Key>
+        <Key ID="str_fr2035_uniform_ce_tshirt">
+          <Original>Combat Fatigues (CE) (Tee)</Original>
+          <French>Treillis (CE) (T-shirt)</French>
+          <Spanish>Traje de combate (CE) (camiseta)</Spanish>
+          <Italian>Uniforme da combattimento (mimetico CE) (T-shirt)</Italian>
+          <Polish>Mundur bojowy (CE) (Tee)</Polish>
+          <Russian>Боевая форма (CE) (Tee)</Russian>
+          <German>Kampfanzug (CE) (T-Shirt)</German>
+          <Czech>Uniforma (CE kamufláž) (triko)</Czech>
+          <English>Combat Fatigues (CE) (Tee)</English>
+          <Portuguese>Uniforme de combate (CE) (camisa)</Portuguese>
+          <Korean>전투병 전투복(CE)(티)</Korean>
+          <Japanese>戦闘服（CE）（Tシャツ）</Japanese>
+        </Key>
+        <Key ID="str_fr2035_uniform_ce_vest">
+          <Original>Recon Fatigues (CE)</Original>
+          <French>Treillis de reco (CE)</French>
+          <Spanish>Traje de reconocimiento (CE)</Spanish>
+          <Italian>Uniforme da ricognizione (mimetico CE)</Italian>
+          <Polish>Mundur zwiadowcy (CE)</Polish>
+          <Russian>Форма разведчика (CE)</Russian>
+          <German>Pionieranzug (CE)</German>
+          <Czech>Průzkumnický stejnokroj (CE kamufláž)</Czech>
+          <English>Recon Fatigues (CE)</English>
+          <Portuguese>Uniforme de reconhecimento (CE)</Portuguese>
+          <Korean>정찰병 전투복(CE)</Korean>
+          <Japanese>偵察服（CE）</Japanese>
+        </Key>
       </Container>
     </Container>
   </Package>
