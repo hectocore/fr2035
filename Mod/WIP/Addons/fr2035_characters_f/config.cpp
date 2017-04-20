@@ -208,6 +208,381 @@ class CfgVehicles
 			"NVGoggles"
 		};
 	};
+	class FR2035_Soldier_02_f: FR2035_Soldier_base_F
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="FR2035_Soldier_02_f";
+		scope=0;
+		displayName="Rifleman 2";
+		model="\A3\characters_F\BLUFOR\b_soldier_02.p3d";
+		modelSides[]={3,1};
+		uniformClass="U_B_CombatUniform_mcam_tshirt";
+		armor=2;
+		armorStructural=0.5;
+		explosionShielding=0.050000001;
+	};
+	class FR2035_Soldier_03_f: FR2035_Soldier_base_F
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="FR2035_Soldier_03_f";
+		scope=0;
+		displayName="Rifleman 3";
+		model="\A3\characters_F\BLUFOR\b_soldier_03.p3d";
+		modelSides[]={3,1};
+		uniformClass="U_B_CombatUniform_mcam_vest";
+		armor=2;
+		armorStructural=0.5;
+		explosionShielding=0.050000001;
+	};
+	class FR2035_Soldier_04_f: FR2035_Soldier_base_F
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="FR2035_Soldier_04_f";
+		scope=0;
+		displayName="Rifleman 4";
+		model="\A3\Characters_F\Common\coveralls.p3d";
+		modelSides[]={3,1};
+		uniformClass="U_B_HeliPilotCoveralls";
+		role="Crewman";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\A3\Characters_F\Common\Data\coveralls_sage_co.paa"
+		};
+		class HitPoints
+		{
+			class HitFace
+			{
+				armor=1;
+				material=-1;
+				name="face_hub";
+				passThrough=0.1;
+				radius=0.079999998;
+				explosionShielding=0.1;
+				minimalHit=0.0099999998;
+			};
+			class HitNeck: HitFace
+			{
+				armor=1;
+				material=-1;
+				name="neck";
+				passThrough=0.1;
+				radius=0.1;
+				explosionShielding=0.5;
+				minimalHit=0.0099999998;
+			};
+			class HitHead: HitNeck
+			{
+				armor=1;
+				material=-1;
+				name="head";
+				passThrough=0.1;
+				radius=0.2;
+				explosionShielding=0.5;
+				minimalHit=0.0099999998;
+				depends="HitFace max HitNeck";
+			};
+			class HitPelvis: HitHead
+			{
+				armor=2;
+				material=-1;
+				name="pelvis";
+				passThrough=0.050000001;
+				radius=0.2;
+				explosionShielding=1;
+				visual="injury_body";
+				minimalHit=0.0099999998;
+				depends="";
+			};
+			class HitAbdomen: HitPelvis
+			{
+				armor=2;
+				material=-1;
+				name="spine1";
+				passThrough=0.050000001;
+				radius=0.15000001;
+				explosionShielding=1;
+				visual="injury_body";
+				minimalHit=0.0099999998;
+			};
+			class HitDiaphragm: HitAbdomen
+			{
+				armor=2;
+				material=-1;
+				name="spine2";
+				passThrough=0.050000001;
+				radius=0.15000001;
+				explosionShielding=2.4000001;
+				visual="injury_body";
+				minimalHit=0.0099999998;
+			};
+			class HitChest: HitDiaphragm
+			{
+				armor=2;
+				material=-1;
+				name="spine3";
+				passThrough=0.050000001;
+				radius=0.15000001;
+				explosionShielding=2.4000001;
+				visual="injury_body";
+				minimalHit=0.0099999998;
+			};
+			class HitBody: HitChest
+			{
+				armor=1000;
+				material=-1;
+				name="body";
+				passThrough=0.050000001;
+				radius=0.16;
+				explosionShielding=2.4000001;
+				visual="injury_body";
+				minimalHit=0.0099999998;
+				depends="HitPelvis max HitAbdomen max HitDiaphragm max HitChest";
+			};
+			class HitArms: HitBody
+			{
+				armor=0.60000002;
+				material=-1;
+				name="arms";
+				passThrough=0.5;
+				radius=0.1;
+				explosionShielding=0.30000001;
+				visual="injury_hands";
+				minimalHit=0.0099999998;
+				depends="";
+			};
+			class HitHands: HitArms
+			{
+				armor=0.60000002;
+				material=-1;
+				name="hands";
+				passThrough=0.5;
+				radius=0.1;
+				explosionShielding=0.30000001;
+				visual="injury_hands";
+				minimalHit=0.0099999998;
+				depends="HitArms";
+			};
+			class HitLegs: HitHands
+			{
+				armor=0.60000002;
+				material=-1;
+				name="legs";
+				passThrough=0.5;
+				radius=0.12;
+				explosionShielding=0.30000001;
+				visual="injury_legs";
+				minimalHit=0.0099999998;
+				depends="";
+			};
+			class Incapacitated: HitLegs
+			{
+				armor=1000;
+				material=-1;
+				name="body";
+				passThrough=1;
+				radius=0;
+				explosionShielding=1;
+				visual="";
+				minimalHit=0;
+				depends="(HitHead * 2) + HitBody + ((HitHands + HitLegs) / 2) + Total";
+			};
+		};
+		armor=2;
+		armorStructural=0.25;
+		explosionShielding=0.025;
+		class Wounds
+		{
+			tex[]={};
+			mat[]=
+			{
+				"A3\characters_f\common\data\pilot_suit.rvmat",
+				"A3\Characters_F\Common\Data\W1_pilot_suit.rvmat",
+				"A3\Characters_F\Common\Data\W1_pilot_suit.rvmat",
+				"A3\characters_f\common\data\coveralls.rvmat",
+				"A3\Characters_F\Common\Data\coveralls_injury.rvmat",
+				"A3\Characters_F\Common\Data\coveralls_injury.rvmat"
+			};
+		};
+	};
+	class FR2035_Soldier_05_f: FR2035_Soldier_base_F
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="FR2035_Soldier_05_f";
+		scope=0;
+		displayName="Rifleman 5";
+		model="\A3\characters_F\Common\pilot_f.p3d";
+		modelSides[]={3,1};
+		uniformClass="U_B_PilotCoveralls";
+		role="Crewman";
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\A3\Characters_F\Common\Data\pilot_suit_nato_co.paa",
+			"\A3\Characters_F\Common\Data\pilot_helmet_nato_co.paa"
+		};
+		class HitPoints
+		{
+			class HitFace
+			{
+				armor=1;
+				material=-1;
+				name="face_hub";
+				passThrough=0.1;
+				radius=0.079999998;
+				explosionShielding=0.1;
+				minimalHit=0.0099999998;
+			};
+			class HitNeck: HitFace
+			{
+				armor=1;
+				material=-1;
+				name="neck";
+				passThrough=0.1;
+				radius=0.1;
+				explosionShielding=0.5;
+				minimalHit=0.0099999998;
+			};
+			class HitHead: HitNeck
+			{
+				armor=1;
+				material=-1;
+				name="head";
+				passThrough=0.1;
+				radius=0.2;
+				explosionShielding=0.5;
+				minimalHit=0.0099999998;
+				depends="HitFace max HitNeck";
+			};
+			class HitPelvis: HitHead
+			{
+				armor=2;
+				material=-1;
+				name="pelvis";
+				passThrough=0.050000001;
+				radius=0.2;
+				explosionShielding=1;
+				visual="injury_body";
+				minimalHit=0.0099999998;
+				depends="";
+			};
+			class HitAbdomen: HitPelvis
+			{
+				armor=2;
+				material=-1;
+				name="spine1";
+				passThrough=0.050000001;
+				radius=0.15000001;
+				explosionShielding=1;
+				visual="injury_body";
+				minimalHit=0.0099999998;
+			};
+			class HitDiaphragm: HitAbdomen
+			{
+				armor=2;
+				material=-1;
+				name="spine2";
+				passThrough=0.050000001;
+				radius=0.15000001;
+				explosionShielding=2.4000001;
+				visual="injury_body";
+				minimalHit=0.0099999998;
+			};
+			class HitChest: HitDiaphragm
+			{
+				armor=2;
+				material=-1;
+				name="spine3";
+				passThrough=0.050000001;
+				radius=0.15000001;
+				explosionShielding=2.4000001;
+				visual="injury_body";
+				minimalHit=0.0099999998;
+			};
+			class HitBody: HitChest
+			{
+				armor=1000;
+				material=-1;
+				name="body";
+				passThrough=0.050000001;
+				radius=0.16;
+				explosionShielding=2.4000001;
+				visual="injury_body";
+				minimalHit=0.0099999998;
+				depends="HitPelvis max HitAbdomen max HitDiaphragm max HitChest";
+			};
+			class HitArms: HitBody
+			{
+				armor=0.60000002;
+				material=-1;
+				name="arms";
+				passThrough=0.5;
+				radius=0.1;
+				explosionShielding=0.30000001;
+				visual="injury_hands";
+				minimalHit=0.0099999998;
+				depends="";
+			};
+			class HitHands: HitArms
+			{
+				armor=0.60000002;
+				material=-1;
+				name="hands";
+				passThrough=0.5;
+				radius=0.1;
+				explosionShielding=0.30000001;
+				visual="injury_hands";
+				minimalHit=0.0099999998;
+				depends="HitArms";
+			};
+			class HitLegs: HitHands
+			{
+				armor=0.60000002;
+				material=-1;
+				name="legs";
+				passThrough=0.5;
+				radius=0.12;
+				explosionShielding=0.30000001;
+				visual="injury_legs";
+				minimalHit=0.0099999998;
+				depends="";
+			};
+			class Incapacitated: HitLegs
+			{
+				armor=1000;
+				material=-1;
+				name="body";
+				passThrough=1;
+				radius=0;
+				explosionShielding=1;
+				visual="";
+				minimalHit=0;
+				depends="(HitHead * 2) + HitBody + ((HitHands + HitLegs) / 2) + Total";
+			};
+		};
+		armor=2;
+		armorStructural=0.075000003;
+		explosionShielding=0.0074999998;
+		class Wounds
+		{
+			tex[]={};
+			mat[]=
+			{
+				"A3\characters_f\common\data\pilot_suit.rvmat",
+				"A3\Characters_F\Common\Data\W1_pilot_suit.rvmat",
+				"A3\Characters_F\Common\Data\W1_pilot_suit.rvmat"
+			};
+		};
+	};
 	class FR2035_Soldier_F: FR2035_Soldier_base_F
 	{
 		author="$STR_FR2035_Author";
@@ -263,6 +638,52 @@ class CfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FR2035_Soldier_F";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class U_FR2035_CombatUniform_ce_tshirt: Uniform_Base
+	{
+		author="$STR_FR2035_Author";
+		scope=2;
+		displayName="$STR_FR2035_Uniform_ce_tshirt";
+		picture="\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_tshirt_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_blufor_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_soldier_AR_F";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class U_FR2035_CombatUniform_ce_vest: Uniform_Base
+	{
+		author="$STR_FR2035_Author";
+		scope=2;
+		displayName="$STR_FR2035_Uniform_ce_vest";
+		picture="\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_vest_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_blufor_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="B_Soldier_SL_F";
 			containerClass="Supply40";
 			mass=40;
 		};
