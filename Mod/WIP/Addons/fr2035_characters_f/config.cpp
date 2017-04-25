@@ -48,7 +48,9 @@ class CfgPatches
 			"FR2035_recon_medic_F",
 			"FR2035_recon_TL_F",
 			"FR2035_recon_M_F",
-			"FR2035_recon_JTAC_F"
+			"FR2035_recon_JTAC_F",
+			"FR2035_spotter_F",
+			"FR2035_sniper_F"
 		};
 		weapons[]={
 			"U_FR2035_CombatUniform_ce",
@@ -3600,6 +3602,238 @@ class CfgVehicles
 			"NVGoggles"
 		};
 	};
+	class FR2035_Soldier_sniper_base_F: FR2035_Soldier_base_F
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="FR2035_Soldier_sniper_base_F";
+		scope=0;
+		identityTypes[]=
+		{
+			"LanguageGRE_F",
+			"Head_NATO",
+			"G_NATO_sniper"
+		};
+		displayName="$STR_B_Soldier_sniper_base_F0";
+		vehicleClass="MenSniper";
+		editorSubcategory="EdSubcat_Personnel_SpecialForces";
+		role="Marksman";
+		uniformClass="U_FR2035_GhillieSuit";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"Camo3",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\fr2035_clothing_co.paa",
+			"\fr2035_characters_f\data\fr2035_ghillie_ca.paa"
+		};
+		model="A3\Characters_F\BLUFOR\b_sniper.p3d";
+		linkedItems[]=
+		{
+			"V_Chestrig_rgr",
+			"ItemGPS",
+			"ItemMap",
+			"ItemCompass",
+			"ItemWatch",
+			"ItemRadio",
+			"NVGoggles"
+		};
+		respawnLinkedItems[]=
+		{
+			"V_Chestrig_rgr",
+			"ItemGPS",
+			"ItemMap",
+			"ItemCompass",
+			"ItemWatch",
+			"ItemRadio",
+			"NVGoggles"
+		};
+		primaryAmmoCoef=0.2;
+		secondaryAmmoCoef=0.050000001;
+		handgunAmmoCoef=0.1;
+	};
+	class FR2035_spotter_F: FR2035_Soldier_sniper_base_F
+	{
+		author="$STR_FR2035_Author";
+		class SpeechVariants
+		{
+			class Default
+			{
+				speechSingular[]=
+				{
+					"veh_infantry_SF_s"
+				};
+				speechPlural[]=
+				{
+					"veh_infantry_SF_p"
+				};
+			};
+		};
+		textSingular="$STR_A3_nameSound_veh_infantry_SF_s";
+		textPlural="$STR_A3_nameSound_veh_infantry_SF_p";
+		nameSound="veh_infantry_SF_s";
+		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_spotter_F.jpg";
+		_generalMacro="FR2035_spotter_F";
+		scope=2;
+		displayName="$STR_B_spotter_F0";
+		cost=250000;
+		role="Marksman";
+		threat[]={1,0.30000001,0.30000001};
+		camouflage=0.60000002;
+		weapons[]=
+		{
+			"arifle_MX_Hamr_pointer_F",
+			"hgun_P07_snds_F",
+			"Throw",
+			"Put",
+			"Laserdesignator"
+		};
+		respawnWeapons[]=
+		{
+			"arifle_MX_Hamr_pointer_F",
+			"hgun_P07_snds_F",
+			"Throw",
+			"Put",
+			"Laserdesignator"
+		};
+		magazines[]=
+		{
+			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"ClaymoreDirectionalMine_Remote_Mag",
+			"APERSTripMine_Wire_Mag",
+			"Laserbatteries",
+			"MiniGrenade",
+			"MiniGrenade",
+			"B_IR_Grenade",
+			"B_IR_Grenade",
+			"SmokeShell",
+			"SmokeShellGreen",
+			"SmokeShellBlue",
+			"SmokeShellOrange",
+			"Chemlight_green",
+			"Chemlight_green"
+		};
+		respawnMagazines[]=
+		{
+			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"ClaymoreDirectionalMine_Remote_Mag",
+			"APERSTripMine_Wire_Mag",
+			"Laserbatteries",
+			"MiniGrenade",
+			"MiniGrenade",
+			"B_IR_Grenade",
+			"B_IR_Grenade",
+			"SmokeShell",
+			"SmokeShellGreen",
+			"SmokeShellBlue",
+			"SmokeShellOrange",
+			"Chemlight_green",
+			"Chemlight_green"
+		};
+	};
+	class FR2035_sniper_F: FR2035_Soldier_sniper_base_F
+	{
+		author="$STR_FR2035_Author";
+		class SpeechVariants
+		{
+			class Default
+			{
+				speechSingular[]=
+				{
+					"veh_infantry_sniper_s"
+				};
+				speechPlural[]=
+				{
+					"veh_infantry_sniper_p"
+				};
+			};
+		};
+		textSingular="$STR_A3_nameSound_veh_infantry_sniper_s";
+		textPlural="$STR_A3_nameSound_veh_infantry_sniper_p";
+		nameSound="veh_infantry_sniper_s";
+		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_sniper_F.jpg";
+		_generalMacro="FR2035_sniper_F";
+		scope=2;
+		displayName="$STR_B_sniper_F0";
+		weapons[]=
+		{
+			"srifle_LRR_camo_LRPS_F",
+			"hgun_P07_snds_F",
+			"Throw",
+			"Put",
+			"Rangefinder"
+		};
+		respawnWeapons[]=
+		{
+			"srifle_LRR_camo_LRPS_F",
+			"hgun_P07_snds_F",
+			"Throw",
+			"Put",
+			"Rangefinder"
+		};
+		magazines[]=
+		{
+			"7Rnd_408_Mag",
+			"7Rnd_408_Mag",
+			"7Rnd_408_Mag",
+			"7Rnd_408_Mag",
+			"7Rnd_408_Mag",
+			"7Rnd_408_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"ClaymoreDirectionalMine_Remote_Mag",
+			"APERSTripMine_Wire_Mag",
+			"SmokeShell",
+			"SmokeShellGreen",
+			"SmokeShellBlue",
+			"SmokeShellOrange",
+			"Chemlight_green",
+			"Chemlight_green"
+		};
+		respawnMagazines[]=
+		{
+			"7Rnd_408_Mag",
+			"7Rnd_408_Mag",
+			"7Rnd_408_Mag",
+			"7Rnd_408_Mag",
+			"7Rnd_408_Mag",
+			"7Rnd_408_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"ClaymoreDirectionalMine_Remote_Mag",
+			"APERSTripMine_Wire_Mag",
+			"SmokeShell",
+			"SmokeShellGreen",
+			"SmokeShellBlue",
+			"SmokeShellOrange",
+			"Chemlight_green",
+			"Chemlight_green"
+		};
+		cost=350000;
+		role="Marksman";
+		threat[]={1,0.30000001,0.30000001};
+		camouflage=0.60000002;
+	};
 };
 class CfgWeapons
 {
@@ -3673,6 +3907,29 @@ class CfgWeapons
 			uniformClass="FR2035_Soldier_SL_F";
 			containerClass="Supply40";
 			mass=40;
+		};
+	};
+	class U_FR2035_GhillieSuit: Uniform_Base
+	{
+		author="$STR_FR2035_Author";
+		scope=2;
+		displayName="$STR_FR2035_Ghillie_suit";
+		picture="\fr2035_characters_f\data\ui\fr2035_icon_u_combatuniform_ce_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\suitpacks\fr2035_suitpack_soldier_ce_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FR2035_sniper_F";
+			containerClass="Supply60";
+			mass=60;
 		};
 	};
 };

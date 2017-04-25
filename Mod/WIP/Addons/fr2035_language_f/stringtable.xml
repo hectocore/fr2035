@@ -5937,6 +5937,20 @@
           <Korean>정찰병 전투복(CE)</Korean>
           <Japanese>偵察服（CE）</Japanese>
         </Key>
+        <Key ID="str_fr2035_ghillie_suit">
+          <Original>Ghillie Suit [FR]</Original>
+          <French>Ghillie Suit [FR]</French>
+          <Spanish>Traje de camuflaje [FR]</Spanish>
+          <Italian>Mimetica da cecchino [FR]</Italian>
+          <Polish>Ghillie [FR]</Polish>
+          <Russian>Маскировочный костюм [FR]</Russian>
+          <German>Ghillie-Anzug [FR]</German>
+          <Czech>Hejkal [FR]</Czech>
+          <English>Ghillie Suit [FR]</English>
+          <Portuguese>Traje ghillie [FR]</Portuguese>
+          <Korean>위장복[FR]</Korean>
+          <Japanese>ギリースーツ[FR]</Japanese>
+        </Key>
       </Container>
     </Container>
   </Package>
