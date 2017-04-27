@@ -5979,6 +5979,62 @@
           <Korean>VR 복장 [FR]</Korean>
           <Japanese>VRスーツ [FR]</Japanese>
         </Key>
+        <Key ID="str_fr2035_ghillie_semiarid">
+          <Original>Full Ghillie (Semi-Arid) [FR]</Original>
+          <French>Camouflage complet (Semi-Aride) [FR]</French>
+          <Spanish>Camuflaje completo (semiárido) [FR]</Spanish>
+          <Italian>Ghillie completa (semi-arido) [FR]</Italian>
+          <Polish>Pełny Ghillie (region półsuchy) [FR]</Polish>
+          <Russian>Маскировочный костюм (полузасушливая местность) [FR]</Russian>
+          <German>Vollständiger Ghillie-Anzug (Halbtrocken) [FR]</German>
+          <Czech>Kompletní hejkal (polosuchý porost) [FR]</Czech>
+          <English>Full Ghillie (Semi-Arid) [FR]</English>
+          <Portuguese>Ghillie completo (Semiárido) [FR]</Portuguese>
+          <Korean>전신 위장복 (반건조) [FR]</Korean>
+          <Japanese>フル・ギーリー（半乾燥地帯）[FR]</Japanese>
+        </Key>
+        <Key ID="str_fr2035_ghillie_lush">
+          <Original>Full Ghillie (Lush) [FR]</Original>
+          <French>Camouflage complet (Luxuriant) [FR]</French>
+          <Spanish>Camuflaje completo (exuberante) [FR]</Spanish>
+          <Italian>Ghillie completa (verdeggiante) [FR]</Italian>
+          <Polish>Pełny Ghillie (region z bujną roślinnością) [FR]</Polish>
+          <Russian>Маскировочный костюм (обильная растительность) [FR]</Russian>
+          <German>Vollständiger Ghillie-Anzug (Grün) [FR]</German>
+          <Czech>Kompletní hejkal (bujný porost) [FR]</Czech>
+          <English>Full Ghillie (Lush) [FR]</English>
+          <Portuguese>Ghillie completo (Exuberante) [FR]</Portuguese>
+          <Korean>전신 위장복 (초목) [FR]</Korean>
+          <Japanese>フル・ギーリー（緑地）[FR]</Japanese>
+        </Key>
+        <Key ID="str_fr2035_ghillie_arid">
+          <Original>Full Ghillie (Arid) [FR]</Original>
+          <French>Camouflage complet (Aride) [FR]</French>
+          <Spanish>Camuflaje completo (árido) [FR]</Spanish>
+          <Italian>Ghillie completa (arido) [FR]</Italian>
+          <Polish>Pełny Ghillie (region suchy) [FR]</Polish>
+          <Russian>Маскировочный костюм (засушливая местность) [FR]</Russian>
+          <German>Vollständiger Ghillie-Anzug (Trocken) [FR]</German>
+          <Czech>Kompletní hejkal (suchý porost) [FR]</Czech>
+          <English>Full Ghillie (Arid) [FR]</English>
+          <Portuguese>Ghillie completo (Árido) [FR]</Portuguese>
+          <Korean>전신 위장복 (건조) [FR]</Korean>
+          <Japanese>フル・ギーリー（乾燥地帯）[FR]</Japanese>
+        </Key>
+        <Key ID="str_fr2035_ghillie_tna">
+          <Original>Full Ghillie (Jungle) [FR]</Original>
+          <French>Camouflage complet (jungle) [FR]</French>
+          <Spanish>Camuflaje completo (jungla) [FR]</Spanish>
+          <Italian>Tuta mimetica ghillie intera (giungla) [FR]</Italian>
+          <Polish>Pełny Ghillie (dżungla) [FR]</Polish>
+          <Russian>Маскировочный костюм (джунгли) [FR]</Russian>
+          <German>Kompletter Ghillie (Urwald) [FR]</German>
+          <Czech>Úplný hejkal (džungle) [FR]</Czech>
+          <English>Full Ghillie (Jungle) [FR]</English>
+          <Portuguese>Traje ghillie completo (selva) [FR]</Portuguese>
+          <Korean>전신 위장복(정글)[FR]</Korean>
+          <Japanese>フル・ギーリー（ジャングル）[FR]</Japanese>
+        </Key>
       </Container>
     </Container>
   </Package>

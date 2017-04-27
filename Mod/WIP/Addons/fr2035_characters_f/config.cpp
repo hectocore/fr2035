@@ -9,6 +9,7 @@ class CfgPatches
 		{
 			"FR2035_Data_F",
 			"A3_Characters_F",
+			"A3_Characters_F_Mark",
 			"A3_Characters_F_Exp"
 		};
 		requiredVersion=1.66;
@@ -73,7 +74,11 @@ class CfgPatches
 			"U_FR2035_CombatUniform_ce_vest",
 			"U_FR2035_GhillieSuit",
 			"U_FR2035_survival_uniform",
-			"U_FR2035_Protagonist_VR"
+			"U_FR2035_Protagonist_VR",
+			"U_FR2035_FullGhillie_lsh",
+			"U_FR2035_FullGhillie_sard",
+			"U_FR2035_FullGhillie_ard",
+			"U_FR2035_FullGhillie_tna"
 		};
 	};
 };
@@ -4496,7 +4501,6 @@ class CfgVehicles
 			"camo3",
 			"camo4"
 		};
-		DLC="Mark";
 		class Wounds
 		{
 			tex[]={};
@@ -4608,7 +4612,7 @@ class CfgVehicles
 		displayName="$STR_A3_cfgVehicles_B_ghillie_lsh_F0";
 		hiddenSelectionsTextures[]=
 		{
-			"\A3\Characters_F_Mark\BLUFOR\Data\ghillie_coverall_nato_co.paa",
+			"\fr2035_characters_f\data\fr2035_ghillie_coverall_co.paa",
 			"\A3\Characters_F_Mark\Common\Data\ghillie_threads_lsh_ca.paa",
 			"\A3\Characters_F_Mark\Common\Data\ghillie_threads_5LOD_lsh_co.paa"
 		};
@@ -4629,7 +4633,7 @@ class CfgVehicles
 		uniformClass="U_FR2035_FullGhillie_sard";
 		hiddenSelectionsTextures[]=
 		{
-			"\A3\Characters_F_Mark\BLUFOR\Data\ghillie_coverall_nato_co.paa",
+			"\fr2035_characters_f\data\fr2035_ghillie_coverall_co.paa",
 			"\A3\Characters_F_Mark\Common\Data\ghillie_threads_sard_ca.paa",
 			"\A3\Characters_F_Mark\Common\Data\ghillie_threads_5LOD_sard_co.paa"
 		};
@@ -4650,7 +4654,7 @@ class CfgVehicles
 		uniformClass="U_FR2035_FullGhillie_ard";
 		hiddenSelectionsTextures[]=
 		{
-			"\A3\Characters_F_Mark\BLUFOR\Data\ghillie_coverall_nato_co.paa",
+			"\fr2035_characters_f\data\fr2035_ghillie_coverall_co.paa",
 			"\A3\Characters_F_Mark\Common\Data\ghillie_threads_ard_ca.paa",
 			"\A3\Characters_F_Mark\Common\Data\ghillie_threads_5LOD_ard_co.paa"
 		};
@@ -4667,11 +4671,11 @@ class CfgVehicles
 		editorPreview="\A3\EditorPreviews_F_Exp\Data\CfgVehicles\B_T_ghillie_tna_F.jpg";
 		_generalMacro="FR2035_ghillie_tna_F";
 		scope=2;
-		displayName="$STR_A3_cfgVehicles_B_ghillie_ard_F0";
+		displayName="$STR_A3_O_T_GHILLIE_TNA_F0";
 		uniformClass="U_FR2035_FullGhillie_tna";
 		hiddenSelectionsTextures[]=
 		{
-			"\A3\Characters_F_Mark\BLUFOR\Data\ghillie_coverall_nato_co.paa",
+			"\fr2035_characters_f\data\fr2035_ghillie_coverall_co.paa",
 			"\A3\Characters_F_Exp\BLUFOR\Data\ghillie_threads_tna_ca.paa",
 			"\A3\Characters_F_Exp\BLUFOR\Data\ghillie_threads_5LOD_tna_co.paa"
 		};
@@ -4848,6 +4852,98 @@ class CfgWeapons
 			uniformClass="FR2035_Protagonist_VR_F";
 			containerClass="Supply500";
 			mass=60;
+		};
+	};
+	class U_FR2035_FullGhillie_lsh: Uniform_Base
+	{
+		author="$STR_FR2035_Author";
+		scope=2;
+		displayName="$STR_FR2035_Ghillie_Lush";
+		picture="\A3\characters_f_mark\data\ui\icon_U_B_FullGhillie_lsh_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\suitpacks\fr2035_suitpack_soldier_ce_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FR2035_ghillie_lsh_F";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+	class U_FR2035_FullGhillie_sard: Uniform_Base
+	{
+		author="$STR_FR2035_Author";
+		scope=2;
+		displayName="$STR_FR2035_Ghillie_SemiArid";
+		picture="\A3\characters_f_mark\data\ui\icon_U_B_FullGhillie_sard_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\suitpacks\fr2035_suitpack_soldier_ce_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FR2035_ghillie_sard_F";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+	class U_FR2035_FullGhillie_ard: Uniform_Base
+	{
+		author="$STR_FR2035_Author";
+		scope=2;
+		displayName="$STR_FR2035_Ghillie_Arid";
+		picture="\A3\characters_f_mark\data\ui\icon_U_B_FullGhillie_ard_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\suitpacks\fr2035_suitpack_soldier_ce_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FR2035_ghillie_ard_F";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+	class U_FR2035_FullGhillie_tna: Uniform_Base
+	{
+		author="$STR_FR2035_Author";
+		scope=2;
+		displayName="$STR_FR2035_Ghillie_Tna";
+		picture="\A3\characters_f_exp\data\ui\icon_U_B_FullGhillie_tna_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\suitpacks\fr2035_suitpack_soldier_ce_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FR2035_ghillie_tna_F";
+			containerClass="Supply60";
+			mass=80;
 		};
 	};
 };
