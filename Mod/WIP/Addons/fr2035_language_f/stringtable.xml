@@ -5951,6 +5951,34 @@
           <Korean>위장복[FR]</Korean>
           <Japanese>ギリースーツ[FR]</Japanese>
         </Key>
+        <Key ID="str_fr2035_survival_fatigues">
+          <Original>Survival Fatigues (CE)</Original>
+          <French>Treillis de survie (CE)</French>
+          <Spanish>Ropa de supervivencia (CE)</Spanish>
+          <Italian>Fatiche di sopravvivenza (mimetico CE)</Italian>
+          <Polish>Mundur polowy (CE)</Polish>
+          <Russian>Одежда для выживания (CE)</Russian>
+          <German>Notfallmilitäranzug (CE)</German>
+          <Czech>Oděv pro přežití (CE kamufláž)</Czech>
+          <English>Survival Fatigues (CE)</English>
+          <Portuguese>Uniformes de sobrevivência (CE)</Portuguese>
+          <Korean>생존복(CE)</Korean>
+          <Japanese>サバイバル服（CE）</Japanese>
+        </Key>
+        <Key ID="str_fr2035_vrsuit">
+          <Original>VR Suit [FR]</Original>
+          <French>Costume VR [FR]</French>
+          <Spanish>Traje de RV [FR]</Spanish>
+          <Italian>Tuta RV [FR]</Italian>
+          <Polish>Kombinezon VR [FR]</Polish>
+          <Russian>VR-костюм [FR]</Russian>
+          <German>VR Anzug [FR]</German>
+          <Czech>Kombinéza VR [FR]</Czech>
+          <English>VR Suit [FR]</English>
+          <Portuguese>Traje de realidade virtual [FR]</Portuguese>
+          <Korean>VR 복장 [FR]</Korean>
+          <Japanese>VRスーツ [FR]</Japanese>
+        </Key>
       </Container>
     </Container>
   </Package>
