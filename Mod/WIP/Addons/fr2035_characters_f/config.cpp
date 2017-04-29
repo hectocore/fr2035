@@ -85,7 +85,6 @@ class CfgPatches
 class CfgVehicles
 {
 	class SoldierWB;
-	class UniformSlotInfo;
 
 	class FR2035_Soldier_base_F: SoldierWB
 	{
@@ -153,6 +152,7 @@ class CfgVehicles
 		{
 			class SlotsInfo
 			{
+				class UniformSlotInfo;
 				class NVG: UniformSlotInfo
 				{
 					slotType=602;
@@ -672,6 +672,7 @@ class CfgVehicles
 		{
 			class SlotsInfo
 			{
+				class UniformSlotInfo;
 				class NVG: UniformSlotInfo
 				{
 					slotType=602;
@@ -2232,6 +2233,7 @@ class CfgVehicles
 		{
 			class SlotsInfo
 			{
+				class UniformSlotInfo;
 				class Googles: UniformSlotInfo
 				{
 					slotType=603;
@@ -4859,7 +4861,7 @@ class CfgWeapons
 		author="$STR_FR2035_Author";
 		scope=2;
 		displayName="$STR_FR2035_Ghillie_Lush";
-		picture="\A3\characters_f_mark\data\ui\icon_U_B_FullGhillie_lsh_ca.paa";
+		picture="\fr2035_characters_f\data\ui\fr2035_icon_u_ghillie_lsh_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[]=
 		{
@@ -4882,7 +4884,7 @@ class CfgWeapons
 		author="$STR_FR2035_Author";
 		scope=2;
 		displayName="$STR_FR2035_Ghillie_SemiArid";
-		picture="\A3\characters_f_mark\data\ui\icon_U_B_FullGhillie_sard_ca.paa";
+		picture="\fr2035_characters_f\data\ui\fr2035_icon_u_ghillie_sard_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[]=
 		{
@@ -4905,7 +4907,7 @@ class CfgWeapons
 		author="$STR_FR2035_Author";
 		scope=2;
 		displayName="$STR_FR2035_Ghillie_Arid";
-		picture="\A3\characters_f_mark\data\ui\icon_U_B_FullGhillie_ard_ca.paa";
+		picture="\fr2035_characters_f\data\ui\fr2035_icon_u_ghillie_ard_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[]=
 		{
@@ -4928,7 +4930,7 @@ class CfgWeapons
 		author="$STR_FR2035_Author";
 		scope=2;
 		displayName="$STR_FR2035_Ghillie_Tna";
-		picture="\A3\characters_f_exp\data\ui\icon_U_B_FullGhillie_tna_ca.paa";
+		picture="\fr2035_characters_f\data\ui\fr2035_icon_u_ghillie_tna_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[]=
 		{
