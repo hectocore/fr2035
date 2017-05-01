@@ -5951,6 +5951,48 @@
           <Korean>위장복[FR]</Korean>
           <Japanese>ギリースーツ[FR]</Japanese>
         </Key>
+        <Key ID="str_fr2035_helipilot_coveralls">
+          <Original>Heli Pilot Coveralls [FR]</Original>
+          <French>Combinaisons Pilote Hélicoptère [FR]</French>
+          <Spanish>Mono de piloto de helicóptero [FR]</Spanish>
+          <Italian>Tuta da elicotterista [FR]</Italian>
+          <Polish>Kombinezon pilota śmigłowca [FR]</Polish>
+          <Russian>Комбинезон вертолетчика [FR]</Russian>
+          <German>Heli-Pilot-Overall [FR]</German>
+          <Czech>Kombinéza pilota vrtulníku [FR]</Czech>
+          <English>Heli Pilot Coveralls [FR]</English>
+          <Portuguese>Macacão de piloto de helicóptero [FR]</Portuguese>
+          <Korean>헬기 조종사 비행복 [FR]</Korean>
+          <Japanese>ヘリパイロットカバーオール [FR]</Japanese>
+        </Key>
+        <Key ID="str_fr2035_pilot_coveralls">
+          <Original>Pilot Coveralls [FR]</Original>
+          <French>Combinaison de pilote [FR]</French>
+          <Spanish>Mono de piloto [FR]</Spanish>
+          <Italian>Pilot Coveralls [FR]</Italian>
+          <Polish>Kombinezon pilota [FR]</Polish>
+          <Russian>Комбинезон пилота [FR]</Russian>
+          <German>Pilotenoverall [FR]</German>
+          <Czech>Pilotní kombinéza [FR]</Czech>
+          <English>Pilot Coveralls [FR]</English>
+          <Portuguese>Macacão de Piloto [FR]</Portuguese>
+          <Korean>조종사 비행복[FR]</Korean>
+          <Japanese>パイロットカバーオール[FR]</Japanese>
+        </Key>
+        <Key ID="str_fr2035_wetsuit">
+          <Original>Wetsuit [FR]</Original>
+          <French>Combinaison de plongée [FR]</French>
+          <Spanish>Traje de buzo [FR]</Spanish>
+          <Italian>Muta [FR]</Italian>
+          <Polish>Pianka [FR]</Polish>
+          <Russian>Гидрокостюм [FR]</Russian>
+          <German>Taucheranzug [FR]</German>
+          <Czech>Potápěčský oblek [FR]</Czech>
+          <English>Wetsuit [FR]</English>
+          <Portuguese>Roupa de Megulho [FR]</Portuguese>
+          <Korean>잠수복[FR]</Korean>
+          <Japanese>ウェットスーツ[FR]</Japanese>
+        </Key>
         <Key ID="str_fr2035_survival_fatigues">
           <Original>Survival Fatigues (CE)</Original>
           <French>Treillis de survie (CE)</French>
