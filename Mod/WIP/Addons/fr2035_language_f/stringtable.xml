@@ -6083,15 +6083,57 @@
           <Original>Combat Helmet (CE)</Original>
           <French>Casque de combat (CE)</French>
           <Spanish>Casco de combate (CE)</Spanish>
-          <Italian>Elmetto da combattimento (CE)</Italian>
+          <Italian>Elmetto da combattimento (mimetico CE)</Italian>
           <Polish>Hełm bojowy (CE)</Polish>
           <Russian>Штурмовой шлем (CE)</Russian>
           <German>Kampfhelm (CE)</German>
-          <Czech>Bojová přilba (CE)</Czech>
+          <Czech>Bojová přilba (CE kamufláž)</Czech>
           <English>Combat Helmet (CE)</English>
           <Portuguese>Capacete de combate (CE)</Portuguese>
           <Korean>전투 헬멧(CE)</Korean>
           <Japanese>戦闘用ヘルメット（CE）</Japanese>
+        </Key>
+        <Key ID="str_fr2035_helmet_ce_camo">
+          <Original>Combat Helmet (CE) (Camo)</Original>
+          <French>Casque de combat (CE) (Camo)</French>
+          <Spanish>Casco de combate (CE) (camuflaje)</Spanish>
+          <Italian>Elmetto da combattimento (mimetico CE) (mimetico)</Italian>
+          <Polish>Hełm bojowy (CE) (kamuflaż)</Polish>
+          <Russian>Штурмовой шлем (CE) (камуфляж)</Russian>
+          <German>Kampfhelm (CE) (Flecktarn)</German>
+          <Czech>Bojová přilba (CE kamufláž) (kamufláž)</Czech>
+          <English>Combat Helmet (CE) (Camo)</English>
+          <Portuguese>Capacete de combate (CE) (Camuflagem)</Portuguese>
+          <Korean>전투 헬멧(CE)(위장)</Korean>
+          <Japanese>戦闘用ヘルメット（CE）（カモフラ）</Japanese>
+        </Key>
+        <Key ID="str_fr2035_helmet_ce_light">
+          <Original>Light Combat Helmet (CE)</Original>
+          <French>Casque léger de combat (CE)</French>
+          <Spanish>Casco de combate ligero (CE)</Spanish>
+          <Italian>Elmetto da combattimento leggero (mimetico CE)</Italian>
+          <Polish>Lekki hełm bojowy (CE)</Polish>
+          <Russian>Легкий штурмовой шлем (CE)</Russian>
+          <German>Leichter Kampfhelm (CE)</German>
+          <Czech>Lehká bojová přilba (CE kamufláž)</Czech>
+          <English>Light Combat Helmet (CE)</English>
+          <Portuguese>Capacete de combate leve (CE)</Portuguese>
+          <Korean>경 전투 헬멧(CE)</Korean>
+          <Japanese>軽量戦闘用ヘルメット（CE）</Japanese>
+        </Key>
+        <Key ID="str_fr2035_helmetspec_ce">
+          <Original>Enhanced Combat Helmet (CE)</Original>
+          <French>Casque de combat amélioré (CE)</French>
+          <Spanish>Casco de combate mejorado (CE)</Spanish>
+          <Italian>Elmetto da combattimento migliorato (mimetico CE)</Italian>
+          <Polish>Wzmocniony hełm bojowy (CE)</Polish>
+          <Russian>Улучшенный штурмовой шлем (CE)</Russian>
+          <German>Verbesserter Kampfhelm (CE)</German>
+          <Czech>Vylepšená bojová přilba (CE kamufláž)</Czech>
+          <English>Enhanced Combat Helmet (CE)</English>
+          <Portuguese>Capacete de combate melhorado (CE)</Portuguese>
+          <Korean>강화 전투 헬멧(CE)</Korean>
+          <Japanese>改良型戦闘用ヘルメット（CE）</Japanese>
         </Key>
       </Container>
     </Container>

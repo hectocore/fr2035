@@ -84,7 +84,11 @@ class CfgPatches
 			"U_FR2035_FullGhillie_lsh",
 			"U_FR2035_FullGhillie_sard",
 			"U_FR2035_FullGhillie_ard",
-			"U_FR2035_FullGhillie_tna"
+			"U_FR2035_FullGhillie_tna",
+			"H_FR2035_Helmet_ce",
+			"H_FR2035_Helmet_ce_camo",
+			"H_FR2035_Helmet_ce_light",
+			"H_FR2035_HelmetSpec_ce"
 		};
 	};
 };
@@ -259,7 +263,7 @@ class CfgVehicles
 		linkedItems[]=
 		{
 			"V_PlateCarrier1_rgr",
-			"H_HelmetB",
+			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -269,7 +273,7 @@ class CfgVehicles
 		respawnLinkedItems[]=
 		{
 			"V_PlateCarrier1_rgr",
-			"H_HelmetB",
+			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -951,7 +955,7 @@ class CfgVehicles
 		linkedItems[]=
 		{
 			"V_PlateCarrierGL_rgr",
-			"H_HelmetSpecB_blk",
+			"H_FR2035_HelmetSpec_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -961,7 +965,7 @@ class CfgVehicles
 		respawnLinkedItems[]=
 		{
 			"V_PlateCarrierGL_rgr",
-			"H_HelmetSpecB_blk",
+			"H_FR2035_HelmetSpec_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -1049,7 +1053,7 @@ class CfgVehicles
 		linkedItems[]=
 		{
 			"V_PlateCarrier2_rgr",
-			"H_HelmetB_grass",
+			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -1059,7 +1063,7 @@ class CfgVehicles
 		respawnLinkedItems[]=
 		{
 			"V_PlateCarrier2_rgr",
-			"H_HelmetB_grass",
+			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -1142,7 +1146,7 @@ class CfgVehicles
 		linkedItems[]=
 		{
 			"V_PlateCarrierGL_rgr",
-			"H_HelmetB_desert",
+			"H_FR2035_Helmet_ce",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
@@ -1153,7 +1157,7 @@ class CfgVehicles
 		respawnLinkedItems[]=
 		{
 			"V_PlateCarrierGL_rgr",
-			"H_HelmetB_desert",
+			"H_FR2035_Helmet_ce",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
@@ -1255,7 +1259,7 @@ class CfgVehicles
 		linkedItems[]=
 		{
 			"V_PlateCarrierGL_rgr",
-			"H_HelmetSpecB",
+			"H_FR2035_HelmetSpec_ce",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
@@ -1266,7 +1270,7 @@ class CfgVehicles
 		respawnLinkedItems[]=
 		{
 			"V_PlateCarrierGL_rgr",
-			"H_HelmetSpecB",
+			"H_FR2035_HelmetSpec_ce",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
@@ -1341,7 +1345,7 @@ class CfgVehicles
 		linkedItems[]=
 		{
 			"V_PlateCarrier1_rgr",
-			"H_HelmetB_grass",
+			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -1351,7 +1355,7 @@ class CfgVehicles
 		respawnLinkedItems[]=
 		{
 			"V_PlateCarrier1_rgr",
-			"H_HelmetB_grass",
+			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -1441,7 +1445,7 @@ class CfgVehicles
 		linkedItems[]=
 		{
 			"V_PlateCarrier2_rgr",
-			"H_HelmetB_sand",
+			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -1451,7 +1455,7 @@ class CfgVehicles
 		respawnLinkedItems[]=
 		{
 			"V_PlateCarrier2_rgr",
-			"H_HelmetB_sand",
+			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -1544,7 +1548,7 @@ class CfgVehicles
 		linkedItems[]=
 		{
 			"V_PlateCarrierSpec_rgr",
-			"H_HelmetB_light_desert",
+			"H_FR2035_Helmet_ce_light",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -1554,7 +1558,7 @@ class CfgVehicles
 		respawnLinkedItems[]=
 		{
 			"V_PlateCarrierSpec_rgr",
-			"H_HelmetB_light_desert",
+			"H_FR2035_Helmet_ce_light",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -1578,7 +1582,7 @@ class CfgVehicles
 		linkedItems[]=
 		{
 			"V_PlateCarrier1_rgr",
-			"H_HelmetB_light_sand",
+			"H_FR2035_Helmet_ce_light",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -1588,7 +1592,7 @@ class CfgVehicles
 		respawnLinkedItems[]=
 		{
 			"V_PlateCarrier1_rgr",
-			"H_HelmetB_light_sand",
+			"H_FR2035_Helmet_ce_light",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -1725,7 +1729,7 @@ class CfgVehicles
 		linkedItems[]=
 		{
 			"V_PlateCarrierGL_rgr",
-			"H_HelmetSpecB",
+			"H_FR2035_HelmetSpec_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -1735,7 +1739,7 @@ class CfgVehicles
 		respawnLinkedItems[]=
 		{
 			"V_PlateCarrierGL_rgr",
-			"H_HelmetSpecB",
+			"H_FR2035_HelmetSpec_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -1914,7 +1918,7 @@ class CfgVehicles
 		linkedItems[]=
 		{
 			"V_PlateCarrier1_rgr",
-			"H_HelmetB_grass",
+			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -1924,7 +1928,7 @@ class CfgVehicles
 		respawnLinkedItems[]=
 		{
 			"V_PlateCarrier1_rgr",
-			"H_HelmetB_grass",
+			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -2015,7 +2019,7 @@ class CfgVehicles
 		linkedItems[]=
 		{
 			"V_PlateCarrier1_rgr",
-			"H_HelmetB_light_desert",
+			"H_FR2035_Helmet_ce_light",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -2025,7 +2029,7 @@ class CfgVehicles
 		respawnLinkedItems[]=
 		{
 			"V_PlateCarrier1_rgr",
-			"H_HelmetB_light_desert",
+			"H_FR2035_Helmet_ce_light",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -2117,7 +2121,7 @@ class CfgVehicles
 		linkedItems[]=
 		{
 			"V_PlateCarrier1_rgr",
-			"H_HelmetB_light_sand",
+			"H_FR2035_Helmet_ce_light",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -2127,7 +2131,7 @@ class CfgVehicles
 		respawnLinkedItems[]=
 		{
 			"V_PlateCarrier1_rgr",
-			"H_HelmetB_light_sand",
+			"H_FR2035_Helmet_ce_light",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -2208,7 +2212,7 @@ class CfgVehicles
 		linkedItems[]=
 		{
 			"V_Chestrig_rgr",
-			"H_HelmetB_desert",
+			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -2218,7 +2222,7 @@ class CfgVehicles
 		respawnLinkedItems[]=
 		{
 			"V_Chestrig_rgr",
-			"H_HelmetB_desert",
+			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -2600,7 +2604,7 @@ class CfgVehicles
 		linkedItems[]=
 		{
 			"V_PlateCarrierSpec_rgr",
-			"H_HelmetB",
+			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -2610,7 +2614,7 @@ class CfgVehicles
 		respawnLinkedItems[]=
 		{
 			"V_PlateCarrierSpec_rgr",
-			"H_HelmetB",
+			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -2631,7 +2635,7 @@ class CfgVehicles
 		linkedItems[]=
 		{
 			"V_PlateCarrierSpec_rgr",
-			"H_HelmetB",
+			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -2642,7 +2646,7 @@ class CfgVehicles
 		respawnLinkedItems[]=
 		{
 			"V_PlateCarrierSpec_rgr",
-			"H_HelmetB",
+			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -2728,7 +2732,7 @@ class CfgVehicles
 		linkedItems[]=
 		{
 			"V_PlateCarrier1_rgr",
-			"H_HelmetB",
+			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -2737,7 +2741,7 @@ class CfgVehicles
 		respawnLinkedItems[]=
 		{
 			"V_PlateCarrier1_rgr",
-			"H_HelmetB",
+			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -3141,7 +3145,7 @@ class CfgVehicles
 		linkedItems[]=
 		{
 			"V_Chestrig_rgr",
-			"H_HelmetB_plain_mcamo",
+			"H_FR2035_Helmet_ce",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
@@ -3152,7 +3156,7 @@ class CfgVehicles
 		respawnLinkedItems[]=
 		{
 			"V_Chestrig_rgr",
-			"H_HelmetB_plain_mcamo",
+			"H_FR2035_Helmet_ce",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
@@ -3321,7 +3325,7 @@ class CfgVehicles
 		linkedItems[]=
 		{
 			"V_Chestrig_rgr",
-			"H_HelmetB_light",
+			"H_FR2035_Helmet_ce_light",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
@@ -3332,7 +3336,7 @@ class CfgVehicles
 		respawnLinkedItems[]=
 		{
 			"V_Chestrig_rgr",
-			"H_HelmetB_light",
+			"H_FR2035_Helmet_ce_light",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
@@ -3992,7 +3996,7 @@ class CfgVehicles
 		linkedItems[]=
 		{
 			"V_Chestrig_rgr",
-			"H_HelmetB_light",
+			"H_FR2035_Helmet_ce_light",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -4002,7 +4006,7 @@ class CfgVehicles
 		respawnLinkedItems[]=
 		{
 			"V_Chestrig_rgr",
-			"H_HelmetB_light",
+			"H_FR2035_Helmet_ce_light",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -4779,7 +4783,7 @@ class CfgVehicles
 		linkedItems[]=
 		{
 			"V_PlateCarrier1_rgr",
-			"H_HelmetB",
+			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -4789,7 +4793,7 @@ class CfgVehicles
 		respawnLinkedItems[]=
 		{
 			"V_PlateCarrier1_rgr",
-			"H_HelmetB",
+			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -4972,7 +4976,7 @@ class CfgVehicles
 		linkedItems[]=
 		{
 			"V_PlateCarrier1_rgr",
-			"H_HelmetB",
+			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -4982,7 +4986,7 @@ class CfgVehicles
 		respawnLinkedItems[]=
 		{
 			"V_PlateCarrier1_rgr",
-			"H_HelmetB",
+			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -5322,7 +5326,6 @@ class CfgWeapons
 			mass=80;
 		};
 	};
-
 	class H_FR2035_Helmet_ce: ItemCore
 	{
 		author="$STR_FR2035_Author";
@@ -5338,7 +5341,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\fr2035_characters_f\data\fr2035_suitpack_soldier_ce_co.paa"
+			"\fr2035_characters_f\data\fr2035_helmet_ce_co.paa"
 		};
 		descriptionShort="$STR_A3_SP_AL_II";
 		class ItemInfo: HeadgearItem
@@ -5356,6 +5359,96 @@ class CfgWeapons
 				{
 					hitpointName="HitHead";
 					armor=6;
+					passThrough=0.5;
+				};
+			};
+		};
+	};
+	class H_FR2035_Helmet_ce_camo: H_FR2035_Helmet_ce
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="H_FR2035_Helmet_ce_camo";
+		displayName="$STR_FR2035_Helmet_ce_camo";
+		model="\A3\Characters_F\BLUFOR\headgear_b_helmet_camo";
+		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_helmet_camo_ce_ca.paa";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\fr2035_helmet_ce_co.paa",
+			"\A3\characters_f\common\data\ghillie2_co.paa"
+		};
+		class ItemInfo: HeadgearItem
+		{
+			mass=40;
+			uniformModel="\A3\Characters_F\BLUFOR\headgear_b_helmet_camo";
+			modelSides[]={3,1};
+			hiddenSelections[]=
+			{
+				"camo1",
+				"camo2"
+			};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=6;
+					passThrough=0.5;
+				};
+			};
+		};
+	};
+	class H_FR2035_Helmet_ce_light: H_FR2035_Helmet_ce
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="H_FR2035_Helmet_ce_light";
+		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_helmet_light_ce_ca.paa";
+		displayName="$STR_FR2035_Helmet_ce_light";
+		model="\A3\Characters_F\BLUFOR\headgear_b_helmet_light";
+		descriptionShort="$STR_A3_SP_AL_I";
+		class ItemInfo: ItemInfo
+		{
+			mass=20;
+			uniformModel="\A3\Characters_F\BLUFOR\headgear_b_helmet_light";
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=4;
+					passThrough=0.5;
+				};
+			};
+		};
+	};
+	class H_FR2035_HelmetSpec_ce: H_FR2035_Helmet_ce
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="H_FR2035_HelmetSpec_ce";
+		scope=2;
+		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_helmet_ce_ca.paa";
+		displayName="$STR_FR2035_HelmetSpec_ce";
+		model="\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic";
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\fr2035_helmet_ce_co.paa"
+		};
+		descriptionShort="$STR_A3_SP_AL_IV";
+		class ItemInfo: ItemInfo
+		{
+			mass=50;
+			uniformModel="\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic";
+			modelSides[]={3,1};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=10;
 					passThrough=0.5;
 				};
 			};
