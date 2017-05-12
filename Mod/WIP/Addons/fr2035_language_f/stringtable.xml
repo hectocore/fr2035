@@ -6078,6 +6078,22 @@
           <Japanese>フル・ギーリー（ジャングル）[FR]</Japanese>
         </Key>
       </Container>
+      <Container name="Helmets">
+        <Key ID="str_fr2035_helmet_ce">
+          <Original>Combat Helmet (CE)</Original>
+          <French>Casque de combat (CE)</French>
+          <Spanish>Casco de combate (CE)</Spanish>
+          <Italian>Elmetto da combattimento (CE)</Italian>
+          <Polish>Hełm bojowy (CE)</Polish>
+          <Russian>Штурмовой шлем (CE)</Russian>
+          <German>Kampfhelm (CE)</German>
+          <Czech>Bojová přilba (CE)</Czech>
+          <English>Combat Helmet (CE)</English>
+          <Portuguese>Capacete de combate (CE)</Portuguese>
+          <Korean>전투 헬멧(CE)</Korean>
+          <Japanese>戦闘用ヘルメット（CE）</Japanese>
+        </Key>
+      </Container>
     </Container>
   </Package>
 </Project>

@@ -4995,6 +4995,8 @@ class CfgWeapons
 {
 	class Uniform_Base;
 	class UniformItem;
+	class ItemCore;
+	class HeadgearItem;
 
 	class U_FR2035_CombatUniform_ce: Uniform_Base
 	{
@@ -5318,6 +5320,45 @@ class CfgWeapons
 			uniformClass="FR2035_ghillie_tna_F";
 			containerClass="Supply60";
 			mass=80;
+		};
+	};
+
+	class H_FR2035_Helmet_ce: ItemCore
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="H_FR2035_Helmet_ce";
+		scope=2;
+		weaponPoolAvailable=1;
+		displayName="$STR_FR2035_Helmet_ce";
+		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_helmet_ce_ca.paa";
+		model="\A3\Characters_F\BLUFOR\headgear_b_helmet_plain";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\fr2035_suitpack_soldier_ce_co.paa"
+		};
+		descriptionShort="$STR_A3_SP_AL_II";
+		class ItemInfo: HeadgearItem
+		{
+			mass=30;
+			uniformModel="\A3\Characters_F\BLUFOR\headgear_b_helmet_plain";
+			modelSides[]={3,1};
+			hiddenSelections[]=
+			{
+				"camo"
+			};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=6;
+					passThrough=0.5;
+				};
+			};
 		};
 	};
 };
