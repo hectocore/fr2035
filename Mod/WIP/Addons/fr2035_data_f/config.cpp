@@ -703,3 +703,10 @@ class CfgWorlds
 		};
 	};
 };
+class CfgEditorSubcategories
+{
+	class EdSubcat_Personnel_FR2035_CTRG
+	{
+		displayName="$STR_FR2035_EdSubcat_Personnel_CTRG";
+	};
+};

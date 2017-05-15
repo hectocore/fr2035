@@ -5892,6 +5892,22 @@
           <Japanese>Benoist</Japanese>
         </Key>
       </Container>
+      <Container name="Editor_Categories">
+        <Key ID="str_fr2035_edsubcat_personnel_ctrg">
+          <Original>Men (CTRG)</Original>
+          <French>Hommes (CTRG)</French>
+          <Spanish>Hombres (CTRG)</Spanish>
+          <Italian>Uomini (CTRG)</Italian>
+          <Polish>Mężczyźni (CTRG)</Polish>
+          <Russian>Люди (CTRG)</Russian>
+          <German>Männer (CTRG)</German>
+          <Czech>Muži (CTRG)</Czech>
+          <English>Men (CTRG)</English>
+          <Portuguese>Homens (CTRG)</Portuguese>
+          <Korean>사람(CTRG)</Korean>
+          <Japanese>男性（CTRG）</Japanese>
+        </Key>
+      </Container>
     </Container>
     <Container name="FR2035_Characters_F">
       <Container name="Uniforms">
@@ -6077,6 +6093,48 @@
           <Korean>전신 위장복(정글)[FR]</Korean>
           <Japanese>フル・ギーリー（ジャングル）[FR]</Japanese>
         </Key>
+        <Key ID="str_fr2035_uniform_ctrg_ce">
+          <Original>CTRG Stealth Uniform (CE)</Original>
+          <French>Uniforme furtif CTRG (CE)</French>
+          <Spanish>Uniforme de sigilo de CTRG (CE)</Spanish>
+          <Italian>Uniforme stealth CTRG (mimetico CE)</Italian>
+          <Polish>Mundur maskujący CTRG (CE)</Polish>
+          <Russian>Камуфляж. форма CTRG (CE)</Russian>
+          <German>CTRG-Tarn-Uniform (CE)</German>
+          <Czech>Uniforma CTRG na skrytou činnost (CE kamufláž)</Czech>
+          <English>CTRG Stealth Uniform (CE)</English>
+          <Portuguese>Uniforme urbano camuflado CTRG (CE)</Portuguese>
+          <Korean>CTRG 은신 유니폼(CE)</Korean>
+          <Japanese>CTRGステルス戦闘服（CE）</Japanese>
+        </Key>
+        <Key ID="str_fr2035_uniform_ctrg_ce_tshirt">
+          <Original>CTRG Stealth Uniform (CE) (Tee)</Original>
+          <French>Uniforme furtif CTRG (CE) (t-shirt)</French>
+          <Spanish>Uniforme de sigilo de CTRG (CE) (camiseta)</Spanish>
+          <Italian>Uniforme stealth CTRG (mimetico CE) (maniche corte)</Italian>
+          <Polish>Mundur maskujący CTRG (CE) (podkoszulek)</Polish>
+          <Russian>Камуфляж. форма CTRG (CE) (футболка)</Russian>
+          <German>CTRG-Tarn-Uniform (CE) (T-Shirt)</German>
+          <Czech>Uniforma CTRG na skrytou činnost (CE kamufláž) (triko)</Czech>
+          <English>CTRG Stealth Uniform (CE) (Tee)</English>
+          <Portuguese>Uniforme urbano camuflado CTRG (CE) (camiseta)</Portuguese>
+          <Korean>CTRG 은신 유니폼(CE)(티)</Korean>
+          <Japanese>CTRGステルス戦闘服（CE）（Tシャツ）</Japanese>
+        </Key>
+        <Key ID="str_fr2035_uniform_ctrg_ce_vest">
+          <Original>CTRG Stealth Uniform (CE) (Rolled-up)</Original>
+          <French>Uniforme furtif CTRG (CE) (manches retroussées)</French>
+          <Spanish>Uniforme de sigilo de CTRG (CE) (arremangado)</Spanish>
+          <Italian>Uniforme stealth CTRG (mimetico CE) (maniche arrotolate)</Italian>
+          <Polish>Mundur maskujący CTRG (CE) (podwinięty)</Polish>
+          <Russian>Камуфляж. форма CTRG (CE) (рукава)</Russian>
+          <German>CTRG-Tarn-Uniform (CE) (Hochgekrempelt)</German>
+          <Czech>Uniforma CTRG na skrytou činnost (CE kamufláž) (vyhrnutá)</Czech>
+          <English>CTRG Stealth Uniform (CE) (Rolled-up)</English>
+          <Portuguese>Uniforme urbano camuflado CTRG (CE) (manga dobrada)</Portuguese>
+          <Korean>CTRG 은신 유니폼(CE)(롤업)</Korean>
+          <Japanese>CTRGステルス戦闘服（CE）（袖まくり）</Japanese>
+        </Key>
       </Container>
       <Container name="Helmets">
         <Key ID="str_fr2035_helmet_ce">
@@ -6134,6 +6192,20 @@
           <Portuguese>Capacete de combate melhorado (CE)</Portuguese>
           <Korean>강화 전투 헬멧(CE)</Korean>
           <Japanese>改良型戦闘用ヘルメット（CE）</Japanese>
+        </Key>
+        <Key ID="str_fr2035_helmetspec_ctrg_ce">
+          <Original>Stealth Combat Helmet (CE)</Original>
+          <French>Casque de combat furtif (CE)</French>
+          <Spanish>Casco de combate sigiloso (CE)</Spanish>
+          <Italian>Elmetto da combattimento stealth (mimetico CE)</Italian>
+          <Polish>Maskujący hełm bojowy (CE)</Polish>
+          <Russian>Шлем для скрытных операций (CE)</Russian>
+          <German>Tarn-Kampfhelm (CE)</German>
+          <Czech>Bojová helma na skrytou činnost (CE kamufláž)</Czech>
+          <English>Stealth Combat Helmet (CE)</English>
+          <Portuguese>Capacete de combate furtivo (CE)</Portuguese>
+          <Korean>은신 전투 헬멧(CE)</Korean>
+          <Japanese>ステルス戦闘用ヘルメット（CE）</Japanese>
         </Key>
       </Container>
     </Container>

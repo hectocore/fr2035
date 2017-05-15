@@ -69,7 +69,8 @@ class CfgPatches
 			"FR2035_ghillie_tna_F",
 			"FR2035_Sharpshooter_F",
 			"FR2035_Recon_Sharpshooter_F",
-			"FR2035_HeavyGunner_F"
+			"FR2035_HeavyGunner_F",
+			"FR2035_CTRG_Soldier_TL_ce_F"
 		};
 		weapons[]={
 			"U_FR2035_CombatUniform_ce",
@@ -85,10 +86,14 @@ class CfgPatches
 			"U_FR2035_FullGhillie_sard",
 			"U_FR2035_FullGhillie_ard",
 			"U_FR2035_FullGhillie_tna",
+			"U_FR2035_CTRG_Uniform_ce",
+			"U_FR2035_CTRG_Uniform_ce_tshirt",
+			"U_FR2035_CTRG_Uniform_ce_vest",
 			"H_FR2035_Helmet_ce",
 			"H_FR2035_Helmet_ce_camo",
 			"H_FR2035_Helmet_ce_light",
-			"H_FR2035_HelmetSpec_ce"
+			"H_FR2035_HelmetSpec_ce",
+			"H_FR2035_CTRG_HelmetSpec_ce"
 		};
 	};
 };
@@ -4994,6 +4999,276 @@ class CfgVehicles
 			"NVGoggles"
 		};
 	};
+	class FR2035_CTRG_Soldier_base_F: FR2035_Soldier_base_F
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="FR2035_CTRG_Soldier_base_F";
+		faction="FR2035_F";
+		editorSubcategory="EdSubcat_Personnel_FR2035_CTRG";
+		displayName="";
+		model="\A3\Characters_F_Exp\BLUFOR\B_CTRG_Soldier_01_F.p3d";
+		uniformClass="U_FR2035_CTRG_Uniform_ce";
+		hiddenSelections[]=
+		{
+			"camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\fr2035_clothing_ctrg_co.paa"
+		};
+		backpack="";
+		weapons[]=
+		{
+			"arifle_SPAR_01_blk_ERCO_Pointer_F",
+			"hgun_P07_khk_Snds_F",
+			"Throw",
+			"Put",
+			"Binocular"
+		};
+		respawnWeapons[]=
+		{
+			"arifle_SPAR_01_blk_ERCO_Pointer_F",
+			"hgun_P07_khk_Snds_F",
+			"Throw",
+			"Put",
+			"Binocular"
+		};
+		magazines[]=
+		{
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"MiniGrenade",
+			"MiniGrenade",
+			"SmokeShell",
+			"SmokeShellGreen",
+			"Chemlight_green",
+			"Chemlight_green"
+		};
+		respawnMagazines[]=
+		{
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"MiniGrenade",
+			"MiniGrenade",
+			"SmokeShell",
+			"SmokeShellGreen",
+			"Chemlight_green",
+			"Chemlight_green"
+		};
+		items[]=
+		{
+			"FirstAidKit"
+		};
+		respawnItems[]=
+		{
+			"FirstAidKit"
+		};
+		linkedItems[]=
+		{
+			"H_FR2035_CTRG_HelmetSpec_ce",
+			"V_TacVest_oli",
+			"G_Balaclava_TI_G_blk_F",
+			"ItemGPS",
+			"ItemMap",
+			"ItemCompass",
+			"ItemWatch",
+			"ItemRadio",
+			"NVGogglesB_grn_F"
+		};
+		respawnLinkedItems[]=
+		{
+			"H_FR2035_CTRG_HelmetSpec_ce",
+			"V_TacVest_oli",
+			"G_Balaclava_TI_G_blk_F",
+			"ItemGPS",
+			"ItemMap",
+			"ItemCompass",
+			"ItemWatch",
+			"ItemRadio",
+			"NVGogglesB_grn_F"
+		};
+	};
+	class FR2035_CTRG_Soldier_F: FR2035_CTRG_Soldier_base_F
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="FR2035_CTRG_Soldier_F";
+		faction="FR2035_F";
+		uniformClass="U_FR2035_CTRG_Uniform_ce";
+		model="\A3\Characters_F_Exp\BLUFOR\B_CTRG_Soldier_01_F.p3d";
+		scope=1;
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\fr2035_clothing_ctrg_co.paa"
+		};
+		class Wounds
+		{
+			tex[]={};
+			mat[]=
+			{
+				"a3\characters_f_exp\blufor\data\U_B_CTRG_Soldier_F.rvmat",
+				"A3\Characters_F_Exp\BLUFOR\Data\U_B_CTRG_Soldier_F_injury.rvmat",
+				"A3\Characters_F_Exp\BLUFOR\Data\U_B_CTRG_Soldier_F_injury.rvmat"
+			};
+		};
+		armor=2;
+		armorStructural=0.38;
+		explosionShielding=0.037999999;
+	};
+	class FR2035_CTRG_Soldier_2_F: FR2035_CTRG_Soldier_base_F
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="FR2035_CTRG_Soldier_2_F";
+		faction="FR2035_F";
+		uniformClass="U_FR2035_CTRG_Uniform_ce_tshirt";
+		model="\A3\Characters_F_Exp\BLUFOR\B_CTRG_Soldier_02_F.p3d";
+		scope=1;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\fr2035_clothing_ctrg_co.paa",
+			"\fr2035_characters_f\data\fr2035_basicbody_green_co.paa"
+		};
+		class Wounds
+		{
+			tex[]={};
+			mat[]=
+			{
+				"a3\characters_f_exp\blufor\data\U_B_CTRG_Soldier_F.rvmat",
+				"A3\Characters_F_Exp\BLUFOR\Data\U_B_CTRG_Soldier_F_injury.rvmat",
+				"A3\Characters_F_Exp\BLUFOR\Data\U_B_CTRG_Soldier_F_injury.rvmat",
+				"a3\characters_f\heads\data\hl_white_bald_muscular.rvmat",
+				"a3\characters_f\heads\data\hl_white_bald_muscular_injury.rvmat",
+				"a3\characters_f\heads\data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Common\Data\basicbody.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat"
+			};
+		};
+		armor=2;
+		armorStructural=0.5;
+		explosionShielding=0.050000001;
+	};
+	class FR2035_CTRG_Soldier_3_F: FR2035_CTRG_Soldier_base_F
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="FR2035_CTRG_Soldier_3_F";
+		faction="FR2035_F";
+		uniformClass="U_FR2035_CTRG_Uniform_ce_vest";
+		model="\A3\Characters_F_Exp\BLUFOR\B_CTRG_Soldier_03_F.p3d";
+		scope=1;
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\fr2035_clothing_ctrg_co.paa"
+		};
+		class Wounds
+		{
+			tex[]={};
+			mat[]=
+			{
+				"a3\characters_f_exp\blufor\data\U_B_CTRG_Soldier_F.rvmat",
+				"A3\Characters_F_Exp\BLUFOR\Data\U_B_CTRG_Soldier_F_injury.rvmat",
+				"A3\Characters_F_Exp\BLUFOR\Data\U_B_CTRG_Soldier_F_injury.rvmat",
+				"a3\characters_f\heads\data\hl_white_bald_muscular.rvmat",
+				"a3\characters_f\heads\data\hl_white_bald_muscular_injury.rvmat",
+				"a3\characters_f\heads\data\hl_white_bald_muscular_injury.rvmat"
+			};
+		};
+		armor=2;
+		armorStructural=0.5;
+		explosionShielding=0.050000001;
+	};
+	class FR2035_CTRG_Soldier_TL_ce_F: FR2035_CTRG_Soldier_F
+	{
+		author="$STR_FR2035_Author";
+		editorPreview="\A3\EditorPreviews_F_Exp\Data\CfgVehicles\B_CTRG_Soldier_TL_tna_F.jpg";
+		_generalMacro="FR2035_CTRG_Soldier_TL_ce_F";
+		scope=2;
+		displayName="$STR_B_SOLDIER_TL_F0";
+		cost=450000;
+		weapons[]=
+		{
+			"arifle_SPAR_01_blk_ERCO_Pointer_F",
+			"hgun_P07_khk_Snds_F",
+			"Throw",
+			"Put",
+			"Rangefinder"
+		};
+		respawnWeapons[]=
+		{
+			"arifle_SPAR_01_blk_ERCO_Pointer_F",
+			"hgun_P07_khk_Snds_F",
+			"Throw",
+			"Put",
+			"Rangefinder"
+		};
+		magazines[]=
+		{
+			"30Rnd_556x45_Stanag_Tracer_Red",
+			"30Rnd_556x45_Stanag_Tracer_Red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"MiniGrenade",
+			"MiniGrenade",
+			"SmokeShell",
+			"SmokeShellGreen",
+			"SmokeShellBlue",
+			"SmokeShellOrange",
+			"Chemlight_green",
+			"Chemlight_green"
+		};
+		respawnMagazines[]=
+		{
+			"30Rnd_556x45_Stanag_Tracer_Red",
+			"30Rnd_556x45_Stanag_Tracer_Red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"MiniGrenade",
+			"MiniGrenade",
+			"SmokeShell",
+			"SmokeShellGreen",
+			"SmokeShellBlue",
+			"SmokeShellOrange",
+			"Chemlight_green",
+			"Chemlight_green"
+		};
+	};
 };
 class CfgWeapons
 {
@@ -5038,7 +5313,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\fr2035_characters_f\data\suitpacks\fr2035_suitpack_soldier_ce_tshirt_co.paa"
+			"\fr2035_characters_f\data\suitpacks\fr2035_suitpack_soldier_ce_co.paa"
 		};
 		class ItemInfo: UniformItem
 		{
@@ -5326,6 +5601,75 @@ class CfgWeapons
 			mass=80;
 		};
 	};
+	class U_FR2035_CTRG_Uniform_ce: Uniform_Base
+	{
+		author="$STR_FR2035_Author";
+		scope=2;
+		displayName="$STR_FR2035_Uniform_CTRG_ce";
+		picture="\fr2035_characters_f\data\ui\fr2035_icon_u_combatuniform_ce_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\suitpacks\fr2035_suitpack_soldier_ctrg_ce_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FR2035_CTRG_Soldier_F";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class U_FR2035_CTRG_Uniform_ce_tshirt: Uniform_Base
+	{
+		author="$STR_FR2035_Author";
+		scope=2;
+		displayName="$STR_FR2035_Uniform_CTRG_ce_tshirt";
+		picture="\fr2035_characters_f\data\ui\fr2035_icon_u_combatuniform_ce_tshirt_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\suitpacks\fr2035_suitpack_soldier_ctrg_ce_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FR2035_CTRG_Soldier_2_F";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class U_FR2035_CTRG_Uniform_ce_vest: Uniform_Base
+	{
+		author="$STR_FR2035_Author";
+		scope=2;
+		displayName="$STR_FR2035_Uniform_CTRG_ce_vest";
+		picture="\fr2035_characters_f\data\ui\fr2035_icon_u_combatuniform_ce_vest_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\suitpacks\fr2035_suitpack_soldier_ctrg_ce_co.paa"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FR2035_CTRG_Soldier_3_F";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
 	class H_FR2035_Helmet_ce: ItemCore
 	{
 		author="$STR_FR2035_Author";
@@ -5449,6 +5793,48 @@ class CfgWeapons
 				{
 					hitpointName="HitHead";
 					armor=10;
+					passThrough=0.5;
+				};
+			};
+		};
+	};
+	class H_FR2035_CTRG_HelmetSpec_ce: H_FR2035_Helmet_ce
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="H_FR2035_CTRG_HelmetSpec_ce";
+		displayName="$STR_FR2035_HelmetSpec_CTRG_ce";
+		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_helmet_ctrg_ce_ca.paa";
+		model="\A3\Characters_F_Exp\BLUFOR\H_HelmetB_TI_tna_F.p3d";
+		descriptionShort="$STR_A3_SP_AL_II";
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\fr2035_helmet_ctrg_ce_co.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\A3\Characters_F_Exp\BLUFOR\Data\H_HelmetB_TI_tna_F.rvmat"
+		};
+		class ItemInfo: HeadgearItem
+		{
+			mass=50;
+			uniformModel="\A3\Characters_F_Exp\BLUFOR\H_HelmetB_TI_tna_F.p3d";
+			hiddenSelections[]=
+			{
+				"camo"
+			};
+			modelSides[]={0,3};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=6;
+					passThrough=0.5;
+				};
+				class Face
+				{
+					hitpointName="HitFace";
+					armor=4;
 					passThrough=0.5;
 				};
 			};
