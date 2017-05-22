@@ -100,6 +100,11 @@ class CfgPatches
 			"H_FR2035_Helmet_ce_camo",
 			"H_FR2035_Helmet_ce_light",
 			"H_FR2035_HelmetSpec_ce",
+			"H_FR2035_Bandanna_ce",
+			"H_FR2035_Beret_blue",
+			"H_FR2035_Beret_green",
+			"H_FR2035_Beret_marine",
+			"H_FR2035_Beret_red",
 			"H_FR2035_CTRG_HelmetSpec_ce"
 		};
 	};
@@ -6281,6 +6286,63 @@ class CfgWeapons
 					passThrough=0.5;
 				};
 			};
+		};
+	};
+	class H_Bandanna_surfer;
+	class H_FR2035_Bandanna_ce: H_Bandanna_surfer
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="H_FR2035_Bandanna_ce";
+		displayName="$STR_FR2035_Bandanna_ce";
+		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_bandanna_ce_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\fr2035_bandana_ce_co.paa"
+		};
+	};
+	class H_Beret_blk;
+	class H_FR2035_Beret_blue: H_Beret_blk
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="H_FR2035_Beret_blue";
+		displayName="$STR_FR2035_Beret_blue";
+		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_beret_blue_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\fr2035_beret_blue_co.paa"
+		};
+	};
+	class H_FR2035_Beret_green: H_Beret_blk
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="H_FR2035_Beret_green";
+		displayName="$STR_FR2035_Beret_green";
+		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_beret_green_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\fr2035_beret_green_co.paa"
+		};
+	};
+	class H_FR2035_Beret_marine: H_Beret_blk
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="H_FR2035_Beret_marine";
+		displayName="$STR_FR2035_Beret_marine";
+		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_beret_marine_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\fr2035_beret_marine_co.paa"
+		};
+	};
+	class H_FR2035_Beret_red: H_Beret_blk
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="H_FR2035_Beret_red";
+		displayName="$STR_FR2035_Beret_red";
+		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_beret_red_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\fr2035_beret_red_co.paa"
 		};
 	};
 	class H_FR2035_CTRG_HelmetSpec_ce: H_FR2035_Helmet_ce

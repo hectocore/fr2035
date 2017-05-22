@@ -6193,6 +6193,76 @@
           <Korean>강화 전투 헬멧(CE)</Korean>
           <Japanese>改良型戦闘用ヘルメット（CE）</Japanese>
         </Key>
+        <Key ID="str_fr2035_bandanna_ce">
+          <Original>Bandana (CE)</Original>
+          <French>Bandana (CE)</French>
+          <Spanish>Pañuelo (CE)</Spanish>
+          <Italian>Bandana (mimetico CE)</Italian>
+          <Polish>Bandana (CE)</Polish>
+          <Russian>Бандана (CE)</Russian>
+          <German>Bandana (CE)</German>
+          <Czech>Šátek (CE kamufláž)</Czech>
+          <English>Bandana (CE)</English>
+          <Portuguese>Bandana (CE)</Portuguese>
+          <Korean>반다나(CE)</Korean>
+          <Japanese>バンダナ（CE）</Japanese>
+        </Key>
+        <Key ID="str_fr2035_beret_blue">
+          <Original>Beret (Blue)</Original>
+          <French>Béret (bleu)</French>
+          <Spanish>Boina (azul)</Spanish>
+          <Italian>Basco (blu)</Italian>
+          <Polish>Beret (niebieski)</Polish>
+          <Russian>Берет (синий)</Russian>
+          <German>Barett (blau)</German>
+          <Czech>Baret (modrý)</Czech>
+          <English>Beret (Blue)</English>
+          <Portuguese>Boina (azul)</Portuguese>
+          <Korean>베레(푸른)</Korean>
+          <Japanese>ベレー帽（ブルー）</Japanese>
+        </Key>
+        <Key ID="str_fr2035_beret_green">
+          <Original>Beret (Green)</Original>
+          <French>Béret (vert)</French>
+          <Spanish>Boina (verde)</Spanish>
+          <Italian>Basco (verde)</Italian>
+          <Polish>Beret (zielony)</Polish>
+          <Russian>Берет (зеленый)</Russian>
+          <German>Barett (grün)</German>
+          <Czech>Baret (zelená)</Czech>
+          <English>Beret (Green)</English>
+          <Portuguese>Boina (verde)</Portuguese>
+          <Korean>베레(녹색)</Korean>
+          <Japanese>ベレー帽（グリーン）</Japanese>
+        </Key>
+        <Key ID="str_fr2035_beret_marine">
+          <Original>Beret (Navy blue)</Original>
+          <French>Béret (marine)</French>
+          <Spanish>Boina (azul marino)</Spanish>
+          <Italian>Basco (blu marino)</Italian>
+          <Polish>Beret (granatowy)</Polish>
+          <Russian>Берет (темно-синий)</Russian>
+          <German>Barett (marineblau)</German>
+          <Czech>Baret (námořnická modř)</Czech>
+          <English>Beret (Navy blue)</English>
+          <Portuguese>Boina (azul-marinho)</Portuguese>
+          <Korean>베레(해군 블루)</Korean>
+          <Japanese>ベレー帽（紺）</Japanese>
+        </Key>
+        <Key ID="str_fr2035_beret_red">
+          <Original>Beret (Red)</Original>
+          <French>Béret (rouge)</French>
+          <Spanish>Boina (rojo)</Spanish>
+          <Italian>Basco (rosso)</Italian>
+          <Polish>Beret (czerwony)</Polish>
+          <Russian>Берет (красный)</Russian>
+          <German>Barett (rot)</German>
+          <Czech>Baret (červená)</Czech>
+          <English>Beret (Red)</English>
+          <Portuguese>Boina (vermelho)</Portuguese>
+          <Korean>베레(빨간)</Korean>
+          <Japanese>ベレー帽（赤）</Japanese>
+        </Key>
         <Key ID="str_fr2035_helmetspec_ctrg_ce">
           <Original>Stealth Combat Helmet (CE)</Original>
           <French>Casque de combat furtif (CE)</French>
