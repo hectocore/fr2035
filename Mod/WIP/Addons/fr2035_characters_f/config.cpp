@@ -105,6 +105,7 @@ class CfgPatches
 			"H_FR2035_Beret_green",
 			"H_FR2035_Beret_marine",
 			"H_FR2035_Beret_red",
+			"H_FR2035_Booniehat_ce",
 			"H_FR2035_CTRG_HelmetSpec_ce"
 		};
 	};
@@ -3253,7 +3254,7 @@ class CfgVehicles
 		linkedItems[]=
 		{
 			"V_Chestrig_rgr",
-			"H_Booniehat_mcamo",
+			"H_FR2035_Booniehat_ce",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
@@ -3264,7 +3265,7 @@ class CfgVehicles
 		respawnLinkedItems[]=
 		{
 			"V_Chestrig_rgr",
-			"H_Booniehat_mcamo",
+			"H_FR2035_Booniehat_ce",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
@@ -3518,7 +3519,7 @@ class CfgVehicles
 		linkedItems[]=
 		{
 			"V_Chestrig_rgr",
-			"H_Booniehat_mcamo",
+			"H_FR2035_Booniehat_ce",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
@@ -3529,7 +3530,7 @@ class CfgVehicles
 		respawnLinkedItems[]=
 		{
 			"V_Chestrig_rgr",
-			"H_Booniehat_mcamo",
+			"H_FR2035_Booniehat_ce",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
@@ -6343,6 +6344,18 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\fr2035_characters_f\data\fr2035_beret_red_co.paa"
+		};
+	};
+	class H_Booniehat_khk;
+	class H_FR2035_Booniehat_ce: H_Booniehat_khk
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="H_FR2035_Booniehat_ce";
+		displayName="$STR_FR2035_Booniehat_ce";
+		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_booniehat_ce_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\fr2035_booniehat_ce_co.paa"
 		};
 	};
 	class H_FR2035_CTRG_HelmetSpec_ce: H_FR2035_Helmet_ce

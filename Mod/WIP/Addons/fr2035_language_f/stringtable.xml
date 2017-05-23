@@ -6081,7 +6081,7 @@
         </Key>
         <Key ID="str_fr2035_ghillie_tna">
           <Original>Full Ghillie (Jungle) [FR]</Original>
-          <French>Camouflage complet (Jungle) [FR]</French>
+          <French>Camouflage complet (jungle) [FR]</French>
           <Spanish>Camuflaje completo (jungla) [FR]</Spanish>
           <Italian>Tuta mimetica ghillie intera (giungla) [FR]</Italian>
           <Polish>Pełny Ghillie (dżungla) [FR]</Polish>
@@ -6262,6 +6262,20 @@
           <Portuguese>Boina (vermelho)</Portuguese>
           <Korean>베레(빨간)</Korean>
           <Japanese>ベレー帽（赤）</Japanese>
+        </Key>
+        <Key ID="str_fr2035_booniehat_ce">
+          <Original>Booniehat (CE)</Original>
+          <French>Chapeau de brousse (CE)</French>
+          <Spanish>Gorro militar (CE)</Spanish>
+          <Italian>Boonie hat (mimetico CE)</Italian>
+          <Polish>Kapelusz wojskowy (CE)</Polish>
+          <Russian>Панама (CE)</Russian>
+          <German>Buschhut (CE)</German>
+          <Czech>Klobouk (CE kamufláž)</Czech>
+          <English>Booniehat (CE)</English>
+          <Portuguese>Chapéu tático (CE)</Portuguese>
+          <Korean>부니햇(CE)</Korean>
+          <Japanese>ブーニーハット（CE）</Japanese>
         </Key>
         <Key ID="str_fr2035_helmetspec_ctrg_ce">
           <Original>Stealth Combat Helmet (CE)</Original>
