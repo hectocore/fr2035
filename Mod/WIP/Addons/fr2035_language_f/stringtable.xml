@@ -6277,6 +6277,34 @@
           <Korean>부니햇(CE)</Korean>
           <Japanese>ブーニーハット（CE）</Japanese>
         </Key>
+        <Key ID="str_fr2035_cap_ce">
+          <Original>Cap (CE)</Original>
+          <French>Casquette (CE)</French>
+          <Spanish>Gorra (CE)</Spanish>
+          <Italian>Cappellino (mimetico CE)</Italian>
+          <Polish>Czapka (CE)</Polish>
+          <Russian>Кепка (CE)</Russian>
+          <German>Mütze (CE)</German>
+          <Czech>Čepice (CE kamufláž)</Czech>
+          <English>Cap (CE)</English>
+          <Portuguese>Boné (CE)</Portuguese>
+          <Korean>모자(CE)</Korean>
+          <Japanese>キャップ（CE）</Japanese>
+        </Key>
+        <Key ID="str_fr2035_cap_ce_hs">
+          <Original>Cap (CE, Headset)</Original>
+          <French>Casquette (CE, tête)</French>
+          <Spanish>Gorra (CE, auricular)</Spanish>
+          <Italian>Cappello (mimetico CE, cuffia)</Italian>
+          <Polish>Czapka (CE, headset)</Polish>
+          <Russian>Кепи (CE, гарнитура)</Russian>
+          <German>Mütze (CE, Headset)</German>
+          <Czech>Čepice (CE kamufláž, náhlavní souprava)</Czech>
+          <English>Cap (CE, Headset)</English>
+          <Portuguese>Boné (CE, headset)</Portuguese>
+          <Korean>모자(CE, 헤드셋)</Korean>
+          <Japanese>キャップ（CE、ヘッドセット）</Japanese>
+        </Key>
         <Key ID="str_fr2035_helmetspec_ctrg_ce">
           <Original>Stealth Combat Helmet (CE)</Original>
           <French>Casque de combat furtif (CE)</French>

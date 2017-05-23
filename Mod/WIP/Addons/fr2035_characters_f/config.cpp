@@ -106,6 +106,8 @@ class CfgPatches
 			"H_FR2035_Beret_marine",
 			"H_FR2035_Beret_red",
 			"H_FR2035_Booniehat_ce",
+			"H_FR2035_Cap_ce",
+			"H_FR2035_Cap_ce_hs",
 			"H_FR2035_CTRG_HelmetSpec_ce"
 		};
 	};
@@ -6356,6 +6358,80 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\fr2035_characters_f\data\fr2035_booniehat_ce_co.paa"
+		};
+	};
+	class H_Cap_red;
+	class H_FR2035_Cap_ce: H_Cap_red
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="H_FR2035_Cap_ce";
+		displayName="$STR_FR2035_Cap_ce";
+		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_cap_ce_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\fr2035_cap_ce_co.paa"
+		};
+		allowedFacewear[]=
+		{
+			"",
+			5,
+			"G_Aviator",
+			1,
+			"G_Balaclava_blk",
+			1,
+			"G_Balaclava_oli",
+			1,
+			"G_Bandanna_khk",
+			1,
+			"G_Bandanna_oli",
+			1,
+			"G_Bandanna_tan",
+			1,
+			"G_Shades_Black",
+			1,
+			"G_Shades_Blue",
+			1,
+			"G_Shades_Red",
+			1,
+			"G_Shades_Green",
+			1
+		};
+	};
+	class H_Cap_oli_hs;
+	class H_FR2035_Cap_ce_hs: H_Cap_oli_hs
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="H_FR2035_Cap_ce_hs";
+		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_cap_ce_hs_ca.paa";
+		displayName="$STR_FR2035_Cap_ce_hs";
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\fr2035_cap_ce_co.paa"
+		};
+		allowedFacewear[]=
+		{
+			"",
+			5,
+			"G_Aviator",
+			1,
+			"G_Balaclava_blk",
+			1,
+			"G_Balaclava_oli",
+			1,
+			"G_Bandanna_khk",
+			1,
+			"G_Bandanna_oli",
+			1,
+			"G_Bandanna_tan",
+			1,
+			"G_Shades_Black",
+			1,
+			"G_Shades_Blue",
+			1,
+			"G_Shades_Red",
+			1,
+			"G_Shades_Green",
+			1
 		};
 	};
 	class H_FR2035_CTRG_HelmetSpec_ce: H_FR2035_Helmet_ce
