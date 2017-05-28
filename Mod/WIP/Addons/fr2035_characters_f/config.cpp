@@ -6681,7 +6681,7 @@ class CfgWeapons
 	{
 		author="$STR_FR2035_Author";
 		_generalMacro="V_FR2035_PlateCarrierGL_ce";
-		displayName="$STR_A3_V_PlateCarrierGL_mtp0";
+		displayName="$STR_FR2035_PlateCarrierGL_ce";
 		picture="\fr2035_characters_f\data\ui\fr2035_icon_v_carriergl_rig_ce.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -6693,7 +6693,7 @@ class CfgWeapons
 	{
 		author="$STR_FR2035_Author";
 		_generalMacro="V_FR2035_PlateCarrierSpec_ce";
-		displayName="$STR_A3_V_PlateCarrierSpec_mtp0";
+		displayName="$STR_FR2035_PlateCarrierSpec_ce";
 		picture="\fr2035_characters_f\data\ui\fr2035_icon_v_carrierspec_rig_ce.paa";
 		hiddenSelectionsTextures[]=
 		{

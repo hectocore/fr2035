@@ -6447,6 +6447,34 @@
           <Korean>캐리어 리그(CE)</Korean>
           <Japanese>キャリアリグ（CE）</Japanese>
         </Key>
+        <Key ID="str_fr2035_platecarriergl_ce">
+          <Original>Carrier GL Rig (CE)</Original>
+          <French>Transporteur Foreuse GL (CE)</French>
+          <Spanish>Equipo de GL de portaaviones (CE)</Spanish>
+          <Italian>Gilet GL Rig (mimetico CE)</Italian>
+          <Polish>Kamizelka grenadiera (CE)</Polish>
+          <Russian>Жилет гранатометчика (CE)</Russian>
+          <German>Träger GL-Geschirr (CE)</German>
+          <Czech>GL nosič plátů (CE kamufláž)</Czech>
+          <English>Carrier GL Rig (CE)</English>
+          <Portuguese>Colete tático GL (CE)</Portuguese>
+          <Korean>캐리어 GL 리그(CE)</Korean>
+          <Japanese>キャリアGLリグ（CE）</Japanese>
+        </Key>
+        <Key ID="str_fr2035_platecarrierspec_ce">
+          <Original>Carrier Special Rig (CE)</Original>
+          <French>Transporteur Spécial Foreuse (CE)</French>
+          <Spanish>Equipo especial de portaaviones (CE)</Spanish>
+          <Italian>Gilet speciale Rig (mimetico CE)</Italian>
+          <Polish>Kamizelka specjalna (CE)</Polish>
+          <Russian>Специальный жилет (CE)</Russian>
+          <German>Träger Spezialgeschirr (CE)</German>
+          <Czech>Nosič plátů speciální (CE kamufláž)</Czech>
+          <English>Carrier Special Rig (CE)</English>
+          <Portuguese>Colete tático especial (CE)</Portuguese>
+          <Korean>캐리어 스페셜 리그(CE)</Korean>
+          <Japanese>キャリア特殊リグ（CE）</Japanese>
+        </Key>
       </Container>
     </Container>
   </Package>
