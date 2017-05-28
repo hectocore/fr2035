@@ -117,7 +117,9 @@ class CfgPatches
 			"V_FR2035_Bandollier_ce",
 			"V_FR2035_Chestrig_ce",
 			"V_FR2035_PlateCarrier1_ce",
-			"V_FR2035_PlateCarrier1_ce"
+			"V_FR2035_PlateCarrier2_ce",
+			"V_FR2035_PlateCarrierGL_ce",
+			"V_FR2035_PlateCarrierSpec_ce"
 		};
 	};
 };
@@ -983,7 +985,7 @@ class CfgVehicles
 		threat[]={1,0.30000001,0.1};
 		linkedItems[]=
 		{
-			"V_PlateCarrierGL_rgr",
+			"V_FR2035_PlateCarrierGL_ce",
 			"H_FR2035_HelmetSpec_ce",
 			"ItemMap",
 			"ItemCompass",
@@ -993,7 +995,7 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_PlateCarrierGL_rgr",
+			"V_FR2035_PlateCarrierGL_ce",
 			"H_FR2035_HelmetSpec_ce",
 			"ItemMap",
 			"ItemCompass",
@@ -1174,7 +1176,7 @@ class CfgVehicles
 		role="Rifleman";
 		linkedItems[]=
 		{
-			"V_PlateCarrierGL_rgr",
+			"V_FR2035_PlateCarrierGL_ce",
 			"H_FR2035_Helmet_ce",
 			"ItemGPS",
 			"ItemMap",
@@ -1185,7 +1187,7 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_PlateCarrierGL_rgr",
+			"V_FR2035_PlateCarrierGL_ce",
 			"H_FR2035_Helmet_ce",
 			"ItemGPS",
 			"ItemMap",
@@ -1287,7 +1289,7 @@ class CfgVehicles
 		role="Grenadier";
 		linkedItems[]=
 		{
-			"V_PlateCarrierGL_rgr",
+			"V_FR2035_PlateCarrierGL_ce",
 			"H_FR2035_HelmetSpec_ce",
 			"ItemGPS",
 			"ItemMap",
@@ -1298,7 +1300,7 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_PlateCarrierGL_rgr",
+			"V_FR2035_PlateCarrierGL_ce",
 			"H_FR2035_HelmetSpec_ce",
 			"ItemGPS",
 			"ItemMap",
@@ -1576,7 +1578,7 @@ class CfgVehicles
 		backpack="B_AssaultPack_rgr_Medic";
 		linkedItems[]=
 		{
-			"V_PlateCarrierSpec_rgr",
+			"V_FR2035_PlateCarrierSpec_ce",
 			"H_FR2035_Helmet_ce_light",
 			"ItemMap",
 			"ItemCompass",
@@ -1586,7 +1588,7 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_PlateCarrierSpec_rgr",
+			"V_FR2035_PlateCarrierSpec_ce",
 			"H_FR2035_Helmet_ce_light",
 			"ItemMap",
 			"ItemCompass",
@@ -1757,7 +1759,7 @@ class CfgVehicles
 		threat[]={1,0.5,0.1};
 		linkedItems[]=
 		{
-			"V_PlateCarrierGL_rgr",
+			"V_FR2035_PlateCarrierGL_ce",
 			"H_FR2035_HelmetSpec_ce",
 			"ItemMap",
 			"ItemCompass",
@@ -1767,7 +1769,7 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_PlateCarrierGL_rgr",
+			"V_FR2035_PlateCarrierGL_ce",
 			"H_FR2035_HelmetSpec_ce",
 			"ItemMap",
 			"ItemCompass",
@@ -2632,7 +2634,7 @@ class CfgVehicles
 		displayName="$STR_B_soldier_PG_F0";
 		linkedItems[]=
 		{
-			"V_PlateCarrierSpec_rgr",
+			"V_FR2035_PlateCarrierSpec_ce",
 			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
@@ -2642,7 +2644,7 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_PlateCarrierSpec_rgr",
+			"V_FR2035_PlateCarrierSpec_ce",
 			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
@@ -2663,7 +2665,7 @@ class CfgVehicles
 		displayName="$STR_A3_B_SOLDIER_UAV_F0";
 		linkedItems[]=
 		{
-			"V_PlateCarrierSpec_rgr",
+			"V_FR2035_PlateCarrierSpec_ce",
 			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
@@ -2674,7 +2676,7 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_PlateCarrierSpec_rgr",
+			"V_FR2035_PlateCarrierSpec_ce",
 			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
@@ -6672,6 +6674,30 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\fr2035_characters_f\data\fr2035_vests_ce_co.paa"
+		};
+	};
+	class V_PlateCarrierGL_rgr;
+	class V_FR2035_PlateCarrierGL_ce: V_PlateCarrierGL_rgr
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="V_FR2035_PlateCarrierGL_ce";
+		displayName="$STR_A3_V_PlateCarrierGL_mtp0";
+		picture="\fr2035_characters_f\data\ui\fr2035_icon_v_carriergl_rig_ce.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\fr2035_carrierrig_ce_co.paa"
+		};
+	};
+	class V_PlateCarrierSpec_rgr;
+	class V_FR2035_PlateCarrierSpec_ce: V_PlateCarrierSpec_rgr
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="V_FR2035_PlateCarrierSpec_ce";
+		displayName="$STR_A3_V_PlateCarrierSpec_mtp0";
+		picture="\fr2035_characters_f\data\ui\fr2035_icon_v_carrierspec_rig_ce.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\fr2035_carrierrig_ce_co.paa"
 		};
 	};
 };
