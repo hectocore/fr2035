@@ -108,7 +108,16 @@ class CfgPatches
 			"H_FR2035_Booniehat_ce",
 			"H_FR2035_Cap_ce",
 			"H_FR2035_Cap_ce_hs",
-			"H_FR2035_CTRG_HelmetSpec_ce"
+			"H_FR2035_MilCap_ce",
+			"H_FR2035_HelmetCrew",
+			"H_FR2035_PilotHelmetFighter",
+			"H_FR2035_PilotHelmetHeli",
+			"H_FR2035_CrewHelmetHeli",
+			"H_FR2035_CTRG_HelmetSpec_ce",
+			"V_FR2035_Bandollier_ce",
+			"V_FR2035_Chestrig_ce",
+			"V_FR2035_PlateCarrier1_ce",
+			"V_FR2035_PlateCarrier1_ce"
 		};
 	};
 };
@@ -282,7 +291,7 @@ class CfgVehicles
 		};
 		linkedItems[]=
 		{
-			"V_PlateCarrier1_rgr",
+			"V_FR2035_PlateCarrier1_ce",
 			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
@@ -292,7 +301,7 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_PlateCarrier1_rgr",
+			"V_FR2035_PlateCarrier1_ce",
 			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
@@ -866,8 +875,8 @@ class CfgVehicles
 		role="Rifleman";
 		linkedItems[]=
 		{
-			"V_BandollierB_rgr",
-			"H_MilCap_mcamo",
+			"V_FR2035_Bandollier_ce",
+			"H_FR2035_MilCap_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -876,8 +885,8 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_BandollierB_rgr",
-			"H_MilCap_mcamo",
+			"V_FR2035_Bandollier_ce",
+			"H_FR2035_MilCap_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -1072,7 +1081,7 @@ class CfgVehicles
 		uniformClass="U_FR2035_CombatUniform_ce_tshirt";
 		linkedItems[]=
 		{
-			"V_PlateCarrier2_rgr",
+			"V_FR2035_PlateCarrier2_ce",
 			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
@@ -1082,7 +1091,7 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_PlateCarrier2_rgr",
+			"V_FR2035_PlateCarrier2_ce",
 			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
@@ -1364,7 +1373,7 @@ class CfgVehicles
 		role="Marksman";
 		linkedItems[]=
 		{
-			"V_PlateCarrier1_rgr",
+			"V_FR2035_PlateCarrier1_ce",
 			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
@@ -1374,7 +1383,7 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_PlateCarrier1_rgr",
+			"V_FR2035_PlateCarrier1_ce",
 			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
@@ -1464,7 +1473,7 @@ class CfgVehicles
 		role="MissileSpecialist";
 		linkedItems[]=
 		{
-			"V_PlateCarrier2_rgr",
+			"V_FR2035_PlateCarrier2_ce",
 			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
@@ -1474,7 +1483,7 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_PlateCarrier2_rgr",
+			"V_FR2035_PlateCarrier2_ce",
 			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
@@ -1601,7 +1610,7 @@ class CfgVehicles
 		backpack="B_AssaultPack_rgr_Repair";
 		linkedItems[]=
 		{
-			"V_PlateCarrier1_rgr",
+			"V_FR2035_PlateCarrier1_ce",
 			"H_FR2035_Helmet_ce_light",
 			"ItemMap",
 			"ItemCompass",
@@ -1611,7 +1620,7 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_PlateCarrier1_rgr",
+			"V_FR2035_PlateCarrier1_ce",
 			"H_FR2035_Helmet_ce_light",
 			"ItemMap",
 			"ItemCompass",
@@ -1805,7 +1814,7 @@ class CfgVehicles
 		linkedItems[]=
 		{
 			"V_TacVest_blk",
-			"H_PilotHelmetHeli_B",
+			"H_FR2035_PilotHelmetHeli",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -1815,7 +1824,7 @@ class CfgVehicles
 		respawnLinkedItems[]=
 		{
 			"V_TacVest_blk",
-			"H_PilotHelmetHeli_B",
+			"H_FR2035_PilotHelmetHeli",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -1937,7 +1946,7 @@ class CfgVehicles
 		};
 		linkedItems[]=
 		{
-			"V_PlateCarrier1_rgr",
+			"V_FR2035_PlateCarrier1_ce",
 			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
@@ -1947,7 +1956,7 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_PlateCarrier1_rgr",
+			"V_FR2035_PlateCarrier1_ce",
 			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
@@ -2038,7 +2047,7 @@ class CfgVehicles
 		role="MissileSpecialist";
 		linkedItems[]=
 		{
-			"V_PlateCarrier1_rgr",
+			"V_FR2035_PlateCarrier1_ce",
 			"H_FR2035_Helmet_ce_light",
 			"ItemMap",
 			"ItemCompass",
@@ -2048,7 +2057,7 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_PlateCarrier1_rgr",
+			"V_FR2035_PlateCarrier1_ce",
 			"H_FR2035_Helmet_ce_light",
 			"ItemMap",
 			"ItemCompass",
@@ -2140,7 +2149,7 @@ class CfgVehicles
 		role="MissileSpecialist";
 		linkedItems[]=
 		{
-			"V_PlateCarrier1_rgr",
+			"V_FR2035_PlateCarrier1_ce",
 			"H_FR2035_Helmet_ce_light",
 			"ItemMap",
 			"ItemCompass",
@@ -2150,7 +2159,7 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_PlateCarrier1_rgr",
+			"V_FR2035_PlateCarrier1_ce",
 			"H_FR2035_Helmet_ce_light",
 			"ItemMap",
 			"ItemCompass",
@@ -2231,7 +2240,7 @@ class CfgVehicles
 		threat[]={1,0.5,0.1};
 		linkedItems[]=
 		{
-			"V_Chestrig_rgr",
+			"V_FR2035_Chestrig_ce",
 			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
@@ -2241,7 +2250,7 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_Chestrig_rgr",
+			"V_FR2035_Chestrig_ce",
 			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
@@ -2331,8 +2340,8 @@ class CfgVehicles
 		camouflage=1.6;
 		linkedItems[]=
 		{
-			"V_BandollierB_rgr",
-			"H_HelmetCrew_B",
+			"V_FR2035_Bandollier_ce",
+			"H_FR2035_HelmetCrew",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -2341,8 +2350,8 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_BandollierB_rgr",
-			"H_HelmetCrew_B",
+			"V_FR2035_Bandollier_ce",
+			"H_FR2035_HelmetCrew",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -2428,8 +2437,8 @@ class CfgVehicles
 		role="Rifleman";
 		linkedItems[]=
 		{
-			"V_BandollierB_rgr",
-			"H_MilCap_mcamo",
+			"V_FR2035_Bandollier_ce",
+			"H_FR2035_MilCap_ce",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
@@ -2438,8 +2447,8 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_BandollierB_rgr",
-			"H_MilCap_mcamo",
+			"V_FR2035_Bandollier_ce",
+			"H_FR2035_MilCap_ce",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
@@ -2530,7 +2539,7 @@ class CfgVehicles
 		backpack="B_Parachute";
 		linkedItems[]=
 		{
-			"H_PilotHelmetFighter_B",
+			"H_FR2035_PilotHelmetFighter",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -2538,7 +2547,7 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"H_PilotHelmetFighter_B",
+			"H_FR2035_PilotHelmetFighter",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -2596,7 +2605,7 @@ class CfgVehicles
 		linkedItems[]=
 		{
 			"V_TacVest_blk",
-			"H_CrewHelmetHeli_B",
+			"H_FR2035_CrewHelmetHeli",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -2606,7 +2615,7 @@ class CfgVehicles
 		respawnLinkedItems[]=
 		{
 			"V_TacVest_blk",
-			"H_CrewHelmetHeli_B",
+			"H_FR2035_CrewHelmetHeli",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -2751,7 +2760,7 @@ class CfgVehicles
 		respawnMagazines[]={};
 		linkedItems[]=
 		{
-			"V_PlateCarrier1_rgr",
+			"V_FR2035_PlateCarrier1_ce",
 			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
@@ -2760,7 +2769,7 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_PlateCarrier1_rgr",
+			"V_FR2035_PlateCarrier1_ce",
 			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
@@ -3075,7 +3084,7 @@ class CfgVehicles
 		role="Rifleman";
 		linkedItems[]=
 		{
-			"V_Chestrig_rgr",
+			"V_FR2035_Chestrig_ce",
 			"H_Watchcap_camo",
 			"ItemGPS",
 			"ItemMap",
@@ -3086,7 +3095,7 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_Chestrig_rgr",
+			"V_FR2035_Chestrig_ce",
 			"H_Watchcap_camo",
 			"ItemGPS",
 			"ItemMap",
@@ -3164,7 +3173,7 @@ class CfgVehicles
 		role="MissileSpecialist";
 		linkedItems[]=
 		{
-			"V_Chestrig_rgr",
+			"V_FR2035_Chestrig_ce",
 			"H_FR2035_Helmet_ce",
 			"ItemGPS",
 			"ItemMap",
@@ -3175,7 +3184,7 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_Chestrig_rgr",
+			"V_FR2035_Chestrig_ce",
 			"H_FR2035_Helmet_ce",
 			"ItemGPS",
 			"ItemMap",
@@ -3255,7 +3264,7 @@ class CfgVehicles
 		cost=115000;
 		linkedItems[]=
 		{
-			"V_Chestrig_rgr",
+			"V_FR2035_Chestrig_ce",
 			"H_FR2035_Booniehat_ce",
 			"ItemGPS",
 			"ItemMap",
@@ -3266,7 +3275,7 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_Chestrig_rgr",
+			"V_FR2035_Chestrig_ce",
 			"H_FR2035_Booniehat_ce",
 			"ItemGPS",
 			"ItemMap",
@@ -3344,7 +3353,7 @@ class CfgVehicles
 		};
 		linkedItems[]=
 		{
-			"V_Chestrig_rgr",
+			"V_FR2035_Chestrig_ce",
 			"H_FR2035_Helmet_ce_light",
 			"ItemGPS",
 			"ItemMap",
@@ -3355,7 +3364,7 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_Chestrig_rgr",
+			"V_FR2035_Chestrig_ce",
 			"H_FR2035_Helmet_ce_light",
 			"ItemGPS",
 			"ItemMap",
@@ -3433,8 +3442,8 @@ class CfgVehicles
 		};
 		linkedItems[]=
 		{
-			"V_Chestrig_rgr",
-			"H_MilCap_mcamo",
+			"V_FR2035_Chestrig_ce",
+			"H_FR2035_MilCap_ce",
 			"G_Shades_Black",
 			"ItemGPS",
 			"ItemMap",
@@ -3445,8 +3454,8 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_Chestrig_rgr",
-			"H_MilCap_mcamo",
+			"V_FR2035_Chestrig_ce",
+			"H_FR2035_MilCap_ce",
 			"G_Shades_Black",
 			"ItemGPS",
 			"ItemMap",
@@ -3520,7 +3529,7 @@ class CfgVehicles
 		role="Marksman";
 		linkedItems[]=
 		{
-			"V_Chestrig_rgr",
+			"V_FR2035_Chestrig_ce",
 			"H_FR2035_Booniehat_ce",
 			"ItemGPS",
 			"ItemMap",
@@ -3531,7 +3540,7 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_Chestrig_rgr",
+			"V_FR2035_Chestrig_ce",
 			"H_FR2035_Booniehat_ce",
 			"ItemGPS",
 			"ItemMap",
@@ -3636,7 +3645,7 @@ class CfgVehicles
 		role="SpecialOperative";
 		linkedItems[]=
 		{
-			"V_Chestrig_rgr",
+			"V_FR2035_Chestrig_ce",
 			"H_Watchcap_camo",
 			"ItemGPS",
 			"ItemMap",
@@ -3647,7 +3656,7 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_Chestrig_rgr",
+			"V_FR2035_Chestrig_ce",
 			"H_Watchcap_camo",
 			"ItemGPS",
 			"ItemMap",
@@ -3687,7 +3696,7 @@ class CfgVehicles
 		model="A3\Characters_F\BLUFOR\b_sniper.p3d";
 		linkedItems[]=
 		{
-			"V_Chestrig_rgr",
+			"V_FR2035_Chestrig_ce",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
@@ -3697,7 +3706,7 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_Chestrig_rgr",
+			"V_FR2035_Chestrig_ce",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
@@ -4015,7 +4024,7 @@ class CfgVehicles
 		};
 		linkedItems[]=
 		{
-			"V_Chestrig_rgr",
+			"V_FR2035_Chestrig_ce",
 			"H_FR2035_Helmet_ce_light",
 			"ItemMap",
 			"ItemCompass",
@@ -4025,7 +4034,7 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_Chestrig_rgr",
+			"V_FR2035_Chestrig_ce",
 			"H_FR2035_Helmet_ce_light",
 			"ItemMap",
 			"ItemCompass",
@@ -4802,7 +4811,7 @@ class CfgVehicles
 		};
 		linkedItems[]=
 		{
-			"V_PlateCarrier1_rgr",
+			"V_FR2035_PlateCarrier1_ce",
 			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
@@ -4812,7 +4821,7 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_PlateCarrier1_rgr",
+			"V_FR2035_PlateCarrier1_ce",
 			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
@@ -4905,7 +4914,7 @@ class CfgVehicles
 		};
 		linkedItems[]=
 		{
-			"V_Chestrig_rgr",
+			"V_FR2035_Chestrig_ce",
 			"H_Watchcap_camo",
 			"ItemGPS",
 			"ItemMap",
@@ -4916,7 +4925,7 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_Chestrig_rgr",
+			"V_FR2035_Chestrig_ce",
 			"H_Watchcap_camo",
 			"ItemGPS",
 			"ItemMap",
@@ -4995,7 +5004,7 @@ class CfgVehicles
 		};
 		linkedItems[]=
 		{
-			"V_PlateCarrier1_rgr",
+			"V_FR2035_PlateCarrier1_ce",
 			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
@@ -5005,7 +5014,7 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_PlateCarrier1_rgr",
+			"V_FR2035_PlateCarrier1_ce",
 			"H_FR2035_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
@@ -6434,6 +6443,144 @@ class CfgWeapons
 			1
 		};
 	};
+	class H_MilCap_ocamo;
+	class H_FR2035_MilCap_ce: H_MilCap_ocamo
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="H_FR2035_MilCap_ce";
+		displayName="$STR_FR2035_MilCap_ce";
+		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_milcap_ce_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\fr2035_milcap_ce_co.paa"
+		};
+	};
+	class H_FR2035_HelmetCrew: H_FR2035_Helmet_ce
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="H_FR2035_HelmetCrew";
+		displayName="$STR_FR2035_HelmetCrew";
+		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_helmetcrew_ca.paa";
+		model="\A3\Characters_F\BLUFOR\headgear_b_helmet_crew";
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\fr2035_helmetcrew_co.paa"
+		};
+		descriptionShort="$STR_A3_SP_AL_III";
+		class ItemInfo: ItemInfo
+		{
+			mass=40;
+			uniformModel="\A3\Characters_F\BLUFOR\headgear_b_helmet_crew";
+			modelSides[]={3,1};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=8;
+					passThrough=0.5;
+				};
+			};
+		};
+	};
+	class H_FR2035_PilotHelmetFighter: H_FR2035_Helmet_ce
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="H_FR2035_PilotHelmetFighter";
+		displayName="$STR_FR2035_HelmetPilot";
+		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_pilot_fighter_ca.paa";
+		model="A3\Characters_F\Common\headgear_helmet_pilot";
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\fr2035_helmetpilot_co.paa"
+		};
+		descriptionShort="$STR_A3_SP_AL_III";
+		class ItemInfo: ItemInfo
+		{
+			mass=60;
+			uniformModel="A3\Characters_F\Common\headgear_helmet_pilot";
+			modelSides[]={3,1};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=8;
+					passThrough=0.5;
+				};
+				class Face
+				{
+					hitpointName="HitFace";
+					armor=4;
+					passThrough=0.5;
+				};
+			};
+		};
+		subItems[]=
+		{
+			"Integrated_NVG_F"
+		};
+	};
+	class H_FR2035_PilotHelmetHeli: H_FR2035_Helmet_ce
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="H_FR2035_PilotHelmetHeli";
+		displayName="$STR_FR2035_HelmetHeliPilot";
+		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_pilot_helmet_heli_ca.paa";
+		model="A3\Characters_F\Common\headgear_helmet_heli";
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\fr2035_helmetheli_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			mass=30;
+			uniformModel="A3\Characters_F\Common\headgear_helmet_heli";
+			modelSides[]={3,1};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=6;
+					passThrough=0.5;
+				};
+			};
+		};
+	};
+	class H_FR2035_CrewHelmetHeli: H_FR2035_Helmet_ce
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="H_FR2035_CrewHelmetHeli";
+		displayName="$STR_FR2035_HelmetHeliCrew";
+		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_crew_helmet_heli_ca.paa";
+		model="A3\Characters_F\Common\headgear_helmet_heli_shield";
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\fr2035_helmetheli_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			mass=50;
+			uniformModel="A3\Characters_F\Common\headgear_helmet_heli_shield";
+			modelSides[]={3,1};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=6;
+					passThrough=0.5;
+				};
+				class Face
+				{
+					hitpointName="HitFace";
+					armor=4;
+					passThrough=0.5;
+				};
+			};
+		};
+	};
 	class H_FR2035_CTRG_HelmetSpec_ce: H_FR2035_Helmet_ce
 	{
 		author="$STR_FR2035_Author";
@@ -6474,6 +6621,57 @@ class CfgWeapons
 					passThrough=0.5;
 				};
 			};
+		};
+	};
+	class V_BandollierB_khk;
+	class V_FR2035_Bandollier_ce: V_BandollierB_khk
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="V_FR2035_Bandollier_ce";
+		displayName="$STR_FR2035_Bandollier_ce";
+		picture="\fr2035_characters_f\data\ui\fr2035_icon_v_bandollier_ce_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\fr2035_vests_ce_co.paa"
+		};
+	};
+	class V_Chestrig_khk;
+	class V_FR2035_Chestrig_ce: V_Chestrig_khk
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="V_FR2035_Chestrig_ce";
+		scope=2;
+		displayName="$STR_FR2035_Chestrig_ce";
+		picture="\fr2035_characters_f\data\ui\fr2035_icon_v_chestrig_ce_ca.paa";
+		model="\A3\Characters_F\Common\equip_chestrig";
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\fr2035_chestrig_ce_co.paa",
+			"\fr2035_characters_f\data\fr2035_armor_ce_co.paa"
+		};
+	};
+	class V_PlateCarrier1_blk;
+	class V_FR2035_PlateCarrier1_ce: V_PlateCarrier1_blk
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="V_FR2035_PlateCarrier1_ce";
+		displayName="$STR_FR2035_PlateCarrier1_ce";
+		picture="\fr2035_characters_f\data\ui\fr2035_icon_v_platecarrier1_ce_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\fr2035_vests_ce_co.paa"
+		};
+	};
+	class V_PlateCarrier2_blk;
+	class V_FR2035_PlateCarrier2_ce: V_PlateCarrier2_blk
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="V_FR2035_PlateCarrier2_ce";
+		displayName="$STR_FR2035_PlateCarrier2_ce";
+		picture="\fr2035_characters_f\data\ui\fr2035_icon_v_platecarrier2_ce_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\fr2035_vests_ce_co.paa"
 		};
 	};
 };

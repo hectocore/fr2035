@@ -6305,6 +6305,76 @@
           <Korean>모자(CE, 헤드셋)</Korean>
           <Japanese>キャップ（CE、ヘッドセット）</Japanese>
         </Key>
+        <Key ID="str_fr2035_milcap_ce">
+          <Original>Military Cap (CE)</Original>
+          <French>Képi (CE)</French>
+          <Spanish>Gorra militar (CE)</Spanish>
+          <Italian>Cappello militare (mimetico CE)</Italian>
+          <Polish>Czapka wojskowa (CE)</Polish>
+          <Russian>Армейская кепка (CE)</Russian>
+          <German>Militärmütze (CE)</German>
+          <Czech>Vojenská čepice (CE kamufláž)</Czech>
+          <English>Military Cap (CE)</English>
+          <Portuguese>Boné militar (CE)</Portuguese>
+          <Korean>군용 모자(CE)</Korean>
+          <Japanese>ミリタリーキャップ（CE）</Japanese>
+        </Key>
+        <Key ID="str_fr2035_helmetcrew">
+          <Original>Crew Helmet [FR]</Original>
+          <French>Casque d'équipage [FR]</French>
+          <Spanish>Casco de tripulación [FR]</Spanish>
+          <Italian>Casco equipaggio [FR]</Italian>
+          <Polish>Hełm załogi [FR]</Polish>
+          <Russian>Танковый шлем [FR]</Russian>
+          <German>Crew-Helm [FR]</German>
+          <Czech>Přilba posádky [FR]</Czech>
+          <English>Crew Helmet [FR]</English>
+          <Portuguese>Capacete de tripulação [FR]</Portuguese>
+          <Korean>승무원 헬멧[FR]</Korean>
+          <Japanese>乗員ヘルメット[FR]</Japanese>
+        </Key>
+        <Key ID="str_fr2035_helmetpilot">
+          <Original>Pilot Helmet [FR]</Original>
+          <French>Casque de pilote [FR]</French>
+          <Spanish>Casco de piloto [FR]</Spanish>
+          <Italian>Casco da pilota [FR]</Italian>
+          <Polish>Hełm pilota [FR]</Polish>
+          <Russian>Летный шлем [FR]</Russian>
+          <German>Pilotenhelm [FR]</German>
+          <Czech>Přilba pilota [FR]</Czech>
+          <English>Pilot Helmet [FR]</English>
+          <Portuguese>Capacete de piloto [FR]</Portuguese>
+          <Korean>조종사 헬멧[FR]</Korean>
+          <Japanese>パイロットヘルメット[FR]</Japanese>
+        </Key>
+        <Key ID="str_fr2035_helmethelipilot">
+          <Original>Heli Pilot Helmet [FR]</Original>
+          <French>Casque de pilote d'hélico [FR]</French>
+          <Spanish>Casco de piloto de helicóptero [FR]</Spanish>
+          <Italian>Heli Pilot Helmet [FR]</Italian>
+          <Polish>Hełm pilota śmigłowca [FR]</Polish>
+          <Russian>Шлем пилота вертолёта [FR]</Russian>
+          <German>Helipilotenhelm [FR]</German>
+          <Czech>Přilba pilota helikoptéry [FR]</Czech>
+          <English>Heli Pilot Helmet [FR]</English>
+          <Portuguese>Capacete de Piloto de Helicóptero [FR]</Portuguese>
+          <Korean>헬기조종사 헬멧[FR]</Korean>
+          <Japanese>ヘリパイロットヘルメット[FR]</Japanese>
+        </Key>
+        <Key ID="str_fr2035_helmethelicrew">
+          <Original>Heli Crew Helmet [FR]</Original>
+          <French>Casque d'équipage d'hélico [FR]</French>
+          <Spanish>Casco de tripulación de helicóptero [FR]</Spanish>
+          <Italian>Casco equipaggio elicottero [FR]</Italian>
+          <Polish>Hełm załogi śmigłowca [FR]</Polish>
+          <Russian>Шлем члена экипажа вертолёта [FR]</Russian>
+          <German>Helicrew-Helm [FR]</German>
+          <Czech>Přilba posádky helikoptéry [FR]</Czech>
+          <English>Heli Crew Helmet [FR]</English>
+          <Portuguese>Capacete de tripulação de helicóptero [FR]</Portuguese>
+          <Korean>헬기 승무원 헬멧[FR]</Korean>
+          <Japanese>ヘリ乗員ヘルメット[FR]</Japanese>
+        </Key>
         <Key ID="str_fr2035_helmetspec_ctrg_ce">
           <Original>Stealth Combat Helmet (CE)</Original>
           <French>Casque de combat furtif (CE)</French>
@@ -6318,6 +6388,64 @@
           <Portuguese>Capacete de combate furtivo (CE)</Portuguese>
           <Korean>은신 전투 헬멧(CE)</Korean>
           <Japanese>ステルス戦闘用ヘルメット（CE）</Japanese>
+        </Key>
+      </Container>
+      <Container name="Vests">
+        <Key ID="str_fr2035_bandollier_ce">
+          <Original>Slash Bandolier (CE)</Original>
+          <French>Bandoulière (CE)</French>
+          <Spanish>Cartuchera diagonal (CE)</Spanish>
+          <Italian>Bandoliera (mimetico CE)</Italian>
+          <Polish>Bandolier (CE)</Polish>
+          <Russian>Косая бандольера (CE)</Russian>
+          <German>Patronengurt (CE)</German>
+          <Czech>Bandalír (CE kamufláž)</Czech>
+          <English>Slash Bandolier (CE)</English>
+          <Portuguese>Bandoleira diagonal (CE)</Portuguese>
+          <Korean>사선형 탄띠(CE)</Korean>
+          <Japanese>斜め掛け弾薬帯（CE）</Japanese>
+        </Key>
+        <Key ID="str_fr2035_chestrig_ce">
+          <Original>Chest Rig (CE)</Original>
+          <French>Gilet modulable (CE)</French>
+          <Spanish>Pechera (CE)</Spanish>
+          <Italian>Pettorale (mimetico CE)</Italian>
+          <Polish>Kamizelka (CE)</Polish>
+          <Russian>Нагрудник (CE)</Russian>
+          <German>Chest-Rig (CE)</German>
+          <Czech>Chest rig (CE kamufláž)</Czech>
+          <English>Chest Rig (CE)</English>
+          <Portuguese>Traje peitoral (CE)</Portuguese>
+          <Korean>체스트 리그(CE)</Korean>
+          <Japanese>チェストリグ（CE）</Japanese>
+        </Key>
+        <Key ID="str_fr2035_platecarrier1_ce">
+          <Original>Carrier Lite (CE)</Original>
+          <French>Gilet léger (CE)</French>
+          <Spanish>Cartuchera ligera (CE)</Spanish>
+          <Italian>Gilet leggero (mimetico CE)</Italian>
+          <Polish>Kamizelka Lite (CE)</Polish>
+          <Russian>Легкий жилет (CE)</Russian>
+          <German>Leichter Tragegurt (CE)</German>
+          <Czech>Lehká taktická vesta (CE kamufláž)</Czech>
+          <English>Carrier Lite (CE)</English>
+          <Portuguese>Transportador leve (CE)</Portuguese>
+          <Korean>캐리어 라이트(CE)</Korean>
+          <Japanese>キャリア・ライト（CE）</Japanese>
+        </Key>
+        <Key ID="str_fr2035_platecarrier2_ce">
+          <Original>Carrier Rig (CE)</Original>
+          <French>Gilet modulable léger (CE)</French>
+          <Spanish>Cartuchera (CE)</Spanish>
+          <Italian>Gilet (mimetico CE)</Italian>
+          <Polish>Kamizelka Platecarrier (CE)</Polish>
+          <Russian>Разгрузочный жилет (CE)</Russian>
+          <German>Tragegurt (CE)</German>
+          <Czech>Nosič plátů (CE kamufláž)</Czech>
+          <English>Carrier Rig (CE)</English>
+          <Portuguese>Traje transportador (CE)</Portuguese>
+          <Korean>캐리어 리그(CE)</Korean>
+          <Japanese>キャリアリグ（CE）</Japanese>
         </Key>
       </Container>
     </Container>
