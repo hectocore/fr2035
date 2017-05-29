@@ -6207,6 +6207,20 @@
           <Korean>반다나(CE)</Korean>
           <Japanese>バンダナ（CE）</Japanese>
         </Key>
+        <Key ID="str_fr2035_bandanna_ce_hs">
+          <Original>Bandana (CE, Headset)</Original>
+          <French>Bandana (CE, tête)</French>
+          <Spanish>Pañuelo (CE, auricular)</Spanish>
+          <Italian>Bandana (mimetico CE, cuffia)</Italian>
+          <Polish>Bandana (CE, headset)</Polish>
+          <Russian>Бандана (CE, гарнитура)</Russian>
+          <German>Bandana (CE, Headset)</German>
+          <Czech>Šátek (CE kamufláž, náhlavní souprava)</Czech>
+          <English>Bandana (CE, Headset)</English>
+          <Portuguese>Bandana (CE, headset)</Portuguese>
+          <Korean>반다나(CE, 헤드셋)</Korean>
+          <Japanese>バンダナ（CE、ヘッドセット）</Japanese>
+        </Key>
         <Key ID="str_fr2035_beret_blue">
           <Original>Beret (Blue)</Original>
           <French>Béret (bleu)</French>
@@ -6276,6 +6290,20 @@
           <Portuguese>Chapéu tático (CE)</Portuguese>
           <Korean>부니햇(CE)</Korean>
           <Japanese>ブーニーハット（CE）</Japanese>
+        </Key>
+        <Key ID="str_fr2035_booniehat_ce_hs">
+          <Original>Booniehat (CE, Headset)</Original>
+          <French>Chapeau de brousse (CE, tête)</French>
+          <Spanish>Gorro militar (CE, auricular)</Spanish>
+          <Italian>Boonie hat (mimetico CE, cuffia)</Italian>
+          <Polish>Kapelusz wojskowy (CE, headset)</Polish>
+          <Russian>Панама (CE, гарнитура)</Russian>
+          <German>Buschhut (CE, Headset)</German>
+          <Czech>Klobouk (CE kamufláž, náhlavní souprava)</Czech>
+          <English>Booniehat (CE, Headset)</English>
+          <Portuguese>Chapéu tático (CE, headset)</Portuguese>
+          <Korean>부니햇(CE, 헤드셋)</Korean>
+          <Japanese>ブーニーハット（CE、ヘッドセット）</Japanese>
         </Key>
         <Key ID="str_fr2035_cap_ce">
           <Original>Cap (CE)</Original>
@@ -6474,6 +6502,34 @@
           <Portuguese>Colete tático especial (CE)</Portuguese>
           <Korean>캐리어 스페셜 리그(CE)</Korean>
           <Japanese>キャリア特殊リグ（CE）</Japanese>
+        </Key>
+        <Key ID="str_fr2035_tacvest_ce">
+          <Original>Tactical Vest (CE)</Original>
+          <French>Gilet pare-balles (CE)</French>
+          <Spanish>Chaleco táctico (CE)</Spanish>
+          <Italian>Gilet tattico (mimetico CE)</Italian>
+          <Polish>Kamizelka (CE)</Polish>
+          <Russian>Тактический жилет (CE)</Russian>
+          <German>Taktische Weste (CE)</German>
+          <Czech>Taktická vesta (CE kamufláž)</Czech>
+          <English>Tactical Vest (CE)</English>
+          <Portuguese>Colete tático (CE)</Portuguese>
+          <Korean>전술조끼(CE)</Korean>
+          <Japanese>タクティカルベスト（CE）</Japanese>
+        </Key>
+        <Key ID="str_fr2035_platecarrieriagl_ce">
+          <Original>GA Carrier GL Rig (CE)</Original>
+          <French>Transporteur GA Foreuse GL (CE)</French>
+          <Spanish>Equipo de GL para portaaviones de GA (CE)</Spanish>
+          <Italian>Gilet GL Rig aviazione (mimetico CE)</Italian>
+          <Polish>Kamizelka GA grenadiera (CE)</Polish>
+          <Russian>GA жилет гранатометчика (CE)</Russian>
+          <German>GA Träger GL-Geschirr (CE)</German>
+          <Czech>GA nosič plátů (CE kamufláž)</Czech>
+          <English>GA Carrier GL Rig (CE)</English>
+          <Portuguese>Colete tático especial (CE)</Portuguese>
+          <Korean>GA 캐리어 GL 리그(CE)</Korean>
+          <Japanese>GAキャリアGLリグ（CE）</Japanese>
         </Key>
       </Container>
     </Container>

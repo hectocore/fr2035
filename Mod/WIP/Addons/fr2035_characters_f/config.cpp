@@ -106,6 +106,7 @@ class CfgPatches
 			"H_FR2035_Beret_marine",
 			"H_FR2035_Beret_red",
 			"H_FR2035_Booniehat_ce",
+			"H_FR2035_Booniehat_ce_hs",
 			"H_FR2035_Cap_ce",
 			"H_FR2035_Cap_ce_hs",
 			"H_FR2035_MilCap_ce",
@@ -119,7 +120,9 @@ class CfgPatches
 			"V_FR2035_PlateCarrier1_ce",
 			"V_FR2035_PlateCarrier2_ce",
 			"V_FR2035_PlateCarrierGL_ce",
-			"V_FR2035_PlateCarrierSpec_ce"
+			"V_FR2035_PlateCarrierSpec_ce",
+			"V_FR2035_TacVest_ce",
+			"V_FR2035_PlateCarrierIAGL_ce"
 		};
 	};
 };
@@ -299,7 +302,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		respawnLinkedItems[]=
 		{
@@ -309,7 +312,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 	};
 	class FR2035_Soldier_02_f: FR2035_Soldier_base_F
@@ -883,7 +886,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		respawnLinkedItems[]=
 		{
@@ -893,7 +896,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 	};
 	class FR2035_Soldier_GL_F: FR2035_Soldier_base_F
@@ -991,7 +994,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		respawnLinkedItems[]=
 		{
@@ -1001,7 +1004,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 	};
 	class FR2035_soldier_AR_F: FR2035_Soldier_02_f
@@ -1089,7 +1092,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		respawnLinkedItems[]=
 		{
@@ -1099,7 +1102,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 	};
 	class FR2035_Soldier_SL_F: FR2035_Soldier_03_f
@@ -1183,7 +1186,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		respawnLinkedItems[]=
 		{
@@ -1194,7 +1197,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 	};
 	class FR2035_Soldier_TL_F: FR2035_Soldier_03_f
@@ -1296,7 +1299,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		respawnLinkedItems[]=
 		{
@@ -1307,7 +1310,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 	};
 	class FR2035_soldier_M_F: FR2035_Soldier_base_F
@@ -1381,7 +1384,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		respawnLinkedItems[]=
 		{
@@ -1391,7 +1394,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 	};
 	class FR2035_soldier_LAT_F: FR2035_Soldier_base_F
@@ -1481,7 +1484,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		respawnLinkedItems[]=
 		{
@@ -1491,7 +1494,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		secondaryAmmoCoef=0.5;
 	};
@@ -1584,7 +1587,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		respawnLinkedItems[]=
 		{
@@ -1594,7 +1597,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		picture="pictureHeal";
 	};
@@ -1618,7 +1621,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		respawnLinkedItems[]=
 		{
@@ -1628,7 +1631,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		weapons[]=
 		{
@@ -1765,7 +1768,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		respawnLinkedItems[]=
 		{
@@ -1775,7 +1778,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		icon="iconManExplosive";
 		role="Sapper";
@@ -1815,23 +1818,23 @@ class CfgVehicles
 		displayName="$STR_B_Helipilot_F0";
 		linkedItems[]=
 		{
-			"V_TacVest_blk",
+			"V_FR2035_TacVest_ce",
 			"H_FR2035_PilotHelmetHeli",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		respawnLinkedItems[]=
 		{
-			"V_TacVest_blk",
+			"V_FR2035_TacVest_ce",
 			"H_FR2035_PilotHelmetHeli",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		weapons[]=
 		{
@@ -1954,7 +1957,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		respawnLinkedItems[]=
 		{
@@ -1964,7 +1967,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 	};
 	class FR2035_soldier_AT_F: FR2035_Soldier_base_F
@@ -2055,7 +2058,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		respawnLinkedItems[]=
 		{
@@ -2065,7 +2068,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		secondaryAmmoCoef=0.5;
 	};
@@ -2157,7 +2160,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		respawnLinkedItems[]=
 		{
@@ -2167,7 +2170,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		secondaryAmmoCoef=0.5;
 	};
@@ -2248,7 +2251,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		respawnLinkedItems[]=
 		{
@@ -2258,7 +2261,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		icon="iconManEngineer";
 		role="Sapper";
@@ -2348,7 +2351,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		respawnLinkedItems[]=
 		{
@@ -2358,7 +2361,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 	};
 	class FR2035_officer_F: FR2035_Soldier_base_F
@@ -2606,23 +2609,23 @@ class CfgVehicles
 		};
 		linkedItems[]=
 		{
-			"V_TacVest_blk",
+			"V_FR2035_TacVest_ce",
 			"H_FR2035_CrewHelmetHeli",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		respawnLinkedItems[]=
 		{
-			"V_TacVest_blk",
+			"V_FR2035_TacVest_ce",
 			"H_FR2035_CrewHelmetHeli",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 	};
 	class FR2035_soldier_PG_F: FR2035_Soldier_base_F
@@ -2640,7 +2643,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		respawnLinkedItems[]=
 		{
@@ -2650,7 +2653,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		backpack="B_Parachute";
 		cost=120000;
@@ -2672,7 +2675,7 @@ class CfgVehicles
 			"ItemWatch",
 			"ItemRadio",
 			"B_UavTerminal",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		respawnLinkedItems[]=
 		{
@@ -2683,7 +2686,7 @@ class CfgVehicles
 			"ItemWatch",
 			"ItemRadio",
 			"B_UavTerminal",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		backpack="B_UAV_01_backpack_F";
 		cost=150000;
@@ -3093,7 +3096,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		respawnLinkedItems[]=
 		{
@@ -3104,7 +3107,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 	};
 	class FR2035_recon_LAT_F: FR2035_Soldier_recon_base
@@ -3182,7 +3185,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		respawnLinkedItems[]=
 		{
@@ -3193,7 +3196,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		secondaryAmmoCoef=0.5;
 	};
@@ -3273,7 +3276,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		respawnLinkedItems[]=
 		{
@@ -3284,7 +3287,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		icon="iconManExplosive";
 		role="Sapper";
@@ -3362,7 +3365,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		respawnLinkedItems[]=
 		{
@@ -3373,7 +3376,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		picture="pictureHeal";
 	};
@@ -3452,7 +3455,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		respawnLinkedItems[]=
 		{
@@ -3464,7 +3467,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 	};
 	class FR2035_recon_M_F: FR2035_Soldier_recon_base
@@ -3538,7 +3541,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		respawnLinkedItems[]=
 		{
@@ -3549,7 +3552,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		primaryAmmoCoef=0.2;
 		secondaryAmmoCoef=0.050000001;
@@ -3654,7 +3657,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		respawnLinkedItems[]=
 		{
@@ -3665,7 +3668,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 	};
 	class FR2035_Soldier_sniper_base_F: FR2035_Soldier_base_F
@@ -3704,7 +3707,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		respawnLinkedItems[]=
 		{
@@ -3714,7 +3717,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		primaryAmmoCoef=0.2;
 		secondaryAmmoCoef=0.050000001;
@@ -4032,7 +4035,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		respawnLinkedItems[]=
 		{
@@ -4042,7 +4045,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 	};
 	class FR2035_soldier_AAR_F: FR2035_Soldier_support_base_F
@@ -4819,7 +4822,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		respawnLinkedItems[]=
 		{
@@ -4829,7 +4832,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 	};
 	class FR2035_Recon_Sharpshooter_F: FR2035_Soldier_recon_base
@@ -4923,7 +4926,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		respawnLinkedItems[]=
 		{
@@ -4934,7 +4937,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 	};
 	class FR2035_HeavyGunner_F: FR2035_Soldier_base_F
@@ -5012,7 +5015,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 		respawnLinkedItems[]=
 		{
@@ -5022,7 +5025,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGoggles"
+			"NVGoggles_OPFOR"
 		};
 	};
 	class FR2035_CTRG_Soldier_base_F: FR2035_Soldier_base_F
@@ -5115,26 +5118,26 @@ class CfgVehicles
 		linkedItems[]=
 		{
 			"H_FR2035_CTRG_HelmetSpec_ce",
-			"V_TacVest_oli",
+			"V_FR2035_TacVest_ce",
 			"G_Balaclava_TI_G_blk_F",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGogglesB_grn_F"
+			"NVGogglesB_blk_F"
 		};
 		respawnLinkedItems[]=
 		{
 			"H_FR2035_CTRG_HelmetSpec_ce",
-			"V_TacVest_oli",
+			"V_FR2035_TacVest_ce",
 			"G_Balaclava_TI_G_blk_F",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGogglesB_grn_F"
+			"NVGogglesB_blk_F"
 		};
 	};
 	class FR2035_CTRG_Soldier_F: FR2035_CTRG_Soldier_base_F
@@ -5352,26 +5355,26 @@ class CfgVehicles
 		linkedItems[]=
 		{
 			"H_FR2035_CTRG_HelmetSpec_ce",
-			"V_PlateCarrierIAGL_oli",
+			"V_FR2035_PlateCarrierIAGL_ce",
 			"G_Balaclava_TI_G_blk_F",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGogglesB_grn_F"
+			"NVGogglesB_blk_F"
 		};
 		respawnLinkedItems[]=
 		{
 			"H_FR2035_CTRG_HelmetSpec_ce",
-			"V_PlateCarrierIAGL_oli",
+			"V_FR2035_PlateCarrierIAGL_ce",
 			"G_Balaclava_TI_G_blk_F",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGogglesB_grn_F"
+			"NVGogglesB_blk_F"
 		};
 	};
 	class FR2035_CTRG_Soldier_Medic_ce_F: FR2035_CTRG_Soldier_F
@@ -5751,26 +5754,26 @@ class CfgVehicles
 		linkedItems[]=
 		{
 			"H_FR2035_CTRG_HelmetSpec_ce",
-			"V_PlateCarrierIAGL_oli",
+			"V_FR2035_PlateCarrierIAGL_ce",
 			"G_Balaclava_TI_G_blk_F",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGogglesB_grn_F"
+			"NVGogglesB_blk_F"
 		};
 		respawnLinkedItems[]=
 		{
 			"H_FR2035_CTRG_HelmetSpec_ce",
-			"V_PlateCarrierIAGL_oli",
+			"V_FR2035_PlateCarrierIAGL_ce",
 			"G_Balaclava_TI_G_blk_F",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio",
-			"NVGogglesB_grn_F"
+			"NVGogglesB_blk_F"
 		};
 	};
 };
@@ -6227,7 +6230,7 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\fr2035_characters_f\data\fr2035_helmet_ce_co.paa",
-			"\A3\characters_f\common\data\ghillie2_co.paa"
+			"\fr2035_characters_f\data\fr2035_helmet_ghillie_co.paa"
 		};
 		class ItemInfo: HeadgearItem
 		{
@@ -6314,6 +6317,47 @@ class CfgWeapons
 			"\fr2035_characters_f\data\fr2035_bandana_ce_co.paa"
 		};
 	};
+	class H_Bandanna_khk_hs;
+	class H_FR2035_Bandanna_ce_hs: H_Bandanna_khk_hs
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="H_FR2035_Bandanna_ce_hs";
+		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_bandanna_ce_hs_ca.paa";
+		displayName="$STR_FR2035_Bandanna_ce_hs";
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\fr2035_bandana_ce_co.paa"
+		};
+		allowedFacewear[]=
+		{
+			"",
+			6,
+			"G_Aviator",
+			1,
+			"G_Bandanna_aviator",
+			1,
+			"G_Bandanna_beast",
+			1,
+			"G_Bandanna_blk",
+			1,
+			"G_Bandanna_khk",
+			1,
+			"G_Bandanna_oli",
+			1,
+			"G_Bandanna_shades",
+			1,
+			"G_Bandanna_sport",
+			1,
+			"G_Shades_Black",
+			1,
+			"G_Shades_Blue",
+			1,
+			"G_Shades_Red",
+			1,
+			"G_Shades_Green",
+			1
+		};
+	};
 	class H_Beret_blk;
 	class H_FR2035_Beret_blue: H_Beret_blk
 	{
@@ -6369,6 +6413,49 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\fr2035_characters_f\data\fr2035_booniehat_ce_co.paa"
+		};
+	};
+	class H_Booniehat_khk_hs;
+	class H_FR2035_Booniehat_ce_hs: H_Booniehat_khk_hs
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="H_FR2035_Booniehat_ce_hs";
+		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_booniehat_ce_hs_ca.paa";
+		displayName="$STR_FR2035_Booniehat_ce_hs";
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\fr2035_booniehat_ce_co.paa"
+		};
+		allowedFacewear[]=
+		{
+			"",
+			6.5,
+			"G_Aviator",
+			1,
+			"G_Bandanna_aviator",
+			1,
+			"G_Bandanna_beast",
+			1,
+			"G_Bandanna_blk",
+			1,
+			"G_Bandanna_khk",
+			1,
+			"G_Bandanna_oli",
+			1,
+			"G_Bandanna_shades",
+			1,
+			"G_Bandanna_sport",
+			1,
+			"G_Bandanna_tan",
+			1,
+			"G_Shades_Black",
+			1,
+			"G_Shades_Blue",
+			1,
+			"G_Shades_Red",
+			1,
+			"G_Shades_Green",
+			1
 		};
 	};
 	class H_Cap_red;
@@ -6698,6 +6785,31 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\fr2035_characters_f\data\fr2035_carrierrig_ce_co.paa"
+		};
+	};
+	class V_TacVest_khk;
+	class V_FR2035_TacVest_ce: V_TacVest_khk
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="V_FR2035_TacVest_ce";
+		displayName="$STR_FR2035_TacVest_ce";
+		picture="\fr2035_characters_f\data\ui\fr2035_icon_v_tacvest_ce_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\fr2035_tacticalvest_ce_co.paa"
+		};
+	};
+	class V_PlateCarrierIAGL_dgtl;
+	class V_FR2035_PlateCarrierIAGL_ce: V_PlateCarrierIAGL_dgtl
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="V_FR2035_PlateCarrierIAGL_ce";
+		displayName="$STR_FR2035_PlateCarrierIAGL_ce";
+		picture="\fr2035_characters_f\data\ui\fr2035_icon_v_ia_carriergl_rig_ce.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_characters_f\data\fr2035_ia_vests_ce.paa",
+			"\fr2035_characters_f\data\fr2035_ia_carrierrig_ce.paa"
 		};
 	};
 };

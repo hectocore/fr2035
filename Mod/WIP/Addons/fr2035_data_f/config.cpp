@@ -711,3 +711,2031 @@ class CfgEditorSubcategories
 		displayName="$STR_FR2035_EdSubcat_Personnel_CTRG";
 	};
 };
+class CfgGroups
+{
+	class West
+	{
+		name="$STR_A3_CfgGroups_West0";
+		side=1;
+		class FR2035_F
+		{
+			name="$STR_FR2035_Faction_fr";
+			class Infantry
+			{
+				name="$STR_A3_CfgGroups_West_BLU_F_Infantry0";
+				class FR2035_InfSquad
+				{
+					name="$STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfSquad0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="FR2035_Soldier_SL_F";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_Soldier_F";
+						rank="PRIVATE";
+						position[]={5,-5,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="FR2035_soldier_LAT_F";
+						rank="CORPORAL";
+						position[]={-5,-5,0};
+					};
+					class Unit3
+					{
+						side=1;
+						vehicle="FR2035_soldier_M_F";
+						rank="PRIVATE";
+						position[]={10,-10,0};
+					};
+					class Unit4
+					{
+						side=1;
+						vehicle="FR2035_Soldier_TL_F";
+						rank="SERGEANT";
+						position[]={-10,-10,0};
+					};
+					class Unit5
+					{
+						side=1;
+						vehicle="FR2035_soldier_AR_F";
+						rank="CORPORAL";
+						position[]={15,-15,0};
+					};
+					class Unit6
+					{
+						side=1;
+						vehicle="FR2035_Soldier_A_F";
+						rank="PRIVATE";
+						position[]={-15,-15,0};
+					};
+					class Unit7
+					{
+						side=1;
+						vehicle="FR2035_medic_F";
+						rank="PRIVATE";
+						position[]={20,-20,0};
+					};
+				};
+				class FR2035_InfSquad_Weapons
+				{
+					name="$STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfSquad_Weapons0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="FR2035_Soldier_SL_F";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_soldier_AR_F";
+						rank="PRIVATE";
+						position[]={5,-5,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="FR2035_Soldier_GL_F";
+						rank="CORPORAL";
+						position[]={-5,-5,0};
+					};
+					class Unit3
+					{
+						side=1;
+						vehicle="FR2035_soldier_M_F";
+						rank="SERGEANT";
+						position[]={10,-10,0};
+					};
+					class Unit4
+					{
+						side=1;
+						vehicle="FR2035_soldier_AT_F";
+						rank="CORPORAL";
+						position[]={-10,-10,0};
+					};
+					class Unit6
+					{
+						side=1;
+						vehicle="FR2035_soldier_AAT_F";
+						rank="PRIVATE";
+						position[]={15,-15,0};
+					};
+					class Unit5
+					{
+						side=1;
+						vehicle="FR2035_Soldier_A_F";
+						rank="PRIVATE";
+						position[]={-15,-15,0};
+					};
+					class Unit7
+					{
+						side=1;
+						vehicle="FR2035_medic_F";
+						rank="PRIVATE";
+						position[]={20,-20,0};
+					};
+				};
+				class FR2035_InfTeam
+				{
+					name="$STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfTeam0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="FR2035_Soldier_TL_F";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_soldier_AR_F";
+						rank="CORPORAL";
+						position[]={5,-5,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="FR2035_Soldier_GL_F";
+						rank="PRIVATE";
+						position[]={-5,-5,0};
+					};
+					class Unit3
+					{
+						side=1;
+						vehicle="FR2035_soldier_LAT_F";
+						rank="PRIVATE";
+						position[]={10,-10,0};
+					};
+				};
+				class FR2035_InfTeam_AT
+				{
+					name="$STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfTeam_AT0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="FR2035_Soldier_TL_F";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_soldier_AT_F";
+						rank="CORPORAL";
+						position[]={5,-5,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="FR2035_soldier_AT_F";
+						rank="PRIVATE";
+						position[]={-5,-5,0};
+					};
+					class Unit3
+					{
+						side=1;
+						vehicle="FR2035_soldier_AAT_F";
+						rank="PRIVATE";
+						position[]={10,-10,0};
+					};
+				};
+				class FR2035_InfTeam_AA
+				{
+					name="$STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfTeam_AA0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="FR2035_Soldier_TL_F";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_soldier_AA_F";
+						rank="CORPORAL";
+						position[]={5,-5,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="FR2035_soldier_AA_F";
+						rank="PRIVATE";
+						position[]={-5,-5,0};
+					};
+					class Unit3
+					{
+						side=1;
+						vehicle="FR2035_soldier_AAA_F";
+						rank="PRIVATE";
+						position[]={10,-10,0};
+					};
+				};
+				class FR2035_InfSentry
+				{
+					name="$STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfSentry0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="FR2035_Soldier_GL_F";
+						rank="CORPORAL";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_Soldier_F";
+						rank="PRIVATE";
+						position[]={5,-5,0};
+					};
+				};
+				class FR2035_ReconTeam
+				{
+					name="$STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_ReconTeam0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_recon.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="FR2035_recon_TL_F";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_recon_M_F";
+						rank="CORPORAL";
+						position[]={5,-5,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="FR2035_recon_medic_F";
+						rank="PRIVATE";
+						position[]={-5,-5,0};
+					};
+					class Unit3
+					{
+						side=1;
+						vehicle="FR2035_recon_LAT_F";
+						rank="CORPORAL";
+						position[]={10,-10,0};
+					};
+					class Unit4
+					{
+						side=1;
+						vehicle="FR2035_recon_JTAC_F";
+						rank="PRIVATE";
+						position[]={-10,-10,0};
+					};
+					class Unit5
+					{
+						side=1;
+						vehicle="FR2035_recon_exp_F";
+						rank="PRIVATE";
+						position[]={15,-15,0};
+					};
+				};
+				class FR2035_ReconPatrol
+				{
+					name="$STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_ReconPatrol0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_recon.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="FR2035_recon_TL_F";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_recon_M_F";
+						rank="CORPORAL";
+						position[]={5,-5,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="FR2035_recon_medic_F";
+						rank="PRIVATE";
+						position[]={-5,-5,0};
+					};
+					class Unit3
+					{
+						side=1;
+						vehicle="FR2035_recon_F";
+						rank="PRIVATE";
+						position[]={10,-10,0};
+					};
+				};
+				class FR2035_ReconSentry
+				{
+					name="$STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_ReconSentry0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_recon.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="FR2035_recon_M_F";
+						rank="CORPORAL";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_recon_F";
+						rank="PRIVATE";
+						position[]={5,-5,0};
+					};
+				};
+				class FR2035_SniperTeam
+				{
+					name="$STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_SniperTeam0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_recon.paa";
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_sniper_F";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="FR2035_spotter_F";
+						rank="CORPORAL";
+						position[]={5,-5,0};
+					};
+				};
+				class FR2035_InfAssault
+				{
+					name="$STR_A3_cfgGroups_West_BLU_F_Infantry_BUS_InfAssault0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="FR2035_Soldier_SL_F";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_soldier_AR_F";
+						rank="PRIVATE";
+						position[]={5,-5,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="FR2035_HeavyGunner_F";
+						rank="CORPORAL";
+						position[]={-5,-5,0};
+					};
+					class Unit3
+					{
+						side=1;
+						vehicle="FR2035_soldier_AAR_F";
+						rank="PRIVATE";
+						position[]={10,-10,0};
+					};
+					class Unit4
+					{
+						side=1;
+						vehicle="FR2035_soldier_M_F";
+						rank="PRIVATE";
+						position[]={-10,-10,0};
+					};
+					class Unit5
+					{
+						side=1;
+						vehicle="FR2035_Sharpshooter_F";
+						rank="CORPORAL";
+						position[]={15,-15,0};
+					};
+					class Unit6
+					{
+						side=1;
+						vehicle="FR2035_soldier_LAT_F";
+						rank="PRIVATE";
+						position[]={-15,-15,0};
+					};
+					class Unit7
+					{
+						side=1;
+						vehicle="FR2035_medic_F";
+						rank="PRIVATE";
+						position[]={20,-20,0};
+					};
+				};
+				class FR2035_ReconSquad
+				{
+					name="$STR_A3_cfgGroups_West_BLU_F_Infantry_BUS_ReconSquad0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_recon.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="FR2035_recon_TL_F";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_recon_M_F";
+						rank="CORPORAL";
+						position[]={5,-5,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="FR2035_recon_medic_F";
+						rank="PRIVATE";
+						position[]={-5,-5,0};
+					};
+					class Unit3
+					{
+						side=1;
+						vehicle="FR2035_recon_F";
+						rank="PRIVATE";
+						position[]={10,-10,0};
+					};
+					class Unit4
+					{
+						side=1;
+						vehicle="FR2035_recon_LAT_F";
+						rank="PRIVATE";
+						position[]={-10,-10,0};
+					};
+					class Unit5
+					{
+						side=1;
+						vehicle="FR2035_recon_JTAC_F";
+						rank="PRIVATE";
+						position[]={15,-15,0};
+					};
+					class Unit6
+					{
+						side=1;
+						vehicle="FR2035_recon_exp_F";
+						rank="PRIVATE";
+						position[]={-15,-15,0};
+					};
+					class Unit7
+					{
+						side=1;
+						vehicle="FR2035_Recon_Sharpshooter_F";
+						rank="CORPORAL";
+						position[]={20,-20,0};
+					};
+				};
+			};
+			class SpecOps
+			{
+				name="$STR_A3_CfgGroups_West_BLU_F_SpecOps0";
+				class FR2035_DiverTeam
+				{
+					name="$STR_A3_CfgGroups_West_BLU_F_SpecOps_BUS_DiverTeam0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="FR2035_diver_TL_F";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_diver_exp_F";
+						rank="CORPORAL";
+						position[]={5,-5,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="FR2035_diver_F";
+						rank="PRIVATE";
+						position[]={-5,-5,0};
+					};
+					class Unit3
+					{
+						side=1;
+						vehicle="FR2035_diver_F";
+						rank="PRIVATE";
+						position[]={10,-10,0};
+					};
+				};
+				class FR2035_DiverTeam_Boat
+				{
+					name="$STR_A3_CfgGroups_West_BLU_F_SpecOps_BUS_DiverTeam_Boat0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="FR2035_diver_TL_F";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_diver_exp_F";
+						rank="CORPORAL";
+						position[]={5,-5,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="FR2035_diver_F";
+						rank="PRIVATE";
+						position[]={-5,-5,0};
+					};
+					class Unit3
+					{
+						side=1;
+						vehicle="FR2035_diver_F";
+						rank="PRIVATE";
+						position[]={10,-10,0};
+					};
+					class Unit4
+					{
+						side=1;
+						vehicle="B_Boat_Transport_01_F";
+						rank="PRIVATE";
+						position[]={0,-10,0};
+					};
+				};
+				class FR2035_DiverTeam_SDV
+				{
+					name="$STR_A3_cfggroups_West_BLU_F_SpecOps_BUS_DiverTeam_SDV0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="FR2035_diver_TL_F";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_diver_exp_F";
+						rank="CORPORAL";
+						position[]={5,-5,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="FR2035_diver_F";
+						rank="PRIVATE";
+						position[]={-5,-5,0};
+					};
+					class Unit3
+					{
+						side=1;
+						vehicle="FR2035_diver_F";
+						rank="PRIVATE";
+						position[]={10,-10,0};
+					};
+					class Unit4
+					{
+						side=1;
+						vehicle="B_SDV_01_F";
+						rank="PRIVATE";
+						position[]={-10,-10,0};
+					};
+					class Unit5
+					{
+						side=1;
+						vehicle="B_SDV_01_F";
+						rank="PRIVATE";
+						position[]={0,-10,0};
+					};
+				};
+				class FR2035_SmallTeam_UAV
+				{
+					name="$STR_A3_cfggroups_uavteam_smallUAV";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="FR2035_Soldier_TL_F";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_soldier_UAV_F";
+						rank="CORPORAL";
+						position[]={5,-5,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="B_UAV_01_F";
+						rank="PRIVATE";
+						position[]={-5,-5,0};
+					};
+				};
+				class FR2035_ReconTeam_UGV
+				{
+					name="$STR_A3_cfggroups_uavteam_reconUGV";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_recon.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="FR2035_Soldier_TL_F";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_soldier_UAV_F";
+						rank="CORPORAL";
+						position[]={5,-5,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="B_UGV_01_F";
+						rank="PRIVATE";
+						position[]={-5,-5,0};
+					};
+				};
+				class FR2035_AttackTeam_UGV
+				{
+					name="$STR_A3_cfggroups_uavteam_attackUGV";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="FR2035_Soldier_TL_F";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_soldier_UAV_F";
+						rank="CORPORAL";
+						position[]={5,-5,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="B_UGV_01_rcws_F";
+						rank="PRIVATE";
+						position[]={-5,-5,0};
+					};
+				};
+				class FR2035_ReconTeam_UAV
+				{
+					name="$STR_A3_cfggroups_uavteam_reconUAV";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_recon.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="FR2035_Soldier_TL_F";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_soldier_UAV_F";
+						rank="CORPORAL";
+						position[]={5,-5,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="B_UAV_02_F";
+						rank="PRIVATE";
+						position[]={-5,-5,0};
+					};
+				};
+				class FR2035_AttackTeam_UAV
+				{
+					name="$STR_A3_cfggroups_uavteam_attackUAV";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="FR2035_Soldier_TL_F";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_soldier_UAV_F";
+						rank="CORPORAL";
+						position[]={5,-5,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="B_UAV_02_CAS_F";
+						rank="PRIVATE";
+						position[]={-5,-5,0};
+					};
+				};
+			};
+			class Support
+			{
+				name="$STR_A3_CfgGroups_West_BLU_F_Support0";
+				class FR2035_Support_CLS
+				{
+					name="$STR_A3_CfgGroups_West_BLU_F_Support_BUS_Support_CLS0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="FR2035_Soldier_TL_F";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_soldier_AR_F";
+						rank="CORPORAL";
+						position[]={5,-5,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="FR2035_medic_F";
+						rank="PRIVATE";
+						position[]={-5,-5,0};
+					};
+					class Unit3
+					{
+						side=1;
+						vehicle="FR2035_medic_F";
+						rank="PRIVATE";
+						position[]={10,-10,0};
+					};
+				};
+				class FR2035_Support_EOD
+				{
+					name="$STR_A3_CfgGroups_West_BLU_F_Support_BUS_Support_EOD0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="FR2035_Soldier_TL_F";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_engineer_F";
+						rank="CORPORAL";
+						position[]={5,-5,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="FR2035_soldier_exp_F";
+						rank="PRIVATE";
+						position[]={-5,-5,0};
+					};
+					class Unit3
+					{
+						side=1;
+						vehicle="FR2035_soldier_exp_F";
+						rank="PRIVATE";
+						position[]={10,-10,0};
+					};
+				};
+				class FR2035_Support_ENG
+				{
+					name="$STR_A3_CfgGroups_West_BLU_F_Support_BUS_Support_ENG0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="FR2035_Soldier_TL_F";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_engineer_F";
+						rank="CORPORAL";
+						position[]={5,-5,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="FR2035_engineer_F";
+						rank="PRIVATE";
+						position[]={-5,-5,0};
+					};
+					class Unit3
+					{
+						side=1;
+						vehicle="FR2035_soldier_repair_F";
+						rank="PRIVATE";
+						position[]={10,-5,0};
+					};
+				};
+				class FR2035_Recon_EOD
+				{
+					name="$STR_A3_CfgGroups_West_BLU_F_Support_BUS_Recon_EOD0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="FR2035_recon_TL_F";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_recon_exp_F";
+						rank="CORPORAL";
+						position[]={5,-5,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="FR2035_recon_exp_F";
+						rank="PRIVATE";
+						position[]={-5,-5,0};
+					};
+					class Unit3
+					{
+						side=1;
+						vehicle="FR2035_recon_F";
+						rank="PRIVATE";
+						position[]={10,-10,0};
+					};
+				};
+				class FR2035_Support_MG
+				{
+					name="$STR_A3_CfgGroups_West_BLU_F_Support_BUS_Support_MG0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="FR2035_Soldier_TL_F";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_support_MG_F";
+						rank="CORPORAL";
+						position[]={5,-5,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="FR2035_support_AMG_F";
+						rank="PRIVATE";
+						position[]={-5,-5,0};
+					};
+				};
+				class FR2035_Support_GMG
+				{
+					name="$STR_A3_CfgGroups_West_BLU_F_Support_BUS_Support_GMG0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="FR2035_Soldier_TL_F";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_support_GMG_F";
+						rank="CORPORAL";
+						position[]={5,-5,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="FR2035_support_AMG_F";
+						rank="PRIVATE";
+						position[]={-5,-5,0};
+					};
+				};
+				class FR2035_Support_Mort
+				{
+					name="$STR_A3_CfgGroups_West_BLU_F_Support_BUS_Support_Mort0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_mortar.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="FR2035_Soldier_TL_F";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_support_Mort_F";
+						rank="CORPORAL";
+						position[]={5,-5,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="FR2035_support_AMort_F";
+						rank="PRIVATE";
+						position[]={-5,-5,0};
+					};
+				};
+			};
+			class Motorized
+			{
+				name="$STR_A3_CfgGroups_West_BLU_F_Motorized0";
+				class FR2035_MotInf_Team
+				{
+					name="$STR_A3_CfgGroups_West_BLU_F_Motorized_BUS_MotInf_Team0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="B_MRAP_01_gmg_F";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_soldier_AR_F";
+						rank="CORPORAL";
+						position[]={5,-5,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="FR2035_soldier_LAT_F";
+						rank="PRIVATE";
+						position[]={-5,-5,0};
+					};
+				};
+				class FR2035_MotInf_AT
+				{
+					name="$STR_A3_CfgGroups_West_BLU_F_Motorized_BUS_MotInf_AT0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="B_MRAP_01_F";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_soldier_AT_F";
+						rank="CORPORAL";
+						position[]={5,-5,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="FR2035_soldier_AT_F";
+						rank="CORPORAL";
+						position[]={-5,-5,0};
+					};
+					class Unit3
+					{
+						side=1;
+						vehicle="FR2035_soldier_AAT_F";
+						rank="PRIVATE";
+						position[]={0,-10,0};
+					};
+				};
+				class FR2035_MotInf_AA
+				{
+					name="$STR_A3_CfgGroups_West_BLU_F_Motorized_BUS_MotInf_AA0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="B_MRAP_01_F";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_soldier_AA_F";
+						rank="CORPORAL";
+						position[]={5,-5,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="FR2035_soldier_AA_F";
+						rank="CORPORAL";
+						position[]={-5,-5,0};
+					};
+					class Unit3
+					{
+						side=1;
+						vehicle="FR2035_soldier_AAA_F";
+						rank="PRIVATE";
+						position[]={0,-10,0};
+					};
+				};
+				class FR2035_MotInf_MGTeam
+				{
+					name="$STR_A3_CfgGroups_West_BLU_F_Motorized_BUS_MotInf_MGTeam0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="B_MRAP_01_F";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_Soldier_TL_F";
+						rank="SERGEANT";
+						position[]={5,-5,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="FR2035_support_MG_F";
+						rank="CORPORAL";
+						position[]={-5,-5,0};
+					};
+					class Unit3
+					{
+						side=1;
+						vehicle="FR2035_support_AMG_F";
+						rank="PRIVATE";
+						position[]={0,-10,0};
+					};
+				};
+				class FR2035_MotInf_GMGTeam
+				{
+					name="$STR_A3_CfgGroups_West_BLU_F_Motorized_BUS_MotInf_GMGTeam0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="B_MRAP_01_F";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_Soldier_TL_F";
+						rank="SERGEANT";
+						position[]={5,-5,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="FR2035_support_GMG_F";
+						rank="CORPORAL";
+						position[]={-5,-5,0};
+					};
+					class Unit3
+					{
+						side=1;
+						vehicle="FR2035_support_AMG_F";
+						rank="PRIVATE";
+						position[]={0,-10,0};
+					};
+				};
+				class FR2035_MotInf_MortTeam
+				{
+					name="$STR_A3_CfgGroups_West_BLU_F_Motorized_BUS_MotInf_MortTeam0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="B_MRAP_01_F";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_Soldier_TL_F";
+						rank="SERGEANT";
+						position[]={5,-5,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="FR2035_support_Mort_F";
+						rank="CORPORAL";
+						position[]={-5,-5,0};
+					};
+					class Unit3
+					{
+						side=1;
+						vehicle="FR2035_support_AMort_F";
+						rank="PRIVATE";
+						position[]={0,-10,0};
+					};
+				};
+				class FR2035_MotInf_Reinforce
+				{
+					name="$STR_A3_CfgGroups_West_BLU_F_Motorized_BUS_MotInf_Reinforce0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="B_Truck_01_transport_F";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_Soldier_SL_F";
+						rank="SERGEANT";
+						position[]={5,0,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="FR2035_Soldier_F";
+						rank="PRIVATE";
+						position[]={5,-2,0};
+					};
+					class Unit3
+					{
+						side=1;
+						vehicle="FR2035_soldier_LAT_F";
+						rank="CORPORAL";
+						position[]={5,-4,0};
+					};
+					class Unit4
+					{
+						side=1;
+						vehicle="FR2035_soldier_M_F";
+						rank="PRIVATE";
+						position[]={5,-6,0};
+					};
+					class Unit5
+					{
+						side=1;
+						vehicle="FR2035_Soldier_TL_F";
+						rank="SERGEANT";
+						position[]={5,-8,0};
+					};
+					class Unit6
+					{
+						side=1;
+						vehicle="FR2035_soldier_AR_F";
+						rank="CORPORAL";
+						position[]={5,-10,0};
+					};
+					class Unit7
+					{
+						side=1;
+						vehicle="FR2035_Soldier_A_F";
+						rank="PRIVATE";
+						position[]={5,-12,0};
+					};
+					class Unit8
+					{
+						side=1;
+						vehicle="FR2035_medic_F";
+						rank="PRIVATE";
+						position[]={5,-14,0};
+					};
+					class Unit9
+					{
+						side=1;
+						vehicle="FR2035_Soldier_SL_F";
+						rank="SERGEANT";
+						position[]={-5,0,0};
+					};
+					class Unit10
+					{
+						side=1;
+						vehicle="FR2035_Soldier_F";
+						rank="PRIVATE";
+						position[]={-5,-2,0};
+					};
+					class Unit11
+					{
+						side=1;
+						vehicle="FR2035_soldier_LAT_F";
+						rank="CORPORAL";
+						position[]={-5,-4,0};
+					};
+					class Unit12
+					{
+						side=1;
+						vehicle="FR2035_soldier_M_F";
+						rank="PRIVATE";
+						position[]={-5,-6,0};
+					};
+					class Unit13
+					{
+						side=1;
+						vehicle="FR2035_Soldier_TL_F";
+						rank="SERGEANT";
+						position[]={-5,-8,0};
+					};
+					class Unit14
+					{
+						side=1;
+						vehicle="FR2035_soldier_AR_F";
+						rank="CORPORAL";
+						position[]={-5,-10,0};
+					};
+					class Unit15
+					{
+						side=1;
+						vehicle="FR2035_Soldier_A_F";
+						rank="PRIVATE";
+						position[]={-5,-12,0};
+					};
+					class Unit16
+					{
+						side=1;
+						vehicle="FR2035_medic_F";
+						rank="PRIVATE";
+						position[]={-5,-14,0};
+					};
+				};
+			};
+			class Mechanized
+			{
+				name="$STR_A3_CfgGroups_West_BLU_F_Mechanized0";
+				class FR2035_MechInfSquad
+				{
+					name="$STR_A3_CfgGroups_West_BLU_F_Mechanized_BUS_MechInfSquad0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="B_APC_Wheeled_01_cannon_F";
+						rank="LIEUTENANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_Soldier_SL_F";
+						rank="SERGEANT";
+						position[]={5,-5,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="FR2035_Soldier_F";
+						rank="PRIVATE";
+						position[]={-5,-5,0};
+					};
+					class Unit3
+					{
+						side=1;
+						vehicle="FR2035_soldier_LAT_F";
+						rank="CORPORAL";
+						position[]={10,-10,0};
+					};
+					class Unit4
+					{
+						side=1;
+						vehicle="FR2035_soldier_M_F";
+						rank="PRIVATE";
+						position[]={-10,-10,0};
+					};
+					class Unit5
+					{
+						side=1;
+						vehicle="FR2035_Soldier_TL_F";
+						rank="SERGEANT";
+						position[]={15,-15,0};
+					};
+					class Unit6
+					{
+						side=1;
+						vehicle="FR2035_soldier_AR_F";
+						rank="CORPORAL";
+						position[]={-15,-15,0};
+					};
+					class Unit7
+					{
+						side=1;
+						vehicle="FR2035_Soldier_A_F";
+						rank="PRIVATE";
+						position[]={20,-20,0};
+					};
+					class Unit8
+					{
+						side=1;
+						vehicle="FR2035_medic_F";
+						rank="PRIVATE";
+						position[]={-20,-20,0};
+					};
+				};
+				class FR2035_MechInf_AT
+				{
+					name="$STR_A3_CfgGroups_West_BLU_F_Mechanized_BUS_MechInf_AT0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="B_APC_Tracked_01_rcws_F";
+						rank="LIEUTENANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_Soldier_SL_F";
+						rank="SERGEANT";
+						position[]={5,-5,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="FR2035_soldier_AR_F";
+						rank="CORPORAL";
+						position[]={-5,-5,0};
+					};
+					class Unit3
+					{
+						side=1;
+						vehicle="FR2035_soldier_AT_F";
+						rank="PRIVATE";
+						position[]={10,-10,0};
+					};
+					class Unit4
+					{
+						side=1;
+						vehicle="FR2035_soldier_AT_F";
+						rank="PRIVATE";
+						position[]={-10,-10,0};
+					};
+					class Unit5
+					{
+						side=1;
+						vehicle="FR2035_soldier_AT_F";
+						rank="SERGEANT";
+						position[]={15,-15,0};
+					};
+					class Unit6
+					{
+						side=1;
+						vehicle="FR2035_soldier_AAT_F";
+						rank="CORPORAL";
+						position[]={-15,-15,0};
+					};
+					class Unit7
+					{
+						side=1;
+						vehicle="FR2035_soldier_AAT_F";
+						rank="PRIVATE";
+						position[]={20,-20,0};
+					};
+					class Unit8
+					{
+						side=1;
+						vehicle="FR2035_soldier_AAT_F";
+						rank="PRIVATE";
+						position[]={-20,-20,0};
+					};
+				};
+				class FR2035_MechInf_AA
+				{
+					name="$STR_A3_CfgGroups_West_BLU_F_Mechanized_BUS_MechInf_AA0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="B_APC_Tracked_01_aa_F";
+						rank="LIEUTENANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_Soldier_SL_F";
+						rank="SERGEANT";
+						position[]={5,-5,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="FR2035_soldier_AR_F";
+						rank="CORPORAL";
+						position[]={-5,-5,0};
+					};
+					class Unit3
+					{
+						side=1;
+						vehicle="FR2035_soldier_AA_F";
+						rank="PRIVATE";
+						position[]={10,-10,0};
+					};
+					class Unit4
+					{
+						side=1;
+						vehicle="FR2035_soldier_AA_F";
+						rank="PRIVATE";
+						position[]={-10,-10,0};
+					};
+					class Unit5
+					{
+						side=1;
+						vehicle="FR2035_soldier_AA_F";
+						rank="SERGEANT";
+						position[]={15,-15,0};
+					};
+					class Unit6
+					{
+						side=1;
+						vehicle="FR2035_soldier_AAA_F";
+						rank="CORPORAL";
+						position[]={-15,-15,0};
+					};
+					class Unit7
+					{
+						side=1;
+						vehicle="FR2035_soldier_AAA_F";
+						rank="PRIVATE";
+						position[]={20,-20,0};
+					};
+					class Unit8
+					{
+						side=1;
+						vehicle="FR2035_soldier_AAA_F";
+						rank="PRIVATE";
+						position[]={-20,-20,0};
+					};
+				};
+				class FR2035_MechInf_Support
+				{
+					name="$STR_A3_CfgGroups_West_BLU_F_Mechanized_BUS_MechInf_Support0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="B_APC_Wheeled_01_cannon_F";
+						rank="LIEUTENANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_Soldier_SL_F";
+						rank="SERGEANT";
+						position[]={5,-5,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="FR2035_Soldier_TL_F";
+						rank="SERGEANT";
+						position[]={-5,-5,0};
+					};
+					class Unit3
+					{
+						side=1;
+						vehicle="FR2035_soldier_repair_F";
+						rank="CORPORAL";
+						position[]={10,-10,0};
+					};
+					class Unit4
+					{
+						side=1;
+						vehicle="FR2035_engineer_F";
+						rank="PRIVATE";
+						position[]={-10,-10,0};
+					};
+					class Unit5
+					{
+						side=1;
+						vehicle="FR2035_medic_F";
+						rank="PRIVATE";
+						position[]={15,-15,0};
+					};
+					class Unit6
+					{
+						side=1;
+						vehicle="FR2035_soldier_AR_F";
+						rank="CORPORAL";
+						position[]={-15,-15,0};
+					};
+					class Unit7
+					{
+						side=1;
+						vehicle="FR2035_soldier_exp_F";
+						rank="PRIVATE";
+						position[]={20,-20,0};
+					};
+					class Unit8
+					{
+						side=1;
+						vehicle="FR2035_Soldier_A_F";
+						rank="PRIVATE";
+						position[]={-20,-20,0};
+					};
+				};
+			};
+			class Armored
+			{
+				name="$STR_A3_CfgGroups_West_BLU_F_Armored0";
+				class FR2035_TankPlatoon
+				{
+					name="$STR_A3_CfgGroups_West_BLU_F_Armored_BUS_TankPlatoon0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_armor.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="B_MBT_01_cannon_F";
+						rank="LIEUTENANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="B_MBT_01_cannon_F";
+						rank="SERGEANT";
+						position[]={10,-10,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="B_MBT_01_cannon_F";
+						rank="SERGEANT";
+						position[]={-10,-10,0};
+					};
+					class Unit3
+					{
+						side=1;
+						vehicle="B_MBT_01_cannon_F";
+						rank="CORPORAL";
+						position[]={20,-20,0};
+					};
+				};
+				class FR2035_TankPlatoon_AA
+				{
+					name="$STR_A3_CfgGroups_West_BLU_F_Armored_BUS_TankPlatoon_AA0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_armor.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="B_MBT_01_cannon_F";
+						rank="LIEUTENANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="B_APC_Tracked_01_aa_F";
+						rank="SERGEANT";
+						position[]={10,-10,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="B_MBT_01_cannon_F";
+						rank="SERGEANT";
+						position[]={-10,-10,0};
+					};
+					class Unit3
+					{
+						side=1;
+						vehicle="B_APC_Tracked_01_aa_F";
+						rank="CORPORAL";
+						position[]={20,-20,0};
+					};
+				};
+				class FR2035_TankSection
+				{
+					name="$STR_A3_CfgGroups_West_BLU_F_Armored_BUS_TankSection0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_armor.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="B_MBT_01_cannon_F";
+						rank="LIEUTENANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="B_MBT_01_cannon_F";
+						rank="SERGEANT";
+						position[]={10,-10,0};
+					};
+				};
+				class FR2035_SPGPlatoon_Scorcher
+				{
+					name="$STR_A3_CfgGroups_West_BLU_F_Armored_BUS_SPGPlatoon_Scorcher0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_art.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="B_MBT_01_arty_F";
+						rank="LIEUTENANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="B_MBT_01_arty_F";
+						rank="SERGEANT";
+						position[]={10,-10,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="B_MBT_01_arty_F";
+						rank="SERGEANT";
+						position[]={-10,-10,0};
+					};
+					class Unit3
+					{
+						side=1;
+						vehicle="B_MBT_01_arty_F";
+						rank="CORPORAL";
+						position[]={20,-20,0};
+					};
+				};
+				class FR2035_SPGSection_Scorcher
+				{
+					name="$STR_A3_CfgGroups_West_BLU_F_Armored_BUS_SPGSection_Scorcher0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_art.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="B_MBT_01_arty_F";
+						rank="LIEUTENANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="B_MBT_01_arty_F";
+						rank="SERGEANT";
+						position[]={10,-10,0};
+					};
+				};
+				class FR2035_SPGSection_MLRS
+				{
+					name="$STR_A3_CfgGroups_West_BLU_F_Armored_BUS_SPGSection_MLRS0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_art.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="B_MBT_01_mlrs_F";
+						rank="LIEUTENANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="B_MBT_01_mlrs_F";
+						rank="SERGEANT";
+						position[]={10,-10,0};
+					};
+				};
+			};
+			class CTRG
+			{
+				name="$STR_A3_CfgGroups_West_CTRG_F0";
+				class FR2035_CTRG_InfSquad
+				{
+					name="$STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfSquad0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="FR2035_CTRG_Soldier_TL_ce_F";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_CTRG_Soldier_M_ce_F";
+						rank="CORPORAL";
+						position[]={5,-5,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="FR2035_CTRG_Soldier_Medic_ce_F";
+						rank="PRIVATE";
+						position[]={-5,-5,0};
+					};
+					class Unit3
+					{
+						side=1;
+						vehicle="FR2035_CTRG_Soldier_ce_F";
+						rank="PRIVATE";
+						position[]={10,-10,0};
+					};
+					class Unit4
+					{
+						side=1;
+						vehicle="FR2035_CTRG_Soldier_LAT_ce_F";
+						rank="SERGEANT";
+						position[]={-10,-10,0};
+					};
+					class Unit5
+					{
+						side=1;
+						vehicle="FR2035_CTRG_Soldier_JTAC_ce_F";
+						rank="CORPORAL";
+						position[]={15,-15,0};
+					};
+					class Unit6
+					{
+						side=1;
+						vehicle="FR2035_CTRG_Soldier_Exp_ce_F";
+						rank="PRIVATE";
+						position[]={-15,-15,0};
+					};
+					class Unit7
+					{
+						side=1;
+						vehicle="FR2035_CTRG_Soldier_AR_ce_F";
+						rank="PRIVATE";
+						position[]={20,-20,0};
+					};
+				};
+				class FR2035_CTRG_InfTeam
+				{
+					name="$STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfTeam0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="FR2035_CTRG_Soldier_TL_ce_F";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_CTRG_Soldier_AR_ce_F";
+						rank="CORPORAL";
+						position[]={5,-5,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="FR2035_CTRG_Soldier_ce_F";
+						rank="PRIVATE";
+						position[]={-5,-5,0};
+					};
+					class Unit3
+					{
+						side=1;
+						vehicle="FR2035_CTRG_Soldier_LAT_ce_F";
+						rank="PRIVATE";
+						position[]={10,-10,0};
+					};
+				};
+				class FR2035_CTRG_InfSentry
+				{
+					name="$STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfSentry0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="FR2035_CTRG_Soldier_JTAC_ce_F";
+						rank="CORPORAL";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_CTRG_Soldier_ce_F";
+						rank="PRIVATE";
+						position[]={5,-5,0};
+					};
+				};
+				class FR2035_CTRG_MotInf_ReconTeam
+				{
+					name="$STR_A3_CfgGroups_West_CTRG_F_Motorized_CTRG_MotInf_ReconTeam0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="B_T_LSV_01_unarmed_CTRG_F";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_CTRG_Soldier_M_ce_F";
+						rank="CORPORAL";
+						position[]={5,-5,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="FR2035_CTRG_Soldier_Medic_ce_F";
+						rank="PRIVATE";
+						position[]={-5,-5,0};
+					};
+					class Unit3
+					{
+						side=1;
+						vehicle="FR2035_CTRG_Soldier_AR_ce_F";
+						rank="PRIVATE";
+						position[]={10,-10,0};
+					};
+					class Unit4
+					{
+						side=1;
+						vehicle="FR2035_CTRG_Soldier_LAT_ce_F";
+						rank="SERGEANT";
+						position[]={-10,-10,0};
+					};
+					class Unit5
+					{
+						side=1;
+						vehicle="FR2035_CTRG_Soldier_JTAC_ce_F";
+						rank="CORPORAL";
+						position[]={15,-15,0};
+					};
+					class Unit6
+					{
+						side=1;
+						vehicle="FR2035_CTRG_Soldier_Exp_ce_F";
+						rank="PRIVATE";
+						position[]={-15,-15,0};
+					};
+				};
+				class FR2035_CTRG_MotInf_AssaultTeam
+				{
+					name="$STR_A3_CfgGroups_West_CTRG_F_Motorized_CTRG_MotInf_AssaultTeam0";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="B_T_LSV_01_armed_CTRG_F";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_CTRG_Soldier_Medic_ce_F";
+						rank="CORPORAL";
+						position[]={5,-5,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="FR2035_CTRG_Soldier_M_ce_F";
+						rank="PRIVATE";
+						position[]={-5,-5,0};
+					};
+					class Unit3
+					{
+						side=1;
+						vehicle="FR2035_CTRG_Soldier_AR_ce_F";
+						rank="PRIVATE";
+						position[]={10,-10,0};
+					};
+					class Unit4
+					{
+						side=1;
+						vehicle="FR2035_CTRG_Soldier_LAT_ce_F";
+						rank="SERGEANT";
+						position[]={-10,-10,0};
+					};
+				};
+			};
+		};
+	};
+};
