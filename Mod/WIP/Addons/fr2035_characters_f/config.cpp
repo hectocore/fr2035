@@ -1421,7 +1421,7 @@ class CfgVehicles
 		_generalMacro="FR2035_soldier_LAT_F";
 		scope=2;
 		displayName="$STR_B_soldier_LAT_F0";
-		backpack="B_AssaultPack_rgr_LAT";
+		backpack="B_FR2035_AssaultPack_ce_LAT";
 		weapons[]=
 		{
 			"arifle_MX_ACO_pointer_F",
@@ -1578,7 +1578,7 @@ class CfgVehicles
 		icon="iconManMedic";
 		role="CombatLifeSaver";
 		uniformClass="U_FR2035_CombatUniform_ce_tshirt";
-		backpack="B_AssaultPack_rgr_Medic";
+		backpack="B_FR2035_AssaultPack_ce_Medic";
 		linkedItems[]=
 		{
 			"V_FR2035_PlateCarrierSpec_ce",
@@ -1612,7 +1612,7 @@ class CfgVehicles
 		detectSkill=40;
 		cost=220000;
 		camouflage=1.6;
-		backpack="B_AssaultPack_rgr_Repair";
+		backpack="B_FR2035_AssaultPack_ce_Repair";
 		linkedItems[]=
 		{
 			"V_FR2035_PlateCarrier1_ce",
@@ -3118,7 +3118,7 @@ class CfgVehicles
 		scope=2;
 		displayName="$STR_B_recon_LAT_F0";
 		uniformClass="U_FR2035_CombatUniform_ce_tshirt";
-		backpack="B_AssaultPack_rgr_ReconLAT";
+		backpack="B_FR2035_AssaultPack_ce_ReconLAT";
 		weapons[]=
 		{
 			"arifle_MX_ACO_pointer_snds_F",
@@ -3317,7 +3317,7 @@ class CfgVehicles
 			"Put"
 		};
 		cost=290000;
-		backpack="B_AssaultPack_rgr_ReconMedic";
+		backpack="B_FR2035_AssaultPack_ce_ReconMedic";
 		icon="iconManMedic";
 		role="CombatLifeSaver";
 		magazines[]=
@@ -5403,7 +5403,7 @@ class CfgVehicles
 		displayName="$STR_A3_B_CTRG_Soldier_Medic_tna_F0";
 		role="CombatLifeSaver";
 		cost=300000;
-		backpack="B_AssaultPack_rgr_CTRGMedic_F";
+		backpack="B_FR2035_AssaultPack_ce_CTRGMedic_F";
 		magazines[]=
 		{
 			"30Rnd_556x45_Stanag_red",
@@ -5547,7 +5547,7 @@ class CfgVehicles
 		role="MissileSpecialist";
 		cost=180000;
 		threat[]={1,0.69999999,0.30000001};
-		backpack="B_AssaultPack_rgr_CTRGLAT_F";
+		backpack="B_FR2035_AssaultPack_ce_CTRGLAT_F";
 		weapons[]=
 		{
 			"arifle_SPAR_01_blk_ERCO_Pointer_F",

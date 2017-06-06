@@ -12,7 +12,14 @@ class CfgPatches
 		};
 		requiredVersion=1.66;
 		units[]={
-			"B_FR2035_AssaultPack_ce"
+			"B_FR2035_AssaultPack_ce",
+			"B_FR2035_AssaultPack_ce_LAT",
+			"B_FR2035_AssaultPack_ce_Medic",
+			"B_FR2035_AssaultPack_ce_Repair",
+			"B_FR2035_AssaultPack_ce_ReconLAT",
+			"B_FR2035_AssaultPack_ce_ReconMedic",
+			"B_FR2035_AssaultPack_ce_CTRGMedic_F",
+			"B_FR2035_AssaultPack_ce_CTRGLAT_F"
 		};
 		weapons[]={};
 	};
@@ -30,6 +37,155 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\fr2035_weapons_f\data\fr2035_backpack_compact_ce_co.paa"
+		};
+	};
+	class B_FR2035_AssaultPack_ce_LAT: B_FR2035_AssaultPack_ce
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="B_FR2035_AssaultPack_ce_LAT";
+		scope=1;
+		class TransportMagazines
+		{
+			class _xx_NLAW_F
+			{
+				magazine="NLAW_F";
+				count=2;
+			};
+		};
+	};
+	class B_FR2035_AssaultPack_ce_Medic: B_FR2035_AssaultPack_ce
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="B_FR2035_AssaultPack_ce_Medic";
+		scope=1;
+		class TransportItems
+		{
+			class _xx_Medikit
+			{
+				name="Medikit";
+				count=1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=10;
+			};
+		};
+	};
+	class B_FR2035_AssaultPack_ce_Repair: B_FR2035_AssaultPack_ce
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="B_FR2035_AssaultPack_ce_Repair";
+		scope=1;
+		class TransportItems
+		{
+			class _xx_ToolKit
+			{
+				name="ToolKit";
+				count=1;
+			};
+		};
+	};
+	class B_FR2035_AssaultPack_ce_ReconLAT: B_FR2035_AssaultPack_ce
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="B_FR2035_AssaultPack_ce_ReconLAT";
+		scope=1;
+		class TransportMagazines
+		{
+			class _xx_NLAW_F
+			{
+				magazine="NLAW_F";
+				count=2;
+			};
+		};
+	};
+	class B_FR2035_AssaultPack_ce_ReconMedic: B_FR2035_AssaultPack_ce
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="B_FR2035_AssaultPack_ce_ReconMedic";
+		scope=1;
+		class TransportMagazines
+		{
+			class _xx_SmokeShellRed
+			{
+				magazine="SmokeShellRed";
+				count=1;
+			};
+			class _xx_SmokeShellBlue
+			{
+				magazine="SmokeShellBlue";
+				count=1;
+			};
+			class _xx_SmokeShellOrange
+			{
+				magazine="SmokeShellOrange";
+				count=1;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_Medikit
+			{
+				name="Medikit";
+				count=1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=5;
+			};
+		};
+	};
+	class B_FR2035_AssaultPack_ce_CTRGMedic_F: B_FR2035_AssaultPack_ce
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="B_FR2035_AssaultPack_ce_CTRGMedic_F";
+		scope=1;
+		class TransportMagazines
+		{
+			class _xx_SmokeShellRed
+			{
+				magazine="SmokeShellRed";
+				count=1;
+			};
+			class _xx_SmokeShellBlue
+			{
+				magazine="SmokeShellBlue";
+				count=1;
+			};
+			class _xx_SmokeShellOrange
+			{
+				magazine="SmokeShellOrange";
+				count=1;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_Medikit
+			{
+				name="Medikit";
+				count=1;
+			};
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=5;
+			};
+		};
+	};
+	class B_FR2035_AssaultPack_ce_CTRGLAT_F: B_FR2035_AssaultPack_ce
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="B_FR2035_AssaultPack_ce_CTRGLAT_F";
+		scope=1;
+		class TransportMagazines
+		{
+			class _xx_NLAW_F
+			{
+				magazine="NLAW_F";
+				count=2;
+			};
 		};
 	};
 };
