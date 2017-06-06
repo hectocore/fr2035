@@ -6533,5 +6533,23 @@
         </Key>
       </Container>
     </Container>
+    <Container name="FR2035_Data_F">
+      <Container name="Backpacks">
+        <Key ID="str_fr2035_assaultpack_ce">
+          <Original>Assault Pack (CE)</Original>
+          <French>Paquetage d'assaut (CE)</French>
+          <Spanish>Mochila de asalto (CE)</Spanish>
+          <Italian>Pacco da assalto (mimetico CE)</Italian>
+          <Polish>Plecak szturmowy (CE)</Polish>
+          <Russian>Штурмовой ранец (CE)</Russian>
+          <German>Angriffspack (CE)</German>
+          <Czech>Průzkumnický batoh (CE kamufláž)</Czech>
+          <English>Assault Pack (CE)</English>
+          <Portuguese>Mochila de assalto (CE)</Portuguese>
+          <Korean>강습군장(CE)</Korean>
+          <Japanese>アサルトパック（CE）</Japanese>
+        </Key>
+      </Container>
+    </Container>
   </Package>
 </Project>
