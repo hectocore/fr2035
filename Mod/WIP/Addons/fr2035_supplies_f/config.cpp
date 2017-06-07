@@ -1,9 +1,9 @@
 class CfgPatches
 {
-	class FR2035_Weapons_F
+	class FR2035_Supplies_F
 	{
 		author="$STR_FR2035_Author";
-		name="French Army 2035 - Weapons and Accessories";
+		name="French Army 2035 - Ammoboxes and Supplies";
 		url="http://modflavors.com";
 		requiredAddons[]=
 		{
@@ -33,10 +33,10 @@ class CfgVehicles
 		_generalMacro="B_FR2035_AssaultPack_ce";
 		scope=2;
 		displayName="$STR_FR2035_AssaultPack_ce";
-		picture="\fr2035_weapons_f\data\ui\fr2035_icon_b_compact_ce_ca.paa";
+		picture="\fr2035_supplies_f\data\ui\fr2035_icon_b_compact_ce_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
-			"\fr2035_weapons_f\data\fr2035_backpack_compact_ce_co.paa"
+			"\fr2035_supplies_f\data\fr2035_backpack_compact_ce_co.paa"
 		};
 	};
 	class B_FR2035_AssaultPack_ce_LAT: B_FR2035_AssaultPack_ce
