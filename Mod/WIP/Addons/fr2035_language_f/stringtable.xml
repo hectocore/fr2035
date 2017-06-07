@@ -6533,7 +6533,7 @@
         </Key>
       </Container>
     </Container>
-    <Container name="FR2035_Data_F">
+    <Container name="FR2035_Supplies_F">
       <Container name="Backpacks">
         <Key ID="str_fr2035_assaultpack_ce">
           <Original>Assault Pack (CE)</Original>
@@ -6548,6 +6548,20 @@
           <Portuguese>Mochila de assalto (CE)</Portuguese>
           <Korean>강습군장(CE)</Korean>
           <Japanese>アサルトパック（CE）</Japanese>
+        </Key>
+        <Key ID="str_fr2035_kitbag_ce">
+          <Original>Kitbag (CE)</Original>
+          <French>Paquetage de terrain (CE)</French>
+          <Spanish>Petate (CE)</Spanish>
+          <Italian>Borsa kit (mimetico CE)</Italian>
+          <Polish>Torba (CE)</Polish>
+          <Russian>Вещмешок (CE)</Russian>
+          <German>Seesack (CE)</German>
+          <Czech>Batoh (CE kamufláž)</Czech>
+          <English>Kitbag (CE)</English>
+          <Portuguese>Bornal (CE)</Portuguese>
+          <Korean>잡낭(CE)</Korean>
+          <Japanese>雑嚢（CE）</Japanese>
         </Key>
       </Container>
     </Container>

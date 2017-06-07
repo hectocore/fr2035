@@ -1700,7 +1700,7 @@ class CfgVehicles
 		displayName="$STR_B_soldier_exp_F0";
 		cost=115000;
 		camouflage=1.6;
-		backpack="B_Kitbag_rgr_Exp";
+		backpack="B_FR2035_Kitbag_ce_Exp";
 		weapons[]=
 		{
 			"arifle_MXC_Holo_pointer_F",
@@ -1994,7 +1994,7 @@ class CfgVehicles
 		_generalMacro="FR2035_soldier_AT_F";
 		scope=2;
 		displayName="$STR_B_soldier_AT_F0";
-		backpack="B_AssaultPack_mcamo_AT";
+		backpack="B_FR2035_Kitbag_ce_AT";
 		weapons[]=
 		{
 			"arifle_MXC_Holo_pointer_F",
@@ -2096,7 +2096,7 @@ class CfgVehicles
 		_generalMacro="FR2035_soldier_AA_F";
 		scope=2;
 		displayName="$STR_B_soldier_AA_F0";
-		backpack="B_AssaultPack_mcamo_AA";
+		backpack="B_FR2035_Kitbag_ce_AA";
 		weapons[]=
 		{
 			"arifle_MXC_Holo_pointer_F",
@@ -2184,7 +2184,7 @@ class CfgVehicles
 		cost=220000;
 		camouflage=1.6;
 		uniformClass="U_FR2035_CombatUniform_ce_vest";
-		backpack="B_Kitbag_mcamo_Eng";
+		backpack="B_FR2035_Kitbag_ce_Eng";
 		weapons[]=
 		{
 			"arifle_MXC_Holo_pointer_F",
@@ -3208,7 +3208,7 @@ class CfgVehicles
 		scope=2;
 		displayName="$STR_B_recon_exp_F0";
 		uniformClass="U_FR2035_CombatUniform_ce_tshirt";
-		backpack="B_AssaultPack_rgr_ReconExp";
+		backpack="B_FR2035_Kitbag_ce_ReconExp";
 		weapons[]=
 		{
 			"arifle_MX_ACO_pointer_snds_F",
@@ -4056,7 +4056,7 @@ class CfgVehicles
 		scope=2;
 		displayName="$STR_O_SOLDIERU_AAR_F0";
 		cost=95000;
-		backpack="B_Kitbag_rgr_AAR";
+		backpack="B_FR2035_Kitbag_ce_AAR";
 		role="Assistant";
 	};
 	class FR2035_soldier_AAT_F: FR2035_Soldier_support_base_F
@@ -5309,7 +5309,7 @@ class CfgVehicles
 		cost=115000;
 		canDeactivateMines=1;
 		detectSkill=80;
-		backpack="B_Kitbag_rgr_CTRGExp_F";
+		backpack="B_FR2035_Kitbag_ce_CTRGExp_F";
 		magazines[]=
 		{
 			"30Rnd_556x45_Stanag_red",
