@@ -6549,6 +6549,20 @@
           <Korean>강습군장(CE)</Korean>
           <Japanese>アサルトパック（CE）</Japanese>
         </Key>
+        <Key ID="str_fr2035_carryall_ce">
+          <Original>Carryall Backpack (CE)</Original>
+          <French>Sac à dos multifonction (CE)</French>
+          <Spanish>Bolsa de viaje (CE)</Spanish>
+          <Italian>Zaino portatutto (mimetico CE)</Italian>
+          <Polish>Plecak (CE)</Polish>
+          <Russian>Рюкзак (CE)</Russian>
+          <German>Großer Rucksack (CE)</German>
+          <Czech>Batoh (CE kamufláž)</Czech>
+          <English>Carryall Backpack (CE)</English>
+          <Portuguese>Mochila (CE)</Portuguese>
+          <Korean>다용도배낭(CE)</Korean>
+          <Japanese>キャリーオールパック（CE）</Japanese>
+        </Key>
         <Key ID="str_fr2035_kitbag_ce">
           <Original>Kitbag (CE)</Original>
           <French>Paquetage de terrain (CE)</French>

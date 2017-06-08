@@ -20,6 +20,10 @@ class CfgPatches
 			"B_FR2035_AssaultPack_ce_ReconMedic",
 			"B_FR2035_AssaultPack_ce_CTRGMedic_F",
 			"B_FR2035_AssaultPack_ce_CTRGLAT_F",
+			"B_FR2035_Carryall_ce",
+			"B_FR2035_Carryall_ce_Ammo",
+			"B_FR2035_Carryall_ce_AAT",
+			"B_FR2035_Carryall_ce_AAA",
 			"B_FR2035_Kitbag_ce",
 			"B_FR2035_Kitbag_ce_Exp",
 			"B_FR2035_Kitbag_ce_AT",
@@ -193,6 +197,114 @@ class CfgVehicles
 			{
 				magazine="NLAW_F";
 				count=2;
+			};
+		};
+	};
+	class B_Carryall_Base;
+	class B_FR2035_Carryall_ce: B_Carryall_Base
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="B_FR2035_Carryall_ce";
+		scope=2;
+		displayName="$STR_FR2035_Carryall_ce";
+		picture="\fr2035_supplies_f\data\ui\fr2035_icon_b_carryall_ce_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_supplies_f\data\fr2035_backpack_carryall_ce_co.paa"
+		};
+	};
+	class B_FR2035_Carryall_ce_Ammo: B_FR2035_Carryall_ce
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="B_FR2035_Carryall_ce_Ammo";
+		scope=1;
+		class TransportMagazines
+		{
+			class _xx_30Rnd_65x39_caseless_mag
+			{
+				magazine="30Rnd_65x39_caseless_mag";
+				count=6;
+			};
+			class _xx_100Rnd_65x39_caseless_mag
+			{
+				magazine="100Rnd_65x39_caseless_mag";
+				count=1;
+			};
+			class _xx_NLAW_F
+			{
+				magazine="NLAW_F";
+				count=1;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=2;
+			};
+			class _xx_MiniGrenade
+			{
+				magazine="MiniGrenade";
+				count=2;
+			};
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=3;
+			};
+			class _xx_3Rnd_HE_Grenade_shell
+			{
+				magazine="3Rnd_HE_Grenade_shell";
+				count=1;
+			};
+			class _xx_10Rnd_338_Mag
+			{
+				magazine="10Rnd_338_Mag";
+				count=2;
+			};
+			class _xx_20Rnd_762x51_Mag
+			{
+				magazine="20Rnd_762x51_Mag";
+				count=2;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=4;
+			};
+		};
+	};
+	class B_FR2035_Carryall_ce_AAT: B_FR2035_Carryall_ce
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="B_FR2035_Carryall_ce_AAT";
+		scope=1;
+		class TransportMagazines
+		{
+			class _xx_Titan_AT
+			{
+				magazine="Titan_AT";
+				count=2;
+			};
+			class _xx_Titan_AP
+			{
+				magazine="Titan_AP";
+				count=2;
+			};
+		};
+	};
+	class B_FR2035_Carryall_ce_AAA: B_FR2035_Carryall_ce
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="B_FR2035_Carryall_ce_AAA";
+		scope=1;
+		class TransportMagazines
+		{
+			class _xx_Titan_AA
+			{
+				magazine="Titan_AA";
+				count=3;
 			};
 		};
 	};

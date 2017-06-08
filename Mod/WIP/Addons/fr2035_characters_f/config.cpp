@@ -1900,7 +1900,7 @@ class CfgVehicles
 		cost=110000;
 		role="Rifleman";
 		camouflage=1.5;
-		backpack="B_AssaultPack_mcamo_Ammo";
+		backpack="B_FR2035_Carryall_ce_Ammo";
 		magazines[]=
 		{
 			"30Rnd_65x39_caseless_mag",
@@ -4068,7 +4068,7 @@ class CfgVehicles
 		displayName="$STR_B_soldier_AAT_F0";
 		cost=93000;
 		role="Assistant";
-		backpack="B_Carryall_mcamo_AAT";
+		backpack="B_FR2035_Carryall_ce_AAT";
 	};
 	class FR2035_soldier_AAA_F: FR2035_soldier_AAT_F
 	{
@@ -4079,7 +4079,7 @@ class CfgVehicles
 		displayName="$STR_B_soldier_AAA_F0";
 		cost=94000;
 		role="Assistant";
-		backpack="B_Carryall_mcamo_AAA";
+		backpack="B_FR2035_Carryall_ce_AAA";
 	};
 	class FR2035_support_MG_F: FR2035_Soldier_support_base_F
 	{
