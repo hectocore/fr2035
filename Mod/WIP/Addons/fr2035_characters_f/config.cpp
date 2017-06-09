@@ -61,6 +61,7 @@ class CfgPatches
 			"FR2035_support_Mort_F",
 			"FR2035_support_AMG_F",
 			"FR2035_support_AMort_F",
+			"FR2035_UAV_AI",
 			"FR2035_Soldier_VR_F",
 			"FR2035_Protagonist_VR_F",
 			"FR2035_ghillie_lsh_F",
@@ -4208,6 +4209,18 @@ class CfgVehicles
 		};
 		cost=81000;
 		role="Assistant";
+	};
+	class FR2035_UAV_AI: FR2035_Helipilot_F
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="FR2035_UAV_AI";
+		displayName="$STR_player_AI";
+		scope=1;
+		scopeCurator=0;
+		simulation="UAVPilot";
+		model="\A3\characters_F\Common\invisibleMan.p3d";
+		weapons[]={};
+		magazines[]={};
 	};
 	class FR2035_Soldier_VR_F: FR2035_Soldier_base_F
 	{

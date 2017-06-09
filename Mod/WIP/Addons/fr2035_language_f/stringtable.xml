@@ -6577,6 +6577,34 @@
           <Korean>잡낭(CE)</Korean>
           <Japanese>雑嚢（CE）</Japanese>
         </Key>
+        <Key ID="str_fr2035_tacticalpack_ce">
+          <Original>Tactical Backpack (CE)</Original>
+          <French>Sac à dos tactique (CE)</French>
+          <Spanish>Mochila táctica (CE)</Spanish>
+          <Italian>Zaino tattico (mimetico CE)</Italian>
+          <Polish>Plecak taktyczny (CE)</Polish>
+          <Russian>Тактический ранец (CE)</Russian>
+          <German>Taktischer Rucksack (CE)</German>
+          <Czech>Taktický batoh (CE kamufláž)</Czech>
+          <English>Tactical Backpack (CE)</English>
+          <Portuguese>Mochila tática (CE)</Portuguese>
+          <Korean>전술배낭(CE)</Korean>
+          <Japanese>タクティカルバックパック（CE）</Japanese>
+        </Key>
+        <Key ID="str_fr2035_bergen_ce">
+          <Original>Bergen Backpack (CE)</Original>
+          <French>Sac à dos bergen (CE)</French>
+          <Spanish>Mochila (CE)</Spanish>
+          <Italian>Zaino Bergen (mimetico CE)</Italian>
+          <Polish>Plecak Bergen (CE)</Polish>
+          <Russian>Рюкзак Берген (CE)</Russian>
+          <German>Bergen-Rucksack (CE)</German>
+          <Czech>Batoh Bergen (CE kamufláž)</Czech>
+          <English>Bergen Backpack (CE)</English>
+          <Portuguese>Mochila Bergen (CE)</Portuguese>
+          <Korean>베르겐 백팩(CE)</Korean>
+          <Japanese>ベルゲンバックパック（CE）</Japanese>
+        </Key>
       </Container>
     </Container>
   </Package>

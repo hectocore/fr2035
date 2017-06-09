@@ -20,6 +20,7 @@ class CfgPatches
 			"B_FR2035_AssaultPack_ce_ReconMedic",
 			"B_FR2035_AssaultPack_ce_CTRGMedic_F",
 			"B_FR2035_AssaultPack_ce_CTRGLAT_F",
+			"B_FR2035_Bergen_ce_F",
 			"B_FR2035_Carryall_ce",
 			"B_FR2035_Carryall_ce_Ammo",
 			"B_FR2035_Carryall_ce_AAT",
@@ -31,7 +32,8 @@ class CfgPatches
 			"B_FR2035_Kitbag_ce_Eng",
 			"B_FR2035_Kitbag_ce_ReconExp",
 			"B_FR2035_Kitbag_ce_AAR",
-			"B_FR2035_Kitbag_ce_CTRGExp_F"
+			"B_FR2035_Kitbag_ce_CTRGExp_F",
+			"B_FR2035_TacticalPack_ce"
 		};
 		weapons[]={};
 	};
@@ -198,6 +200,19 @@ class CfgVehicles
 				magazine="NLAW_F";
 				count=2;
 			};
+		};
+	};
+	class B_Bergen_Base_F;
+	class B_FR2035_Bergen_ce_F: B_Bergen_Base_F
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="B_FR2035_Bergen_ce_F";
+		scope=2;
+		displayName="$STR_FR2035_Bergen_ce";
+		picture="\fr2035_supplies_f\data\ui\fr2035_icon_b_bergen_ce_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_supplies_f\data\fr2035_backpack_bergen_ce_co.paa"
 		};
 	};
 	class B_Carryall_Base;
@@ -552,6 +567,19 @@ class CfgVehicles
 				name="ToolKit";
 				count=1;
 			};
+		};
+	};
+	class B_TacticalPack_Base;
+	class B_FR2035_TacticalPack_ce: B_TacticalPack_Base
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="B_FR2035_TacticalPack_ce";
+		scope=2;
+		displayName="$STR_FR2035_TacticalPack_ce";
+		picture="\fr2035_supplies_f\data\ui\fr2035_icon_b_small_ce_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_supplies_f\data\fr2035_backpack_small_ce_co.paa"
 		};
 	};
 };
