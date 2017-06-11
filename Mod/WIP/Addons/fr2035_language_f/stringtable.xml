@@ -6607,5 +6607,79 @@
         </Key>
       </Container>
     </Container>
+    <Container name="FR2035_Weapons_F">
+      <Container name="Rifles">
+        <Key ID="str_fr2035_arifle_mx_ce">
+          <Original>MX 6.5 mm (CE)</Original>
+          <French>MX 6,5 mm (CE)</French>
+          <Spanish>MX 6,5 mm (CE)</Spanish>
+          <Italian>MX 6,5 mm (mimetico CE)</Italian>
+          <Polish>MX 6,5 mm (CE)</Polish>
+          <Russian>MX 6,5 мм (CE)</Russian>
+          <German>MX 6,5 mm (CE)</German>
+          <Czech>MX 6,5 mm (CE kamufláž)</Czech>
+          <English>MX 6.5 mm (CE)</English>
+          <Portuguese>MX 6,5 mm (CE)</Portuguese>
+          <Korean>MX 6.5 mm (CE)</Korean>
+          <Japanese>MX 6.5 mm（CE）</Japanese>
+        </Key>
+        <Key ID="str_fr2035_arifle_mx_gl_ce">
+          <Original>MX 3GL 6.5 mm (CE)</Original>
+          <French>MX 3GL 6,5 mm (CE)</French>
+          <Spanish>MX 3GL 6,5 mm (CE)</Spanish>
+          <Italian>MX 3GL 6,5 mm (mimetico CE)</Italian>
+          <Polish>MX 3GL 6,5 mm (CE)</Polish>
+          <Russian>MX 3GL 6,5 мм (CE)</Russian>
+          <German>MX 3GL 6,5 mm (CE)</German>
+          <Czech>MX 3GL 6,5 mm (CE kamufláž)</Czech>
+          <English>MX 3GL 6.5 mm (CE)</English>
+          <Portuguese>MX 3GL 6,5 mm (CE)</Portuguese>
+          <Korean>MX 3GL 6.5 mm (CE)</Korean>
+          <Japanese>MX 3GL 6.5 mm（CE）</Japanese>
+        </Key>
+        <Key ID="str_fr2035_arifle_mx_sw_ce">
+          <Original>MX SW 6.5 mm (CE)</Original>
+          <French>MX SW 6,5 mm (CE)</French>
+          <Spanish>MX SW 6,5 mm (CE)</Spanish>
+          <Italian>MX SW 6,5 mm (mimetico CE)</Italian>
+          <Polish>MX SW 6,5 mm (CE)</Polish>
+          <Russian>MX SW 6,5 мм (CE)</Russian>
+          <German>MX SW 6,5 mm (CE)</German>
+          <Czech>MX SW 6,5 mm (CE kamufláž)</Czech>
+          <English>MX SW 6.5 mm (CE)</English>
+          <Portuguese>MX SW 6,5 mm (CE)</Portuguese>
+          <Korean>MX SW 6.5 mm (CE)</Korean>
+          <Japanese>MX SW 6.5 mm（CE）</Japanese>
+        </Key>
+        <Key ID="str_fr2035_arifle_mxc_ce">
+          <Original>MXC 6.5 mm (CE)</Original>
+          <French>MXC 6,5 mm (CE)</French>
+          <Spanish>MXC 6,5 mm (CE)</Spanish>
+          <Italian>MXC 6,5 mm (mimetico CE)</Italian>
+          <Polish>MXC 6,5 mm (CE)</Polish>
+          <Russian>MXC 6,5 мм (CE)</Russian>
+          <German>MXC 6,5 mm (CE)</German>
+          <Czech>MXC 6,5 mm (CE kamufláž)</Czech>
+          <English>MXC 6.5 mm (CE)</English>
+          <Portuguese>MXC 6,5 mm (CE)</Portuguese>
+          <Korean>MXC 6.5 mm (CE)</Korean>
+          <Japanese>MXC 6.5 mm（CE）</Japanese>
+        </Key>
+        <Key ID="str_fr2035_arifle_mxm_ce">
+          <Original>MXM 6.5 mm (CE)</Original>
+          <French>MXM 6,5 mm (CE)</French>
+          <Spanish>MXM 6,5 mm (CE)</Spanish>
+          <Italian>MXM 6,5 mm (mimetico CE)</Italian>
+          <Polish>MXM 6,5 mm (CE)</Polish>
+          <Russian>MXM 6,5 мм (CE)</Russian>
+          <German>MXM 6,5 mm (CE)</German>
+          <Czech>MXM 6,5 mm (CE kamufláž)</Czech>
+          <English>MXM 6.5 mm (CE)</English>
+          <Portuguese>MXM 6,5 mm (CE)</Portuguese>
+          <Korean>MXM 6.5 mm (CE)</Korean>
+          <Japanese>MXM 6.5 mm（CE）</Japanese>
+        </Key>
+      </Container>
+    </Container>
   </Package>
 </Project>
