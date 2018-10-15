@@ -231,14 +231,14 @@ class CfgVehicles
 		class EventHandlers;
 		weapons[]=
 		{
-			"arifle_MX_ACO_pointer_F",
+			"arifle_FR2035_MX_ACO_pointer_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_MX_ACO_pointer_F",
+			"arifle_FR2035_MX_ACO_pointer_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put"
@@ -832,14 +832,14 @@ class CfgVehicles
 		uniformClass="U_FR2035_CombatUniform_ce_vest";
 		weapons[]=
 		{
-			"arifle_MX_ACO_F",
+			"arifle_FR2035_MX_ACO_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_MX_ACO_F",
+			"arifle_FR2035_MX_ACO_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put"
@@ -909,14 +909,14 @@ class CfgVehicles
 		displayName="$STR_B_Soldier_GL_F0";
 		weapons[]=
 		{
-			"arifle_MX_GL_ACO_F",
+			"arifle_FR2035_MX_GL_ACO_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_MX_GL_ACO_F",
+			"arifle_FR2035_MX_GL_ACO_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put"
@@ -1034,14 +1034,14 @@ class CfgVehicles
 		displayName="$STR_B_soldier_AR_F0";
 		weapons[]=
 		{
-			"arifle_MX_SW_pointer_F",
+			"arifle_FR2035_MX_SW_pointer_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_MX_SW_pointer_F",
+			"arifle_FR2035_MX_SW_pointer_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put"
@@ -1116,7 +1116,7 @@ class CfgVehicles
 		uniformClass="U_FR2035_CombatUniform_ce_vest";
 		weapons[]=
 		{
-			"arifle_MX_Hamr_pointer_F",
+			"arifle_FR2035_MX_Hamr_pointer_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put",
@@ -1124,7 +1124,7 @@ class CfgVehicles
 		};
 		respawnWeapons[]=
 		{
-			"arifle_MX_Hamr_pointer_F",
+			"arifle_FR2035_MX_Hamr_pointer_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put",
@@ -1211,7 +1211,7 @@ class CfgVehicles
 		uniformClass="U_FR2035_CombatUniform_ce_vest";
 		weapons[]=
 		{
-			"arifle_MX_GL_Hamr_pointer_F",
+			"arifle_FR2035_MX_GL_Hamr_pointer_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put",
@@ -1219,7 +1219,7 @@ class CfgVehicles
 		};
 		respawnWeapons[]=
 		{
-			"arifle_MX_GL_Hamr_pointer_F",
+			"arifle_FR2035_MX_GL_Hamr_pointer_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put",
@@ -1323,14 +1323,14 @@ class CfgVehicles
 		displayName="$STR_B_soldier_M_F0";
 		weapons[]=
 		{
-			"arifle_MXM_Hamr_LP_BI_F",
+			"arifle_FR2035_MXM_Hamr_LP_BI_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_MXM_Hamr_LP_BI_F",
+			"arifle_FR2035_MXM_Hamr_LP_BI_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put"
@@ -1425,7 +1425,7 @@ class CfgVehicles
 		backpack="B_FR2035_AssaultPack_ce_LAT";
 		weapons[]=
 		{
-			"arifle_MX_ACO_pointer_F",
+			"arifle_FR2035_MX_ACO_pointer_F",
 			"launch_NLAW_F",
 			"hgun_P07_F",
 			"Throw",
@@ -1433,7 +1433,7 @@ class CfgVehicles
 		};
 		respawnWeapons[]=
 		{
-			"arifle_MX_ACO_pointer_F",
+			"arifle_FR2035_MX_ACO_pointer_F",
 			"launch_NLAW_F",
 			"hgun_P07_F",
 			"Throw",
@@ -1526,14 +1526,14 @@ class CfgVehicles
 		attendant=1;
 		weapons[]=
 		{
-			"arifle_MX_pointer_F",
+			"arifle_FR2035_MX_pointer_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_MX_pointer_F",
+			"arifle_FR2035_MX_pointer_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put"
@@ -1636,14 +1636,14 @@ class CfgVehicles
 		};
 		weapons[]=
 		{
-			"arifle_MX_Holo_pointer_F",
+			"arifle_FR2035_MX_Holo_pointer_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_MX_Holo_pointer_F",
+			"arifle_FR2035_MX_Holo_pointer_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put"
@@ -1704,14 +1704,14 @@ class CfgVehicles
 		backpack="B_FR2035_Kitbag_ce_Exp";
 		weapons[]=
 		{
-			"arifle_MXC_Holo_pointer_F",
+			"arifle_FR2035_MXC_Holo_pointer_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_MXC_Holo_pointer_F",
+			"arifle_FR2035_MXC_Holo_pointer_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put"
@@ -1886,14 +1886,14 @@ class CfgVehicles
 		displayName="$STR_B_Soldier_A_F0";
 		weapons[]=
 		{
-			"arifle_MX_ACO_pointer_F",
+			"arifle_FR2035_MX_ACO_pointer_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_MX_ACO_pointer_F",
+			"arifle_FR2035_MX_ACO_pointer_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put"
@@ -1998,7 +1998,7 @@ class CfgVehicles
 		backpack="B_FR2035_Kitbag_ce_AT";
 		weapons[]=
 		{
-			"arifle_MXC_Holo_pointer_F",
+			"arifle_FR2035_MXC_Holo_pointer_F",
 			"launch_B_Titan_short_F",
 			"hgun_P07_F",
 			"Throw",
@@ -2006,7 +2006,7 @@ class CfgVehicles
 		};
 		respawnWeapons[]=
 		{
-			"arifle_MXC_Holo_pointer_F",
+			"arifle_FR2035_MXC_Holo_pointer_F",
 			"launch_B_Titan_short_F",
 			"hgun_P07_F",
 			"Throw",
@@ -2100,7 +2100,7 @@ class CfgVehicles
 		backpack="B_FR2035_Kitbag_ce_AA";
 		weapons[]=
 		{
-			"arifle_MXC_Holo_pointer_F",
+			"arifle_FR2035_MXC_Holo_pointer_F",
 			"launch_B_Titan_F",
 			"hgun_P07_F",
 			"Throw",
@@ -2108,7 +2108,7 @@ class CfgVehicles
 		};
 		respawnWeapons[]=
 		{
-			"arifle_MXC_Holo_pointer_F",
+			"arifle_FR2035_MXC_Holo_pointer_F",
 			"launch_B_Titan_F",
 			"hgun_P07_F",
 			"Throw",
@@ -2188,14 +2188,14 @@ class CfgVehicles
 		backpack="B_FR2035_Kitbag_ce_Eng";
 		weapons[]=
 		{
-			"arifle_MXC_Holo_pointer_F",
+			"arifle_FR2035_MXC_Holo_pointer_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_MXC_Holo_pointer_F",
+			"arifle_FR2035_MXC_Holo_pointer_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put"
@@ -2293,14 +2293,14 @@ class CfgVehicles
 		displayName="$STR_B_crew_F0";
 		weapons[]=
 		{
-			"arifle_MXC_F",
+			"arifle_FR2035_MXC_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_MXC_F",
+			"arifle_FR2035_MXC_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put"
@@ -2397,14 +2397,14 @@ class CfgVehicles
 		};
 		weapons[]=
 		{
-			"arifle_MXC_Aco_F",
+			"arifle_FR2035_MXC_Aco_F",
 			"hgun_Pistol_heavy_01_MRD_F",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_MXC_Aco_F",
+			"arifle_FR2035_MXC_Aco_F",
 			"hgun_Pistol_heavy_01_MRD_F",
 			"Throw",
 			"Put"
@@ -2574,13 +2574,13 @@ class CfgVehicles
 		role="Crewman";
 		weapons[]=
 		{
-			"arifle_MXC_Holo_F",
+			"arifle_FR2035_MXC_Holo_F",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_MXC_Holo_F",
+			"arifle_FR2035_MXC_Holo_F",
 			"Throw",
 			"Put"
 		};
@@ -3029,7 +3029,7 @@ class CfgVehicles
 		uniformClass="U_FR2035_CombatUniform_ce_vest";
 		weapons[]=
 		{
-			"arifle_MX_ACO_pointer_snds_F",
+			"arifle_FR2035_MX_ACO_pointer_snds_F",
 			"hgun_P07_snds_F",
 			"Throw",
 			"Put",
@@ -3037,7 +3037,7 @@ class CfgVehicles
 		};
 		respawnWeapons[]=
 		{
-			"arifle_MX_ACO_pointer_snds_F",
+			"arifle_FR2035_MX_ACO_pointer_snds_F",
 			"Throw",
 			"Put",
 			"Binocular"
@@ -3122,7 +3122,7 @@ class CfgVehicles
 		backpack="B_FR2035_AssaultPack_ce_ReconLAT";
 		weapons[]=
 		{
-			"arifle_MX_ACO_pointer_snds_F",
+			"arifle_FR2035_MX_ACO_pointer_snds_F",
 			"launch_NLAW_F",
 			"hgun_P07_snds_F",
 			"Throw",
@@ -3130,7 +3130,7 @@ class CfgVehicles
 		};
 		respawnWeapons[]=
 		{
-			"arifle_MX_ACO_pointer_snds_F",
+			"arifle_FR2035_MX_ACO_pointer_snds_F",
 			"launch_NLAW_F",
 			"Throw",
 			"Put"
@@ -3212,14 +3212,14 @@ class CfgVehicles
 		backpack="B_FR2035_Kitbag_ce_ReconExp";
 		weapons[]=
 		{
-			"arifle_MX_ACO_pointer_snds_F",
+			"arifle_FR2035_MX_ACO_pointer_snds_F",
 			"hgun_P07_snds_F",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_MX_ACO_pointer_snds_F",
+			"arifle_FR2035_MX_ACO_pointer_snds_F",
 			"Throw",
 			"Put"
 		};
@@ -3305,14 +3305,14 @@ class CfgVehicles
 		attendant=1;
 		weapons[]=
 		{
-			"arifle_MXC_ACO_pointer_snds_F",
+			"arifle_FR2035_MXC_ACO_pointer_snds_F",
 			"hgun_P07_snds_F",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_MXC_ACO_pointer_snds_F",
+			"arifle_FR2035_MXC_ACO_pointer_snds_F",
 			"hgun_P07_snds_F",
 			"Throw",
 			"Put"
@@ -3391,7 +3391,7 @@ class CfgVehicles
 		uniformClass="U_FR2035_CombatUniform_ce_vest";
 		weapons[]=
 		{
-			"arifle_MX_RCO_pointer_snds_F",
+			"arifle_FR2035_MX_RCO_pointer_snds_F",
 			"hgun_P07_snds_F",
 			"Throw",
 			"Put",
@@ -3399,7 +3399,7 @@ class CfgVehicles
 		};
 		respawnWeapons[]=
 		{
-			"arifle_MX_RCO_pointer_snds_F",
+			"arifle_FR2035_MX_RCO_pointer_snds_F",
 			"hgun_P07_snds_F",
 			"Throw",
 			"Put",
@@ -3481,7 +3481,7 @@ class CfgVehicles
 		uniformClass="U_FR2035_CombatUniform_ce";
 		weapons[]=
 		{
-			"arifle_MXM_DMS_LP_BI_snds_F",
+			"arifle_FR2035_MXM_DMS_LP_BI_snds_F",
 			"hgun_P07_snds_F",
 			"Throw",
 			"Put",
@@ -3489,7 +3489,7 @@ class CfgVehicles
 		};
 		respawnWeapons[]=
 		{
-			"arifle_MXM_DMS_LP_BI_snds_F",
+			"arifle_FR2035_MXM_DMS_LP_BI_snds_F",
 			"hgun_P07_snds_F",
 			"Throw",
 			"Put",
@@ -3569,7 +3569,7 @@ class CfgVehicles
 		uniformClass="U_FR2035_CombatUniform_ce";
 		weapons[]=
 		{
-			"arifle_MX_GL_Holo_pointer_snds_F",
+			"arifle_FR2035_MX_GL_Holo_pointer_snds_F",
 			"hgun_P07_snds_F",
 			"Throw",
 			"Put",
@@ -3577,7 +3577,7 @@ class CfgVehicles
 		};
 		respawnWeapons[]=
 		{
-			"arifle_MX_GL_Holo_pointer_snds_F",
+			"arifle_FR2035_MX_GL_Holo_pointer_snds_F",
 			"hgun_P07_snds_F",
 			"Throw",
 			"Put",
@@ -3754,7 +3754,7 @@ class CfgVehicles
 		camouflage=0.60000002;
 		weapons[]=
 		{
-			"arifle_MX_Hamr_pointer_F",
+			"arifle_FR2035_MX_Hamr_pointer_F",
 			"hgun_P07_snds_F",
 			"Throw",
 			"Put",
@@ -3762,7 +3762,7 @@ class CfgVehicles
 		};
 		respawnWeapons[]=
 		{
-			"arifle_MX_Hamr_pointer_F",
+			"arifle_FR2035_MX_Hamr_pointer_F",
 			"hgun_P07_snds_F",
 			"Throw",
 			"Put",
@@ -3970,7 +3970,7 @@ class CfgVehicles
 		uniformClass="U_FR2035_CombatUniform_ce_tshirt";
 		weapons[]=
 		{
-			"arifle_MX_Aco_pointer_F",
+			"arifle_FR2035_MX_Aco_pointer_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put",
@@ -3978,7 +3978,7 @@ class CfgVehicles
 		};
 		respawnWeapons[]=
 		{
-			"arifle_MX_Aco_pointer_F",
+			"arifle_FR2035_MX_Aco_pointer_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put",
@@ -4092,14 +4092,14 @@ class CfgVehicles
 		backpack="B_HMG_01_weapon_F";
 		weapons[]=
 		{
-			"arifle_MXC_Holo_pointer_F",
+			"arifle_FR2035_MXC_Holo_pointer_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put"
 		};
 		respawnweapons[]=
 		{
-			"arifle_MXC_Holo_pointer_F",
+			"arifle_FR2035_MXC_Holo_pointer_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put"
@@ -4118,14 +4118,14 @@ class CfgVehicles
 		backpack="B_GMG_01_weapon_F";
 		weapons[]=
 		{
-			"arifle_MXC_Holo_pointer_F",
+			"arifle_FR2035_MXC_Holo_pointer_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put"
 		};
 		respawnweapons[]=
 		{
-			"arifle_MXC_Holo_pointer_F",
+			"arifle_FR2035_MXC_Holo_pointer_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put"
@@ -4144,14 +4144,14 @@ class CfgVehicles
 		backpack="B_Mortar_01_weapon_F";
 		weapons[]=
 		{
-			"arifle_MXC_Holo_pointer_F",
+			"arifle_FR2035_MXC_Holo_pointer_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put"
 		};
 		respawnweapons[]=
 		{
-			"arifle_MXC_Holo_pointer_F",
+			"arifle_FR2035_MXC_Holo_pointer_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put"
@@ -4170,14 +4170,14 @@ class CfgVehicles
 		backpack="B_HMG_01_support_F";
 		weapons[]=
 		{
-			"arifle_MXC_Holo_pointer_F",
+			"arifle_FR2035_MXC_Holo_pointer_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put"
 		};
 		respawnweapons[]=
 		{
-			"arifle_MXC_Holo_pointer_F",
+			"arifle_FR2035_MXC_Holo_pointer_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put"
@@ -4195,14 +4195,14 @@ class CfgVehicles
 		backpack="B_Mortar_01_support_F";
 		weapons[]=
 		{
-			"arifle_MXC_Holo_pointer_F",
+			"arifle_FR2035_MXC_Holo_pointer_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put"
 		};
 		respawnweapons[]=
 		{
-			"arifle_MXC_Holo_pointer_F",
+			"arifle_FR2035_MXC_Holo_pointer_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put"
