@@ -2,9 +2,9 @@ class CfgPatches
 {
 	class FR2035_Music_F
 	{
-		author="$STR_FR2035_Author";
+		author="$STR_FR2035_Audio_Artist";
 		name="French Army 2035 - Soundtrack";
-		url="http://modflavors.com";
+		url="https://soundcloud.com/shigumitsu";
 		requiredAddons[]=
 		{
 			"FR2035_Data_F"

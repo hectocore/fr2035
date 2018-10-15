@@ -9,6 +9,7 @@ class CfgPatches
 		{
 			"FR2035_Data_F",
 			"A3_Weapons_F",
+			"A3_Weapons_F_Beta",
 			"A3_Weapons_F_Mark"
 		};
 		requiredVersion=1.66;
@@ -44,7 +45,9 @@ class CfgPatches
 			"arifle_FR2035_MXM_RCO_pointer_snds_F",
 			"arifle_FR2035_MXM_SOS_pointer_F",
 			"arifle_FR2035_MXM_DMS_LP_BI_snds_F",
-			"arifle_FR2035_MXM_Hamr_LP_BI_F"
+			"arifle_FR2035_MXM_Hamr_LP_BI_F",
+			"launch_FR2035_Titan_F",
+			"launch_FR2035_Titan_short_F"
 		};
 	};
 };
@@ -613,6 +616,32 @@ class CfgWeapons
 				slot="UnderBarrelSlot";
 				item="bipod_01_F_blk";
 			};
+		};
+	};
+	class launch_B_Titan_F;
+	class launch_FR2035_Titan_F: launch_B_Titan_F
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="launch_FR2035_Titan_F";
+		displayName="$STR_FR2035_Launcher_Titan";
+		picture="\fr2035_weapons_f\data\titan\ui\fr2035_launch_titan_f_x_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_weapons_f\data\titan\fr2035_launch_titan_f_01_co.paa",
+			"\fr2035_weapons_f\data\titan\fr2035_launch_titan_f_02_co.paa"
+		};
+	};
+	class launch_B_Titan_short_F;
+	class launch_FR2035_Titan_short_F: launch_B_Titan_short_F
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="launch_FR2035_Titan_short_F";
+		displayName="$STR_FR2035_Launcher_Titan_Short";
+		picture="\fr2035_weapons_f\data\titan\ui\fr2035_launch_titan_short_f_x_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_weapons_f\data\titan\fr2035_launch_titan_f_01_co.paa",
+			"\fr2035_weapons_f\data\titan\fr2035_launch_titan_short_f_02_co.paa"
 		};
 	};
 };

@@ -30,6 +30,20 @@
           <Korean>Hector Corral</Korean>
           <Japanese>Hector Corral</Japanese>
         </Key>
+        <Key ID="str_fr2035_audio_artist">
+          <Original>Shigumitsu</Original>
+          <French>Shigumitsu</French>
+          <Spanish>Shigumitsu</Spanish>
+          <Italian>Shigumitsu</Italian>
+          <Polish>Shigumitsu</Polish>
+          <Russian>Shigumitsu</Russian>
+          <German>Shigumitsu</German>
+          <Czech>Shigumitsu</Czech>
+          <English>Shigumitsu</English>
+          <Portuguese>Shigumitsu</Portuguese>
+          <Korean>Shigumitsu</Korean>
+          <Japanese>Shigumitsu</Japanese>
+        </Key>
         <Key ID="str_fr2035_desc">
           <Original>Join the battle with the French army! Its role within NATO is crucial because of the gain of influence of CSAT in the Mediterranean Sea. Get ready to join one of the last pillars of the falling European Union.</Original>
           <French>Rejoignez le combat avec l'armée française! Son rôle au sein de l'OTAN est crucial à cause du gain d'influence du CSAT autour du bassin méditerranéen. Préparez-vous à rejoindre l'un des derniers pilliers encore debout de l'Union Européenne.</French>
@@ -6678,6 +6692,40 @@
           <Portuguese>MXM 6,5 mm (CE)</Portuguese>
           <Korean>MXM 6.5 mm (CE)</Korean>
           <Japanese>MXM 6.5 mm（CE）</Japanese>
+        </Key>
+        <Key ID="str_fr2035_launcher_titan">
+          <Original>Titan MPRL (Green)</Original>
+          <Chinese>Titan 多用途火箭發射器（綠色）</Chinese>
+          <French>Titan MPRL (vert)</French>
+          <Spanish>MPRL Titan (verde)</Spanish>
+          <Italian>Titan MPRL (verde)</Italian>
+          <Polish>Titan MPRL (zielony)</Polish>
+          <Russian>Titan MPRL (зеленый)</Russian>
+          <German>Titan MPRL (Grün)</German>
+          <Czech>Titan MPRL (zelená)</Czech>
+          <English>Titan MPRL (Green)</English>
+          <Portuguese>Titan MPRL (verde)</Portuguese>
+          <Korean>타이탄 MPRL 발사기(녹색)</Korean>
+          <Chinesesimp>Titan MPRL（绿色）</Chinesesimp>
+          <Japanese>タイタンMPRLランチャー（緑）</Japanese>
+          <Turkish>Titan MPRL (Yeşil)</Turkish>
+        </Key>
+        <Key ID="str_fr2035_launcher_titan_short">
+          <Original>Titan MPRL Compact (Green)</Original>
+          <Chinese>Titan 多用途火箭發射器（精簡版）（綠色）</Chinese>
+          <French>Titan MPRL compact (vert)</French>
+          <Spanish>MPRL Titan compacto (verde)</Spanish>
+          <Italian>Titan MPRL compatto (verde)</Italian>
+          <Polish>Titan MPRL Compact (zielony)</Polish>
+          <Russian>Titan MPRL Compact (зеленый)</Russian>
+          <German>Titan MPRL Compact (Grün)</German>
+          <Czech>Titan MPRL Compact (zelená)</Czech>
+          <English>Titan MPRL Compact (Green)</English>
+          <Portuguese>Titan MPRL Compact (verde)</Portuguese>
+          <Korean>타이탄 MPRL 단축형(녹색)</Korean>
+          <Chinesesimp>Titan MPRL Compact（绿色）</Chinesesimp>
+          <Japanese>タイタンMPRLコンパクト（緑）</Japanese>
+          <Turkish>Titan MPRL Kompakt (Yeşil)</Turkish>
         </Key>
       </Container>
     </Container>

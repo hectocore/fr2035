@@ -1999,7 +1999,7 @@ class CfgVehicles
 		weapons[]=
 		{
 			"arifle_FR2035_MXC_Holo_pointer_F",
-			"launch_B_Titan_short_F",
+			"launch_FR2035_Titan_short_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put"
@@ -2007,7 +2007,7 @@ class CfgVehicles
 		respawnWeapons[]=
 		{
 			"arifle_FR2035_MXC_Holo_pointer_F",
-			"launch_B_Titan_short_F",
+			"launch_FR2035_Titan_short_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put"
@@ -2101,7 +2101,7 @@ class CfgVehicles
 		weapons[]=
 		{
 			"arifle_FR2035_MXC_Holo_pointer_F",
-			"launch_B_Titan_F",
+			"launch_FR2035_Titan_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put"
@@ -2109,7 +2109,7 @@ class CfgVehicles
 		respawnWeapons[]=
 		{
 			"arifle_FR2035_MXC_Holo_pointer_F",
-			"launch_B_Titan_F",
+			"launch_FR2035_Titan_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put"
