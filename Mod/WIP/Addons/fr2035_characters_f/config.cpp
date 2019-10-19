@@ -4089,7 +4089,7 @@ class CfgVehicles
 		_generalMacro="FR2035_support_MG_F";
 		scope=2;
 		displayName="$STR_B_support_MG_F0";
-		backpack="B_HMG_01_weapon_F";
+		backpack="B_HMG_01_weapon_grn_F";
 		weapons[]=
 		{
 			"arifle_FR2035_MXC_Holo_pointer_F",
@@ -4115,7 +4115,7 @@ class CfgVehicles
 		_generalMacro="FR2035_support_GMG_F";
 		scope=2;
 		displayName="$STR_B_support_GMG_F0";
-		backpack="B_GMG_01_weapon_F";
+		backpack="B_GMG_01_weapon_grn_F";
 		weapons[]=
 		{
 			"arifle_FR2035_MXC_Holo_pointer_F",
@@ -4141,7 +4141,7 @@ class CfgVehicles
 		_generalMacro="FR2035_support_Mort_F";
 		scope=2;
 		displayName="$STR_B_support_Mort_F0";
-		backpack="B_Mortar_01_weapon_F";
+		backpack="B_Mortar_01_weapon_grn_F";
 		weapons[]=
 		{
 			"arifle_FR2035_MXC_Holo_pointer_F",
@@ -4167,7 +4167,7 @@ class CfgVehicles
 		_generalMacro="FR2035_support_AMG_F";
 		scope=2;
 		displayName="$STR_B_support_AMG_F0";
-		backpack="B_HMG_01_support_F";
+		backpack="B_HMG_01_support_grn_F";
 		weapons[]=
 		{
 			"arifle_FR2035_MXC_Holo_pointer_F",
@@ -4192,7 +4192,7 @@ class CfgVehicles
 		_generalMacro="FR2035_support_AMort_F";
 		scope=2;
 		displayName="$STR_B_support_AMort_F0";
-		backpack="B_Mortar_01_support_F";
+		backpack="B_Mortar_01_support_grn_F";
 		weapons[]=
 		{
 			"arifle_FR2035_MXC_Holo_pointer_F",
