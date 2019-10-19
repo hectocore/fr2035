@@ -253,16 +253,16 @@ class CfgVehicles
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -275,16 +275,16 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -846,12 +846,12 @@ class CfgVehicles
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -862,12 +862,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -924,12 +924,12 @@ class CfgVehicles
 		overviewPicture="\A3\Data_F_Mark\Images\watermarkInfo_page09_ca.paa";
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -955,12 +955,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -1048,12 +1048,12 @@ class CfgVehicles
 		};
 		magazines[]=
 		{
-			"100Rnd_65x39_caseless_mag",
-			"100Rnd_65x39_caseless_mag",
-			"100Rnd_65x39_caseless_mag",
-			"100Rnd_65x39_caseless_mag",
-			"100Rnd_65x39_caseless_mag",
-			"100Rnd_65x39_caseless_mag",
+			"100Rnd_65x39_caseless_black_mag",
+			"100Rnd_65x39_caseless_black_mag",
+			"100Rnd_65x39_caseless_black_mag",
+			"100Rnd_65x39_caseless_black_mag",
+			"100Rnd_65x39_caseless_black_mag",
+			"100Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -1065,12 +1065,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"100Rnd_65x39_caseless_mag",
-			"100Rnd_65x39_caseless_mag",
-			"100Rnd_65x39_caseless_mag",
-			"100Rnd_65x39_caseless_mag",
-			"100Rnd_65x39_caseless_mag",
-			"100Rnd_65x39_caseless_mag",
+			"100Rnd_65x39_caseless_black_mag",
+			"100Rnd_65x39_caseless_black_mag",
+			"100Rnd_65x39_caseless_black_mag",
+			"100Rnd_65x39_caseless_black_mag",
+			"100Rnd_65x39_caseless_black_mag",
+			"100Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -1132,12 +1132,12 @@ class CfgVehicles
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag_Tracer",
-			"30Rnd_65x39_caseless_mag_Tracer",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag_Tracer",
+			"30Rnd_65x39_caseless_black_mag_Tracer",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -1154,12 +1154,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag_Tracer",
-			"30Rnd_65x39_caseless_mag_Tracer",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag_Tracer",
+			"30Rnd_65x39_caseless_black_mag_Tracer",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -1227,12 +1227,12 @@ class CfgVehicles
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag_Tracer",
-			"30Rnd_65x39_caseless_mag_Tracer",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag_Tracer",
+			"30Rnd_65x39_caseless_black_mag_Tracer",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -1258,12 +1258,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag_Tracer",
-			"30Rnd_65x39_caseless_mag_Tracer",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag_Tracer",
+			"30Rnd_65x39_caseless_black_mag_Tracer",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -1337,14 +1337,14 @@ class CfgVehicles
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -1357,14 +1357,14 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -1441,12 +1441,12 @@ class CfgVehicles
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -1458,12 +1458,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -1540,12 +1540,12 @@ class CfgVehicles
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -1558,12 +1558,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -1650,12 +1650,12 @@ class CfgVehicles
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -1670,12 +1670,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -1718,12 +1718,12 @@ class CfgVehicles
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -1739,12 +1739,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -1904,18 +1904,18 @@ class CfgVehicles
 		backpack="B_FR2035_Carryall_ce_Ammo";
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -1928,18 +1928,18 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -2014,12 +2014,12 @@ class CfgVehicles
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -2031,12 +2031,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -2116,12 +2116,12 @@ class CfgVehicles
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -2133,12 +2133,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -2202,12 +2202,12 @@ class CfgVehicles
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -2222,12 +2222,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -2307,12 +2307,12 @@ class CfgVehicles
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -2325,12 +2325,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -2411,10 +2411,10 @@ class CfgVehicles
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
@@ -2425,10 +2425,10 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
@@ -2586,10 +2586,10 @@ class CfgVehicles
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"SmokeShellGreen",
 			"SmokeShellBlue",
 			"SmokeShellOrange",
@@ -2598,10 +2598,10 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"SmokeShellGreen",
 			"SmokeShellBlue",
 			"SmokeShellOrange",
@@ -3044,16 +3044,16 @@ class CfgVehicles
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -3066,16 +3066,16 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -3137,12 +3137,12 @@ class CfgVehicles
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -3156,12 +3156,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -3225,12 +3225,12 @@ class CfgVehicles
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -3246,12 +3246,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -3323,12 +3323,12 @@ class CfgVehicles
 		role="CombatLifeSaver";
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -3341,12 +3341,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -3410,12 +3410,12 @@ class CfgVehicles
 		role="Grenadier";
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag_Tracer",
-			"30Rnd_65x39_caseless_mag_Tracer",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag_Tracer",
+			"30Rnd_65x39_caseless_black_mag_Tracer",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"MiniGrenade",
@@ -3429,12 +3429,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag_Tracer",
-			"30Rnd_65x39_caseless_mag_Tracer",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag_Tracer",
+			"30Rnd_65x39_caseless_black_mag_Tracer",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"MiniGrenade",
@@ -3497,12 +3497,12 @@ class CfgVehicles
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -3515,12 +3515,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -3585,12 +3585,12 @@ class CfgVehicles
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -3617,12 +3617,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -3770,12 +3770,12 @@ class CfgVehicles
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -3795,12 +3795,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -3986,14 +3986,14 @@ class CfgVehicles
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -4008,14 +4008,14 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",

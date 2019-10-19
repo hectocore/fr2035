@@ -65,6 +65,10 @@ class CfgWeapons
 			"\fr2035_weapons_f\data\mx\fr2035_xmx_base_ce_co.paa",
 			"\fr2035_weapons_f\data\mx\fr2035_xmx_short_ce_co.paa"
 		};
+		magazines[]=
+		{
+			"30Rnd_65x39_caseless_black_mag"
+		};
 		picture="\fr2035_weapons_f\data\mx\ui\fr2035_icon_arifle_mx_ce_ca.paa";
 	};
 	class arifle_MX_GL_Black_F;
@@ -79,6 +83,10 @@ class CfgWeapons
 			"\fr2035_weapons_f\data\mx\fr2035_xmx_base_ce_co.paa",
 			"\fr2035_weapons_f\data\mx\fr2035_glx_ce_co.paa"
 		};
+		magazines[]=
+		{
+			"30Rnd_65x39_caseless_black_mag"
+		};
 		picture="\fr2035_weapons_f\data\mx\ui\fr2035_icon_arifle_mx_gl_ce_ca.paa";
 	};
 	class arifle_MX_SW_Black_F;
@@ -91,6 +99,10 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\fr2035_weapons_f\data\mx\fr2035_xmx_lmg_ce_co.paa"
+		};
+		magazines[]=
+		{
+			"100Rnd_65x39_caseless_black_mag"
 		};
 		picture="\fr2035_weapons_f\data\mx\ui\fr2035_icon_arifle_mx_sw_ce_ca.paa";
 		class LinkedItems
@@ -113,6 +125,10 @@ class CfgWeapons
 		{
 			"\fr2035_weapons_f\data\mx\fr2035_xmx_short_ce_co.paa"
 		};
+		magazines[]=
+		{
+			"30Rnd_65x39_caseless_black_mag"
+		};
 		picture="\fr2035_weapons_f\data\mx\ui\fr2035_icon_arifle_mxc_ce_ca.paa";
 	};
 	class arifle_MXM_Black_F;
@@ -125,6 +141,10 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\fr2035_weapons_f\data\mx\fr2035_xmx_long_ce_co.paa"
+		};
+		magazines[]=
+		{
+			"30Rnd_65x39_caseless_black_mag"
 		};
 		picture="\fr2035_weapons_f\data\mx\ui\fr2035_icon_arifle_mxm_ce_ca.paa";
 	};
