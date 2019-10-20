@@ -46,6 +46,7 @@ class CfgAddons
 				"FR2035_Characters_F",
 				"FR2035_Data_F",
 				"FR2035_Language_F",
+				"FR2035_Map_Scenes_F",
 				"FR2035_Music_F",
 				"FR2035_Supplies_F",
 				"FR2035_Weapons_F",
