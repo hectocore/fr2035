@@ -48,7 +48,13 @@ class CfgAddons
 				"FR2035_Language_F",
 				"FR2035_Music_F",
 				"FR2035_Supplies_F",
-				"FR2035_Weapons_F"
+				"FR2035_Weapons_F",
+				"FR2035legacy_armor_F",
+				"FR2035legacy_boat_F",
+				"FR2035legacy_drones_F",
+				"FR2035legacy_language_F",
+				"FR2035legacy_soft_f",
+				"FR2035legacy_structures_F"
 			};
 		};
 	};
@@ -1305,7 +1311,7 @@ class CfgGroups
 					class Unit4
 					{
 						side=1;
-						vehicle="B_Boat_Transport_01_F";
+						vehicle="FR2035_Boat_Transport_01_F";
 						rank="PRIVATE";
 						position[]={0,-10,0};
 					};
@@ -1347,14 +1353,14 @@ class CfgGroups
 					class Unit4
 					{
 						side=1;
-						vehicle="B_SDV_01_F";
+						vehicle="FR2035_SDV_01_F";
 						rank="PRIVATE";
 						position[]={-10,-10,0};
 					};
 					class Unit5
 					{
 						side=1;
-						vehicle="B_SDV_01_F";
+						vehicle="FR2035_SDV_01_F";
 						rank="PRIVATE";
 						position[]={0,-10,0};
 					};
@@ -1382,7 +1388,7 @@ class CfgGroups
 					class Unit2
 					{
 						side=1;
-						vehicle="B_UAV_01_F";
+						vehicle="FR2035_UAV_01_F";
 						rank="PRIVATE";
 						position[]={-5,-5,0};
 					};
@@ -1410,7 +1416,7 @@ class CfgGroups
 					class Unit2
 					{
 						side=1;
-						vehicle="B_UGV_01_F";
+						vehicle="FR2035_UGV_01_F";
 						rank="PRIVATE";
 						position[]={-5,-5,0};
 					};
@@ -1438,7 +1444,7 @@ class CfgGroups
 					class Unit2
 					{
 						side=1;
-						vehicle="B_UGV_01_rcws_F";
+						vehicle="FR2035_UGV_01_rcws_F";
 						rank="PRIVATE";
 						position[]={-5,-5,0};
 					};
@@ -1466,7 +1472,7 @@ class CfgGroups
 					class Unit2
 					{
 						side=1;
-						vehicle="B_UAV_02_F";
+						vehicle="FR2035_UAV_02_F";
 						rank="PRIVATE";
 						position[]={-5,-5,0};
 					};
@@ -1494,7 +1500,7 @@ class CfgGroups
 					class Unit2
 					{
 						side=1;
-						vehicle="B_UAV_02_CAS_F";
+						vehicle="FR2035_UAV_02_CAS_F";
 						rank="PRIVATE";
 						position[]={-5,-5,0};
 					};
@@ -1740,7 +1746,7 @@ class CfgGroups
 					class Unit0
 					{
 						side=1;
-						vehicle="B_MRAP_01_gmg_F";
+						vehicle="FR2035_MRAP_01_gmg_F";
 						rank="SERGEANT";
 						position[]={0,0,0};
 					};
@@ -1768,7 +1774,7 @@ class CfgGroups
 					class Unit0
 					{
 						side=1;
-						vehicle="B_MRAP_01_F";
+						vehicle="FR2035_MRAP_01_F";
 						rank="SERGEANT";
 						position[]={0,0,0};
 					};
@@ -1803,7 +1809,7 @@ class CfgGroups
 					class Unit0
 					{
 						side=1;
-						vehicle="B_MRAP_01_F";
+						vehicle="FR2035_MRAP_01_F";
 						rank="SERGEANT";
 						position[]={0,0,0};
 					};
@@ -1838,7 +1844,7 @@ class CfgGroups
 					class Unit0
 					{
 						side=1;
-						vehicle="B_MRAP_01_F";
+						vehicle="FR2035_MRAP_01_F";
 						rank="SERGEANT";
 						position[]={0,0,0};
 					};
@@ -1873,7 +1879,7 @@ class CfgGroups
 					class Unit0
 					{
 						side=1;
-						vehicle="B_MRAP_01_F";
+						vehicle="FR2035_MRAP_01_F";
 						rank="SERGEANT";
 						position[]={0,0,0};
 					};
@@ -1908,7 +1914,7 @@ class CfgGroups
 					class Unit0
 					{
 						side=1;
-						vehicle="B_MRAP_01_F";
+						vehicle="FR2035_MRAP_01_F";
 						rank="SERGEANT";
 						position[]={0,0,0};
 					};
@@ -1943,7 +1949,7 @@ class CfgGroups
 					class Unit0
 					{
 						side=1;
-						vehicle="B_Truck_01_transport_F";
+						vehicle="FR2035_Truck_01_transport_F";
 						rank="SERGEANT";
 						position[]={0,0,0};
 					};
@@ -2073,7 +2079,7 @@ class CfgGroups
 					class Unit0
 					{
 						side=1;
-						vehicle="B_APC_Wheeled_01_cannon_F";
+						vehicle="FR2035_APC_Wheeled_01_cannon_F";
 						rank="LIEUTENANT";
 						position[]={0,0,0};
 					};
@@ -2143,7 +2149,7 @@ class CfgGroups
 					class Unit0
 					{
 						side=1;
-						vehicle="B_APC_Tracked_01_rcws_F";
+						vehicle="FR2035_APC_Tracked_01_rcws_F";
 						rank="LIEUTENANT";
 						position[]={0,0,0};
 					};
@@ -2213,7 +2219,7 @@ class CfgGroups
 					class Unit0
 					{
 						side=1;
-						vehicle="B_APC_Tracked_01_aa_F";
+						vehicle="FR2035_APC_Tracked_01_aa_F";
 						rank="LIEUTENANT";
 						position[]={0,0,0};
 					};
@@ -2283,7 +2289,7 @@ class CfgGroups
 					class Unit0
 					{
 						side=1;
-						vehicle="B_APC_Wheeled_01_cannon_F";
+						vehicle="FR2035_APC_Wheeled_01_cannon_F";
 						rank="LIEUTENANT";
 						position[]={0,0,0};
 					};
@@ -2357,28 +2363,28 @@ class CfgGroups
 					class Unit0
 					{
 						side=1;
-						vehicle="B_MBT_01_cannon_F";
+						vehicle="FR2035_MBT_01_cannon_F";
 						rank="LIEUTENANT";
 						position[]={0,0,0};
 					};
 					class Unit1
 					{
 						side=1;
-						vehicle="B_MBT_01_cannon_F";
+						vehicle="FR2035_MBT_01_cannon_F";
 						rank="SERGEANT";
 						position[]={10,-10,0};
 					};
 					class Unit2
 					{
 						side=1;
-						vehicle="B_MBT_01_cannon_F";
+						vehicle="FR2035_MBT_01_cannon_F";
 						rank="SERGEANT";
 						position[]={-10,-10,0};
 					};
 					class Unit3
 					{
 						side=1;
-						vehicle="B_MBT_01_cannon_F";
+						vehicle="FR2035_MBT_01_cannon_F";
 						rank="CORPORAL";
 						position[]={20,-20,0};
 					};
@@ -2392,28 +2398,28 @@ class CfgGroups
 					class Unit0
 					{
 						side=1;
-						vehicle="B_MBT_01_cannon_F";
+						vehicle="FR2035_MBT_01_cannon_F";
 						rank="LIEUTENANT";
 						position[]={0,0,0};
 					};
 					class Unit1
 					{
 						side=1;
-						vehicle="B_APC_Tracked_01_aa_F";
+						vehicle="FR2035_APC_Tracked_01_aa_F";
 						rank="SERGEANT";
 						position[]={10,-10,0};
 					};
 					class Unit2
 					{
 						side=1;
-						vehicle="B_MBT_01_cannon_F";
+						vehicle="FR2035_MBT_01_cannon_F";
 						rank="SERGEANT";
 						position[]={-10,-10,0};
 					};
 					class Unit3
 					{
 						side=1;
-						vehicle="B_APC_Tracked_01_aa_F";
+						vehicle="FR2035_APC_Tracked_01_aa_F";
 						rank="CORPORAL";
 						position[]={20,-20,0};
 					};
@@ -2427,14 +2433,14 @@ class CfgGroups
 					class Unit0
 					{
 						side=1;
-						vehicle="B_MBT_01_cannon_F";
+						vehicle="FR2035_MBT_01_cannon_F";
 						rank="LIEUTENANT";
 						position[]={0,0,0};
 					};
 					class Unit1
 					{
 						side=1;
-						vehicle="B_MBT_01_cannon_F";
+						vehicle="FR2035_MBT_01_cannon_F";
 						rank="SERGEANT";
 						position[]={10,-10,0};
 					};
@@ -2448,28 +2454,28 @@ class CfgGroups
 					class Unit0
 					{
 						side=1;
-						vehicle="B_MBT_01_arty_F";
+						vehicle="FR2035_MBT_01_arty_F";
 						rank="LIEUTENANT";
 						position[]={0,0,0};
 					};
 					class Unit1
 					{
 						side=1;
-						vehicle="B_MBT_01_arty_F";
+						vehicle="FR2035_MBT_01_arty_F";
 						rank="SERGEANT";
 						position[]={10,-10,0};
 					};
 					class Unit2
 					{
 						side=1;
-						vehicle="B_MBT_01_arty_F";
+						vehicle="FR2035_MBT_01_arty_F";
 						rank="SERGEANT";
 						position[]={-10,-10,0};
 					};
 					class Unit3
 					{
 						side=1;
-						vehicle="B_MBT_01_arty_F";
+						vehicle="FR2035_MBT_01_arty_F";
 						rank="CORPORAL";
 						position[]={20,-20,0};
 					};
@@ -2483,14 +2489,14 @@ class CfgGroups
 					class Unit0
 					{
 						side=1;
-						vehicle="B_MBT_01_arty_F";
+						vehicle="FR2035_MBT_01_arty_F";
 						rank="LIEUTENANT";
 						position[]={0,0,0};
 					};
 					class Unit1
 					{
 						side=1;
-						vehicle="B_MBT_01_arty_F";
+						vehicle="FR2035_MBT_01_arty_F";
 						rank="SERGEANT";
 						position[]={10,-10,0};
 					};
@@ -2504,14 +2510,14 @@ class CfgGroups
 					class Unit0
 					{
 						side=1;
-						vehicle="B_MBT_01_mlrs_F";
+						vehicle="FR2035_MBT_01_mlrs_F";
 						rank="LIEUTENANT";
 						position[]={0,0,0};
 					};
 					class Unit1
 					{
 						side=1;
-						vehicle="B_MBT_01_mlrs_F";
+						vehicle="FR2035_MBT_01_mlrs_F";
 						rank="SERGEANT";
 						position[]={10,-10,0};
 					};
