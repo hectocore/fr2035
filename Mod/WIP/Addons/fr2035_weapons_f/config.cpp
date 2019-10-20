@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		author="$STR_FR2035_Author";
 		name="French Army 2035 - Weapons and Accessories";
-		url="http://modflavors.com";
+		url="https://github.com/hectocore";
 		requiredAddons[]=
 		{
 			"FR2035_Data_F",

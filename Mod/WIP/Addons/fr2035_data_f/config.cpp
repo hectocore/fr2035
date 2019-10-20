@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		author="$STR_FR2035_Author";
 		name="French Army 2035 - Main Configuration";
-		url="http://modflavors.com";
+		url="https://github.com/hectocore";
 		requiredAddons[]=
 		{
 			"A3_Data_F"
@@ -24,7 +24,7 @@ class CfgMods
 		logoOver="\fr2035_data_f\logos\fr2035_logoover_ca.paa";
 		logoSmall="\fr2035_data_f\logos\fr2035_logo_small_ca.paa";
 		tooltipOwned="$STR_FR2035_Name";
-		action="http://modflavors.com";
+		action="https://github.com/hectocore";
 		dlcColor[]={0.30980392,0.35686275,0.17647059,1};
 		overview="$STR_FR2035_Desc";
 		hideName=1;

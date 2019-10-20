@@ -1,7 +1,7 @@
-﻿French Army 2035 for Arma 3 (APL)
+﻿French Army 2035 for Arma 3 (APL-SA)
 --------------------------------------------------------------------------------
 
-© 2017 ModFlavors
+© 2019 Hector CORRAL
 
 
 DESCRIPTION
@@ -13,7 +13,7 @@ French Army mod based on Arma 3 NATO units. This mod includes several addons whi
 LEARN MORE
 ---------------
 
-More information available here: http://modflavors.com
+More information available here: http://steamcommunity.com/sharedfiles/filedetails/?id=621431572
 
 Additional documentation can be found in the directory Docs which is located in the root folder of this mod.
 
@@ -28,17 +28,5 @@ CREDITS
 THANKS
 ---------------
 
-- ModFlavors
 - Bohemia Interactive
 - Kilian
-
-
-$$\      $$\                 $$\ $$$$$$$$\ $$\
-$$$\    $$$ |                $$ |$$  _____|$$ |
-$$$$\  $$$$ | $$$$$$\   $$$$$$$ |$$ |      $$ | $$$$$$\ $$\    $$\  $$$$$$\   $$$$$$\   $$$$$$$\
-$$\$$\$$ $$ |$$  __$$\ $$  __$$ |$$$$$\    $$ | \____$$\\$$\  $$  |$$  __$$\ $$  __$$\ $$  _____|
-$$ \$$$  $$ |$$ /  $$ |$$ /  $$ |$$  __|   $$ | $$$$$$$ |\$$\$$  / $$ /  $$ |$$ |  \__|\$$$$$$\
-$$ |\$  /$$ |$$ |  $$ |$$ |  $$ |$$ |      $$ |$$  __$$ | \$$$  /  $$ |  $$ |$$ |       \____$$\
-$$ | \_/ $$ |\$$$$$$  |\$$$$$$$ |$$ |      $$ |\$$$$$$$ |  \$  /   \$$$$$$  |$$ |      $$$$$$$  |
-\__|     \__| \______/  \_______|\__|      \__| \_______|   \_/     \______/ \__|      \_______/
-                                                                                                 
