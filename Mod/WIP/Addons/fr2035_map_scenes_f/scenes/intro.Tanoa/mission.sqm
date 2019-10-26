@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=111;
+		nextID=112;
 	};
 	class Camera
 	{
@@ -384,7 +384,7 @@ class Intro
 			class PositionInfo
 			{
 				position[]={5908.0483,23.478065,10484.615};
-				angles[]={-0,5.412509,0};
+				angles[]={0,5.412509,0};
 			};
 			side="Empty";
 			flags=4;
@@ -400,7 +400,7 @@ class Intro
 			class PositionInfo
 			{
 				position[]={5894.7012,22.987104,10473.234};
-				angles[]={-0,4.677742,0};
+				angles[]={0,4.677742,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1446,7 +1446,7 @@ class Intro
 			class PositionInfo
 			{
 				position[]={5900.2539,21.482162,10478.082};
-				angles[]={-0,5.7470989,0};
+				angles[]={0,5.7470989,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1463,7 +1463,7 @@ class Intro
 			class PositionInfo
 			{
 				position[]={5899.4077,21.341845,10476.641};
-				angles[]={-0,0.32451499,0};
+				angles[]={0,0.32451499,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1530,7 +1530,7 @@ class Intro
 			class PositionInfo
 			{
 				position[]={5914.8594,22.791502,10478.119};
-				angles[]={-0,5.5568008,0};
+				angles[]={0,5.5568008,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1983,7 +1983,7 @@ class Intro
 			class PositionInfo
 			{
 				position[]={5927.9585,21.736624,10485.851};
-				angles[]={-0,1.3592981,0};
+				angles[]={0,1.3592981,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1999,7 +1999,7 @@ class Intro
 			class PositionInfo
 			{
 				position[]={5929.1187,21.819479,10483.169};
-				angles[]={-0,1.085007,0};
+				angles[]={0,1.085007,0};
 			};
 			side="Empty";
 			flags=4;
@@ -2015,7 +2015,7 @@ class Intro
 			class PositionInfo
 			{
 				position[]={5930.8257,21.736624,10480.996};
-				angles[]={-0,0.79007572,0};
+				angles[]={0,0.79007572,0};
 			};
 			side="Empty";
 			flags=4;
@@ -2443,7 +2443,7 @@ class Intro
 			class PositionInfo
 			{
 				position[]={5898.0034,21.561529,10472.5};
-				angles[]={-0,0.83344692,0};
+				angles[]={0,0.83344692,0};
 			};
 			side="Empty";
 			flags=4;
@@ -2882,7 +2882,7 @@ class Intro
 			class PositionInfo
 			{
 				position[]={5932.6636,22.83614,10487.134};
-				angles[]={-0,4.9825311,0};
+				angles[]={0,4.9825311,0};
 			};
 			side="Empty";
 			flags=4;
@@ -3694,6 +3694,44 @@ class Intro
 			{
 			};
 			id=109;
+		};
+	};
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=6;
+		day=6;
+		hour=12;
+		minute=0;
+		startFogBase=250;
+		forecastFogBase=250;
+		startFogDecay=0.014;
+		forecastFogDecay=0.014;
+	};
+	class Entities
+	{
+		items=1;
+		class Item0
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={5903.4668,21.271999,10479.857};
+			};
+			title="Switch to Intro";
+			id=111;
+			atlOffset=0.091999054;
 		};
 	};
 };

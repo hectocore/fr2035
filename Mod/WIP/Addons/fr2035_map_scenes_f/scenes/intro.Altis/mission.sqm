@@ -8,14 +8,14 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=68;
+		nextID=70;
 	};
 	class Camera
 	{
-		pos[]={9295.3926,123.65555,15861.005};
-		dir[]={-0.65563643,-0.12016404,0.74545491};
-		up[]={-0.079358861,0.99275351,0.090230577};
-		aside[]={0.75089496,-3.7645805e-008,0.66042191};
+		pos[]={9292.75,123.65469,15858.8};
+		dir[]={-0.65394104,0.12116271,0.74678028};
+		up[]={0.079821333,0.99263275,-0.091153473};
+		aside[]={0.75232291,0,0.6587947};
 	};
 };
 binarizationWanted=0;
@@ -114,7 +114,7 @@ class Intro
 	};
 	class Entities
 	{
-		items=26;
+		items=27;
 		class Item0
 		{
 			dataType="Logic";
@@ -258,14 +258,14 @@ class Intro
 					class PositionInfo
 					{
 						position[]={9291.4893,120.6018,15868.056};
-						angles[]={0.014814463,5.7950358,6.271235};
+						angles[]={0.014817845,5.7950344,6.2712297};
 					};
 					side="West";
 					flags=6;
 					class Attributes
 					{
 						init="this switchMove ""Acts_SupportTeam_Front_KneelLoop""; this disableAI ""ANIM"";";
-						isPlayer=1;
+						name="angle_street";
 						stance="Middle";
 					};
 					id=62;
@@ -460,17 +460,19 @@ class Intro
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9292.4043,120.60581,15868.441};
-						angles[]={0,4.7419901,0};
+						position[]={9292.4961,120.61417,15867.548};
+						angles[]={0,5.2208557,0};
 					};
 					side="West";
 					flags=7;
 					class Attributes
 					{
+						init="this disableCollisionWith angle_street;";
 						stance="Up";
 					};
 					id=23;
 					type="FR2035_Soldier_F";
+					atlOffset=0.02633667;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -520,6 +522,7 @@ class Intro
 				behaviour="COMBAT";
 			};
 			id=31;
+			atlOffset=0.02633667;
 		};
 		class Item5
 		{
@@ -1566,6 +1569,78 @@ class Intro
 			type="MedicalGarbage_01_Bandage_F";
 			atlOffset=7.6293945e-006;
 		};
+		class Item26
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9304.2861,128.74684,15775.95};
+						angles[]={0,1.1671365,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						isPlayer=1;
+					};
+					id=69;
+					type="FR2035_Soldier_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male05GRE";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=68;
+		};
 	};
 };
 class Mission
@@ -1601,6 +1676,7 @@ class Mission
 			};
 			title="Switch to Intro";
 			id=58;
+			atlOffset=-7.6293945e-006;
 		};
 	};
 };

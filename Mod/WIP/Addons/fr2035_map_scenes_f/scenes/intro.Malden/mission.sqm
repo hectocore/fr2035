@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=94;
+		nextID=96;
 	};
 	class Camera
 	{
@@ -178,14 +178,14 @@ class Intro
 	};
 	class Entities
 	{
-		items=19;
+		items=20;
 		class Item0
 		{
 			dataType="Object";
 			class PositionInfo
 			{
 				position[]={7672.5864,27.974791,3754.0095};
-				angles[]={-0,5.2544885,0};
+				angles[]={0,5.2544885,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1344,7 +1344,7 @@ class Intro
 			class PositionInfo
 			{
 				position[]={7678.6836,25.822609,3749.8267};
-				angles[]={-0,4.2626996,0};
+				angles[]={0,4.2626996,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1530,7 +1530,7 @@ class Intro
 			class PositionInfo
 			{
 				position[]={7678.5703,25.880892,3749.4697};
-				angles[]={-0,2.3160863,0};
+				angles[]={0,2.3160863,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1666,7 +1666,6 @@ class Intro
 					class Attributes
 					{
 						name="civie";
-						isPlayer=1;
 						stance="Up";
 						class Inventory
 						{
@@ -1711,6 +1710,79 @@ class Intro
 			{
 			};
 			id=93;
+		};
+		class Item19
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7594.9771,23.386545,3668.3049};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						isPlayer=1;
+					};
+					id=95;
+					type="FR2035_Soldier_F";
+					atlOffset=-1.9073486e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GRE";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=94;
+			atlOffset=-1.9073486e-006;
 		};
 	};
 };
