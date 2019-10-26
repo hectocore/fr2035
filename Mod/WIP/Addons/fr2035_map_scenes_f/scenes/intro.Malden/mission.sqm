@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=87;
+		nextID=94;
 	};
 	class Camera
 	{
@@ -24,21 +24,21 @@ addons[]=
 	"FR2035legacy_soft_f",
 	"A3_Soft_F_Enoch_Tractor_01",
 	"A3_Modules_F_Effects",
-	"A3_Characters_F",
-	"A3_Weapons_F",
-	"A3_Characters_F_Enoch",
 	"FR2035_Characters_F",
 	"FR2035_Weapons_F",
 	"A3_Weapons_F_Acc",
+	"A3_Weapons_F",
 	"A3_Weapons_F_Pistols_P07",
 	"A3_Weapons_F_Items",
 	"A3_Signs_F",
 	"A3_Weapons_F_Exp",
+	"A3_Characters_F",
 	"A3_Weapons_F_Mark_Acc",
 	"A3_Characters_F_Orange_Facewear",
 	"A3_Structures_F_Items_Electronics",
 	"A3_Props_F_Orange_Humanitarian_Supplies",
-	"A3_Modules_F_Curator_Animals"
+	"A3_Modules_F_Curator_Animals",
+	"A3_Characters_F_Enoch"
 };
 class AddonsMetaData
 {
@@ -67,85 +67,85 @@ class AddonsMetaData
 		};
 		class Item3
 		{
-			className="A3_Characters_F";
-			name="Arma 3 Alpha - Characters and Clothing";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item4
-		{
-			className="A3_Weapons_F";
-			name="Arma 3 Alpha - Weapons and Accessories";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item5
-		{
-			className="A3_Characters_F_Enoch";
-			name="Arma 3 Enoch - Characters and Clothing";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item6
-		{
 			className="FR2035_Characters_F";
 			name="French Army 2035 - Characters and Clothing";
 			author="Hector Corral";
 			url="https://github.com/hectocore";
 		};
-		class Item7
+		class Item4
 		{
 			className="FR2035_Weapons_F";
 			name="French Army 2035 - Weapons and Accessories";
 			author="Hector Corral";
 			url="https://github.com/hectocore";
 		};
-		class Item8
+		class Item5
+		{
+			className="A3_Weapons_F";
+			name="Arma 3 Alpha - Weapons and Accessories";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item6
 		{
 			className="A3_Signs_F";
 			name="Arma 3 - Signs";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item9
+		class Item7
 		{
 			className="A3_Weapons_F_Exp";
 			name="Arma 3 Apex - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item10
+		class Item8
+		{
+			className="A3_Characters_F";
+			name="Arma 3 Alpha - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item9
 		{
 			className="A3_Weapons_F_Mark";
 			name="Arma 3 Marksmen - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item11
+		class Item10
 		{
 			className="A3_Characters_F_Orange";
 			name="Arma 3 Orange - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item12
+		class Item11
 		{
 			className="A3_Structures_F";
 			name="Arma 3 - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item13
+		class Item12
 		{
 			className="A3_Props_F_Orange";
 			name="Arma 3 Orange - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item14
+		class Item13
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item14
+		{
+			className="A3_Characters_F_Enoch";
+			name="Arma 3 Enoch - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
@@ -161,10 +161,10 @@ class Intro
 	class Intel
 	{
 		timeOfChanges=1800.0002;
-		startWeather=0.30000001;
+		startWeather=0.35370225;
 		startWind=0.1;
 		startWaves=0.1;
-		forecastWeather=0.30000001;
+		forecastWeather=0.35088912;
 		forecastWind=0.1;
 		forecastWaves=0.1;
 		forecastLightnings=0.1;
@@ -184,8 +184,8 @@ class Intro
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7673.2393,27.974791,3753.5825};
-				angles[]={0,5.2544885,0};
+				position[]={7672.5864,27.974791,3754.0095};
+				angles[]={-0,5.2544885,0};
 			};
 			side="Empty";
 			flags=4;
@@ -493,71 +493,6 @@ class Intro
 		class Item4
 		{
 			dataType="Group";
-			side="Civilian";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={7657.8281,25.81572,3767.0142};
-						angles[]={0,2.1930387,0};
-					};
-					side="Civilian";
-					flags=7;
-					class Attributes
-					{
-						init="this disableAI ""ANIM"";";
-						isPlayer=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_C_Uniform_Farmer_01_F";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-						};
-					};
-					id=42;
-					type="C_man_polo_1_F_euro";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.04;
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=41;
-		};
-		class Item5
-		{
-			dataType="Group";
 			side="West";
 			class Entities
 			{
@@ -567,14 +502,14 @@ class Intro
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={7658.7817,25.809711,3766.3892};
-						angles[]={0,5.2243733,0};
+						position[]={7658.957,25.807125,3766.2122};
+						angles[]={0,5.7084661,0};
 					};
 					side="West";
 					flags=7;
 					class Attributes
 					{
-						init="this disableAI ""ANIM""; this switchMove ""Acts_A_M01_briefing"";";
+						init="this disableCollisionWith civie; [this, ""BRIEFING_POINT_RIGHT"", ""ASIS""] call BIS_fnc_ambientAnim;";
 						class Inventory
 						{
 							class primaryWeapon
@@ -723,7 +658,7 @@ class Intro
 			};
 			id=45;
 		};
-		class Item6
+		class Item5
 		{
 			dataType="Object";
 			class PositionInfo
@@ -739,7 +674,7 @@ class Intro
 			id=49;
 			type="RoadCone_F";
 		};
-		class Item7
+		class Item6
 		{
 			dataType="Object";
 			class PositionInfo
@@ -755,7 +690,7 @@ class Intro
 			id=50;
 			type="RoadCone_F";
 		};
-		class Item8
+		class Item7
 		{
 			dataType="Object";
 			class PositionInfo
@@ -772,7 +707,7 @@ class Intro
 			type="RoadCone_F";
 			atlOffset=1.7166138e-005;
 		};
-		class Item9
+		class Item8
 		{
 			dataType="Object";
 			class PositionInfo
@@ -788,7 +723,7 @@ class Intro
 			id=54;
 			type="RoadCone_F";
 		};
-		class Item10
+		class Item9
 		{
 			dataType="Group";
 			side="West";
@@ -800,14 +735,14 @@ class Intro
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={7682.5127,25.751438,3748.9451};
-						angles[]={0,4.8213849,0};
+						position[]={7680.6113,25.751438,3750.3032};
+						angles[]={0,4.6362352,0};
 					};
 					side="West";
 					flags=7;
 					class Attributes
 					{
-						init="this disableAI ""ANIM""; this switchMove ""Acts_Dance_01"";";
+						init="this attachTo [dancer_radio, [-1, -2, -0.06]]; this switchMove ""Acts_Dance_01""; this disableAI ""ANIM"";";
 						class Inventory
 						{
 							class primaryWeapon
@@ -956,7 +891,7 @@ class Intro
 			};
 			id=57;
 		};
-		class Item11
+		class Item10
 		{
 			dataType="Group";
 			side="West";
@@ -969,13 +904,13 @@ class Intro
 					class PositionInfo
 					{
 						position[]={7662.5391,26.046892,3770.0872};
-						angles[]={0,3.2445891,0};
+						angles[]={0,3.2445846,0};
 					};
 					side="West";
 					flags=7;
 					class Attributes
 					{
-						init="this disableAI ""ANIM""; this switchMove ""Acts_Kore_TalkingOverRadio_loop"";";
+						init="this switchMove ""Acts_Kore_TalkingOverRadio_loop""; this disableAI ""ANIM"";";
 						class Inventory
 						{
 							class primaryWeapon
@@ -1158,7 +1093,7 @@ class Intro
 			};
 			id=63;
 		};
-		class Item12
+		class Item11
 		{
 			dataType="Group";
 			side="West";
@@ -1170,14 +1105,16 @@ class Intro
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={7663.6909,25.751438,3759.5129};
+						position[]={7663.5142,25.751438,3759.688};
 						angles[]={0,2.3229284,0};
 					};
 					side="West";
 					flags=7;
 					class Attributes
 					{
-						init="this disableAI ""ANIM""; this switchMove ""AidlPercMstpSrasWrflDnon_G01"";";
+						rank="SERGEANT";
+						name="sergeant";
+						stance="Up";
 						class Inventory
 						{
 							class primaryWeapon
@@ -1328,7 +1265,7 @@ class Intro
 			};
 			id=72;
 		};
-		class Item13
+		class Item12
 		{
 			dataType="Group";
 			side="West";
@@ -1340,14 +1277,15 @@ class Intro
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={7665.1421,25.751438,3758.6392};
+						position[]={7664.7832,25.751438,3758.895};
 						angles[]={0,4.776495,0};
 					};
 					side="West";
 					flags=7;
 					class Attributes
 					{
-						init="this disableAI ""ANIM""; this switchMove ""Acts_listeningToRadio_Loop"";";
+						rank="LIEUTENANT";
+						init="this disableCollisionWith sergeant; this switchMove ""Acts_listeningToRadio_Loop""; this disableAI ""ANIM"";";
 					};
 					id=71;
 					type="FR2035_officer_F";
@@ -1400,23 +1338,24 @@ class Intro
 			};
 			id=76;
 		};
-		class Item14
+		class Item13
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7680.54,25.822609,3748.8313};
-				angles[]={0,4.4478459,0};
+				position[]={7678.6836,25.822609,3749.8267};
+				angles[]={-0,4.2626996,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				name="dancer_radio";
 			};
 			id=80;
 			type="Land_FMradio_F";
 		};
-		class Item15
+		class Item14
 		{
 			dataType="Group";
 			side="West";
@@ -1435,7 +1374,7 @@ class Intro
 					flags=7;
 					class Attributes
 					{
-						init="this disableAI ""ANIM""; [this, ""WATCH"", ""ASIS""] call BIS_fnc_ambientAnim;";
+						init="[this, ""WATCH"", ""ASIS""] call BIS_fnc_ambientAnim;";
 						class Inventory
 						{
 							class primaryWeapon
@@ -1585,13 +1524,13 @@ class Intro
 			};
 			id=81;
 		};
-		class Item16
+		class Item15
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7680.3628,25.880892,3748.5012};
-				angles[]={0,2.5012362,0};
+				position[]={7678.5703,25.880892,3749.4697};
+				angles[]={-0,2.3160863,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1601,7 +1540,7 @@ class Intro
 			id=83;
 			type="Land_WaterBottle_01_empty_F";
 		};
-		class Item17
+		class Item16
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -1654,7 +1593,7 @@ class Intro
 				nAttributes=2;
 			};
 		};
-		class Item18
+		class Item17
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -1706,6 +1645,72 @@ class Intro
 				};
 				nAttributes=2;
 			};
+		};
+		class Item18
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7658.3691,25.822128,3766.9673};
+						angles[]={0,2.1103332,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						name="civie";
+						isPlayer=1;
+						stance="Up";
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_C_Uniform_Farmer_01_F";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=42;
+					type="C_man_polo_1_F_euro";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=93;
 		};
 	};
 };
