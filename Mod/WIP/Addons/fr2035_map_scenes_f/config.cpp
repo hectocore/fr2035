@@ -7,20 +7,77 @@ class CfgPatches
 		url="https://github.com/hectocore";
 		requiredAddons[]=
 		{
-			"A3_Map_Altis_Scenes_F"
+			"A3_Map_Altis_Scenes_F",
+			"A3_Map_Stratis_Scenes_F",
+			"A3_Map_VR_Scenes_F",
+			"A3_Map_Malden_Scenes_F",
+			"A3_Map_Tanoa_Scenes_F",
+			"A3_Map_Enoch_Scenes_F"
 		};
 		requiredVersion=1.66;
 		units[]={};
 		weapons[]={};
 	};
 };
+
 class CfgMissions
 {
 	class Cutscenes
 	{
-		class Altis_intro1
+		class FR2035_Altis_intro
 		{
-			directory="\fr2035_map_scenes_f\scenes\intro.Altis";
+			directory="fr2035_map_scenes_f\scenes\intro.Altis";
+		};
+		class FR2035_Malden_intro
+		{
+			directory="fr2035_map_scenes_f\scenes\intro.Malden";
+		};
+	};
+};
+
+class CfgWorlds
+{
+	class CAWorld;
+	class Altis: CAWorld
+	{
+		cutscenes[]=
+		{
+			"FR2035_Altis_intro"
+		};
+	};
+	class Stratis: CAWorld
+	{
+		cutscenes[]=
+		{
+			"FR2035_Malden_intro"
+		};
+	};
+	class VR: CAWorld
+	{
+		cutscenes[]=
+		{
+			"FR2035_Malden_intro"
+		};
+	};
+	class Malden: CAWorld
+	{
+		cutscenes[]=
+		{
+			"FR2035_Malden_intro"
+		};
+	};
+	class Tanoa: CAWorld
+	{
+		cutscenes[]=
+		{
+			"FR2035_Malden_intro"
+		};
+	};
+	class Enoch: CAWorld
+	{
+		cutscenes[]=
+		{
+			"FR2035_Malden_intro"
 		};
 	};
 };
