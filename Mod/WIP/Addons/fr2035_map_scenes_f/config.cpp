@@ -40,6 +40,10 @@ class CfgMissions
 		{
 			directory="fr2035_map_scenes_f\scenes\intro.Tanoa";
 		};
+		class FR2035_Enoch_intro
+		{
+			directory="fr2035_map_scenes_f\scenes\intro.Enoch";
+		};
 	};
 };
 
@@ -64,7 +68,7 @@ class CfgWorlds
 	{
 		cutscenes[]=
 		{
-			"FR2035_Malden_intro"
+			"FR2035_Altis_intro"
 		};
 	};
 	class Malden: CAWorld
@@ -85,7 +89,7 @@ class CfgWorlds
 	{
 		cutscenes[]=
 		{
-			"FR2035_Altis_intro"
+			"FR2035_Enoch_intro"
 		};
 	};
 };
