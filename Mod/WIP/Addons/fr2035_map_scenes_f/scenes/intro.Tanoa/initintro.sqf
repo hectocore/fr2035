@@ -1,7 +1,7 @@
 enableSaving [ false, false ];
 [
 	{
-		["InitDummy",["Altis",[9292.75,15858.8,3.02686],318.792,0.75,[6.95921,0],2.70692,0,1071,0.3,1,1,0,1]] call bis_fnc_camera;
+		["InitDummy",["Tanoa",[5898.65,10464.5,2.50001],11.4511,0.75,[12.6478,0],2.47214,0,1099.79,0.3,1,1,0,1]] call bis_fnc_camera;
 	}
 ] call FR2035_fnc_initWorldScene;
 

@@ -12,10 +12,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={9292.749,123.65555,15858.771};
-		dir[]={-0.65393788,0.12116273,0.74678302};
-		up[]={0.079820968,0.99263275,-0.09115383};
-		aside[]={0.75232571,0,0.65879148};
+		pos[]={9295.3926,123.65555,15861.005};
+		dir[]={-0.65563643,-0.12016404,0.74545491};
+		up[]={-0.079358861,0.99275351,0.090230577};
+		aside[]={0.75089496,-3.7645805e-008,0.66042191};
 	};
 };
 binarizationWanted=0;
@@ -258,12 +258,13 @@ class Intro
 					class PositionInfo
 					{
 						position[]={9291.4893,120.6018,15868.056};
-						angles[]={0,5.4671741,0};
+						angles[]={0.014814463,5.7950358,6.271235};
 					};
 					side="West";
 					flags=6;
 					class Attributes
 					{
+						init="this switchMove ""Acts_SupportTeam_Front_KneelLoop""; this disableAI ""ANIM"";";
 						isPlayer=1;
 						stance="Middle";
 					};
@@ -777,6 +778,7 @@ class Intro
 			};
 			id=37;
 			type="BloodSplatter_01_Medium_New_F";
+			atlOffset=-7.6293945e-006;
 		};
 		class Item8
 		{
@@ -897,7 +899,6 @@ class Intro
 					};
 					id=47;
 					type="FR2035_medic_F";
-					atlOffset=-7.6293945e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -946,7 +947,6 @@ class Intro
 			{
 			};
 			id=49;
-			atlOffset=-7.6293945e-006;
 		};
 		class Item15
 		{
@@ -1327,7 +1327,7 @@ class Intro
 			};
 			id=56;
 			type="ModuleSmoke_F";
-			atlOffset=0.15200043;
+			atlOffset=0.1519928;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1381,6 +1381,7 @@ class Intro
 			};
 			id=57;
 			type="ModuleSmoke_F";
+			atlOffset=-7.6293945e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1464,6 +1465,7 @@ class Intro
 					};
 					id=63;
 					type="FR2035_Soldier_SL_F";
+					atlOffset=7.6293945e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1512,6 +1514,7 @@ class Intro
 			{
 			};
 			id=64;
+			atlOffset=7.6293945e-006;
 		};
 		class Item23
 		{
@@ -1544,6 +1547,7 @@ class Intro
 			};
 			id=66;
 			type="BloodSplatter_01_Small_Old_F";
+			atlOffset=-7.6293945e-006;
 		};
 		class Item25
 		{
@@ -1560,6 +1564,7 @@ class Intro
 			};
 			id=67;
 			type="MedicalGarbage_01_Bandage_F";
+			atlOffset=7.6293945e-006;
 		};
 	};
 };
@@ -1591,12 +1596,11 @@ class Mission
 			dataType="Comment";
 			class PositionInfo
 			{
-				position[]={9288.0186,120.675,15857.406};
-				angles[]={0.014664836,0,0.0066592805};
+				position[]={9284.0801,120.53989,15867.983};
+				angles[]={0.010664274,0,6.2631893};
 			};
 			title="Switch to Intro";
 			id=58;
-			atlOffset=0.00019073486;
 		};
 	};
 };
