@@ -12,10 +12,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5156.1001,14.64073,2020.8199};
-		dir[]={-0.65642363,0.32184768,-0.68229181};
-		up[]={0.22314145,0.94679147,0.23193495};
-		aside[]={-0.72063577,0,0.6933139};
+		pos[]={5156.0024,14.64073,2019.9979};
+		dir[]={-0.65927297,0.36377114,-0.65805};
+		up[]={0.25746369,0.93148834,0.25698611};
+		aside[]={-0.70644999,-1.4901161e-008,0.70776296};
 	};
 };
 binarizationWanted=0;
@@ -742,7 +742,7 @@ class Intro
 					flags=3;
 					class Attributes
 					{
-						init="this attachTo [bloc_player, [0.25, 0.25, 0]]; this switchMove ""Acts_Dance_02""; this disableAI ""ANIM"";";
+						init="this attachTo [bloc_player, [0.25, 0.25, -0.03]]; this switchMove ""Acts_Dance_02""; this disableAI ""ANIM"";";
 					};
 					id=143;
 					type="FR2035_Protagonist_VR_F";
@@ -848,7 +848,7 @@ class Intro
 					flags=3;
 					class Attributes
 					{
-						init="this attachTo [bloc_bot1, [0.25, 0.25, 0]]; this switchMove ""Acts_Dance_02""; this disableAI ""ANIM"";";
+						init="this attachTo [bloc_bot1, [0.25, 0.25, 0.05]]; this switchMove ""Acts_Dance_02""; this disableAI ""ANIM"";";
 					};
 					id=148;
 					type="FR2035_Soldier_VR_F";
@@ -922,7 +922,7 @@ class Intro
 					flags=3;
 					class Attributes
 					{
-						init="this attachTo [bloc_bot2, [0.25, 0.25, 0]]; this switchMove ""Acts_Dance_02""; this disableAI ""ANIM"";";
+						init="this attachTo [bloc_bot2, [0.25, 0.25, 0.05]]; this switchMove ""Acts_Dance_02""; this disableAI ""ANIM"";";
 					};
 					id=150;
 					type="FR2035_Soldier_VR_F";
