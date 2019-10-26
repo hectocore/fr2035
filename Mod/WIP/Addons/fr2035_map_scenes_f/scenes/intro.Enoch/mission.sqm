@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=72;
+		nextID=83;
 	};
 	class Camera
 	{
@@ -36,13 +36,14 @@ addons[]=
 	"FR2035_Characters_F",
 	"FR2035legacy_soft_f",
 	"A3_Supplies_F_Heli_CargoNets",
-	"A3_Props_F_Enoch_Military_Decontamination"
+	"A3_Props_F_Enoch_Military_Decontamination",
+	"A3_Structures_F_EPA_Mil_Scrapyard"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=10;
+		items=11;
 		class Item0
 		{
 			className="A3_Structures_F_Enoch_Military";
@@ -111,6 +112,13 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item10
+		{
+			className="A3_Structures_F_EPA";
+			name="Arma 3 Survive Episode - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
 	};
 };
 randomSeed=4620827;
@@ -147,7 +155,7 @@ class Intro
 	};
 	class Entities
 	{
-		items=23;
+		items=24;
 		class Item0
 		{
 			dataType="Object";
@@ -923,7 +931,7 @@ class Intro
 			class PositionInfo
 			{
 				position[]={2534.9985,225.98531,5518.1074};
-				angles[]={-0,4.3723593,0};
+				angles[]={0,4.3723593,0};
 			};
 			side="Empty";
 			flags=4;
@@ -939,7 +947,7 @@ class Intro
 			class PositionInfo
 			{
 				position[]={2537.3914,225.68877,5516.77};
-				angles[]={-0,3.4306493,0};
+				angles[]={0,3.4306493,0};
 			};
 			side="Empty";
 			flags=4;
@@ -972,7 +980,7 @@ class Intro
 			class PositionInfo
 			{
 				position[]={2531.8462,225.28694,5528.8677};
-				angles[]={-0,0,0.015994642};
+				angles[]={0,0,0.015994642};
 			};
 			side="Empty";
 			flags=4;
@@ -1004,7 +1012,7 @@ class Intro
 			class PositionInfo
 			{
 				position[]={2539.4512,225.21727,5513.6431};
-				angles[]={-0,2.3128211,0.023993526};
+				angles[]={0,2.3128211,0.023993526};
 			};
 			side="Empty";
 			flags=4;
@@ -1045,6 +1053,22 @@ class Intro
 			};
 			id=71;
 			type="WaterSpill_01_Small_New_F";
+		};
+		class Item23
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2524.9326,225.82796,5536.9966};
+				angles[]={6.2816033,5.3441219,6.271987};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=73;
+			type="Land_PaperBox_open_full_F";
 		};
 	};
 };

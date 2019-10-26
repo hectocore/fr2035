@@ -32,6 +32,10 @@ class CfgMissions
 		{
 			directory="fr2035_map_scenes_f\scenes\intro.Stratis";
 		};
+		class FR2035_VR_intro
+		{
+			directory="fr2035_map_scenes_f\scenes\intro.VR";
+		};
 		class FR2035_Malden_intro
 		{
 			directory="fr2035_map_scenes_f\scenes\intro.Malden";
@@ -68,7 +72,7 @@ class CfgWorlds
 	{
 		cutscenes[]=
 		{
-			"FR2035_Altis_intro"
+			"FR2035_VR_intro"
 		};
 	};
 	class Malden: CAWorld
