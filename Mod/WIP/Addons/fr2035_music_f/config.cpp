@@ -18,10 +18,22 @@ class CfgMusic
 {
 	class FR2035_LeadTrack01_F
 	{
-		name="FR2035 - Menu";
+		name="FR2035 - Main theme";
 		sound[]=
 		{
-			"\fr2035_music_f\music\menu.ogg",
+			"\fr2035_music_f\music\main.ogg",
+			1,
+			1
+		};
+		duration=158.00;
+		musicClass="Action";
+	};
+	class FR2035_LeadTrack02_F
+	{
+		name="FR2035 - Calm";
+		sound[]=
+		{
+			"\fr2035_music_f\music\calm.ogg",
 			1,
 			1
 		};
