@@ -62,6 +62,7 @@ class CfgPatches
 			"FR2035_support_AMG_F",
 			"FR2035_support_AMort_F",
 			"FR2035_UAV_AI",
+			"FR2035_UAV_AI_F",
 			"FR2035_Soldier_VR_F",
 			"FR2035_Protagonist_VR_F",
 			"FR2035_ghillie_lsh_F",
@@ -115,7 +116,7 @@ class CfgPatches
 			"H_FR2035_PilotHelmetFighter",
 			"H_FR2035_PilotHelmetHeli",
 			"H_FR2035_CrewHelmetHeli",
-			"H_FR2035_CTRG_HelmetSpec_ce",
+			"H_FR2035_CTRG_Helmet_TI_ce",
 			"V_FR2035_Bandollier_ce",
 			"V_FR2035_Chestrig_ce",
 			"V_FR2035_PlateCarrier1_ce",
@@ -152,10 +153,8 @@ class CfgVehicles
 		picture="";
 		icon="iconMan";
 		accuracy=2.3;
-		threat[]={1,0.1,0.1};
 		camouflage=1.4;
 		minFireTime=7;
-		cost=100000;
 		canCarryBackPack=1;
 		scope=0;
 		class Wounds
@@ -217,8 +216,8 @@ class CfgVehicles
 			};
 		};
 		armor=2;
-		armorStructural=0.38;
-		explosionShielding=0.037999999;
+		armorStructural=3;
+		explosionShielding=0.30000001;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -326,8 +325,8 @@ class CfgVehicles
 		modelSides[]={3,1};
 		uniformClass="U_FR2035_CombatUniform_ce_tshirt";
 		armor=2;
-		armorStructural=0.5;
-		explosionShielding=0.050000001;
+		armorStructural=4;
+		explosionShielding=0.40000001;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -350,8 +349,8 @@ class CfgVehicles
 		modelSides[]={3,1};
 		uniformClass="U_FR2035_CombatUniform_ce_vest";
 		armor=2;
-		armorStructural=0.5;
-		explosionShielding=0.050000001;
+		armorStructural=4;
+		explosionShielding=0.40000001;
 	};
 	class FR2035_Soldier_04_f: FR2035_Soldier_base_F
 	{
@@ -363,6 +362,7 @@ class CfgVehicles
 		modelSides[]={3,1};
 		uniformClass="U_FR2035_HeliPilotCoveralls";
 		role="Crewman";
+		cost=93000;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -379,7 +379,7 @@ class CfgVehicles
 				armor=1;
 				material=-1;
 				name="face_hub";
-				passThrough=0.1;
+				passThrough=0.80000001;
 				radius=0.079999998;
 				explosionShielding=0.1;
 				minimalHit=0.0099999998;
@@ -389,7 +389,7 @@ class CfgVehicles
 				armor=1;
 				material=-1;
 				name="neck";
-				passThrough=0.1;
+				passThrough=0.80000001;
 				radius=0.1;
 				explosionShielding=0.5;
 				minimalHit=0.0099999998;
@@ -399,7 +399,7 @@ class CfgVehicles
 				armor=1;
 				material=-1;
 				name="head";
-				passThrough=0.1;
+				passThrough=0.80000001;
 				radius=0.2;
 				explosionShielding=0.5;
 				minimalHit=0.0099999998;
@@ -407,45 +407,45 @@ class CfgVehicles
 			};
 			class HitPelvis: HitHead
 			{
-				armor=2;
+				armor=6;
 				material=-1;
 				name="pelvis";
-				passThrough=0.050000001;
-				radius=0.2;
+				passThrough=0.80000001;
+				radius=0.23999999;
 				explosionShielding=1;
 				visual="injury_body";
 				minimalHit=0.0099999998;
-				depends="";
+				depends="0";
 			};
 			class HitAbdomen: HitPelvis
 			{
-				armor=2;
+				armor=1;
 				material=-1;
 				name="spine1";
-				passThrough=0.050000001;
-				radius=0.15000001;
+				passThrough=0.80000001;
+				radius=0.16;
 				explosionShielding=1;
 				visual="injury_body";
 				minimalHit=0.0099999998;
 			};
 			class HitDiaphragm: HitAbdomen
 			{
-				armor=2;
+				armor=1;
 				material=-1;
 				name="spine2";
-				passThrough=0.050000001;
-				radius=0.15000001;
+				passThrough=0.80000001;
+				radius=0.18000001;
 				explosionShielding=2.4000001;
 				visual="injury_body";
 				minimalHit=0.0099999998;
 			};
 			class HitChest: HitDiaphragm
 			{
-				armor=2;
+				armor=1;
 				material=-1;
 				name="spine3";
-				passThrough=0.050000001;
-				radius=0.15000001;
+				passThrough=0.80000001;
+				radius=0.18000001;
 				explosionShielding=2.4000001;
 				visual="injury_body";
 				minimalHit=0.0099999998;
@@ -455,8 +455,8 @@ class CfgVehicles
 				armor=1000;
 				material=-1;
 				name="body";
-				passThrough=0.050000001;
-				radius=0.16;
+				passThrough=1;
+				radius=0;
 				explosionShielding=2.4000001;
 				visual="injury_body";
 				minimalHit=0.0099999998;
@@ -464,22 +464,22 @@ class CfgVehicles
 			};
 			class HitArms: HitBody
 			{
-				armor=0.60000002;
+				armor=5;
 				material=-1;
 				name="arms";
-				passThrough=0.5;
+				passThrough=1;
 				radius=0.1;
 				explosionShielding=0.30000001;
 				visual="injury_hands";
 				minimalHit=0.0099999998;
-				depends="";
+				depends="0";
 			};
 			class HitHands: HitArms
 			{
-				armor=0.60000002;
+				armor=5;
 				material=-1;
 				name="hands";
-				passThrough=0.5;
+				passThrough=1;
 				radius=0.1;
 				explosionShielding=0.30000001;
 				visual="injury_hands";
@@ -488,15 +488,15 @@ class CfgVehicles
 			};
 			class HitLegs: HitHands
 			{
-				armor=0.60000002;
+				armor=5;
 				material=-1;
 				name="legs";
-				passThrough=0.5;
-				radius=0.12;
+				passThrough=1;
+				radius=0.14;
 				explosionShielding=0.30000001;
 				visual="injury_legs";
 				minimalHit=0.0099999998;
-				depends="";
+				depends="0";
 			};
 			class Incapacitated: HitLegs
 			{
@@ -508,12 +508,12 @@ class CfgVehicles
 				explosionShielding=1;
 				visual="";
 				minimalHit=0;
-				depends="(HitHead * 2) + HitBody + ((HitHands + HitLegs) / 2) + Total";
+				depends="(((Total - 0.25) max 0) + ((HitHead - 0.25) max 0) + ((HitBody - 0.25) max 0)) * 2";
 			};
 		};
 		armor=2;
-		armorStructural=0.25;
-		explosionShielding=0.025;
+		armorStructural=2;
+		explosionShielding=0.2;
 		class Wounds
 		{
 			tex[]={};
@@ -538,9 +538,10 @@ class CfgVehicles
 		modelSides[]={3,1};
 		uniformClass="U_FR2035_PilotCoveralls";
 		role="Crewman";
+		cost=93000;
 		hiddenSelections[]=
 		{
-			"Camo",
+			"Camo1",
 			"Camo2",
 			"insignia"
 		};
@@ -556,7 +557,7 @@ class CfgVehicles
 				armor=1;
 				material=-1;
 				name="face_hub";
-				passThrough=0.1;
+				passThrough=0.80000001;
 				radius=0.079999998;
 				explosionShielding=0.1;
 				minimalHit=0.0099999998;
@@ -566,7 +567,7 @@ class CfgVehicles
 				armor=1;
 				material=-1;
 				name="neck";
-				passThrough=0.1;
+				passThrough=0.80000001;
 				radius=0.1;
 				explosionShielding=0.5;
 				minimalHit=0.0099999998;
@@ -576,7 +577,7 @@ class CfgVehicles
 				armor=1;
 				material=-1;
 				name="head";
-				passThrough=0.1;
+				passThrough=0.80000001;
 				radius=0.2;
 				explosionShielding=0.5;
 				minimalHit=0.0099999998;
@@ -584,45 +585,45 @@ class CfgVehicles
 			};
 			class HitPelvis: HitHead
 			{
-				armor=2;
+				armor=6;
 				material=-1;
 				name="pelvis";
-				passThrough=0.050000001;
-				radius=0.2;
+				passThrough=0.80000001;
+				radius=0.23999999;
 				explosionShielding=1;
 				visual="injury_body";
 				minimalHit=0.0099999998;
-				depends="";
+				depends="0";
 			};
 			class HitAbdomen: HitPelvis
 			{
-				armor=2;
+				armor=1;
 				material=-1;
 				name="spine1";
-				passThrough=0.050000001;
-				radius=0.15000001;
+				passThrough=0.80000001;
+				radius=0.16;
 				explosionShielding=1;
 				visual="injury_body";
 				minimalHit=0.0099999998;
 			};
 			class HitDiaphragm: HitAbdomen
 			{
-				armor=2;
+				armor=1;
 				material=-1;
 				name="spine2";
-				passThrough=0.050000001;
-				radius=0.15000001;
+				passThrough=0.80000001;
+				radius=0.18000001;
 				explosionShielding=2.4000001;
 				visual="injury_body";
 				minimalHit=0.0099999998;
 			};
 			class HitChest: HitDiaphragm
 			{
-				armor=2;
+				armor=1;
 				material=-1;
 				name="spine3";
-				passThrough=0.050000001;
-				radius=0.15000001;
+				passThrough=0.80000001;
+				radius=0.18000001;
 				explosionShielding=2.4000001;
 				visual="injury_body";
 				minimalHit=0.0099999998;
@@ -632,8 +633,8 @@ class CfgVehicles
 				armor=1000;
 				material=-1;
 				name="body";
-				passThrough=0.050000001;
-				radius=0.16;
+				passThrough=1;
+				radius=0;
 				explosionShielding=2.4000001;
 				visual="injury_body";
 				minimalHit=0.0099999998;
@@ -641,22 +642,22 @@ class CfgVehicles
 			};
 			class HitArms: HitBody
 			{
-				armor=0.60000002;
+				armor=5;
 				material=-1;
 				name="arms";
-				passThrough=0.5;
+				passThrough=1;
 				radius=0.1;
 				explosionShielding=0.30000001;
 				visual="injury_hands";
 				minimalHit=0.0099999998;
-				depends="";
+				depends="0";
 			};
 			class HitHands: HitArms
 			{
-				armor=0.60000002;
+				armor=5;
 				material=-1;
 				name="hands";
-				passThrough=0.5;
+				passThrough=1;
 				radius=0.1;
 				explosionShielding=0.30000001;
 				visual="injury_hands";
@@ -665,15 +666,15 @@ class CfgVehicles
 			};
 			class HitLegs: HitHands
 			{
-				armor=0.60000002;
+				armor=5;
 				material=-1;
 				name="legs";
-				passThrough=0.5;
-				radius=0.12;
+				passThrough=1;
+				radius=0.14;
 				explosionShielding=0.30000001;
 				visual="injury_legs";
 				minimalHit=0.0099999998;
-				depends="";
+				depends="0";
 			};
 			class Incapacitated: HitLegs
 			{
@@ -685,12 +686,12 @@ class CfgVehicles
 				explosionShielding=1;
 				visual="";
 				minimalHit=0;
-				depends="(HitHead * 2) + HitBody + ((HitHands + HitLegs) / 2) + Total";
+				depends="(((Total - 0.25) max 0) + ((HitHead - 0.25) max 0) + ((HitBody - 0.25) max 0)) * 2";
 			};
 		};
 		armor=2;
-		armorStructural=0.075000003;
-		explosionShielding=0.0074999998;
+		armorStructural=0.60000002;
+		explosionShielding=0.059999999;
 		class Wounds
 		{
 			tex[]={};
@@ -877,7 +878,6 @@ class CfgVehicles
 			"Chemlight_green"
 		};
 		camouflage=1.2;
-		cost=90000;
 		role="Rifleman";
 		linkedItems[]=
 		{
@@ -984,9 +984,8 @@ class CfgVehicles
 			"1Rnd_SmokeGreen_Grenade_shell",
 			"1Rnd_SmokeOrange_Grenade_shell"
 		};
-		cost=130000;
+		cost=200000;
 		role="Grenadier";
-		threat[]={1,0.30000001,0.1};
 		linkedItems[]=
 		{
 			"V_FR2035_PlateCarrierGL_ce",
@@ -1080,8 +1079,7 @@ class CfgVehicles
 			"Chemlight_green",
 			"Chemlight_green"
 		};
-		cost=125000;
-		threat[]={1,0.1,0.30000001};
+		cost=220000;
 		icon="iconManMG";
 		role="MachineGunner";
 		uniformClass="U_FR2035_CombatUniform_ce_tshirt";
@@ -1174,7 +1172,7 @@ class CfgVehicles
 			"Chemlight_green",
 			"Chemlight_green"
 		};
-		cost=500000;
+		cost=250000;
 		camouflage=1.4;
 		icon="iconManLeader";
 		role="Rifleman";
@@ -1287,7 +1285,7 @@ class CfgVehicles
 			"1Rnd_SmokeGreen_Grenade_shell",
 			"1Rnd_SmokeOrange_Grenade_shell"
 		};
-		cost=450000;
+		cost=250000;
 		camouflage=1.4;
 		icon="iconManLeader";
 		role="Grenadier";
@@ -1375,7 +1373,7 @@ class CfgVehicles
 			"Chemlight_green",
 			"Chemlight_green"
 		};
-		cost=150000;
+		cost=250000;
 		role="Marksman";
 		linkedItems[]=
 		{
@@ -1473,8 +1471,8 @@ class CfgVehicles
 			"Chemlight_green",
 			"Chemlight_green"
 		};
-		cost=180000;
-		threat[]={1,0.69999999,0.30000001};
+		cost=130000;
+		threat[]={0.80000001,0.80000001,0.30000001};
 		icon="iconManAT";
 		role="MissileSpecialist";
 		linkedItems[]=
@@ -1574,7 +1572,6 @@ class CfgVehicles
 			"Chemlight_green",
 			"Chemlight_green"
 		};
-		cost=300000;
 		camouflage=1.6;
 		icon="iconManMedic";
 		role="CombatLifeSaver";
@@ -1610,8 +1607,8 @@ class CfgVehicles
 		scope=2;
 		displayName="$STR_B_soldier_repair_F0";
 		engineer=1;
-		detectSkill=40;
-		cost=220000;
+		detectSkill=24;
+		cost=93000;
 		camouflage=1.6;
 		backpack="B_FR2035_AssaultPack_ce_Repair";
 		linkedItems[]=
@@ -1699,7 +1696,7 @@ class CfgVehicles
 		_generalMacro="FR2035_soldier_exp_F";
 		scope=2;
 		displayName="$STR_B_soldier_exp_F0";
-		cost=115000;
+		cost=93000;
 		camouflage=1.6;
 		backpack="B_FR2035_Kitbag_ce_Exp";
 		weapons[]=
@@ -1759,8 +1756,7 @@ class CfgVehicles
 			"Chemlight_green"
 		};
 		canDeactivateMines=1;
-		detectSkill=80;
-		threat[]={1,0.5,0.1};
+		detectSkill=38;
 		linkedItems[]=
 		{
 			"V_FR2035_PlateCarrierGL_ce",
@@ -1873,7 +1869,6 @@ class CfgVehicles
 			"Chemlight_green",
 			"Chemlight_green"
 		};
-		cost=160000;
 		role="Crewman";
 		camouflage=2;
 	};
@@ -1898,7 +1893,6 @@ class CfgVehicles
 			"Throw",
 			"Put"
 		};
-		cost=110000;
 		role="Rifleman";
 		camouflage=1.5;
 		backpack="B_FR2035_Carryall_ce_Ammo";
@@ -2046,8 +2040,8 @@ class CfgVehicles
 			"Chemlight_green",
 			"Chemlight_green"
 		};
-		cost=190000;
-		threat[]={1,1,0.80000001};
+		cost=130000;
+		threat[]={0.80000001,0.80000001,0.30000001};
 		camouflage=1.5;
 		icon="iconManAT";
 		role="MissileSpecialist";
@@ -2148,8 +2142,8 @@ class CfgVehicles
 			"Chemlight_green",
 			"Chemlight_green"
 		};
-		cost=200000;
-		threat[]={1,1,0.80000001};
+		cost=130000;
+		threat[]={0.80000001,0.1,1};
 		camouflage=1.5;
 		icon="iconManAT";
 		role="MissileSpecialist";
@@ -2182,7 +2176,6 @@ class CfgVehicles
 		_generalMacro="FR2035_engineer_F";
 		scope=2;
 		displayName="$STR_B_engineer_F0";
-		cost=220000;
 		camouflage=1.6;
 		uniformClass="U_FR2035_CombatUniform_ce_vest";
 		backpack="B_FR2035_Kitbag_ce_Eng";
@@ -2242,8 +2235,7 @@ class CfgVehicles
 		};
 		canDeactivateMines=1;
 		engineer=1;
-		detectSkill=60;
-		threat[]={1,0.5,0.1};
+		detectSkill=31;
 		linkedItems[]=
 		{
 			"V_FR2035_Chestrig_ce",
@@ -2341,7 +2333,7 @@ class CfgVehicles
 			"Chemlight_green",
 			"Chemlight_green"
 		};
-		cost=90000;
+		cost=93000;
 		role="Crewman";
 		camouflage=1.6;
 		linkedItems[]=
@@ -2437,7 +2429,7 @@ class CfgVehicles
 			"Chemlight_green",
 			"Chemlight_green"
 		};
-		cost=600000;
+		cost=250000;
 		camouflage=1.6;
 		icon="iconManOfficer";
 		role="Rifleman";
@@ -2487,23 +2479,6 @@ class CfgVehicles
 	class FR2035_Pilot_F: FR2035_Soldier_05_f
 	{
 		author="$STR_FR2035_Author";
-		class SpeechVariants
-		{
-			class Default
-			{
-				speechSingular[]=
-				{
-					"veh_infantry_pilot_s"
-				};
-				speechPlural[]=
-				{
-					"veh_infantry_pilot_p"
-				};
-			};
-		};
-		textSingular="$STR_A3_nameSound_veh_infantry_pilot_s";
-		textPlural="$STR_A3_nameSound_veh_infantry_pilot_p";
-		nameSound="veh_infantry_pilot_s";
 		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_Pilot_F.jpg";
 		_generalMacro="FR2035_Pilot_F";
 		scope=2;
@@ -2559,7 +2534,6 @@ class CfgVehicles
 			"ItemWatch",
 			"ItemRadio"
 		};
-		cost=165000;
 		role="Crewman";
 	};
 	class FR2035_helicrew_F: FR2035_Helipilot_F
@@ -2570,7 +2544,6 @@ class CfgVehicles
 		displayName="$STR_B_helicrew_F0";
 		modelSides[]={3,1};
 		uniformClass="U_FR2035_HeliPilotCoveralls";
-		cost=80000;
 		role="Crewman";
 		weapons[]=
 		{
@@ -2657,7 +2630,6 @@ class CfgVehicles
 			"NVGoggles_OPFOR"
 		};
 		backpack="B_Parachute";
-		cost=120000;
 		role="SpecialOperative";
 	};
 	class FR2035_soldier_UAV_F: FR2035_Soldier_base_F
@@ -2690,7 +2662,6 @@ class CfgVehicles
 			"NVGoggles_OPFOR"
 		};
 		backpack="B_UAV_01_backpack_F";
-		cost=150000;
 		role="SpecialOperative";
 		uavHacker=1;
 	};
@@ -2834,8 +2805,8 @@ class CfgVehicles
 			};
 		};
 		armor=2;
-		armorStructural=0.5;
-		explosionShielding=0.050000001;
+		armorStructural=4;
+		explosionShielding=0.40000001;
 		hiddenUnderwaterSelections[]=
 		{
 			"hide"
@@ -2940,7 +2911,6 @@ class CfgVehicles
 		backpack="B_Assault_Diver";
 		model="\A3\characters_F\Common\diver_slotable";
 		modelSides[]={3,1};
-		cost=70000;
 		role="SpecialOperative";
 		camouflage=2;
 	};
@@ -2973,7 +2943,7 @@ class CfgVehicles
 		};
 		icon="iconManLeader";
 		role="SpecialOperative";
-		cost=430000;
+		cost=250000;
 		camouflage=2;
 	};
 	class FR2035_diver_exp_F: FR2035_Soldier_diver_base_F
@@ -2985,7 +2955,7 @@ class CfgVehicles
 		backpack="B_AssaultPack_blk_DiverExp";
 		displayName="$STR_B_diver_exp_F0";
 		canDeactivateMines=1;
-		cost=90000;
+		cost=93000;
 		camouflage=2;
 		icon="iconManExplosive";
 		role="SpecialOperative";
@@ -3017,7 +2987,7 @@ class CfgVehicles
 		editorSubcategory="EdSubcat_Personnel_SpecialForces";
 		role="Rifleman";
 		camouflage=0.60000002;
-		detectSkill=30;
+		detectSkill=18;
 	};
 	class FR2035_recon_F: FR2035_Soldier_recon_base
 	{
@@ -3086,7 +3056,6 @@ class CfgVehicles
 			"Chemlight_green",
 			"Chemlight_green"
 		};
-		cost=100000;
 		role="Rifleman";
 		linkedItems[]=
 		{
@@ -3173,8 +3142,8 @@ class CfgVehicles
 			"Chemlight_green",
 			"Chemlight_green"
 		};
-		threat[]={1,0.60000002,0.1};
-		cost=150000;
+		threat[]={0.80000001,0.80000001,0.30000001};
+		cost=130000;
 		icon="iconManAT";
 		role="MissileSpecialist";
 		linkedItems[]=
@@ -3266,8 +3235,7 @@ class CfgVehicles
 			"Chemlight_green"
 		};
 		canDeactivateMines=1;
-		detectSkill=80;
-		cost=115000;
+		detectSkill=38;
 		linkedItems[]=
 		{
 			"V_FR2035_Chestrig_ce",
@@ -3317,7 +3285,7 @@ class CfgVehicles
 			"Throw",
 			"Put"
 		};
-		cost=290000;
+		backpack="B_AssaultPack_rgr_ReconMedic";
 		backpack="B_FR2035_AssaultPack_ce_ReconMedic";
 		icon="iconManMedic";
 		role="CombatLifeSaver";
@@ -3405,7 +3373,7 @@ class CfgVehicles
 			"Put",
 			"Rangefinder"
 		};
-		cost=440000;
+		cost=250000;
 		icon="iconManLeader";
 		role="Grenadier";
 		magazines[]=
@@ -3531,8 +3499,8 @@ class CfgVehicles
 			"Chemlight_green",
 			"Chemlight_green"
 		};
-		cost=140000;
 		role="Marksman";
+		cost=250000;
 		linkedItems[]=
 		{
 			"V_FR2035_Chestrig_ce",
@@ -3750,7 +3718,7 @@ class CfgVehicles
 		displayName="$STR_B_spotter_F0";
 		cost=250000;
 		role="Marksman";
-		threat[]={1,0.30000001,0.30000001};
+		threat[]={0.80000001,0.30000001,0.30000001};
 		camouflage=0.60000002;
 		weapons[]=
 		{
@@ -3899,9 +3867,9 @@ class CfgVehicles
 			"Chemlight_green",
 			"Chemlight_green"
 		};
-		cost=350000;
+		cost=250000;
 		role="Marksman";
-		threat[]={1,0.30000001,0.30000001};
+		threat[]={0.80000001,0.30000001,0.30000001};
 		camouflage=0.60000002;
 	};
 	class FR2035_soldier_survival_F: FR2035_Soldier_base_F
@@ -4056,7 +4024,7 @@ class CfgVehicles
 		_generalMacro="FR2035_soldier_AAR_F";
 		scope=2;
 		displayName="$STR_O_SOLDIERU_AAR_F0";
-		cost=95000;
+		backpack="B_Kitbag_rgr_AAR";
 		backpack="B_FR2035_Kitbag_ce_AAR";
 		role="Assistant";
 	};
@@ -4067,7 +4035,7 @@ class CfgVehicles
 		_generalMacro="FR2035_soldier_AAT_F";
 		scope=2;
 		displayName="$STR_B_soldier_AAT_F0";
-		cost=93000;
+		cost=130000;
 		role="Assistant";
 		backpack="B_FR2035_Carryall_ce_AAT";
 	};
@@ -4078,7 +4046,7 @@ class CfgVehicles
 		_generalMacro="FR2035_soldier_AAA_F";
 		scope=2;
 		displayName="$STR_B_soldier_AAA_F0";
-		cost=94000;
+		cost=220000;
 		role="Assistant";
 		backpack="B_FR2035_Carryall_ce_AAA";
 	};
@@ -4104,8 +4072,7 @@ class CfgVehicles
 			"Throw",
 			"Put"
 		};
-		threat[]={1,0.30000001,0.30000001};
-		cost=460000;
+		cost=220000;
 		role="Assistant";
 	};
 	class FR2035_support_GMG_F: FR2035_Soldier_support_base_F
@@ -4130,8 +4097,7 @@ class CfgVehicles
 			"Throw",
 			"Put"
 		};
-		threat[]={1,0.60000002,0.1};
-		cost=470000;
+		cost=220000;
 		role="Assistant";
 	};
 	class FR2035_support_Mort_F: FR2035_Soldier_support_base_F
@@ -4156,8 +4122,7 @@ class CfgVehicles
 			"Throw",
 			"Put"
 		};
-		threat[]={1,0.80000001,0.1};
-		cost=480000;
+		cost=220000;
 		role="Assistant";
 	};
 	class FR2035_support_AMG_F: FR2035_Soldier_support_base_F
@@ -4182,7 +4147,7 @@ class CfgVehicles
 			"Throw",
 			"Put"
 		};
-		cost=91000;
+		cost=220000;
 		role="Assistant";
 	};
 	class FR2035_support_AMort_F: FR2035_Soldier_support_base_F
@@ -4207,7 +4172,7 @@ class CfgVehicles
 			"Throw",
 			"Put"
 		};
-		cost=81000;
+		cost=220000;
 		role="Assistant";
 	};
 	class FR2035_UAV_AI: FR2035_Helipilot_F
@@ -4221,6 +4186,15 @@ class CfgVehicles
 		model="\A3\characters_F\Common\invisibleMan.p3d";
 		weapons[]={};
 		magazines[]={};
+	};
+	class UAV_AI_base_F;
+	class FR2035_UAV_AI_F: UAV_AI_base_F
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="FR2035_UAV_AI_F";
+		side=1;
+		faction="FR2035_F";
+		scope=1;
 	};
 	class FR2035_Soldier_VR_F: FR2035_Soldier_base_F
 	{
@@ -4300,7 +4274,7 @@ class CfgVehicles
 				armor=1;
 				material=-1;
 				name="face_hub";
-				passThrough=0.1;
+				passThrough=0.80000001;
 				radius=0.079999998;
 				explosionShielding=0.1;
 				minimalHit=0.0099999998;
@@ -4310,7 +4284,7 @@ class CfgVehicles
 				armor=1;
 				material=-1;
 				name="neck";
-				passThrough=0.1;
+				passThrough=0.80000001;
 				radius=0.1;
 				explosionShielding=0.5;
 				minimalHit=0.0099999998;
@@ -4320,31 +4294,32 @@ class CfgVehicles
 				armor=1;
 				material=-1;
 				name="head";
-				passThrough=0.1;
+				passThrough=0.80000001;
 				radius=0.2;
 				explosionShielding=0.5;
 				visual="camo_head";
 				minimalHit=0.0099999998;
 				depends="HitFace max HitNeck";
 			};
-			class HitPelvis
+			class HitPelvis: HitHead
 			{
-				armor=1;
+				armor=6;
 				material=-1;
 				name="pelvis";
-				passThrough=0.1;
-				radius=0.2;
-				explosionShielding=1;
+				passThrough=0.80000001;
+				radius=0.23999999;
+				explosionShielding=6;
 				visual="injury_body";
 				minimalHit=0.0099999998;
+				depends="0";
 			};
 			class HitAbdomen: HitPelvis
 			{
 				armor=1;
 				material=-1;
 				name="spine1";
-				passThrough=0.1;
-				radius=0.15000001;
+				passThrough=0.80000001;
+				radius=0.16;
 				explosionShielding=1;
 				visual="injury_body";
 				minimalHit=0.0099999998;
@@ -4354,8 +4329,8 @@ class CfgVehicles
 				armor=1;
 				material=-1;
 				name="spine2";
-				passThrough=0.1;
-				radius=0.15000001;
+				passThrough=0.80000001;
+				radius=0.18000001;
 				explosionShielding=6;
 				visual="injury_body";
 				minimalHit=0.0099999998;
@@ -4365,8 +4340,8 @@ class CfgVehicles
 				armor=1;
 				material=-1;
 				name="spine3";
-				passThrough=0.1;
-				radius=0.15000001;
+				passThrough=0.80000001;
+				radius=0.18000001;
 				explosionShielding=6;
 				visual="injury_body";
 				minimalHit=0.0099999998;
@@ -4376,14 +4351,14 @@ class CfgVehicles
 				armor=1000;
 				material=-1;
 				name="body";
-				passThrough=0.1;
-				radius=0.16;
+				passThrough=1;
+				radius=0;
 				explosionShielding=6;
 				visual="camo_body";
 				minimalHit=0.0099999998;
 				depends="HitPelvis max HitAbdomen max HitDiaphragm max HitChest";
 			};
-			class hand_l
+			class hand_l: HitBody
 			{
 				armor=1;
 				material=-1;
@@ -4393,8 +4368,9 @@ class CfgVehicles
 				explosionShielding=1;
 				visual="Camo_arm_left";
 				minimalHit=0.0099999998;
+				depends="0";
 			};
-			class hand_r
+			class hand_r: hand_l
 			{
 				armor=1;
 				material=-1;
@@ -4405,7 +4381,7 @@ class CfgVehicles
 				visual="Camo_arm_right";
 				minimalHit=0.0099999998;
 			};
-			class HitArms
+			class HitArms: hand_r
 			{
 				armor=1;
 				material=-1;
@@ -4428,43 +4404,56 @@ class CfgVehicles
 				minimalHit=0.0099999998;
 				depends="HitArms";
 			};
-			class leg_l
+			class leg_l: HitHands
 			{
 				armor=1;
 				material=-1;
 				name="leg_l";
 				passThrough=1;
-				radius=0.12;
+				radius=0.14;
 				explosionShielding=1;
 				visual="Camo_leg_left";
 				minimalHit=0.0099999998;
+				depends="0";
 			};
-			class leg_r
+			class leg_r: leg_l
 			{
 				armor=1;
 				material=-1;
 				name="leg_r";
 				passThrough=1;
-				radius=0.12;
+				radius=0.14;
 				explosionShielding=1;
 				visual="Camo_leg_right";
 				minimalHit=0.0099999998;
 			};
-			class HitLegs
+			class HitLegs: leg_r
 			{
 				armor=1;
 				material=-1;
 				name="legs";
 				passThrough=1;
-				radius=0.12;
+				radius=0.14;
 				explosionShielding=1;
 				visual="injury_legs";
 				minimalHit=0.0099999998;
 			};
+			class Incapacitated: HitLegs
+			{
+				armor=1000;
+				material=-1;
+				name="body";
+				passThrough=1;
+				radius=0;
+				explosionShielding=1;
+				visual="";
+				minimalHit=0;
+				depends="(((Total - 0.25) max 0) + ((HitHead - 0.25) max 0) + ((HitBody - 0.25) max 0)) * 2";
+			};
 		};
 		armor=2;
-		armorStructural=0.5;
-		explosionShielding=0.050000001;
+		armorStructural=4;
+		explosionShielding=0.40000001;
 	};
 	class FR2035_Protagonist_VR_F: FR2035_Soldier_base_F
 	{
@@ -4526,9 +4515,193 @@ class CfgVehicles
 		};
 		engineer=1;
 		canDeactivateMines=1;
+		class HitPoints
+		{
+			class HitFace
+			{
+				armor=1;
+				material=-1;
+				name="face_hub";
+				passThrough=0.80000001;
+				radius=0.079999998;
+				explosionShielding=0.1;
+				minimalHit=0.0099999998;
+			};
+			class HitNeck: HitFace
+			{
+				armor=1;
+				material=-1;
+				name="neck";
+				passThrough=0.80000001;
+				radius=0.1;
+				explosionShielding=0.5;
+				minimalHit=0.0099999998;
+			};
+			class HitHead: HitNeck
+			{
+				armor=1;
+				material=-1;
+				name="head";
+				passThrough=0.80000001;
+				radius=0.2;
+				explosionShielding=0.5;
+				visual="camo_head";
+				minimalHit=0.0099999998;
+				depends="HitFace max HitNeck";
+			};
+			class HitPelvis: HitHead
+			{
+				armor=1;
+				material=-1;
+				name="pelvis";
+				passThrough=0.80000001;
+				radius=0.23999999;
+				explosionShielding=1;
+				visual="injury_body";
+				minimalHit=0.0099999998;
+				depends="0";
+			};
+			class HitAbdomen: HitPelvis
+			{
+				armor=1;
+				material=-1;
+				name="spine1";
+				passThrough=0.80000001;
+				radius=0.16;
+				explosionShielding=1;
+				visual="injury_body";
+				minimalHit=0.0099999998;
+			};
+			class HitDiaphragm: HitAbdomen
+			{
+				armor=1;
+				material=-1;
+				name="spine2";
+				passThrough=0.80000001;
+				radius=0.18000001;
+				explosionShielding=6;
+				visual="injury_body";
+				minimalHit=0.0099999998;
+			};
+			class HitChest: HitDiaphragm
+			{
+				armor=1;
+				material=-1;
+				name="spine3";
+				passThrough=0.80000001;
+				radius=0.18000001;
+				explosionShielding=6;
+				visual="injury_body";
+				minimalHit=0.0099999998;
+			};
+			class HitBody: HitChest
+			{
+				armor=1000;
+				material=-1;
+				name="body";
+				passThrough=1;
+				radius=0;
+				explosionShielding=6;
+				visual="camo_body";
+				minimalHit=0.0099999998;
+				depends="HitPelvis max HitAbdomen max HitDiaphragm max HitChest";
+			};
+			class hand_l: HitBody
+			{
+				armor=1;
+				material=-1;
+				name="hand_l";
+				passThrough=1;
+				radius=0.1;
+				explosionShielding=1;
+				visual="Camo_arm_left";
+				minimalHit=0.0099999998;
+				depends="0";
+			};
+			class hand_r: hand_l
+			{
+				armor=1;
+				material=-1;
+				name="hand_r";
+				passThrough=1;
+				radius=0.1;
+				explosionShielding=1;
+				visual="Camo_arm_right";
+				minimalHit=0.0099999998;
+			};
+			class HitArms: hand_r
+			{
+				armor=1;
+				material=-1;
+				name="arms";
+				passThrough=1;
+				radius=0.1;
+				explosionShielding=1;
+				visual="injury_hands";
+				minimalHit=0.0099999998;
+			};
+			class HitHands: HitArms
+			{
+				armor=1;
+				material=-1;
+				name="hands";
+				passThrough=1;
+				radius=0.1;
+				explosionShielding=1;
+				visual="injury_hands";
+				minimalHit=0.0099999998;
+				depends="HitArms";
+			};
+			class leg_l: HitHands
+			{
+				armor=1;
+				material=-1;
+				name="leg_l";
+				passThrough=1;
+				radius=0.14;
+				explosionShielding=1;
+				visual="Camo_leg_left";
+				minimalHit=0.0099999998;
+				depends="0";
+			};
+			class leg_r: leg_l
+			{
+				armor=1;
+				material=-1;
+				name="leg_r";
+				passThrough=1;
+				radius=0.14;
+				explosionShielding=1;
+				visual="Camo_leg_right";
+				minimalHit=0.0099999998;
+			};
+			class HitLegs: leg_r
+			{
+				armor=1;
+				material=-1;
+				name="legs";
+				passThrough=1;
+				radius=0.14;
+				explosionShielding=1;
+				visual="injury_legs";
+				minimalHit=0.0099999998;
+			};
+			class Incapacitated: HitLegs
+			{
+				armor=1000;
+				material=-1;
+				name="body";
+				passThrough=1;
+				radius=0;
+				explosionShielding=1;
+				visual="";
+				minimalHit=0;
+				depends="(((Total - 0.25) max 0) + ((HitHead - 0.25) max 0) + ((HitBody - 0.25) max 0)) * 2";
+			};
+		};
 		armor=2;
-		armorStructural=0.5;
-		explosionShielding=0.050000001;
+		armorStructural=4;
+		explosionShielding=0.40000001;
 	};
 	class FR2035_ghillie_base_F: FR2035_Soldier_sniper_base_F
 	{
@@ -4655,12 +4828,12 @@ class CfgVehicles
 			"Chemlight_green"
 		};
 		role="Marksman";
-		cost=350000;
-		threat[]={1,0.30000001,0.30000001};
+		cost=250000;
+		threat[]={0.80000001,0.30000001,0.30000001};
 		camouflage=0.40000001;
 		armor=2;
-		armorStructural=0.37;
-		explosionShielding=0.037;
+		armorStructural=3;
+		explosionShielding=0.30000001;
 	};
 	class FR2035_ghillie_lsh_F: FR2035_ghillie_base_F
 	{
@@ -5130,7 +5303,7 @@ class CfgVehicles
 		};
 		linkedItems[]=
 		{
-			"H_FR2035_CTRG_HelmetSpec_ce",
+			"H_FR2035_CTRG_Helmet_TI_ce",
 			"V_FR2035_TacVest_ce",
 			"G_Balaclava_TI_G_blk_F",
 			"ItemGPS",
@@ -5142,7 +5315,7 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"H_FR2035_CTRG_HelmetSpec_ce",
+			"H_FR2035_CTRG_Helmet_TI_ce",
 			"V_FR2035_TacVest_ce",
 			"G_Balaclava_TI_G_blk_F",
 			"ItemGPS",
@@ -5176,8 +5349,8 @@ class CfgVehicles
 			};
 		};
 		armor=2;
-		armorStructural=0.38;
-		explosionShielding=0.037999999;
+		armorStructural=3;
+		explosionShielding=0.30000001;
 	};
 	class FR2035_CTRG_Soldier_2_F: FR2035_CTRG_Soldier_base_F
 	{
@@ -5214,8 +5387,8 @@ class CfgVehicles
 			};
 		};
 		armor=2;
-		armorStructural=0.5;
-		explosionShielding=0.050000001;
+		armorStructural=4;
+		explosionShielding=0.40000001;
 	};
 	class FR2035_CTRG_Soldier_3_F: FR2035_CTRG_Soldier_base_F
 	{
@@ -5243,8 +5416,8 @@ class CfgVehicles
 			};
 		};
 		armor=2;
-		armorStructural=0.5;
-		explosionShielding=0.050000001;
+		armorStructural=4;
+		explosionShielding=0.40000001;
 	};
 	class FR2035_CTRG_Soldier_TL_ce_F: FR2035_CTRG_Soldier_F
 	{
@@ -5253,7 +5426,7 @@ class CfgVehicles
 		_generalMacro="FR2035_CTRG_Soldier_TL_ce_F";
 		scope=2;
 		displayName="$STR_B_SOLDIER_TL_F0";
-		cost=450000;
+		cost=250000;
 		weapons[]=
 		{
 			"arifle_SPAR_01_blk_ERCO_Pointer_F",
@@ -5319,9 +5492,8 @@ class CfgVehicles
 		scope=2;
 		displayName="$STR_A3_B_CTRG_Soldier_Exp_tna_F0";
 		role="Sapper";
-		cost=115000;
 		canDeactivateMines=1;
-		detectSkill=80;
+		detectSkill=38;
 		backpack="B_FR2035_Kitbag_ce_CTRGExp_F";
 		magazines[]=
 		{
@@ -5367,7 +5539,7 @@ class CfgVehicles
 		};
 		linkedItems[]=
 		{
-			"H_FR2035_CTRG_HelmetSpec_ce",
+			"H_FR2035_CTRG_Helmet_TI_ce",
 			"V_FR2035_PlateCarrierIAGL_ce",
 			"G_Balaclava_TI_G_blk_F",
 			"ItemGPS",
@@ -5379,7 +5551,7 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"H_FR2035_CTRG_HelmetSpec_ce",
+			"H_FR2035_CTRG_Helmet_TI_ce",
 			"V_FR2035_PlateCarrierIAGL_ce",
 			"G_Balaclava_TI_G_blk_F",
 			"ItemGPS",
@@ -5415,7 +5587,6 @@ class CfgVehicles
 		scope=2;
 		displayName="$STR_A3_B_CTRG_Soldier_Medic_tna_F0";
 		role="CombatLifeSaver";
-		cost=300000;
 		backpack="B_FR2035_AssaultPack_ce_CTRGMedic_F";
 		magazines[]=
 		{
@@ -5480,7 +5651,7 @@ class CfgVehicles
 		scope=2;
 		displayName="$STR_B_SOLDIER_M_F0";
 		role="Marksman";
-		cost=150000;
+		cost=250000;
 		backpack="";
 		weapons[]=
 		{
@@ -5547,7 +5718,6 @@ class CfgVehicles
 		scope=2;
 		displayName="$STR_A3_B_CTRG_Soldier_tna_F0";
 		role="Rifleman";
-		cost=100000;
 		backpack="";
 	};
 	class FR2035_CTRG_Soldier_LAT_ce_F: FR2035_CTRG_Soldier_F
@@ -5558,8 +5728,8 @@ class CfgVehicles
 		scope=2;
 		displayName="$STR_A3_B_CTRG_Soldier_LAT_tna_F0";
 		role="MissileSpecialist";
-		cost=180000;
-		threat[]={1,0.69999999,0.30000001};
+		cost=130000;
+		threat[]={0.80000001,0.80000001,0.30000001};
 		backpack="B_FR2035_AssaultPack_ce_CTRGLAT_F";
 		weapons[]=
 		{
@@ -5626,8 +5796,7 @@ class CfgVehicles
 		scope=2;
 		displayName="$STR_B_SOLDIER_AR_F0";
 		role="MachineGunner";
-		cost=125000;
-		threat[]={1,0.1,0.30000001};
+		cost=220000;
 		backpack="";
 		weapons[]=
 		{
@@ -5682,7 +5851,6 @@ class CfgVehicles
 		scope=2;
 		displayName="$STR_A3_B_CTRG_Soldier_JTAC_tna_F0";
 		role="SpecialOperative";
-		cost=200000;
 		backpack="";
 		weapons[]=
 		{
@@ -5766,7 +5934,7 @@ class CfgVehicles
 		};
 		linkedItems[]=
 		{
-			"H_FR2035_CTRG_HelmetSpec_ce",
+			"H_FR2035_CTRG_Helmet_TI_ce",
 			"V_FR2035_PlateCarrierIAGL_ce",
 			"G_Balaclava_TI_G_blk_F",
 			"ItemGPS",
@@ -5778,7 +5946,7 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"H_FR2035_CTRG_HelmetSpec_ce",
+			"H_FR2035_CTRG_Helmet_TI_ce",
 			"V_FR2035_PlateCarrierIAGL_ce",
 			"G_Balaclava_TI_G_blk_F",
 			"ItemGPS",
@@ -6341,35 +6509,6 @@ class CfgWeapons
 		{
 			"\fr2035_characters_f\data\fr2035_bandana_ce_co.paa"
 		};
-		allowedFacewear[]=
-		{
-			"",
-			6,
-			"G_Aviator",
-			1,
-			"G_Bandanna_aviator",
-			1,
-			"G_Bandanna_beast",
-			1,
-			"G_Bandanna_blk",
-			1,
-			"G_Bandanna_khk",
-			1,
-			"G_Bandanna_oli",
-			1,
-			"G_Bandanna_shades",
-			1,
-			"G_Bandanna_sport",
-			1,
-			"G_Shades_Black",
-			1,
-			"G_Shades_Blue",
-			1,
-			"G_Shades_Red",
-			1,
-			"G_Shades_Green",
-			1
-		};
 	};
 	class H_Beret_blk;
 	class H_FR2035_Beret_blue: H_Beret_blk
@@ -6439,37 +6578,6 @@ class CfgWeapons
 		{
 			"\fr2035_characters_f\data\fr2035_booniehat_ce_co.paa"
 		};
-		allowedFacewear[]=
-		{
-			"",
-			6.5,
-			"G_Aviator",
-			1,
-			"G_Bandanna_aviator",
-			1,
-			"G_Bandanna_beast",
-			1,
-			"G_Bandanna_blk",
-			1,
-			"G_Bandanna_khk",
-			1,
-			"G_Bandanna_oli",
-			1,
-			"G_Bandanna_shades",
-			1,
-			"G_Bandanna_sport",
-			1,
-			"G_Bandanna_tan",
-			1,
-			"G_Shades_Black",
-			1,
-			"G_Shades_Blue",
-			1,
-			"G_Shades_Red",
-			1,
-			"G_Shades_Green",
-			1
-		};
 	};
 	class H_Cap_red;
 	class H_FR2035_Cap_ce: H_Cap_red
@@ -6482,31 +6590,6 @@ class CfgWeapons
 		{
 			"\fr2035_characters_f\data\fr2035_cap_ce_co.paa"
 		};
-		allowedFacewear[]=
-		{
-			"",
-			5,
-			"G_Aviator",
-			1,
-			"G_Balaclava_blk",
-			1,
-			"G_Balaclava_oli",
-			1,
-			"G_Bandanna_khk",
-			1,
-			"G_Bandanna_oli",
-			1,
-			"G_Bandanna_tan",
-			1,
-			"G_Shades_Black",
-			1,
-			"G_Shades_Blue",
-			1,
-			"G_Shades_Red",
-			1,
-			"G_Shades_Green",
-			1
-		};
 	};
 	class H_Cap_oli_hs;
 	class H_FR2035_Cap_ce_hs: H_Cap_oli_hs
@@ -6518,31 +6601,6 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\fr2035_characters_f\data\fr2035_cap_ce_co.paa"
-		};
-		allowedFacewear[]=
-		{
-			"",
-			5,
-			"G_Aviator",
-			1,
-			"G_Balaclava_blk",
-			1,
-			"G_Balaclava_oli",
-			1,
-			"G_Bandanna_khk",
-			1,
-			"G_Bandanna_oli",
-			1,
-			"G_Bandanna_tan",
-			1,
-			"G_Shades_Black",
-			1,
-			"G_Shades_Blue",
-			1,
-			"G_Shades_Red",
-			1,
-			"G_Shades_Green",
-			1
 		};
 	};
 	class H_MilCap_ocamo;
@@ -6683,10 +6741,10 @@ class CfgWeapons
 			};
 		};
 	};
-	class H_FR2035_CTRG_HelmetSpec_ce: H_FR2035_Helmet_ce
+	class H_FR2035_CTRG_Helmet_TI_ce: H_FR2035_Helmet_ce
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="H_FR2035_CTRG_HelmetSpec_ce";
+		_generalMacro="H_FR2035_CTRG_Helmet_TI_ce";
 		displayName="$STR_FR2035_HelmetSpec_CTRG_ce";
 		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_helmet_ctrg_ce_ca.paa";
 		model="\A3\Characters_F_Exp\BLUFOR\H_HelmetB_TI_tna_F.p3d";
