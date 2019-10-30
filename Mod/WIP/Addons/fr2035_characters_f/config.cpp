@@ -541,14 +541,12 @@ class CfgVehicles
 		cost=93000;
 		hiddenSelections[]=
 		{
-			"Camo1",
-			"Camo2",
+			"Camo",
 			"insignia"
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\fr2035_characters_f\data\fr2035_pilot_suit_co.paa",
-			"\A3\Characters_F\Common\Data\pilot_helmet_nato_co.paa"
+			"\fr2035_characters_f\data\fr2035_pilot_suit_co.paa"
 		};
 		class HitPoints
 		{
@@ -3813,7 +3811,7 @@ class CfgVehicles
 		displayName="$STR_B_sniper_F0";
 		weapons[]=
 		{
-			"srifle_LRR_camo_LRPS_F",
+			"srifle_LRR_LRPS_F",
 			"hgun_P07_snds_F",
 			"Throw",
 			"Put",
@@ -3821,7 +3819,7 @@ class CfgVehicles
 		};
 		respawnWeapons[]=
 		{
-			"srifle_LRR_camo_LRPS_F",
+			"srifle_LRR_LRPS_F",
 			"hgun_P07_snds_F",
 			"Throw",
 			"Put",
@@ -4769,7 +4767,7 @@ class CfgVehicles
 		};
 		weapons[]=
 		{
-			"srifle_LRR_camo_LRPS_F",
+			"srifle_LRR_LRPS_F",
 			"hgun_P07_snds_F",
 			"Throw",
 			"Put",
@@ -4777,7 +4775,7 @@ class CfgVehicles
 		};
 		respawnWeapons[]=
 		{
-			"srifle_LRR_camo_LRPS_F",
+			"srifle_LRR_LRPS_F",
 			"hgun_P07_snds_F",
 			"Throw",
 			"Put",
@@ -4946,7 +4944,7 @@ class CfgVehicles
 		role="Marksman";
 		weapons[]=
 		{
-			"srifle_DMR_03_tan_AMS_LP_F",
+			"srifle_FR2035_DMR_03_AMS_LP_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put",
@@ -4954,7 +4952,7 @@ class CfgVehicles
 		};
 		respawnWeapons[]=
 		{
-			"srifle_DMR_03_tan_AMS_LP_F",
+			"srifle_FR2035_DMR_03_AMS_LP_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put",
@@ -5049,7 +5047,7 @@ class CfgVehicles
 		role="Marksman";
 		weapons[]=
 		{
-			"srifle_DMR_02_sniper_AMS_LP_S_F",
+			"srifle_FR2035_DMR_02_AMS_LP_S_F",
 			"hgun_P07_snds_F",
 			"Throw",
 			"Put",
@@ -5057,7 +5055,7 @@ class CfgVehicles
 		};
 		respawnWeapons[]=
 		{
-			"srifle_DMR_02_sniper_AMS_LP_S_F",
+			"srifle_FR2035_DMR_02_AMS_LP_S_F",
 			"hgun_P07_snds_F",
 			"Throw",
 			"Put",
@@ -5155,14 +5153,14 @@ class CfgVehicles
 		role="MachineGunner";
 		weapons[]=
 		{
-			"MMG_02_sand_RCO_LP_F",
+			"MMG_FR2035_02_black_RCO_LP_BI_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"MMG_02_sand_RCO_LP_F",
+			"MMG_FR2035_02_black_RCO_LP_BI_F",
 			"hgun_P07_F",
 			"Throw",
 			"Put"

@@ -46,6 +46,9 @@ class CfgPatches
 			"arifle_FR2035_MXM_SOS_pointer_F",
 			"arifle_FR2035_MXM_DMS_LP_BI_snds_F",
 			"arifle_FR2035_MXM_Hamr_LP_BI_F",
+			"MMG_FR2035_02_black_RCO_LP_BI_F",
+			"srifle_FR2035_DMR_02_AMS_LP_S_F",
+			"srifle_FR2035_DMR_03_AMS_LP_F",
 			"launch_FR2035_Titan_F",
 			"launch_FR2035_Titan_short_F"
 		};
@@ -320,11 +323,6 @@ class CfgWeapons
 			{
 				slot="PointerSlot";
 				item="acc_pointer_IR";
-			};
-			class LinkedItemsUnder
-			{
-				slot="UnderBarrelSlot";
-				item="bipod_01_F_blk";
 			};
 		};
 	};
@@ -625,6 +623,83 @@ class CfgWeapons
 			{
 				slot="CowsSlot";
 				item="optic_Hamr";
+			};
+			class LinkedItemsAcc
+			{
+				slot="PointerSlot";
+				item="acc_pointer_IR";
+			};
+			class LinkedItemsUnder
+			{
+				slot="UnderBarrelSlot";
+				item="bipod_01_F_blk";
+			};
+		};
+	};
+	class MMG_02_black_F;
+	class MMG_FR2035_02_black_RCO_LP_BI_F: MMG_02_black_F
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="MMG_FR2035_02_black_RCO_LP_BI_F";
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="optic_Hamr";
+			};
+			class LinkedItemsAcc
+			{
+				slot="PointerSlot";
+				item="acc_pointer_IR";
+			};
+			class LinkedItemsUnder
+			{
+				slot="UnderBarrelSlot";
+				item="bipod_01_F_blk";
+			};
+		};
+	};
+	class srifle_DMR_02_F;
+	class srifle_FR2035_DMR_02_AMS_LP_S_F: srifle_DMR_02_F
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="srifle_FR2035_DMR_02_AMS_LP_S_F";
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="optic_AMS";
+			};
+			class LinkedItemsAcc
+			{
+				slot="PointerSlot";
+				item="acc_pointer_IR";
+			};
+			class LinkedItemsMuzzle
+			{
+				slot="MuzzleSlot";
+				item="muzzle_snds_338_black";
+			};
+			class LinkedItemsUnder
+			{
+				slot="UnderBarrelSlot";
+				item="bipod_01_F_blk";
+			};
+		};
+	};
+	class srifle_DMR_03_F;
+	class srifle_FR2035_DMR_03_AMS_LP_F: srifle_DMR_03_F
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="srifle_FR2035_DMR_03_AMS_LP_F";
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="optic_AMS";
 			};
 			class LinkedItemsAcc
 			{
