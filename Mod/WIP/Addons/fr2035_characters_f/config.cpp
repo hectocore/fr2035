@@ -79,7 +79,9 @@ class CfgPatches
 			"FR2035_CTRG_Soldier_ce_F",
 			"FR2035_CTRG_Soldier_LAT_ce_F",
 			"FR2035_CTRG_Soldier_AR_ce_F",
-			"FR2035_CTRG_Soldier_JTAC_ce_F"
+			"FR2035_CTRG_Soldier_JTAC_ce_F",
+			"FR2035_Deck_Crew_F",
+			"FR2035_Fighter_Pilot_F"
 		};
 		weapons[]={
 			"U_FR2035_CombatUniform_ce",
@@ -5954,6 +5956,90 @@ class CfgVehicles
 			"ItemRadio",
 			"NVGogglesB_blk_F"
 		};
+	};
+	class FR2035_Deck_Crew_F: FR2035_Helipilot_F
+	{
+		displayName="$STR_A3_B_Deck_Crew_name";
+		editorPreview="\A3\EditorPreviews_F_Jets\Data\CfgVehicles\B_Deck_Crew_F.jpg";
+		Items[]=
+		{
+			"FirstAidKit"
+		};
+		RespawnItems[]=
+		{
+			"FirstAidKit"
+		};
+		linkedItems[]=
+		{
+			"V_DeckCrew_yellow_F",
+			"H_FR2035_HelmetCrew",
+			"ItemMap",
+			"ItemCompass",
+			"ItemWatch",
+			"ItemRadio",
+			"ItemGPS"
+		};
+		respawnLinkedItems[]=
+		{
+			"V_DeckCrew_yellow_F",
+			"H_FR2035_HelmetCrew",
+			"ItemMap",
+			"ItemCompass",
+			"ItemWatch",
+			"ItemRadio",
+			"ItemGPS"
+		};
+		weapons[]=
+		{
+			"Throw",
+			"Put"
+		};
+		respawnWeapons[]=
+		{
+			"Throw",
+			"Put"
+		};
+		magazines[]={};
+		respawnMagazines[]={};
+		backpack="";
+	};
+	class FR2035_Fighter_Pilot_F: FR2035_Pilot_F
+	{
+		displayName="$STR_A3_B_Fighter_Pilot_name";
+		editorPreview="\A3\EditorPreviews_F_Jets\Data\CfgVehicles\B_Fighter_Pilot_F.jpg";
+		weapons[]=
+		{
+			"hgun_P07_F",
+			"Throw",
+			"Put"
+		};
+		respawnWeapons[]=
+		{
+			"hgun_P07_F",
+			"Throw",
+			"Put"
+		};
+		magazines[]=
+		{
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"SmokeShellOrange",
+			"Chemlight_green",
+			"Chemlight_green"
+		};
+		respawnMagazines[]=
+		{
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"SmokeShellOrange",
+			"Chemlight_green",
+			"Chemlight_green"
+		};
+		backpack="";
 	};
 };
 class CfgWeapons
