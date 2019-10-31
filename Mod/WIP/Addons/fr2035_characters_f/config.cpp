@@ -12,7 +12,8 @@ class CfgPatches
 			"A3_Characters_F_Mark",
 			"A3_Characters_F_Exp",
 			"A3_Characters_F_Jets",
-			"A3_Characters_F_Orange"
+			"A3_Characters_F_Orange",
+			"A3_Characters_F_Tank"
 		};
 		requiredVersion=1.66;
 		units[]={
@@ -86,7 +87,8 @@ class CfgPatches
 			"FR2035_Fighter_Pilot_F",
 			"FR2035_soldier_mine_F",
 			"FR2035_soldier_UAV_06_F",
-			"FR2035_soldier_UAV_06_medical_F"
+			"FR2035_soldier_UAV_06_medical_F",
+			"FR2035_soldier_LAT2_F"
 		};
 		weapons[]={
 			"U_FR2035_CombatUniform_ce",
@@ -6071,6 +6073,107 @@ class CfgVehicles
 		_generalMacro="FR2035_soldier_UAV_06_medical_F";
 		displayName="$STR_A3_B_soldier_UAV_06_medical_F0";
 		backpack="B_UAV_06_medical_backpack_F";
+	};
+	class FR2035_soldier_LAT2_F: FR2035_Soldier_base_F
+	{
+		author="$STR_FR2035_Author";
+		class SpeechVariants
+		{
+			class Default
+			{
+				speechSingular[]=
+				{
+					"veh_infantry_AT_s"
+				};
+				speechPlural[]=
+				{
+					"veh_infantry_AT_p"
+				};
+			};
+		};
+		textSingular="$STR_A3_nameSound_veh_infantry_AT_s";
+		textPlural="$STR_A3_nameSound_veh_infantry_AT_p";
+		nameSound="veh_infantry_AT_s";
+		editorPreview="\A3\EditorPreviews_F_Tank\Data\CfgVehicles\B_soldier_LAT2_F.jpg";
+		_generalMacro="FR2035_soldier_LAT2_F";
+		scope=2;
+		displayName="$STR_A3_CfgVehicles_B_soldier_LAT2_F0";
+		backpack="B_FR2035_AssaultPack_ce_LAT2";
+		weapons[]=
+		{
+			"arifle_FR2035_MX_ACO_pointer_F",
+			"launch_MRAWS_olive_F",
+			"hgun_P07_F",
+			"Throw",
+			"Put"
+		};
+		respawnWeapons[]=
+		{
+			"arifle_FR2035_MX_ACO_pointer_F",
+			"launch_MRAWS_olive_F",
+			"hgun_P07_F",
+			"Throw",
+			"Put"
+		};
+		magazines[]=
+		{
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"MRAWS_HEAT_F",
+			"SmokeShell",
+			"SmokeShellGreen",
+			"Chemlight_green",
+			"Chemlight_green"
+		};
+		respawnMagazines[]=
+		{
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_65x39_caseless_black_mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"16Rnd_9x21_Mag",
+			"MRAWS_HEAT_F",
+			"SmokeShell",
+			"SmokeShellGreen",
+			"Chemlight_green",
+			"Chemlight_green"
+		};
+		cost=130000;
+		threat[]={0.80000001,0.80000001,0.30000001};
+		icon="iconManAT";
+		role="MissileSpecialist";
+		linkedItems[]=
+		{
+			"V_FR2035_PlateCarrier2_ce",
+			"H_FR2035_Helmet_ce",
+			"ItemMap",
+			"ItemCompass",
+			"ItemWatch",
+			"ItemRadio",
+			"NVGoggles_OPFOR"
+		};
+		respawnLinkedItems[]=
+		{
+			"V_FR2035_PlateCarrier2_ce",
+			"H_FR2035_Helmet_ce",
+			"ItemMap",
+			"ItemCompass",
+			"ItemWatch",
+			"ItemRadio",
+			"NVGoggles_OPFOR"
+		};
+		secondaryAmmoCoef=0.5;
 	};
 };
 class CfgWeapons

@@ -9,7 +9,8 @@ class CfgPatches
 		{
 			"FR2035_Data_F",
 			"A3_Weapons_F",
-			"A3_Supplies_F_Orange"
+			"A3_Supplies_F_Orange",
+			"A3_Weapons_F_Tank"
 		};
 		requiredVersion=1.66;
 		units[]={
@@ -35,7 +36,8 @@ class CfgPatches
 			"B_FR2035_Kitbag_ce_AAR",
 			"B_FR2035_Kitbag_ce_CTRGExp_F",
 			"B_FR2035_TacticalPack_ce",
-			"B_FR2035_Carryall_ce_Mine"
+			"B_FR2035_Carryall_ce_Mine",
+			"B_FR2035_AssaultPack_ce_LAT2"
 		};
 		weapons[]={};
 	};
@@ -622,6 +624,25 @@ class CfgVehicles
 			class _xx_MineDetector
 			{
 				name="MineDetector";
+				count=1;
+			};
+		};
+	};
+	class B_FR2035_AssaultPack_ce_LAT2: B_FR2035_AssaultPack_ce
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="B_FR2035_AssaultPack_ce_LAT2";
+		scope=1;
+		class TransportMagazines
+		{
+			class _xx_MRAWS_HEAT_F
+			{
+				magazine="MRAWS_HEAT_F";
+				count=2;
+			};
+			class _xx_MRAWS_HE_F
+			{
+				magazine="MRAWS_HE_F";
 				count=1;
 			};
 		};

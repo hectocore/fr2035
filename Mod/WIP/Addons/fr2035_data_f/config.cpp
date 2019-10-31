@@ -964,6 +964,41 @@ class CfgGroups
 						position[]={10,-10,0};
 					};
 				};
+				class FR2035_InfTeam_Light
+				{
+					name="$STR_A3_cfggroups_fireteamlight";
+					side=1;
+					faction="FR2035_F";
+					icon="\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					class Unit0
+					{
+						side=1;
+						vehicle="FR2035_Soldier_TL_F";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class Unit1
+					{
+						side=1;
+						vehicle="FR2035_soldier_AR_F";
+						rank="CORPORAL";
+						position[]={5,-5,0};
+					};
+					class Unit2
+					{
+						side=1;
+						vehicle="FR2035_soldier_F";
+						rank="PRIVATE";
+						position[]={-5,-5,0};
+					};
+					class Unit3
+					{
+						side=1;
+						vehicle="FR2035_soldier_LAT2_F";
+						rank="PRIVATE";
+						position[]={10,-10,0};
+					};
+				};
 				class FR2035_InfSentry
 				{
 					name="$STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfSentry0";
