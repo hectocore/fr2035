@@ -10,7 +10,9 @@ class CfgPatches
 			"FR2035_Data_F",
 			"A3_Characters_F",
 			"A3_Characters_F_Mark",
-			"A3_Characters_F_Exp"
+			"A3_Characters_F_Exp",
+			"A3_Characters_F_Jets",
+			"A3_Characters_F_Orange"
 		};
 		requiredVersion=1.66;
 		units[]={
@@ -81,7 +83,10 @@ class CfgPatches
 			"FR2035_CTRG_Soldier_AR_ce_F",
 			"FR2035_CTRG_Soldier_JTAC_ce_F",
 			"FR2035_Deck_Crew_F",
-			"FR2035_Fighter_Pilot_F"
+			"FR2035_Fighter_Pilot_F",
+			"FR2035_soldier_mine_F",
+			"FR2035_soldier_UAV_06_F",
+			"FR2035_soldier_UAV_06_medical_F"
 		};
 		weapons[]={
 			"U_FR2035_CombatUniform_ce",
@@ -6040,6 +6045,32 @@ class CfgVehicles
 			"Chemlight_green"
 		};
 		backpack="";
+	};
+	class FR2035_soldier_exp_F;
+	class FR2035_soldier_mine_F: FR2035_soldier_exp_F
+	{
+		author="$STR_FR2035_Author";
+		editorPreview="\A3\EditorPreviews_F_Orange\Data\CfgVehicles\B_soldier_mine_F.jpg";
+		_generalMacro="FR2035_soldier_mine_F";
+		displayName="$STR_A3_B_soldier_mine_F0";
+		backpack="B_FR2035_Carryall_ce_Mine";
+	};
+	class FR2035_soldier_UAV_F;
+	class FR2035_soldier_UAV_06_F: FR2035_soldier_UAV_F
+	{
+		author="$STR_FR2035_Author";
+		editorPreview="\A3\EditorPreviews_F_Orange\Data\CfgVehicles\B_soldier_UAV_06_F.jpg";
+		_generalMacro="FR2035_soldier_UAV_06_F";
+		displayName="$STR_A3_B_soldier_UAV_06_F0";
+		backpack="B_UAV_06_backpack_F";
+	};
+	class FR2035_soldier_UAV_06_medical_F: FR2035_soldier_UAV_F
+	{
+		author="$STR_FR2035_Author";
+		editorPreview="\A3\EditorPreviews_F_Orange\Data\CfgVehicles\B_soldier_UAV_06_medical_F.jpg";
+		_generalMacro="FR2035_soldier_UAV_06_medical_F";
+		displayName="$STR_A3_B_soldier_UAV_06_medical_F0";
+		backpack="B_UAV_06_medical_backpack_F";
 	};
 };
 class CfgWeapons

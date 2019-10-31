@@ -8,7 +8,8 @@ class CfgPatches
 		requiredAddons[]=
 		{
 			"FR2035_Data_F",
-			"A3_Weapons_F"
+			"A3_Weapons_F",
+			"A3_Supplies_F_Orange"
 		};
 		requiredVersion=1.66;
 		units[]={
@@ -33,7 +34,8 @@ class CfgPatches
 			"B_FR2035_Kitbag_ce_ReconExp",
 			"B_FR2035_Kitbag_ce_AAR",
 			"B_FR2035_Kitbag_ce_CTRGExp_F",
-			"B_FR2035_TacticalPack_ce"
+			"B_FR2035_TacticalPack_ce",
+			"B_FR2035_Carryall_ce_Mine"
 		};
 		weapons[]={};
 	};
@@ -580,6 +582,48 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\fr2035_supplies_f\data\fr2035_backpack_small_ce_co.paa"
+		};
+	};
+	class B_FR2035_Carryall_ce_Mine: B_FR2035_Carryall_ce
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="B_FR2035_Carryall_ce_Mine";
+		scope=1;
+		class TransportMagazines
+		{
+			class _xx_APERSMine_Range_Mag
+			{
+				magazine="APERSMine_Range_Mag";
+				count=2;
+			};
+			class _xx_APERSBoundingMine_Range_Mag
+			{
+				magazine="APERSBoundingMine_Range_Mag";
+				count=2;
+			};
+			class _xx_APERSMineDispenser_Mag
+			{
+				magazine="APERSMineDispenser_Mag";
+				count=2;
+			};
+			class _xx_APERSTripMine_Wire_Mag
+			{
+				magazine="APERSTripMine_Wire_Mag";
+				count=2;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_ToolKit
+			{
+				name="ToolKit";
+				count=1;
+			};
+			class _xx_MineDetector
+			{
+				name="MineDetector";
+				count=1;
+			};
 		};
 	};
 };
