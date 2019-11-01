@@ -10,9 +10,6 @@ class CfgPatches
 	{
 		units[]=
 		{
-			"FR2035_MRAP_01_F",
-			"FR2035_MRAP_01_hmg_F",
-			"FR2035_MRAP_01_gmg_F",
 			"FR2035_Truck_01_transport_F",
 			"FR2035_Truck_01_covered_F",
 			"FR2035_Truck_01_mover_F",
@@ -37,9 +34,6 @@ class CfgPatches
 
 class CfgVehicles
 {
-	class B_MRAP_01_F;
-	class B_MRAP_01_gmg_F;
-	class B_MRAP_01_hmg_F;
 	class B_Truck_01_transport_F;
 	class B_Truck_01_covered_F;
 	class B_Truck_01_mover_F;
@@ -50,81 +44,6 @@ class CfgVehicles
 	class B_Truck_01_medical_F;
 	class B_Quadbike_01_F;
 
-	class FR2035_MRAP_01_F: B_MRAP_01_F
-	{
-		author="$STR_fr2035legacy_author";
-		_generalMacro="FR2035_MRAP_01_F";
-		crew="FR2035_Soldier_F";
-		typicalCargo[]=
-		{
-			"FR2035_Soldier_lite_F"
-		};
-		faction="FR2035_F";
-		class TransportWeapons
-		{
-			class _xx_arifle_FR2035_MX_F
-			{
-				weapon="arifle_FR2035_MX_F";
-				count=2;
-			};
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\fr2035legacy_soft_f\data\fr2035_mrap_base_co.paa",
-			"\fr2035legacy_soft_f\data\fr2035_mrap_adds_co.paa",
-			""
-		};
-	};
-	class FR2035_MRAP_01_gmg_F: B_MRAP_01_gmg_F
-	{
-		author="$STR_fr2035legacy_author";
-		_generalMacro="FR2035_MRAP_01_gmg_F";
-		crew="FR2035_Soldier_F";
-		typicalCargo[]=
-		{
-			"FR2035_Soldier_lite_F"
-		};
-		faction="FR2035_F";
-		class TransportWeapons
-		{
-			class _xx_arifle_FR2035_MX_F
-			{
-				weapon="arifle_FR2035_MX_F";
-				count=2;
-			};
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\fr2035legacy_soft_f\data\fr2035_mrap_base_co.paa",
-			"\fr2035legacy_soft_f\data\fr2035_mrap_adds_co.paa",
-			"\fr2035legacy_soft_f\data\fr2035_mrap_turret_co.paa"
-		};
-	};
-	class FR2035_MRAP_01_hmg_F: B_MRAP_01_hmg_F
-	{
-		author="$STR_fr2035legacy_author";
-		_generalMacro="FR2035_MRAP_01_hmg_F";
-		crew="FR2035_Soldier_F";
-		typicalCargo[]=
-		{
-			"FR2035_Soldier_lite_F"
-		};
-		faction="FR2035_F";
-		class TransportWeapons
-		{
-			class _xx_arifle_FR2035_MX_F
-			{
-				weapon="arifle_FR2035_MX_F";
-				count=2;
-			};
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\fr2035legacy_soft_f\data\fr2035_mrap_base_co.paa",
-			"\fr2035legacy_soft_f\data\fr2035_mrap_adds_co.paa",
-			"\fr2035legacy_soft_f\data\fr2035_mrap_turret_co.paa"
-		};
-	};
 	class FR2035_Truck_01_transport_F: B_Truck_01_transport_F
 	{
 		author="$STR_fr2035legacy_author";
