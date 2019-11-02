@@ -34,7 +34,7 @@ addons[]=
 	"A3_Weapons_F_Items",
 	"A3_Props_F_Enoch_Military_Equipment",
 	"FR2035_Characters_F",
-	"FR2035legacy_soft_f",
+	"FR2035_Soft_f",
 	"A3_Supplies_F_Heli_CargoNets",
 	"A3_Props_F_Enoch_Military_Decontamination",
 	"A3_Structures_F_EPA_Mil_Scrapyard"
@@ -101,8 +101,8 @@ class AddonsMetaData
 		};
 		class Item8
 		{
-			className="FR2035legacy_soft_f";
-			name="FR2035legacy_soft_f";
+			className="FR2035_Soft_f";
+			name="FR2035_Soft_f";
 			author="Hector Corral (legacy)";
 		};
 		class Item9

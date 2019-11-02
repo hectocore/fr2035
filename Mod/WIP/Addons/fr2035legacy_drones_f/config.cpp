@@ -22,7 +22,6 @@ class CfgPatches
 		requiredVersion=1.56;
 		requiredAddons[]=
 		{
-			"FR2035legacy_soft_F",
 			"FR2035_data_F"
 		};
 		version="19-02-2016";
@@ -60,7 +59,7 @@ class CfgVehicles
 		{
 			"\fr2035legacy_drones_f\data\fr2035_ugv_base_co.paa",
 			"\fr2035legacy_drones_f\data\fr2035_ugv_adds_co.paa",
-			"\fr2035legacy_soft_f\data\fr2035_mrap_turret_co.paa"
+			"\fr2035_data_f\vehicles\fr2035_turret_co.paa"
 		};
 	};
 	class FR2035_UGV_01_rcws_F: B_UGV_01_rcws_F
@@ -77,7 +76,7 @@ class CfgVehicles
 		{
 			"\fr2035legacy_drones_f\data\fr2035_ugv_base_co.paa",
 			"\fr2035legacy_drones_f\data\fr2035_ugv_adds_co.paa",
-			"\fr2035legacy_soft_f\data\fr2035_mrap_turret_co.paa"
+			"\fr2035_data_f\vehicles\fr2035_turret_co.paa"
 		};
 	};
 	class FR2035_UAV_02_F: B_UAV_02_F

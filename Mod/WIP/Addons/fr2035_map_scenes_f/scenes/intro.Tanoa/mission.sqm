@@ -22,7 +22,7 @@ binarizationWanted=0;
 addons[]=
 {
 	"A3_Modules_F",
-	"FR2035legacy_soft_f",
+	"FR2035_Soft_f",
 	"A3_Soft_F_Enoch_Offroad_01",
 	"A3_Characters_F_Exp",
 	"A3_Weapons_F",
@@ -55,8 +55,8 @@ class AddonsMetaData
 		};
 		class Item1
 		{
-			className="FR2035legacy_soft_f";
-			name="FR2035legacy_soft_f";
+			className="FR2035_Soft_f";
+			name="FR2035_Soft_f";
 			author="Hector Corral (legacy)";
 		};
 		class Item2
