@@ -56,7 +56,6 @@ class CfgAddons
 				"FR2035legacy_boat_F",
 				"FR2035legacy_drones_F",
 				"FR2035legacy_language_F",
-				"FR2035legacy_soft_f",
 				"FR2035legacy_structures_F"
 			};
 		};
