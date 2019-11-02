@@ -10,8 +10,6 @@ class CfgPatches
 	{
 		units[]=
 		{
-			"FR2035_Truck_01_transport_F",
-			"FR2035_Truck_01_covered_F",
 			"FR2035_Truck_01_mover_F",
 			"FR2035_Truck_01_box_F",
 			"FR2035_Truck_01_Repair_F",
@@ -34,8 +32,6 @@ class CfgPatches
 
 class CfgVehicles
 {
-	class B_Truck_01_transport_F;
-	class B_Truck_01_covered_F;
 	class B_Truck_01_mover_F;
 	class B_Truck_01_box_F;
 	class B_Truck_01_Repair_F;
@@ -44,43 +40,6 @@ class CfgVehicles
 	class B_Truck_01_medical_F;
 	class B_Quadbike_01_F;
 
-	class FR2035_Truck_01_transport_F: B_Truck_01_transport_F
-	{
-		author="$STR_fr2035legacy_author";
-		_generalMacro="FR2035_Truck_01_transport_F";
-		crew="FR2035_Soldier_F";
-		typicalCargo[]=
-		{
-			"FR2035_Soldier_F"
-		};
-		faction="FR2035_F";
-		hiddenSelections[] = {"Camo1","Camo2","Camo3"};
-		hiddenSelectionsTextures[]=
-		{
-			"\fr2035legacy_soft_f\data\fr2035_truck_base_01_co.paa",
-			"\fr2035legacy_soft_f\data\fr2035_truck_base_02_co.paa",
-			"\a3\soft_f_Exp\truck_01\data\truck_01_cargo_olive_co.paa"
-		};
-	};
-	class FR2035_Truck_01_covered_F: B_Truck_01_covered_F
-	{
-		author="$STR_fr2035legacy_author";
-		_generalMacro="FR2035_Truck_01_covered_F";
-		crew="FR2035_Soldier_F";
-		typicalCargo[]=
-		{
-			"FR2035_Soldier_F"
-		};
-		faction="FR2035_F";
-		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4"};
-		hiddenSelectionsTextures[] =
-		{
-			"\fr2035legacy_soft_f\data\fr2035_truck_base_01_co.paa",
-			"\fr2035legacy_soft_f\data\fr2035_truck_base_02_co.paa",
-			"\a3\soft_f_Exp\truck_01\data\truck_01_cargo_olive_co.paa",
-			"\a3\soft_f_Exp\truck_01\data\truck_01_cover_olive_co.paa"
-		};
-	};
 	class FR2035_Truck_01_mover_F: B_Truck_01_mover_F
 	{
 		author="$STR_fr2035legacy_author";
