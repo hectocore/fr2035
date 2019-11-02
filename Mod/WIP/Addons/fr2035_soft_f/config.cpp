@@ -24,7 +24,8 @@ class CfgPatches
 			"FR2035_Truck_01_Repair_F",
 			"FR2035_Truck_01_ammo_F",
 			"FR2035_Truck_01_fuel_F",
-			"FR2035_Truck_01_medical_F"
+			"FR2035_Truck_01_medical_F",
+			"FR2035_Quadbike_01_F"
 		};
 		weapons[]={};
 	};
@@ -944,6 +945,60 @@ class CfgVehicles
 					"\fr2035_soft_f\data\daguet\fr2035_truck_01_ext_02_co.paa",
 					"\fr2035_soft_f\data\daguet\fr2035_truck_01_cargo_co.paa",
 					"\fr2035_soft_f\data\daguet\fr2035_truck_01_cover_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
+		};
+	};
+	class B_Quadbike_01_F;
+	class FR2035_Quadbike_01_F: B_Quadbike_01_F
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="FR2035_Quadbike_01_F";
+		crew="FR2035_Soldier_F";
+		typicalCargo[]=
+		{
+			"FR2035_Soldier_F"
+		};
+		side=1;
+		faction="FR2035_F";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_soft_f\data\fr2035_quadbike_01_co.paa",
+			"\fr2035_soft_f\data\fr2035_quadbike_01_wheel_co.paa"
+		};
+		class TextureSources
+		{
+			class CE
+			{
+				displayName="CE";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_soft_f\data\fr2035_quadbike_01_co.paa",
+					"\fr2035_soft_f\data\fr2035_quadbike_01_wheel_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
+			class Daguet
+			{
+				displayName="Daguet";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_soft_f\data\daguet\fr2035_quadbike_01_co.paa",
+					"\fr2035_soft_f\data\daguet\fr2035_quadbike_01_wheel_co.paa"
 				};
 				factions[]=
 				{
