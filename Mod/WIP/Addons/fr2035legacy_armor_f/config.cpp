@@ -24,8 +24,7 @@ class CfgPatches
 		requiredAddons[]=
 		{
 			"FR2035_characters_F",
-			"FR2035_data_F",
-			"FR2035legacy_soft_f"
+			"FR2035_data_F"
 		};
 		version="17-02-2016";
 		author="$STR_fr2035legacy_author";
@@ -112,7 +111,7 @@ class CfgVehicles
 		{
 			"\fr2035legacy_armor_f\data\fr2035_apc_base_co.paa",
 			"\fr2035legacy_armor_f\data\fr2035_mbt_base_co.paa",
-			"\fr2035legacy_soft_f\data\fr2035_mrap_turret_co.paa"
+			"\fr2035_data_f\vehicles\fr2035_turret_co.paa"
 		};
 	};
 	class FR2035_APC_Tracked_01_CRV_F: B_APC_Tracked_01_CRV_F
@@ -154,7 +153,7 @@ class CfgVehicles
 		{
 			"\fr2035legacy_armor_f\data\fr2035_apc_base_co.paa",
 			"\fr2035legacy_armor_f\data\fr2035_mbt_base_co.paa",
-			"\fr2035legacy_soft_f\data\fr2035_mrap_turret_co.paa",
+			"\fr2035_data_f\vehicles\fr2035_turret_co.paa",
 			"\fr2035legacy_armor_f\data\fr2035_apc_adds_co.paa"
 		};
 	};
@@ -287,7 +286,7 @@ class CfgVehicles
 		{
 			"\fr2035legacy_armor_f\data\fr2035_mbt_base_co.paa",
 			"\fr2035legacy_armor_f\data\fr2035_mbt_arty_co.paa",
-			"\fr2035legacy_soft_f\data\fr2035_mrap_turret_co.paa"
+			"\fr2035_data_f\vehicles\fr2035_turret_co.paa"
 		};
 	};
 	class FR2035_MBT_01_mlrs_F: B_MBT_01_mlrs_F
