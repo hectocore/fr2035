@@ -22,7 +22,7 @@ class CfgPatches
 			"B_FR2035_AssaultPack_ce_ReconMedic",
 			"B_FR2035_AssaultPack_ce_CTRGMedic_F",
 			"B_FR2035_AssaultPack_ce_CTRGLAT_F",
-			"B_FR2035_Bergen_ce_F",
+			"B_FR2035_Bergen_ce",
 			"B_FR2035_Carryall_ce",
 			"B_FR2035_Carryall_ce_Ammo",
 			"B_FR2035_Carryall_ce_AAT",
@@ -207,10 +207,10 @@ class CfgVehicles
 		};
 	};
 	class B_Bergen_Base_F;
-	class B_FR2035_Bergen_ce_F: B_Bergen_Base_F
+	class B_FR2035_Bergen_ce: B_Bergen_Base_F
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="B_FR2035_Bergen_ce_F";
+		_generalMacro="B_FR2035_Bergen_ce";
 		scope=2;
 		displayName="$STR_FR2035_Bergen_ce";
 		picture="\fr2035_supplies_f\data\ui\fr2035_icon_b_bergen_ce_ca.paa";

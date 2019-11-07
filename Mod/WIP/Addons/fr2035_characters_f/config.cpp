@@ -75,14 +75,14 @@ class CfgPatches
 			"FR2035_Sharpshooter_F",
 			"FR2035_Recon_Sharpshooter_F",
 			"FR2035_HeavyGunner_F",
-			"FR2035_CTRG_Soldier_TL_ce_F",
-			"FR2035_CTRG_Soldier_Exp_ce_F",
-			"FR2035_CTRG_Soldier_Medic_ce_F",
-			"FR2035_CTRG_Soldier_M_ce_F",
-			"FR2035_CTRG_Soldier_ce_F",
-			"FR2035_CTRG_Soldier_LAT_ce_F",
-			"FR2035_CTRG_Soldier_AR_ce_F",
-			"FR2035_CTRG_Soldier_JTAC_ce_F",
+			"FR2035_CTRG_Soldier_TL_F",
+			"FR2035_CTRG_Soldier_Exp_F",
+			"FR2035_CTRG_Soldier_Medic_F",
+			"FR2035_CTRG_Soldier_M_F",
+			"FR2035_CTRG_Soldier_F",
+			"FR2035_CTRG_Soldier_LAT_F",
+			"FR2035_CTRG_Soldier_AR_F",
+			"FR2035_CTRG_Soldier_JTAC_F",
 			"FR2035_Deck_Crew_F",
 			"FR2035_Fighter_Pilot_F",
 			"FR2035_soldier_mine_F",
@@ -5426,11 +5426,11 @@ class CfgVehicles
 		armorStructural=4;
 		explosionShielding=0.40000001;
 	};
-	class FR2035_CTRG_Soldier_TL_ce_F: FR2035_CTRG_Soldier_F
+	class FR2035_CTRG_Soldier_TL_F: FR2035_CTRG_Soldier_F
 	{
 		author="$STR_FR2035_Author";
 		editorPreview="\A3\EditorPreviews_F_Exp\Data\CfgVehicles\B_CTRG_Soldier_TL_tna_F.jpg";
-		_generalMacro="FR2035_CTRG_Soldier_TL_ce_F";
+		_generalMacro="FR2035_CTRG_Soldier_TL_F";
 		scope=2;
 		displayName="$STR_B_SOLDIER_TL_F0";
 		cost=250000;
@@ -5491,11 +5491,11 @@ class CfgVehicles
 			"Chemlight_green"
 		};
 	};
-	class FR2035_CTRG_Soldier_Exp_ce_F: FR2035_CTRG_Soldier_F
+	class FR2035_CTRG_Soldier_Exp_F: FR2035_CTRG_Soldier_F
 	{
 		author="$STR_FR2035_Author";
 		editorPreview="\A3\EditorPreviews_F_Exp\Data\CfgVehicles\B_CTRG_Soldier_Exp_tna_F.jpg";
-		_generalMacro="FR2035_CTRG_Soldier_Exp_ce_F";
+		_generalMacro="FR2035_CTRG_Soldier_Exp_F";
 		scope=2;
 		displayName="$STR_A3_B_CTRG_Soldier_Exp_tna_F0";
 		role="Sapper";
@@ -5569,7 +5569,7 @@ class CfgVehicles
 			"NVGogglesB_blk_F"
 		};
 	};
-	class FR2035_CTRG_Soldier_Medic_ce_F: FR2035_CTRG_Soldier_F
+	class FR2035_CTRG_Soldier_Medic_F: FR2035_CTRG_Soldier_F
 	{
 		author="$STR_FR2035_Author";
 		class SpeechVariants
@@ -5590,7 +5590,7 @@ class CfgVehicles
 		textPlural="$STR_A3_nameSound_veh_infantry_medic_p";
 		nameSound="veh_infantry_medic_s";
 		editorPreview="\A3\EditorPreviews_F_Exp\Data\CfgVehicles\B_CTRG_Soldier_Medic_tna_F.jpg";
-		_generalMacro="FR2035_CTRG_Soldier_Medic_ce_F";
+		_generalMacro="FR2035_CTRG_Soldier_Medic_F";
 		scope=2;
 		displayName="$STR_A3_B_CTRG_Soldier_Medic_tna_F0";
 		role="CombatLifeSaver";
@@ -5633,7 +5633,7 @@ class CfgVehicles
 		};
 		attendant=1;
 	};
-	class FR2035_CTRG_Soldier_M_ce_F: FR2035_CTRG_Soldier_F
+	class FR2035_CTRG_Soldier_M_F: FR2035_CTRG_Soldier_F
 	{
 		author="$STR_FR2035_Author";
 		class SpeechVariants
@@ -5654,7 +5654,7 @@ class CfgVehicles
 		textPlural="$STR_A3_nameSound_veh_infantry_sniper_p";
 		nameSound="veh_infantry_sniper_s";
 		editorPreview="\A3\EditorPreviews_F_Exp\Data\CfgVehicles\B_CTRG_Soldier_M_tna_F.jpg";
-		_generalMacro="FR2035_CTRG_Soldier_M_ce_F";
+		_generalMacro="FR2035_CTRG_Soldier_M_F";
 		scope=2;
 		displayName="$STR_B_SOLDIER_M_F0";
 		role="Marksman";
@@ -5717,21 +5717,21 @@ class CfgVehicles
 			"Chemlight_green"
 		};
 	};
-	class FR2035_CTRG_Soldier_ce_F: FR2035_CTRG_Soldier_F
+	class FR2035_CTRG_Soldier_F: FR2035_CTRG_Soldier_F
 	{
 		author="$STR_FR2035_Author";
 		editorPreview="\A3\EditorPreviews_F_Exp\Data\CfgVehicles\B_CTRG_Soldier_tna_F.jpg";
-		_generalMacro="FR2035_CTRG_Soldier_ce_F";
+		_generalMacro="FR2035_CTRG_Soldier_F";
 		scope=2;
 		displayName="$STR_A3_B_CTRG_Soldier_tna_F0";
 		role="Rifleman";
 		backpack="";
 	};
-	class FR2035_CTRG_Soldier_LAT_ce_F: FR2035_CTRG_Soldier_F
+	class FR2035_CTRG_Soldier_LAT_F: FR2035_CTRG_Soldier_F
 	{
 		author="$STR_FR2035_Author";
 		editorPreview="\A3\EditorPreviews_F_Exp\Data\CfgVehicles\B_CTRG_Soldier_LAT_tna_F.jpg";
-		_generalMacro="FR2035_CTRG_Soldier_LAT_ce_F";
+		_generalMacro="FR2035_CTRG_Soldier_LAT_F";
 		scope=2;
 		displayName="$STR_A3_B_CTRG_Soldier_LAT_tna_F0";
 		role="MissileSpecialist";
@@ -5795,11 +5795,11 @@ class CfgVehicles
 			"Chemlight_green"
 		};
 	};
-	class FR2035_CTRG_Soldier_AR_ce_F: FR2035_CTRG_Soldier_F
+	class FR2035_CTRG_Soldier_AR_F: FR2035_CTRG_Soldier_F
 	{
 		author="$STR_FR2035_Author";
 		editorPreview="\A3\EditorPreviews_F_Exp\Data\CfgVehicles\B_CTRG_Soldier_AR_tna_F.jpg";
-		_generalMacro="FR2035_CTRG_Soldier_AR_ce_F";
+		_generalMacro="FR2035_CTRG_Soldier_AR_F";
 		scope=2;
 		displayName="$STR_B_SOLDIER_AR_F0";
 		role="MachineGunner";
@@ -5850,11 +5850,11 @@ class CfgVehicles
 			"Chemlight_green"
 		};
 	};
-	class FR2035_CTRG_Soldier_JTAC_ce_F: FR2035_CTRG_Soldier_F
+	class FR2035_CTRG_Soldier_JTAC_F: FR2035_CTRG_Soldier_F
 	{
 		author="$STR_FR2035_Author";
 		editorPreview="\A3\EditorPreviews_F_Exp\Data\CfgVehicles\B_CTRG_Soldier_JTAC_tna_F.jpg";
-		_generalMacro="FR2035_CTRG_Soldier_JTAC_ce_F";
+		_generalMacro="FR2035_CTRG_Soldier_JTAC_F";
 		scope=2;
 		displayName="$STR_A3_B_CTRG_Soldier_JTAC_tna_F0";
 		role="SpecialOperative";

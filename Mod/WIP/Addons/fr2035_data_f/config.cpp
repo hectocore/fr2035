@@ -2572,56 +2572,56 @@ class CfgGroups
 					class Unit0
 					{
 						side=1;
-						vehicle="FR2035_CTRG_Soldier_TL_ce_F";
+						vehicle="FR2035_CTRG_Soldier_TL_F";
 						rank="SERGEANT";
 						position[]={0,0,0};
 					};
 					class Unit1
 					{
 						side=1;
-						vehicle="FR2035_CTRG_Soldier_M_ce_F";
+						vehicle="FR2035_CTRG_Soldier_M_F";
 						rank="CORPORAL";
 						position[]={5,-5,0};
 					};
 					class Unit2
 					{
 						side=1;
-						vehicle="FR2035_CTRG_Soldier_Medic_ce_F";
+						vehicle="FR2035_CTRG_Soldier_Medic_F";
 						rank="PRIVATE";
 						position[]={-5,-5,0};
 					};
 					class Unit3
 					{
 						side=1;
-						vehicle="FR2035_CTRG_Soldier_ce_F";
+						vehicle="FR2035_CTRG_Soldier_F";
 						rank="PRIVATE";
 						position[]={10,-10,0};
 					};
 					class Unit4
 					{
 						side=1;
-						vehicle="FR2035_CTRG_Soldier_LAT_ce_F";
+						vehicle="FR2035_CTRG_Soldier_LAT_F";
 						rank="SERGEANT";
 						position[]={-10,-10,0};
 					};
 					class Unit5
 					{
 						side=1;
-						vehicle="FR2035_CTRG_Soldier_JTAC_ce_F";
+						vehicle="FR2035_CTRG_Soldier_JTAC_F";
 						rank="CORPORAL";
 						position[]={15,-15,0};
 					};
 					class Unit6
 					{
 						side=1;
-						vehicle="FR2035_CTRG_Soldier_Exp_ce_F";
+						vehicle="FR2035_CTRG_Soldier_Exp_F";
 						rank="PRIVATE";
 						position[]={-15,-15,0};
 					};
 					class Unit7
 					{
 						side=1;
-						vehicle="FR2035_CTRG_Soldier_AR_ce_F";
+						vehicle="FR2035_CTRG_Soldier_AR_F";
 						rank="PRIVATE";
 						position[]={20,-20,0};
 					};
@@ -2635,28 +2635,28 @@ class CfgGroups
 					class Unit0
 					{
 						side=1;
-						vehicle="FR2035_CTRG_Soldier_TL_ce_F";
+						vehicle="FR2035_CTRG_Soldier_TL_F";
 						rank="SERGEANT";
 						position[]={0,0,0};
 					};
 					class Unit1
 					{
 						side=1;
-						vehicle="FR2035_CTRG_Soldier_AR_ce_F";
+						vehicle="FR2035_CTRG_Soldier_AR_F";
 						rank="CORPORAL";
 						position[]={5,-5,0};
 					};
 					class Unit2
 					{
 						side=1;
-						vehicle="FR2035_CTRG_Soldier_ce_F";
+						vehicle="FR2035_CTRG_Soldier_F";
 						rank="PRIVATE";
 						position[]={-5,-5,0};
 					};
 					class Unit3
 					{
 						side=1;
-						vehicle="FR2035_CTRG_Soldier_LAT_ce_F";
+						vehicle="FR2035_CTRG_Soldier_LAT_F";
 						rank="PRIVATE";
 						position[]={10,-10,0};
 					};
@@ -2670,14 +2670,14 @@ class CfgGroups
 					class Unit0
 					{
 						side=1;
-						vehicle="FR2035_CTRG_Soldier_JTAC_ce_F";
+						vehicle="FR2035_CTRG_Soldier_JTAC_F";
 						rank="CORPORAL";
 						position[]={0,0,0};
 					};
 					class Unit1
 					{
 						side=1;
-						vehicle="FR2035_CTRG_Soldier_ce_F";
+						vehicle="FR2035_CTRG_Soldier_F";
 						rank="PRIVATE";
 						position[]={5,-5,0};
 					};
@@ -2691,49 +2691,49 @@ class CfgGroups
 					class Unit0
 					{
 						side=1;
-						vehicle="B_T_LSV_01_unarmed_CTRG_F";
+						vehicle="FR2035_LSV_01_unarmed_CTRG_F";
 						rank="SERGEANT";
 						position[]={0,0,0};
 					};
 					class Unit1
 					{
 						side=1;
-						vehicle="FR2035_CTRG_Soldier_M_ce_F";
+						vehicle="FR2035_CTRG_Soldier_M_F";
 						rank="CORPORAL";
 						position[]={5,-5,0};
 					};
 					class Unit2
 					{
 						side=1;
-						vehicle="FR2035_CTRG_Soldier_Medic_ce_F";
+						vehicle="FR2035_CTRG_Soldier_Medic_F";
 						rank="PRIVATE";
 						position[]={-5,-5,0};
 					};
 					class Unit3
 					{
 						side=1;
-						vehicle="FR2035_CTRG_Soldier_AR_ce_F";
+						vehicle="FR2035_CTRG_Soldier_AR_F";
 						rank="PRIVATE";
 						position[]={10,-10,0};
 					};
 					class Unit4
 					{
 						side=1;
-						vehicle="FR2035_CTRG_Soldier_LAT_ce_F";
+						vehicle="FR2035_CTRG_Soldier_LAT_F";
 						rank="SERGEANT";
 						position[]={-10,-10,0};
 					};
 					class Unit5
 					{
 						side=1;
-						vehicle="FR2035_CTRG_Soldier_JTAC_ce_F";
+						vehicle="FR2035_CTRG_Soldier_JTAC_F";
 						rank="CORPORAL";
 						position[]={15,-15,0};
 					};
 					class Unit6
 					{
 						side=1;
-						vehicle="FR2035_CTRG_Soldier_Exp_ce_F";
+						vehicle="FR2035_CTRG_Soldier_Exp_F";
 						rank="PRIVATE";
 						position[]={-15,-15,0};
 					};
@@ -2747,35 +2747,35 @@ class CfgGroups
 					class Unit0
 					{
 						side=1;
-						vehicle="B_T_LSV_01_armed_CTRG_F";
+						vehicle="FR2035_LSV_01_armed_CTRG_F";
 						rank="SERGEANT";
 						position[]={0,0,0};
 					};
 					class Unit1
 					{
 						side=1;
-						vehicle="FR2035_CTRG_Soldier_Medic_ce_F";
+						vehicle="FR2035_CTRG_Soldier_Medic_F";
 						rank="CORPORAL";
 						position[]={5,-5,0};
 					};
 					class Unit2
 					{
 						side=1;
-						vehicle="FR2035_CTRG_Soldier_M_ce_F";
+						vehicle="FR2035_CTRG_Soldier_M_F";
 						rank="PRIVATE";
 						position[]={-5,-5,0};
 					};
 					class Unit3
 					{
 						side=1;
-						vehicle="FR2035_CTRG_Soldier_AR_ce_F";
+						vehicle="FR2035_CTRG_Soldier_AR_F";
 						rank="PRIVATE";
 						position[]={10,-10,0};
 					};
 					class Unit4
 					{
 						side=1;
-						vehicle="FR2035_CTRG_Soldier_LAT_ce_F";
+						vehicle="FR2035_CTRG_Soldier_LAT_F";
 						rank="SERGEANT";
 						position[]={-10,-10,0};
 					};

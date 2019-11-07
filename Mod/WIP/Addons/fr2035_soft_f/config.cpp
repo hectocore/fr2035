@@ -10,7 +10,8 @@ class CfgPatches
 			"FR2035_Characters_F",
 			"FR2035_Data_F",
 			"A3_Soft_F",
-			"A3_Soft_F_Beta"
+			"A3_Soft_F_Beta",
+			"A3_Soft_F_Exp"
 		};
 		requiredVersion=1.66;
 		units[]={
@@ -25,7 +26,13 @@ class CfgPatches
 			"FR2035_Truck_01_ammo_F",
 			"FR2035_Truck_01_fuel_F",
 			"FR2035_Truck_01_medical_F",
-			"FR2035_Quadbike_01_F"
+			"FR2035_Quadbike_01_F",
+			"FR2035_LSV_01_unarmed_F",
+			"FR2035_LSV_01_armed_F",
+			"FR2035_LSV_01_AT_F",
+			"FR2035_LSV_01_light_CTRG_F",
+			"FR2035_LSV_01_unarmed_CTRG_F",
+			"FR2035_LSV_01_armed_CTRG_F"
 		};
 		weapons[]={};
 	};
@@ -999,6 +1006,653 @@ class CfgVehicles
 				{
 					"\fr2035_soft_f\data\daguet\fr2035_quadbike_01_co.paa",
 					"\fr2035_soft_f\data\daguet\fr2035_quadbike_01_wheel_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
+		};
+	};
+	class B_LSV_01_unarmed_F;
+	class FR2035_LSV_01_unarmed_F: B_LSV_01_unarmed_F
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="FR2035_LSV_01_unarmed_F";
+		crew="FR2035_Soldier_F";
+		typicalCargo[]=
+		{
+			"FR2035_Soldier_F"
+		};
+		side=1;
+		faction="FR2035_F";
+		hiddenSelections[]=
+		{
+			"Camo_1",
+			"Camo_2",
+			"Camo_3",
+			"Camo_4"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_soft_f\data\fr2035_lsv_01_co.paa",
+			"\fr2035_soft_f\data\fr2035_lsv_02_co.paa",
+			"\fr2035_soft_f\data\fr2035_lsv_03_co.paa",
+			"\fr2035_soft_f\data\fr2035_lsv_adds_co.paa"
+		};
+		class TextureSources
+		{
+			class CE
+			{
+				displayName="CE";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_soft_f\data\fr2035_lsv_01_co.paa",
+					"\fr2035_soft_f\data\fr2035_lsv_02_co.paa",
+					"\fr2035_soft_f\data\fr2035_lsv_03_co.paa",
+					"\fr2035_soft_f\data\fr2035_lsv_adds_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
+			class Daguet
+			{
+				displayName="Daguet";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_soft_f\data\daguet\fr2035_lsv_01_co.paa",
+					"\fr2035_soft_f\data\daguet\fr2035_lsv_02_co.paa",
+					"\fr2035_soft_f\data\daguet\fr2035_lsv_03_co.paa",
+					"\fr2035_soft_f\data\daguet\fr2035_lsv_adds_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
+		};
+		class TransportMagazines
+		{
+			class _xx_30Rnd_65x39_caseless_mag
+			{
+				magazine="30Rnd_65x39_caseless_black_mag";
+				count=16;
+			};
+			class _xx_100Rnd_65x39_caseless_mag
+			{
+				magazine="100Rnd_65x39_caseless_black_mag";
+				count=6;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=10;
+			};
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_1Rnd_Smoke_Grenade_shell
+			{
+				magazine="1Rnd_Smoke_Grenade_shell";
+				count=4;
+			};
+			class _xx_1Rnd_SmokeGreen_Grenade_shell
+			{
+				magazine="1Rnd_SmokeGreen_Grenade_shell";
+				count=4;
+			};
+			class _xx_1Rnd_SmokeOrange_Grenade_shell
+			{
+				magazine="1Rnd_SmokeOrange_Grenade_shell";
+				count=4;
+			};
+			class _xx_1Rnd_SmokeBlue_Grenade_shell
+			{
+				magazine="1Rnd_SmokeBlue_Grenade_shell";
+				count=4;
+			};
+			class _xx_16Rnd_9x21_Mag
+			{
+				magazine="16Rnd_9x21_Mag";
+				count=12;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=4;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=4;
+			};
+			class _xx_SmokeShellOrange
+			{
+				magazine="SmokeShellOrange";
+				count=4;
+			};
+			class _xx_SmokeShellBlue
+			{
+				magazine="SmokeShellBlue";
+				count=4;
+			};
+			class _xx_NLAW_F
+			{
+				magazine="NLAW_F";
+				count=2;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=10;
+			};
+		};
+		class TransportWeapons
+		{
+			class _xx_arifle_MX_F
+			{
+				weapon="arifle_FR2035_MX_F";
+				count=2;
+			};
+		};
+	};
+	class B_LSV_01_armed_F;
+	class FR2035_LSV_01_armed_F: B_LSV_01_armed_F
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="FR2035_LSV_01_armed_F";
+		crew="FR2035_Soldier_F";
+		typicalCargo[]=
+		{
+			"FR2035_Soldier_F"
+		};
+		side=1;
+		faction="FR2035_F";
+		hiddenSelections[]=
+		{
+			"Camo_1",
+			"Camo_2",
+			"Camo_3",
+			"Camo_4"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_soft_f\data\fr2035_lsv_01_co.paa",
+			"\fr2035_soft_f\data\fr2035_lsv_02_co.paa",
+			"\fr2035_soft_f\data\fr2035_lsv_03_co.paa",
+			"\fr2035_soft_f\data\fr2035_lsv_adds_co.paa"
+		};
+		class TextureSources
+		{
+			class CE
+			{
+				displayName="CE";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_soft_f\data\fr2035_lsv_01_co.paa",
+					"\fr2035_soft_f\data\fr2035_lsv_02_co.paa",
+					"\fr2035_soft_f\data\fr2035_lsv_03_co.paa",
+					"\fr2035_soft_f\data\fr2035_lsv_adds_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
+			class Daguet
+			{
+				displayName="Daguet";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_soft_f\data\daguet\fr2035_lsv_01_co.paa",
+					"\fr2035_soft_f\data\daguet\fr2035_lsv_02_co.paa",
+					"\fr2035_soft_f\data\daguet\fr2035_lsv_03_co.paa",
+					"\fr2035_soft_f\data\daguet\fr2035_lsv_adds_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
+		};
+		class TransportMagazines
+		{
+			class _xx_30Rnd_65x39_caseless_mag
+			{
+				magazine="30Rnd_65x39_caseless_black_mag";
+				count=16;
+			};
+			class _xx_100Rnd_65x39_caseless_mag
+			{
+				magazine="100Rnd_65x39_caseless_black_mag";
+				count=6;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=10;
+			};
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_1Rnd_Smoke_Grenade_shell
+			{
+				magazine="1Rnd_Smoke_Grenade_shell";
+				count=4;
+			};
+			class _xx_1Rnd_SmokeGreen_Grenade_shell
+			{
+				magazine="1Rnd_SmokeGreen_Grenade_shell";
+				count=4;
+			};
+			class _xx_1Rnd_SmokeOrange_Grenade_shell
+			{
+				magazine="1Rnd_SmokeOrange_Grenade_shell";
+				count=4;
+			};
+			class _xx_1Rnd_SmokeBlue_Grenade_shell
+			{
+				magazine="1Rnd_SmokeBlue_Grenade_shell";
+				count=4;
+			};
+			class _xx_16Rnd_9x21_Mag
+			{
+				magazine="16Rnd_9x21_Mag";
+				count=12;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=4;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=4;
+			};
+			class _xx_SmokeShellOrange
+			{
+				magazine="SmokeShellOrange";
+				count=4;
+			};
+			class _xx_SmokeShellBlue
+			{
+				magazine="SmokeShellBlue";
+				count=4;
+			};
+			class _xx_NLAW_F
+			{
+				magazine="NLAW_F";
+				count=2;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=10;
+			};
+		};
+		class TransportWeapons
+		{
+			class _xx_arifle_MX_F
+			{
+				weapon="arifle_FR2035_MX_F";
+				count=2;
+			};
+		};
+	};
+	class B_LSV_01_AT_F;
+	class FR2035_LSV_01_AT_F: B_LSV_01_AT_F
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="FR2035_LSV_01_AT_F";
+		crew="FR2035_Soldier_F";
+		typicalCargo[]=
+		{
+			"FR2035_Soldier_F"
+		};
+		side=1;
+		faction="FR2035_F";
+		hiddenSelections[]=
+		{
+			"Camo_1",
+			"Camo_2",
+			"Camo_3",
+			"Camo_4",
+			"camo_launcher",
+			"camo_tube"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_soft_f\data\fr2035_lsv_01_co.paa",
+			"\fr2035_soft_f\data\fr2035_lsv_02_co.paa",
+			"\fr2035_soft_f\data\fr2035_lsv_03_co.paa",
+			"\fr2035_soft_f\data\fr2035_lsv_adds_co.paa",
+			"\fr2035_weapons_f\data\titan\fr2035_launch_titan_f_01_co.paa",
+			"\fr2035_weapons_f\data\titan\fr2035_launch_titan_short_f_02_co.paa"
+		};
+		class TextureSources
+		{
+			class CE
+			{
+				displayName="CE";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_soft_f\data\fr2035_lsv_01_co.paa",
+					"\fr2035_soft_f\data\fr2035_lsv_02_co.paa",
+					"\fr2035_soft_f\data\fr2035_lsv_03_co.paa",
+					"\fr2035_soft_f\data\fr2035_lsv_adds_co.paa",
+					"\fr2035_weapons_f\data\titan\fr2035_launch_titan_f_01_co.paa",
+					"\fr2035_weapons_f\data\titan\fr2035_launch_titan_short_f_02_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
+			class Daguet
+			{
+				displayName="Daguet";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_soft_f\data\daguet\fr2035_lsv_01_co.paa",
+					"\fr2035_soft_f\data\daguet\fr2035_lsv_02_co.paa",
+					"\fr2035_soft_f\data\daguet\fr2035_lsv_03_co.paa",
+					"\fr2035_soft_f\data\daguet\fr2035_lsv_adds_co.paa",
+					"\fr2035_weapons_f\data\titan\fr2035_launch_titan_f_01_co.paa",
+					"\fr2035_weapons_f\data\titan\fr2035_launch_titan_short_f_02_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
+		};
+		class TransportMagazines
+		{
+			class _xx_30Rnd_65x39_caseless_mag
+			{
+				magazine="30Rnd_65x39_caseless_black_mag";
+				count=16;
+			};
+			class _xx_100Rnd_65x39_caseless_mag
+			{
+				magazine="100Rnd_65x39_caseless_black_mag";
+				count=6;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=10;
+			};
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_1Rnd_Smoke_Grenade_shell
+			{
+				magazine="1Rnd_Smoke_Grenade_shell";
+				count=4;
+			};
+			class _xx_1Rnd_SmokeGreen_Grenade_shell
+			{
+				magazine="1Rnd_SmokeGreen_Grenade_shell";
+				count=4;
+			};
+			class _xx_1Rnd_SmokeOrange_Grenade_shell
+			{
+				magazine="1Rnd_SmokeOrange_Grenade_shell";
+				count=4;
+			};
+			class _xx_1Rnd_SmokeBlue_Grenade_shell
+			{
+				magazine="1Rnd_SmokeBlue_Grenade_shell";
+				count=4;
+			};
+			class _xx_16Rnd_9x21_Mag
+			{
+				magazine="16Rnd_9x21_Mag";
+				count=12;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=4;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=4;
+			};
+			class _xx_SmokeShellOrange
+			{
+				magazine="SmokeShellOrange";
+				count=4;
+			};
+			class _xx_SmokeShellBlue
+			{
+				magazine="SmokeShellBlue";
+				count=4;
+			};
+			class _xx_NLAW_F
+			{
+				magazine="NLAW_F";
+				count=2;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=10;
+			};
+		};
+		class TransportWeapons
+		{
+			class _xx_arifle_MX_F
+			{
+				weapon="arifle_FR2035_MX_F";
+				count=2;
+			};
+		};
+	};
+	class B_CTRG_LSV_01_light_F;
+	class FR2035_LSV_01_light_CTRG_F: B_CTRG_LSV_01_light_F
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="FR2035_LSV_01_light_CTRG_F";
+		crew="FR2035_CTRG_Soldier_F";
+		typicalCargo[]=
+		{
+			"FR2035_CTRG_Soldier_F"
+		};
+		side=1;
+		faction="FR2035_F";
+		hiddenSelections[]=
+		{
+			"Camo_1",
+			"Camo_2",
+			"Camo_3",
+			"Camo_4"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_soft_f\data\fr2035_lsv_01_co.paa",
+			"\fr2035_soft_f\data\fr2035_lsv_02_co.paa",
+			"\fr2035_soft_f\data\fr2035_lsv_03_co.paa",
+			"\fr2035_soft_f\data\fr2035_lsv_adds_co.paa"
+		};
+		class TextureSources
+		{
+			class CE
+			{
+				displayName="CE";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_soft_f\data\fr2035_lsv_01_co.paa",
+					"\fr2035_soft_f\data\fr2035_lsv_02_co.paa",
+					"\fr2035_soft_f\data\fr2035_lsv_03_co.paa",
+					"\fr2035_soft_f\data\fr2035_lsv_adds_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
+			class Daguet
+			{
+				displayName="Daguet";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_soft_f\data\daguet\fr2035_lsv_01_co.paa",
+					"\fr2035_soft_f\data\daguet\fr2035_lsv_02_co.paa",
+					"\fr2035_soft_f\data\daguet\fr2035_lsv_03_co.paa",
+					"\fr2035_soft_f\data\daguet\fr2035_lsv_adds_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
+		};
+	};
+	class B_T_LSV_01_unarmed_CTRG_F;
+	class FR2035_LSV_01_unarmed_CTRG_F: B_T_LSV_01_unarmed_CTRG_F
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="FR2035_LSV_01_unarmed_CTRG_F";
+		crew="FR2035_CTRG_Soldier_F";
+		typicalCargo[]=
+		{
+			"FR2035_CTRG_Soldier_F"
+		};
+		side=1;
+		faction="FR2035_F";
+		hiddenSelections[]=
+		{
+			"Camo_1",
+			"Camo_2",
+			"Camo_3",
+			"Camo_4"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_soft_f\data\fr2035_lsv_01_co.paa",
+			"\fr2035_soft_f\data\fr2035_lsv_02_co.paa",
+			"\fr2035_soft_f\data\fr2035_lsv_03_co.paa",
+			"\fr2035_soft_f\data\fr2035_lsv_adds_co.paa"
+		};
+		class TextureSources
+		{
+			class CE
+			{
+				displayName="CE";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_soft_f\data\fr2035_lsv_01_co.paa",
+					"\fr2035_soft_f\data\fr2035_lsv_02_co.paa",
+					"\fr2035_soft_f\data\fr2035_lsv_03_co.paa",
+					"\fr2035_soft_f\data\fr2035_lsv_adds_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
+			class Daguet
+			{
+				displayName="Daguet";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_soft_f\data\daguet\fr2035_lsv_01_co.paa",
+					"\fr2035_soft_f\data\daguet\fr2035_lsv_02_co.paa",
+					"\fr2035_soft_f\data\daguet\fr2035_lsv_03_co.paa",
+					"\fr2035_soft_f\data\daguet\fr2035_lsv_adds_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
+		};
+	};
+	class B_T_LSV_01_armed_CTRG_F;
+	class FR2035_LSV_01_armed_CTRG_F: B_T_LSV_01_armed_CTRG_F
+	{
+		author="$STR_FR2035_Author";
+		_generalMacro="FR2035_LSV_01_armed_CTRG_F";
+		crew="FR2035_CTRG_Soldier_F";
+		typicalCargo[]=
+		{
+			"FR2035_CTRG_Soldier_F"
+		};
+		side=1;
+		faction="FR2035_F";
+		hiddenSelections[]=
+		{
+			"Camo_1",
+			"Camo_2",
+			"Camo_3",
+			"Camo_4"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_soft_f\data\fr2035_lsv_01_co.paa",
+			"\fr2035_soft_f\data\fr2035_lsv_02_co.paa",
+			"\fr2035_soft_f\data\fr2035_lsv_03_co.paa",
+			"\fr2035_soft_f\data\fr2035_lsv_adds_co.paa"
+		};
+		class TextureSources
+		{
+			class CE
+			{
+				displayName="CE";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_soft_f\data\fr2035_lsv_01_co.paa",
+					"\fr2035_soft_f\data\fr2035_lsv_02_co.paa",
+					"\fr2035_soft_f\data\fr2035_lsv_03_co.paa",
+					"\fr2035_soft_f\data\fr2035_lsv_adds_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
+			class Daguet
+			{
+				displayName="Daguet";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_soft_f\data\daguet\fr2035_lsv_01_co.paa",
+					"\fr2035_soft_f\data\daguet\fr2035_lsv_02_co.paa",
+					"\fr2035_soft_f\data\daguet\fr2035_lsv_03_co.paa",
+					"\fr2035_soft_f\data\daguet\fr2035_lsv_adds_co.paa"
 				};
 				factions[]=
 				{
