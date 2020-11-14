@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="French Army 2035">
+	<Package name="Author">
+		<Key ID="STR_fr2035_author">
+			<Original>Hector Corral</Original>
+			<English>Hector Corral</English>
+			<Czech>Hector Corral</Czech>
+			<French>Hector Corral</French>
+			<German>Hector Corral</German>
+			<Italian>Hector Corral</Italian>
+			<Polish>Hector Corral</Polish>
+			<Portuguese>Hector Corral</Portuguese>
+			<Russian>Hector Corral</Russian>
+			<Spanish>Hector Corral</Spanish>
+		</Key>
+	</Package>
+	
+	<Package name="Faction">
+		<Key ID="STR_fr2035_faction">
+			<Original>France</Original>
+			<English>France</English>
+			<Czech>Francie</Czech>
+			<French>France</French>
+			<German>Frankreich</German>
+			<Italian>Francia</Italian>
+			<Polish>Francja</Polish>
+			<Portuguese>França</Portuguese>
+			<Russian>Франция</Russian>
+			<Spanish>Francia</Spanish>
+		</Key>
+	</Package>
+	
+	<Package name="Structures">
+		<Key ID="STR_fr2035_flag">
+			<Original>Flag (FR)</Original>
+			<English>Flag (FR)</English>
+			<Czech>Vlajka (FR)</Czech>
+			<French>Drapeau (FR)</French>
+			<German>Flagge (FR)</German>
+			<Italian>Bandiera (FR)</Italian>
+			<Polish>Flaga (FR)</Polish>
+			<Portuguese>Bandeira (FR)</Portuguese>
+			<Russian>Флаг (FR)</Russian>
+			<Spanish>Bandera (FR)</Spanish>
+		</Key>
+	</Package>
+	
+	<Package name="Uniforms">
+		<Key ID="STR_fr2035_combat_fatigues">
+			<Original>Combat Fatigues (CE)</Original>
+			<French>Treillis (CE)</French>
+			<Spanish>Traje de combate (CE)</Spanish>
+			<Italian>Uniforme da combattimento (mimetico CE)</Italian>
+			<Polish>Mundur bojowy (CE)</Polish>
+			<Russian>Боевая форма (CE)</Russian>
+			<German>Kampfanzug (CE)</German>
+			<Czech>Uniforma (CE kamufláž)</Czech>
+			<English>Combat Fatigues (CE)</English>
+			<Portuguese>Uniforme de combate (CE)</Portuguese>
+		</Key>
+		<Key ID="STR_fr2035_combat_fatigues_tee">
+			<Original>Combat Fatigues (CE) (Tee)</Original>
+			<French>Treillis (CE) (T-shirt)</French>
+			<Spanish>Traje de combate (CE) (camiseta)</Spanish>
+			<Italian>Uniforme da combattimento (mimetico CE) (T-shirt)</Italian>
+			<Polish>Mundur bojowy (CE) (Tee)</Polish>
+			<Russian>Боевая форма (CE) (Tee)</Russian>
+			<German>Kampfanzug (CE) (T-Shirt)</German>
+			<Czech>Uniforma (CE kamufláž) (triko)</Czech>
+			<English>Combat Fatigues (CE) (Tee)</English>
+			<Portuguese>Uniforme de combate (CE) (camisa)</Portuguese>
+		</Key>
+		<Key ID="STR_fr2035_recon_fatigues">
+			<Original>Recon Fatigues (CE)</Original>
+			<French>Treillis de reco (CE)</French>
+			<Spanish>Traje de reconocimiento (CE)</Spanish>
+			<Italian>Uniforme da ricognizione (mimetico CE)</Italian>
+			<Polish>Mundur zwiadowcy (CE)</Polish>
+			<Russian>Форма разведчика (CE)</Russian>
+			<German>Pionieranzug (CE)</German>
+			<Czech>Průzkumnický stejnokroj (CE kamufláž)</Czech>
+			<English>Recon Fatigues (CE)</English>
+			<Portuguese>Uniforme de reconhecimento (CE)</Portuguese>
+		</Key>
+		<Key ID="STR_fr2035_ghillie_suit">
+			<Original>Ghillie Suit [FR]</Original>
+			<French>Ghillie Suit [FR]</French>
+			<Spanish>Traje de camuflaje [FR]</Spanish>
+			<Italian>Mimetica da cecchino [FR]</Italian>
+			<Polish>Ghillie [FR]</Polish>
+			<Russian>Маскировочный костюм [FR]</Russian>
+			<German>Ghillie-Anzug [FR]</German>
+			<Czech>Hejkal [FR]</Czech>
+			<English>Ghillie Suit [FR]</English>
+			<Portuguese>Traje ghillie [FR]</Portuguese>
+		</Key>
+		<Key ID="STR_fr2035_survival_fatigues_F0">
+			<Original>Survival Fatigues (CE)</Original>
+			<French>Treillis de survie (CE)</French>
+			<Spanish>Ropa de supervivencia (CE)</Spanish>
+			<Italian>Fatiche di sopravvivenza (CE)</Italian>
+			<Polish>Mundur polowy (CE)</Polish>
+			<Russian>Одежда для выживания (CE)</Russian>
+			<German>Notfallmilitäranzug (CE)</German>
+			<Czech>Oděv pro přežití (CE kamufláž)</Czech>
+			<English>Survival Fatigues (CE)</English>
+			<Portuguese>Uniformes de sobrevivência (CE)</Portuguese>
+		</Key>
+	</Package>
+	
+	<Package name="Vests">
+		<Key ID="STR_fr2035_v_platecarrier1_rgr0">
+			<Original>Carrier Lite (CE)</Original>
+			<French>Gilet léger (CE)</French>
+			<Spanish>Cartuchera ligera (CE)</Spanish>
+			<Italian>Gilet leggero (CE)</Italian>
+			<Polish>Kamizelka Lite (CE)</Polish>
+			<Russian>Легкий жилет (CE)</Russian>
+			<German>Leichter Tragegurt (CE)</German>
+			<Czech>Lehká taktická vesta (CE kamufláž)</Czech>
+			<English>Carrier Lite (CE)</English>
+			<Portuguese>Transportador leve (CE)</Portuguese>
+		</Key>
+		<Key ID="STR_fr2035_v_platecarrier2_rgr0">
+			<Original>Carrier Rig (CE)</Original>
+			<French>Gilet modulable léger (CE)</French>
+			<Spanish>Cartuchera (CE)</Spanish>
+			<Italian>Gilet (CE)</Italian>
+			<Polish>Kamizelka Platecarrier (CE)</Polish>
+			<Russian>Разгрузочный жилет (CE)</Russian>
+			<German>Tragegurt (CE)</German>
+			<Czech>Nosič plátů (CE kamufláž)</Czech>
+			<English>Carrier Rig (CE)</English>
+			<Portuguese>Traje transportador (CE)</Portuguese>
+		</Key>
+	</Package>
+	
+	<Package name="Helmets">
+		<Key ID="STR_fr2035_h_helmetb0">
+			<Original>Combat Helmet (CE)</Original>
+			<French>Casque de combat (CE)</French>
+			<Spanish>Casco de combate (CE)</Spanish>
+			<Italian>Elmetto da combattimento (CE)</Italian>
+			<Polish>Hełm bojowy (CE)</Polish>
+			<Russian>Штурмовой шлем (CE)</Russian>
+			<German>Kampfhelm (CE)</German>
+			<Czech>Bojová přilba (CE kamufláž)</Czech>
+			<English>Combat Helmet (CE)</English>
+			<Portuguese>Capacete de combate (CE)</Portuguese>
+		</Key>
+		<Key ID="STR_fr2035_h_helmetb_camo0">
+			<Original>Combat Helmet (CE) (Camo)</Original>
+			<French>Casque de combat (CE) (Camo)</French>
+			<Spanish>Casco de combate (CE) (camuflaje)</Spanish>
+			<Italian>Elmetto da combattimento (CE) (mimetico)</Italian>
+			<Polish>Hełm bojowy (CE) (kamuflaż)</Polish>
+			<Russian>Штурмовой шлем (CE) (камуфляж)</Russian>
+			<German>Kampfhelm (CE) (Flecktarn)</German>
+			<Czech>Bojová přilba (CE kamufláž) (kamufláž)</Czech>
+			<English>Combat Helmet (CE) (Camo)</English>
+			<Portuguese>Capacete de combate (CE) (Camuflagem)</Portuguese>
+		</Key>
+		<Key ID="STR_fr2035_h_helmetcrewb0">
+			<Original>Crew Helmet [FR]</Original>
+			<French>Casque d'équipage [FR]</French>
+			<Spanish>Casco de tripulación [FR]</Spanish>
+			<Italian>Casco equipaggio [FR]</Italian>
+			<Polish>Hełm załogi [FR]</Polish>
+			<Russian>Танковый шлем [FR]</Russian>
+			<German>Crew-Helm [FR]</German>
+			<Czech>Přilba posádky [FR]</Czech>
+			<English>Crew Helmet [FR]</English>
+			<Portuguese>Capacete de tripulação [FR]</Portuguese>
+		</Key>
+		<Key ID="STR_fr2035_h_beret_blk0">
+			<Original>Beret (Blue)</Original>
+			<French>Béret (bleu)</French>
+			<Spanish>Boina (azul)</Spanish>
+			<Italian>Basco (blu)</Italian>
+			<Polish>Beret (niebieski)</Polish>
+			<Russian>Берет (синий)</Russian>
+			<German>Barett (blau)</German>
+			<Czech>Baret (modrý)</Czech>
+			<English>Beret (Blue)</English>
+			<Portuguese>Boina (azul)</Portuguese>
+		</Key>
+	</Package>
+	
+	<Package name="Weapons">
+		<Key ID="STR_fr2035_cfgweapons_arifle_xmc0">
+			<Original>MXC 6.5 mm (Brown)</Original>
+			<French>MXC 6,5 mm (marron)</French>
+			<Spanish>MXC 6,5 mm (marrón)</Spanish>
+			<Italian>MXC 6,5 mm (marrone)</Italian>
+			<Polish>MXC 6,5 mm (brązowy)</Polish>
+			<Russian>MXC 6,5 мм (коричневый)</Russian>
+			<German>MXC 6,5 mm (braun)</German>
+			<Czech>MXC 6,5 mm (hnědý)</Czech>
+			<English>MXC 6.5 mm (Brown)</English>
+			<Portuguese>MXC 6,5 mm (marrom)</Portuguese>
+		</Key>
+		<Key ID="STR_fr2035_cfgweapons_arifle_xmx0">
+			<Original>MX 6.5 mm (Brown)</Original>
+			<French>MX 6,5 mm (marron)</French>
+			<Spanish>MX 6,5 mm (marrón)</Spanish>
+			<Italian>MX 6,5 mm (marrone)</Italian>
+			<Polish>MX 6,5 mm (brązowy)</Polish>
+			<Russian>MX 6,5 мм (коричневый)</Russian>
+			<German>MX 6,5 mm (braun)</German>
+			<Czech>MX 6,5 mm (hnědý)</Czech>
+			<English>MX 6.5 mm (Brown)</English>
+			<Portuguese>MX 6,5 mm (marrom)</Portuguese>
+		</Key>
+		<Key ID="STR_fr2035_cfgweapons_arifle_xmx_gl0">
+			<Original>MX 3GL 6.5 mm (Brown)</Original>
+			<French>MX 3GL 6,5 mm (marron)</French>
+			<Spanish>MX 3GL 6,5 mm (marrón)</Spanish>
+			<Italian>MX 3GL 6,5 mm (marrone)</Italian>
+			<Polish>MX 3GL 6,5 mm (brązowy)</Polish>
+			<Russian>MX 3GL 6,5 мм (коричневый)</Russian>
+			<German>MX 3GL 6,5 mm (braun)</German>
+			<Czech>MX 3GL 6,5 mm (hnědý)</Czech>
+			<English>MX 3GL 6.5 mm (Brown)</English>
+			<Portuguese>MX 3GL 6,5 mm (marrom)</Portuguese>
+		</Key>
+		
+		<Key ID="STR_fr2035_cfgweapons_arifle_xm_lsw0">
+			<Original>MX SW 6.5 mm (Brown)</Original>
+			<French>MX SW 6,5 mm (marron)</French>
+			<Spanish>MX SW 6,5 mm (marrón)</Spanish>
+			<Italian>MX SW 6,5 mm (marrone)</Italian>
+			<Polish>MX SW 6,5 mm (brązowy)</Polish>
+			<Russian>MX SW 6,5 мм (коричневый)</Russian>
+			<German>MX SW 6,5 mm (braun)</German>
+			<Czech>MX SW 6,5 mm (hnědý)</Czech>
+			<English>MX SW 6.5 mm (Brown)</English>
+			<Portuguese>MX SW 6,5 mm (marrom)</Portuguese>
+		</Key>
+		<Key ID="STR_fr2035_cfgweapons_arifle_xmm0">
+			<Original>MXM 6.5 mm (Brown)</Original>
+			<French>MXM 6,5 mm (marron)</French>
+			<Spanish>MXM 6,5 mm (marrón)</Spanish>
+			<Italian>MXM 6,5 mm (marrone)</Italian>
+			<Polish>MXM 6,5 mm (brązowy)</Polish>
+			<Russian>MXM 6,5 мм (коричневый)</Russian>
+			<German>MXM 6,5 mm (braun)</German>
+			<Czech>MXM 6,5 mm (hnědý)</Czech>
+			<English>MXM 6.5 mm (Brown)</English>
+			<Portuguese>MXM 6,5 mm (marrom)</Portuguese>
+		</Key>
+		<Key ID="STR_fr2035_cfgweapons_arifle_camo_xmc0">
+			<Original>MXC 6.5 mm (CE)</Original>
+			<French>MXC 6,5 mm (CE)</French>
+			<Spanish>MXC 6,5 mm (CE)</Spanish>
+			<Italian>MXC 6,5 mm (CE)</Italian>
+			<Polish>MXC 6,5 mm (CE)</Polish>
+			<Russian>MXC 6,5 мм (CE)</Russian>
+			<German>MXC 6,5 mm (CE)</German>
+			<Czech>MXC 6,5 mm (CE)</Czech>
+			<English>MXC 6.5 mm (CE)</English>
+			<Portuguese>MXC 6,5 mm (CE)</Portuguese>
+		</Key>
+		<Key ID="STR_fr2035_cfgweapons_arifle_camo_xmx0">
+			<Original>MX 6.5 mm (CE)</Original>
+			<French>MX 6,5 mm (CE)</French>
+			<Spanish>MX 6,5 mm (CE)</Spanish>
+			<Italian>MX 6,5 mm (CE)</Italian>
+			<Polish>MX 6,5 mm (CE)</Polish>
+			<Russian>MX 6,5 мм (CE)</Russian>
+			<German>MX 6,5 mm (CE)</German>
+			<Czech>MX 6,5 mm (CE)</Czech>
+			<English>MX 6.5 mm (CE)</English>
+			<Portuguese>MX 6,5 mm (CE)</Portuguese>
+		</Key>
+		<Key ID="STR_fr2035_cfgweapons_arifle_camo_xmx_gl0">
+			<Original>MX 3GL 6.5 mm (CE)</Original>
+			<French>MX 3GL 6,5 mm (CE)</French>
+			<Spanish>MX 3GL 6,5 mm (CE)</Spanish>
+			<Italian>MX 3GL 6,5 mm (CE)</Italian>
+			<Polish>MX 3GL 6,5 mm (CE)</Polish>
+			<Russian>MX 3GL 6,5 мм (CE)</Russian>
+			<German>MX 3GL 6,5 mm (CE)</German>
+			<Czech>MX 3GL 6,5 mm (CE)</Czech>
+			<English>MX 3GL 6.5 mm (CE)</English>
+			<Portuguese>MX 3GL 6,5 mm (CE)</Portuguese>
+		</Key>
+		<Key ID="STR_fr2035_cfgweapons_arifle_camo_xm_lsw0">
+			<Original>MX SW 6.5 mm (CE)</Original>
+			<French>MX SW 6,5 mm (CE)</French>
+			<Spanish>MX SW 6,5 mm (CE)</Spanish>
+			<Italian>MX SW 6,5 mm (CE)</Italian>
+			<Polish>MX SW 6,5 mm (CE)</Polish>
+			<Russian>MX SW 6,5 мм (CE)</Russian>
+			<German>MX SW 6,5 mm (CE)</German>
+			<Czech>MX SW 6,5 mm (CE)</Czech>
+			<English>MX SW 6.5 mm (CE)</English>
+			<Portuguese>MX SW 6,5 mm (CE)</Portuguese>
+		</Key>
+		<Key ID="STR_fr2035_cfgweapons_arifle_camo_xmm0">
+			<Original>MXM 6.5 mm (CE)</Original>
+			<French>MXM 6,5 mm (CE)</French>
+			<Spanish>MXM 6,5 mm (CE)</Spanish>
+			<Italian>MXM 6,5 mm (CE)</Italian>
+			<Polish>MXM 6,5 mm (CE)</Polish>
+			<Russian>MXM 6,5 мм (CE)</Russian>
+			<German>MXM 6,5 mm (CE)</German>
+			<Czech>MXM 6,5 mm (CE)</Czech>
+			<English>MXM 6.5 mm (CE)</English>
+			<Portuguese>MXM 6,5 mm (CE)</Portuguese>
+		</Key>
+	</Package>
+</Project>
