@@ -80,6 +80,7 @@ class CfgPatches
 			"FR2035_CTRG_Soldier_Medic_F",
 			"FR2035_CTRG_Soldier_M_F",
 			"FR2035_CTRG_Soldier_F",
+			"FR2035_CTRG_Soldier_universal_F",
 			"FR2035_CTRG_Soldier_LAT_F",
 			"FR2035_CTRG_Soldier_AR_F",
 			"FR2035_CTRG_Soldier_JTAC_F",
@@ -5961,6 +5962,34 @@ class CfgVehicles
 			"ItemRadio",
 			"NVGogglesB_blk_F"
 		};
+	};
+	class FR2035_CTRG_Soldier_universal_F: FR2035_CTRG_Soldier_F
+	{
+		author="$STR_FR2035_Author";
+		class SpeechVariants
+		{
+			class Default
+			{
+				speechSingular[]=
+				{
+					"veh_infantry_medic_s"
+				};
+				speechPlural[]=
+				{
+					"veh_infantry_medic_p"
+				};
+			};
+		};
+		textSingular="$STR_A3_nameSound_veh_infantry_medic_s";
+		textPlural="$STR_A3_nameSound_veh_infantry_medic_p";
+		nameSound="veh_infantry_medic_s";
+		_generalMacro="FR2035_CTRG_Soldier_universal_F";
+		scope=1;
+		displayName="$STR_A3_CfgVehicles_b_soldier_universal_f_displayName";
+		attendant=1;
+		engineer=1;
+		canDeactivateMines=1;
+		role="Rifleman";
 	};
 	class FR2035_Deck_Crew_F: FR2035_Helipilot_F
 	{
