@@ -5892,6 +5892,50 @@
           <Japanese>Benoist</Japanese>
         </Key>
       </Container>
+      <Container name="Camo">
+        <Key ID="str_fr2035_camo_ce">
+          <Original>CE</Original>
+          <French>CE</French>
+          <Spanish>CE</Spanish>
+          <Italian>CE</Italian>
+          <Polish>CE</Polish>
+          <Russian>CE</Russian>
+          <German>CE</German>
+          <Czech>CE</Czech>
+          <English>CE</English>
+          <Portuguese>CE</Portuguese>
+          <Korean>CE</Korean>
+          <Japanese>CE</Japanese>
+        </Key>
+        <Key ID="str_fr2035_camo_btdf">
+          <Original>Brun terre de France</Original>
+          <French>Brun terre de France</French>
+          <Spanish>Brun terre de France</Spanish>
+          <Italian>Brun terre de France</Italian>
+          <Polish>Brun terre de France</Polish>
+          <Russian>Brun terre de France</Russian>
+          <German>Brun terre de France</German>
+          <Czech>Brun terre de France</Czech>
+          <English>Brun terre de France</English>
+          <Portuguese>Brun terre de France</Portuguese>
+          <Korean>Brun terre de France</Korean>
+          <Japanese>Brun terre de France</Japanese>
+        </Key>
+        <Key ID="str_fr2035_camo_daguet">
+          <Original>Daguet</Original>
+          <French>Daguet</French>
+          <Spanish>Daguet</Spanish>
+          <Italian>Daguet</Italian>
+          <Polish>Daguet</Polish>
+          <Russian>Daguet</Russian>
+          <German>Daguet</German>
+          <Czech>Daguet</Czech>
+          <English>Daguet</English>
+          <Portuguese>Daguet</Portuguese>
+          <Korean>Daguet</Korean>
+          <Japanese>Daguet</Japanese>
+        </Key>
+      </Container>
       <Container name="Editor_Categories">
         <Key ID="str_fr2035_edsubcat_personnel_ctrg">
           <Original>Men (CTRG)</Original>
