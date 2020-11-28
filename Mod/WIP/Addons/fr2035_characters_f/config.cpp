@@ -80,6 +80,7 @@ class CfgPatches
 			"FR2035_CTRG_Soldier_Medic_F",
 			"FR2035_CTRG_Soldier_M_F",
 			"FR2035_CTRG_Soldier_F",
+			"FR2035_CTRG_Soldier_universal_F",
 			"FR2035_CTRG_Soldier_LAT_F",
 			"FR2035_CTRG_Soldier_AR_F",
 			"FR2035_CTRG_Soldier_JTAC_F",
@@ -3292,7 +3293,6 @@ class CfgVehicles
 			"Throw",
 			"Put"
 		};
-		backpack="B_AssaultPack_rgr_ReconMedic";
 		backpack="B_FR2035_AssaultPack_ce_ReconMedic";
 		icon="iconManMedic";
 		role="CombatLifeSaver";
@@ -4031,7 +4031,6 @@ class CfgVehicles
 		_generalMacro="FR2035_soldier_AAR_F";
 		scope=2;
 		displayName="$STR_O_SOLDIERU_AAR_F0";
-		backpack="B_Kitbag_rgr_AAR";
 		backpack="B_FR2035_Kitbag_ce_AAR";
 		role="Assistant";
 	};
@@ -5333,7 +5332,7 @@ class CfgVehicles
 			"NVGogglesB_blk_F"
 		};
 	};
-	class FR2035_CTRG_Soldier_F: FR2035_CTRG_Soldier_base_F
+	class FR2035_CTRG_Soldier_h_F: FR2035_CTRG_Soldier_base_F
 	{
 		author="$STR_FR2035_Author";
 		_generalMacro="FR2035_CTRG_Soldier_F";
@@ -5426,7 +5425,7 @@ class CfgVehicles
 		armorStructural=4;
 		explosionShielding=0.40000001;
 	};
-	class FR2035_CTRG_Soldier_TL_F: FR2035_CTRG_Soldier_F
+	class FR2035_CTRG_Soldier_TL_F: FR2035_CTRG_Soldier_h_F
 	{
 		author="$STR_FR2035_Author";
 		editorPreview="\A3\EditorPreviews_F_Exp\Data\CfgVehicles\B_CTRG_Soldier_TL_tna_F.jpg";
@@ -5491,7 +5490,7 @@ class CfgVehicles
 			"Chemlight_green"
 		};
 	};
-	class FR2035_CTRG_Soldier_Exp_F: FR2035_CTRG_Soldier_F
+	class FR2035_CTRG_Soldier_Exp_F: FR2035_CTRG_Soldier_h_F
 	{
 		author="$STR_FR2035_Author";
 		editorPreview="\A3\EditorPreviews_F_Exp\Data\CfgVehicles\B_CTRG_Soldier_Exp_tna_F.jpg";
@@ -5569,7 +5568,7 @@ class CfgVehicles
 			"NVGogglesB_blk_F"
 		};
 	};
-	class FR2035_CTRG_Soldier_Medic_F: FR2035_CTRG_Soldier_F
+	class FR2035_CTRG_Soldier_Medic_F: FR2035_CTRG_Soldier_h_F
 	{
 		author="$STR_FR2035_Author";
 		class SpeechVariants
@@ -5633,7 +5632,7 @@ class CfgVehicles
 		};
 		attendant=1;
 	};
-	class FR2035_CTRG_Soldier_M_F: FR2035_CTRG_Soldier_F
+	class FR2035_CTRG_Soldier_M_F: FR2035_CTRG_Soldier_h_F
 	{
 		author="$STR_FR2035_Author";
 		class SpeechVariants
@@ -5717,7 +5716,7 @@ class CfgVehicles
 			"Chemlight_green"
 		};
 	};
-	class FR2035_CTRG_Soldier_F: FR2035_CTRG_Soldier_F
+	class FR2035_CTRG_Soldier_F: FR2035_CTRG_Soldier_h_F
 	{
 		author="$STR_FR2035_Author";
 		editorPreview="\A3\EditorPreviews_F_Exp\Data\CfgVehicles\B_CTRG_Soldier_tna_F.jpg";
@@ -5727,7 +5726,7 @@ class CfgVehicles
 		role="Rifleman";
 		backpack="";
 	};
-	class FR2035_CTRG_Soldier_LAT_F: FR2035_CTRG_Soldier_F
+	class FR2035_CTRG_Soldier_LAT_F: FR2035_CTRG_Soldier_h_F
 	{
 		author="$STR_FR2035_Author";
 		editorPreview="\A3\EditorPreviews_F_Exp\Data\CfgVehicles\B_CTRG_Soldier_LAT_tna_F.jpg";
@@ -5795,7 +5794,7 @@ class CfgVehicles
 			"Chemlight_green"
 		};
 	};
-	class FR2035_CTRG_Soldier_AR_F: FR2035_CTRG_Soldier_F
+	class FR2035_CTRG_Soldier_AR_F: FR2035_CTRG_Soldier_h_F
 	{
 		author="$STR_FR2035_Author";
 		editorPreview="\A3\EditorPreviews_F_Exp\Data\CfgVehicles\B_CTRG_Soldier_AR_tna_F.jpg";
@@ -5850,7 +5849,7 @@ class CfgVehicles
 			"Chemlight_green"
 		};
 	};
-	class FR2035_CTRG_Soldier_JTAC_F: FR2035_CTRG_Soldier_F
+	class FR2035_CTRG_Soldier_JTAC_F: FR2035_CTRG_Soldier_h_F
 	{
 		author="$STR_FR2035_Author";
 		editorPreview="\A3\EditorPreviews_F_Exp\Data\CfgVehicles\B_CTRG_Soldier_JTAC_tna_F.jpg";
@@ -5964,6 +5963,34 @@ class CfgVehicles
 			"NVGogglesB_blk_F"
 		};
 	};
+	class FR2035_CTRG_Soldier_universal_F: FR2035_CTRG_Soldier_F
+	{
+		author="$STR_FR2035_Author";
+		class SpeechVariants
+		{
+			class Default
+			{
+				speechSingular[]=
+				{
+					"veh_infantry_medic_s"
+				};
+				speechPlural[]=
+				{
+					"veh_infantry_medic_p"
+				};
+			};
+		};
+		textSingular="$STR_A3_nameSound_veh_infantry_medic_s";
+		textPlural="$STR_A3_nameSound_veh_infantry_medic_p";
+		nameSound="veh_infantry_medic_s";
+		_generalMacro="FR2035_CTRG_Soldier_universal_F";
+		scope=1;
+		displayName="$STR_A3_CfgVehicles_b_soldier_universal_f_displayName";
+		attendant=1;
+		engineer=1;
+		canDeactivateMines=1;
+		role="Rifleman";
+	};
 	class FR2035_Deck_Crew_F: FR2035_Helipilot_F
 	{
 		displayName="$STR_A3_B_Deck_Crew_name";
@@ -6048,7 +6075,6 @@ class CfgVehicles
 		};
 		backpack="";
 	};
-	class FR2035_soldier_exp_F;
 	class FR2035_soldier_mine_F: FR2035_soldier_exp_F
 	{
 		author="$STR_FR2035_Author";
@@ -6057,7 +6083,6 @@ class CfgVehicles
 		displayName="$STR_A3_B_soldier_mine_F0";
 		backpack="B_FR2035_Carryall_ce_Mine";
 	};
-	class FR2035_soldier_UAV_F;
 	class FR2035_soldier_UAV_06_F: FR2035_soldier_UAV_F
 	{
 		author="$STR_FR2035_Author";
