@@ -70,7 +70,7 @@ class CfgVehicles
 		{
 			class CE
 			{
-				displayName="CE";
+				displayName="$STR_FR2035_Camo_CE";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{
@@ -83,9 +83,24 @@ class CfgVehicles
 					"FR2035_F"
 				};
 			};
+			class BTDF
+			{
+				displayName="$STR_FR2035_Camo_BTDF";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_soft_f\data\btdf\fr2035_mrap_01_base_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_mrap_01_adds_co.paa",
+					""
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
 			class Daguet
 			{
-				displayName="Daguet";
+				displayName="$STR_FR2035_Camo_Daguet";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{
@@ -217,7 +232,7 @@ class CfgVehicles
 		{
 			class CE
 			{
-				displayName="CE";
+				displayName="$STR_FR2035_Camo_CE";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{
@@ -230,9 +245,24 @@ class CfgVehicles
 					"FR2035_F"
 				};
 			};
+			class BTDF
+			{
+				displayName="$STR_FR2035_Camo_BTDF";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_soft_f\data\btdf\fr2035_mrap_01_base_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_mrap_01_adds_co.paa",
+					"\fr2035_data_f\vehicles\fr2035_turret_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
 			class Daguet
 			{
-				displayName="Daguet";
+				displayName="$STR_FR2035_Camo_Daguet";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{
@@ -364,7 +394,7 @@ class CfgVehicles
 		{
 			class CE
 			{
-				displayName="CE";
+				displayName="$STR_FR2035_Camo_CE";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{
@@ -377,9 +407,24 @@ class CfgVehicles
 					"FR2035_F"
 				};
 			};
+			class BTDF
+			{
+				displayName="$STR_FR2035_Camo_BTDF";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_soft_f\data\btdf\fr2035_mrap_01_base_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_mrap_01_adds_co.paa",
+					"\fr2035_data_f\vehicles\fr2035_turret_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
 			class Daguet
 			{
-				displayName="Daguet";
+				displayName="$STR_FR2035_Camo_Daguet";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{
@@ -513,7 +558,7 @@ class CfgVehicles
 		{
 			class CE
 			{
-				displayName="CE";
+				displayName="$STR_FR2035_Camo_CE";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{
@@ -527,9 +572,25 @@ class CfgVehicles
 					"FR2035_F"
 				};
 			};
+			class BTDF
+			{
+				displayName="$STR_FR2035_Camo_BTDF";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_soft_f\data\btdf\fr2035_truck_01_ext_01_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_truck_01_ext_02_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_truck_01_cargo_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_truck_01_cover_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
 			class Daguet
 			{
-				displayName="Daguet";
+				displayName="$STR_FR2035_Camo_Daguet";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{
@@ -573,7 +634,7 @@ class CfgVehicles
 		{
 			class CE
 			{
-				displayName="CE";
+				displayName="$STR_FR2035_Camo_CE";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{
@@ -586,9 +647,24 @@ class CfgVehicles
 					"FR2035_F"
 				};
 			};
+			class BTDF
+			{
+				displayName="$STR_FR2035_Camo_BTDF";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_soft_f\data\btdf\fr2035_truck_01_ext_01_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_truck_01_ext_02_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_truck_01_cargo_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
 			class Daguet
 			{
-				displayName="Daguet";
+				displayName="$STR_FR2035_Camo_Daguet";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{
@@ -631,7 +707,7 @@ class CfgVehicles
 		{
 			class CE
 			{
-				displayName="CE";
+				displayName="$STR_FR2035_Camo_CE";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{
@@ -644,9 +720,24 @@ class CfgVehicles
 					"FR2035_F"
 				};
 			};
+			class BTDF
+			{
+				displayName="$STR_FR2035_Camo_BTDF";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_soft_f\data\btdf\fr2035_truck_01_ext_01_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_truck_01_ext_02_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_truck_01_mprimer_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
 			class Daguet
 			{
-				displayName="Daguet";
+				displayName="$STR_FR2035_Camo_Daguet";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{
@@ -691,7 +782,7 @@ class CfgVehicles
 		{
 			class CE
 			{
-				displayName="CE";
+				displayName="$STR_FR2035_Camo_CE";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{
@@ -705,9 +796,25 @@ class CfgVehicles
 					"FR2035_F"
 				};
 			};
+			class BTDF
+			{
+				displayName="$STR_FR2035_Camo_BTDF";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_soft_f\data\btdf\fr2035_truck_01_ext_01_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_truck_01_ext_02_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_truck_01_ammo_co.paa",
+					"\a3\structures_f\data\metal\containers\containers_02_set_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
 			class Daguet
 			{
-				displayName="Daguet";
+				displayName="$STR_FR2035_Camo_Daguet";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{
@@ -753,7 +860,7 @@ class CfgVehicles
 		{
 			class CE
 			{
-				displayName="CE";
+				displayName="$STR_FR2035_Camo_CE";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{
@@ -767,9 +874,25 @@ class CfgVehicles
 					"FR2035_F"
 				};
 			};
+			class BTDF
+			{
+				displayName="$STR_FR2035_Camo_BTDF";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_soft_f\data\btdf\fr2035_truck_01_ext_01_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_truck_01_ext_02_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_truck_01_ammo_co.paa",
+					"\a3\structures_f\data\metal\containers\containers_02_set_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
 			class Daguet
 			{
-				displayName="Daguet";
+				displayName="$STR_FR2035_Camo_Daguet";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{
@@ -813,7 +936,7 @@ class CfgVehicles
 		{
 			class CE
 			{
-				displayName="CE";
+				displayName="$STR_FR2035_Camo_CE";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{
@@ -826,9 +949,24 @@ class CfgVehicles
 					"FR2035_F"
 				};
 			};
+			class BTDF
+			{
+				displayName="$STR_FR2035_Camo_BTDF";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_soft_f\data\btdf\fr2035_truck_01_ext_01_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_truck_01_ext_02_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_truck_01_ammo_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
 			class Daguet
 			{
-				displayName="Daguet";
+				displayName="$STR_FR2035_Camo_Daguet";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{
@@ -871,7 +1009,7 @@ class CfgVehicles
 		{
 			class CE
 			{
-				displayName="CE";
+				displayName="$STR_FR2035_Camo_CE";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{
@@ -884,9 +1022,24 @@ class CfgVehicles
 					"FR2035_F"
 				};
 			};
+			class BTDF
+			{
+				displayName="$STR_FR2035_Camo_BTDF";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_soft_f\data\btdf\fr2035_truck_01_ext_01_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_truck_01_ext_02_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_truck_01_fuel_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
 			class Daguet
 			{
-				displayName="Daguet";
+				displayName="$STR_FR2035_Camo_Daguet";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{
@@ -931,7 +1084,7 @@ class CfgVehicles
 		{
 			class CE
 			{
-				displayName="CE";
+				displayName="$STR_FR2035_Camo_CE";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{
@@ -945,9 +1098,25 @@ class CfgVehicles
 					"FR2035_F"
 				};
 			};
+			class BTDF
+			{
+				displayName="$STR_FR2035_Camo_BTDF";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_soft_f\data\btdf\fr2035_truck_01_ext_01_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_truck_01_ext_02_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_truck_01_cargo_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_truck_01_cover_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
 			class Daguet
 			{
-				displayName="Daguet";
+				displayName="$STR_FR2035_Camo_Daguet";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{
@@ -993,7 +1162,7 @@ class CfgVehicles
 		{
 			class CE
 			{
-				displayName="CE";
+				displayName="$STR_FR2035_Camo_CE";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{
@@ -1007,9 +1176,25 @@ class CfgVehicles
 					"FR2035_F"
 				};
 			};
+			class BTDF
+			{
+				displayName="$STR_FR2035_Camo_BTDF";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_soft_f\data\btdf\fr2035_truck_01_ext_01_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_truck_01_ext_02_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_truck_01_ammo_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_truck_01_fret_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
 			class Daguet
 			{
-				displayName="Daguet";
+				displayName="$STR_FR2035_Camo_Daguet";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{
@@ -1055,7 +1240,7 @@ class CfgVehicles
 		{
 			class CE
 			{
-				displayName="CE";
+				displayName="$STR_FR2035_Camo_CE";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{
@@ -1069,9 +1254,25 @@ class CfgVehicles
 					"FR2035_F"
 				};
 			};
+			class BTDF
+			{
+				displayName="$STR_FR2035_Camo_BTDF";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_soft_f\data\btdf\fr2035_truck_01_ext_01_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_truck_01_ext_02_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_truck_01_ammo_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_truck_01_fret_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
 			class Daguet
 			{
-				displayName="Daguet";
+				displayName="$STR_FR2035_Camo_Daguet";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{
@@ -1113,7 +1314,7 @@ class CfgVehicles
 		{
 			class CE
 			{
-				displayName="CE";
+				displayName="$STR_FR2035_Camo_CE";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{
@@ -1125,9 +1326,23 @@ class CfgVehicles
 					"FR2035_F"
 				};
 			};
+			class BTDF
+			{
+				displayName="$STR_FR2035_Camo_BTDF";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_soft_f\data\btdf\fr2035_quadbike_01_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_quadbike_01_wheel_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
 			class Daguet
 			{
-				displayName="Daguet";
+				displayName="$STR_FR2035_Camo_Daguet";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{
@@ -1171,7 +1386,7 @@ class CfgVehicles
 		{
 			class CE
 			{
-				displayName="CE";
+				displayName="$STR_FR2035_Camo_CE";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{
@@ -1185,9 +1400,25 @@ class CfgVehicles
 					"FR2035_F"
 				};
 			};
+			class BTDF
+			{
+				displayName="$STR_FR2035_Camo_BTDF";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_soft_f\data\btdf\fr2035_lsv_01_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_lsv_02_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_lsv_03_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_lsv_adds_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
 			class Daguet
 			{
-				displayName="Daguet";
+				displayName="$STR_FR2035_Camo_Daguet";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{
@@ -1322,7 +1553,7 @@ class CfgVehicles
 		{
 			class CE
 			{
-				displayName="CE";
+				displayName="$STR_FR2035_Camo_CE";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{
@@ -1336,9 +1567,25 @@ class CfgVehicles
 					"FR2035_F"
 				};
 			};
+			class BTDF
+			{
+				displayName="$STR_FR2035_Camo_BTDF";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_soft_f\data\btdf\fr2035_lsv_01_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_lsv_02_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_lsv_03_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_lsv_adds_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
 			class Daguet
 			{
-				displayName="Daguet";
+				displayName="$STR_FR2035_Camo_Daguet";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{
@@ -1477,7 +1724,7 @@ class CfgVehicles
 		{
 			class CE
 			{
-				displayName="CE";
+				displayName="$STR_FR2035_Camo_CE";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{
@@ -1493,9 +1740,27 @@ class CfgVehicles
 					"FR2035_F"
 				};
 			};
+			class BTDF
+			{
+				displayName="$STR_FR2035_Camo_BTDF";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_soft_f\data\btdf\fr2035_lsv_01_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_lsv_02_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_lsv_03_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_lsv_adds_co.paa",
+					"\fr2035_weapons_f\data\titan\fr2035_launch_titan_f_01_co.paa",
+					"\fr2035_weapons_f\data\titan\fr2035_launch_titan_short_f_02_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
 			class Daguet
 			{
-				displayName="Daguet";
+				displayName="$STR_FR2035_Camo_Daguet";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{
@@ -1632,7 +1897,7 @@ class CfgVehicles
 		{
 			class CE
 			{
-				displayName="CE";
+				displayName="$STR_FR2035_Camo_CE";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{
@@ -1646,9 +1911,25 @@ class CfgVehicles
 					"FR2035_F"
 				};
 			};
+			class BTDF
+			{
+				displayName="$STR_FR2035_Camo_BTDF";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_soft_f\data\btdf\fr2035_lsv_01_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_lsv_02_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_lsv_03_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_lsv_adds_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
 			class Daguet
 			{
-				displayName="Daguet";
+				displayName="$STR_FR2035_Camo_Daguet";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{
@@ -1694,7 +1975,7 @@ class CfgVehicles
 		{
 			class CE
 			{
-				displayName="CE";
+				displayName="$STR_FR2035_Camo_CE";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{
@@ -1708,9 +1989,25 @@ class CfgVehicles
 					"FR2035_F"
 				};
 			};
+			class BTDF
+			{
+				displayName="$STR_FR2035_Camo_BTDF";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_soft_f\data\btdf\fr2035_lsv_01_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_lsv_02_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_lsv_03_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_lsv_adds_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
 			class Daguet
 			{
-				displayName="Daguet";
+				displayName="$STR_FR2035_Camo_Daguet";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{
@@ -1756,7 +2053,7 @@ class CfgVehicles
 		{
 			class CE
 			{
-				displayName="CE";
+				displayName="$STR_FR2035_Camo_CE";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{
@@ -1770,9 +2067,25 @@ class CfgVehicles
 					"FR2035_F"
 				};
 			};
+			class BTDF
+			{
+				displayName="$STR_FR2035_Camo_BTDF";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_soft_f\data\btdf\fr2035_lsv_01_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_lsv_02_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_lsv_03_co.paa",
+					"\fr2035_soft_f\data\btdf\fr2035_lsv_adds_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
 			class Daguet
 			{
-				displayName="Daguet";
+				displayName="$STR_FR2035_Camo_Daguet";
 				author="$STR_FR2035_Author";
 				textures[]=
 				{

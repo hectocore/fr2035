@@ -185,7 +185,6 @@ class CfgWorlds
 				Adam="$STR_FR2035_Name_M_Adam";
 				Timeo="$STR_FR2035_Name_M_Timeo";
 				Arthur="$STR_FR2035_Name_M_Arthur";
-				Hugo="$STR_FR2035_Name_M_Hugo";
 				Nolan="$STR_FR2035_Name_M_Nolan";
 				Jules="$STR_FR2035_Name_M_Jules";
 				Liam="$STR_FR2035_Name_M_Liam";
