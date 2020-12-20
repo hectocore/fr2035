@@ -5952,6 +5952,22 @@
           <Japanese>男性（CTRG）</Japanese>
         </Key>
       </Container>
+      <Container name="Insignia">
+        <Key ID="str_fr2035_insignia_france">
+          <Original>France</Original>
+          <French>France</French>
+          <Spanish>Francia</Spanish>
+          <Italian>Francia</Italian>
+          <Polish>Francja</Polish>
+          <Russian>Франция</Russian>
+          <German>Frankreich</German>
+          <Czech>Francie</Czech>
+          <English>France</English>
+          <Portuguese>França</Portuguese>
+          <Korean>프랑스</Korean>
+          <Japanese>フランス</Japanese>
+        </Key>
+      </Container>
     </Container>
     <Container name="FR2035_Characters_F">
       <Container name="Uniforms">

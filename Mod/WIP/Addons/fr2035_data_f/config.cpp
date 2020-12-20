@@ -720,6 +720,16 @@ class CfgEditorSubcategories
 		displayName="$STR_FR2035_EdSubcat_Personnel_CTRG";
 	};
 };
+class CfgUnitInsignia
+{
+	class FR2035_Insignia_France
+	{
+		displayName="$STR_FR2035_Insignia_France";
+		texture="\fr2035_data_f\insignia\france_ca.paa";
+		author="$STR_FR2035_Author";
+		material="\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+	};
+};
 class CfgGroups
 {
 	class West
