@@ -11,6 +11,7 @@ class CfgPatches
 			"FR2035_Data_F",
 			"A3_Armor_F",
 			"A3_Armor_F_Beta",
+			"A3_Armor_F_Gamma",
 			"A3_Armor_F_EPB",
 			"A3_Armor_F_Tank"
 		};
@@ -19,12 +20,18 @@ class CfgPatches
 			"FR2035_MBT_03_cannon_F",
 			"FR2035_APC_Wheeled_01_cannon_F",
 			"FR2035_AFV_Wheeled_01_cannon_F",
-			"FR2035_AFV_Wheeled_01_up_cannon_F"
+			"FR2035_AFV_Wheeled_01_up_cannon_F",
+			"FR2035_APC_Tracked_01_rcws_F",
+			"FR2035_APC_Tracked_01_CRV_F",
+			"FR2035_APC_Tracked_01_AA_F",
+			"FR2035_MBT_01_arty_F",
+			"FR2035_MBT_01_mlrs_F"
 		};
 		weapons[]={};
 	};
 };
 
+// Import of config templates
 class SensorTemplateLaser;
 class SensorTemplateDataLink;
 class DefaultVehicleSystemsDisplayManagerLeft;
@@ -50,6 +57,7 @@ class CfgVehicles
 {
 	class I_MBT_03_cannon_F;
 	class I_MBT_03_cannon_F_copy: I_MBT_03_cannon_F {
+		scope=0;
 		// You must copy the base class in order to retrieve its child class
 		class Turrets;
 	};
@@ -81,9 +89,10 @@ class CfgVehicles
 	class FR2035_MBT_03_cannon_F: I_MBT_03_cannon_F_copy_l4
 	{
 		author="$STR_FR2035_Author";
-		editorPreview=""; // TODO generate and add preview
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_MBT_03_cannon_F.jpg";
 		_generalMacro="FR2035_MBT_03_cannon_F";
-		displayName="MBT-R Leopard"; // TODO stringtable
+		scope=2;
+		displayName="$STR_FR2035_MBT_03_cannon";
 		crew="FR2035_crew_F";
 		typicalCargo[]=
 		{
@@ -286,9 +295,9 @@ class CfgVehicles
 	class FR2035_APC_Wheeled_01_cannon_F: B_APC_Wheeled_01_cannon_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview=""; // TODO generate and add preview
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_APC_Wheeled_01_cannon_F.jpg";
 		_generalMacro="FR2035_APC_Wheeled_01_cannon_F";
-		displayName="AMV Ocelot"; // TODO stringtable
+		displayName="$STR_FR2035_APC_Wheeled_01_cannon";
 		crew="FR2035_crew_F";
 		typicalCargo[]=
 		{
@@ -475,9 +484,9 @@ class CfgVehicles
 	class FR2035_AFV_Wheeled_01_cannon_F: B_AFV_Wheeled_01_cannon_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview=""; // TODO generate and add preview
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_AFV_Wheeled_01_cannon_F.jpg";
 		_generalMacro="FR2035_AFV_Wheeled_01_cannon_F";
-		displayName="AFV Lynx"; // TODO stringtable
+		displayName="$STR_FR2035_AFV_Wheeled_01_cannon";
 		crew="FR2035_crew_F";
 		typicalCargo[]=
 		{
@@ -594,9 +603,9 @@ class CfgVehicles
 	class FR2035_AFV_Wheeled_01_up_cannon_F: B_AFV_Wheeled_01_up_cannon_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview=""; // TODO generate and add preview
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_AFV_Wheeled_01_up_cannon_F.jpg";
 		_generalMacro="FR2035_AFV_Wheeled_01_up_cannon_F";
-		displayName="AFV Lynx SIR"; // TODO stringtable
+		displayName="$STR_FR2035_AFV_Wheeled_01_up_cannon";
 		crew="FR2035_crew_F";
 		typicalCargo[]=
 		{
@@ -677,6 +686,816 @@ class CfgVehicles
 					"\fr2035_armor_f\data\daguet\fr2035_afv_commander_tow_co.paa",
 					"a3\Armor_F\Data\camonet_nato_desert_co.paa",
 					"\fr2035_armor_f\data\daguet\fr2035_afv_wheeled_01_ext3_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
+		};
+		class TransportMagazines
+		{
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=2;
+			};
+			class _xx_SmokeShellBlue
+			{
+				magazine="SmokeShellBlue";
+				count=2;
+			};
+			class _xx_30Rnd_556x45_Stanag_red
+			{
+				magazine="30Rnd_556x45_Stanag_red";
+				count=4;
+			};
+		};
+		class TransportWeapons
+		{
+			class _xx_FR2035_arifle_416F_blk_F
+			{
+				weapon="FR2035_arifle_416F_blk_F";
+				count=2;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=10;
+			};
+		};
+	};
+	class B_APC_Tracked_01_rcws_F;
+	class FR2035_APC_Tracked_01_rcws_F: B_APC_Tracked_01_rcws_F
+	{
+		author="$STR_FR2035_Author";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_APC_Tracked_01_rcws_F.jpg";
+		_generalMacro="FR2035_APC_Tracked_01_rcws_F";
+		displayName="$STR_FR2035_APC_Tracked_01_rcws";
+		crew="FR2035_crew_F";
+		typicalCargo[]=
+		{
+			"FR2035_Soldier_F"
+		};
+		side=1;
+		faction="FR2035_F";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"CamoNet"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_armor_f\data\fr2035_apc_tracked_01_body_co.paa",
+			"\fr2035_armor_f\data\fr2035_mbt_01_body_co.paa",
+			"\fr2035_data_f\vehicles\fr2035_turret_co.paa",
+			"a3\Armor_F\Data\camonet_greenbeige_co.paa"
+		};
+		class TextureSources
+		{
+			class CE
+			{
+				displayName="$STR_FR2035_Camo_CE";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_armor_f\data\fr2035_apc_tracked_01_body_co.paa",
+					"\fr2035_armor_f\data\fr2035_mbt_01_body_co.paa",
+					"\fr2035_data_f\vehicles\fr2035_turret_co.paa",
+					"a3\Armor_F\Data\camonet_greenbeige_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
+			class BTDF
+			{
+				displayName="$STR_FR2035_Camo_BTDF";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_armor_f\data\btdf\fr2035_apc_tracked_01_body_co.paa",
+					"\fr2035_armor_f\data\btdf\fr2035_mbt_01_body_co.paa",
+					"\fr2035_data_f\vehicles\fr2035_turret_co.paa",
+					"a3\Armor_F\Data\camonet_greenbeige_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
+			class Daguet
+			{
+				displayName="$STR_FR2035_Camo_Daguet";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_armor_f\data\daguet\fr2035_apc_tracked_01_body_co.paa",
+					"\fr2035_armor_f\data\daguet\fr2035_mbt_01_body_co.paa",
+					"\fr2035_data_f\vehicles\fr2035_turret_co.paa",
+					"a3\Armor_F\Data\camonet_nato_desert_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
+		};
+		class TransportMagazines
+		{
+			class _xx_30Rnd_556x45_Stanag_red
+			{
+				magazine="30Rnd_556x45_Stanag_red";
+				count=24;
+			};
+			class _xx_200Rnd_556x45_Box_Red_F
+			{
+				magazine="200Rnd_556x45_Box_Red_F";
+				count=6;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=6;
+			};
+			class _xx_MiniGrenade
+			{
+				magazine="MiniGrenade";
+				count=6;
+			};
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=6;
+			};
+			class _xx_1Rnd_Smoke_Grenade_shell
+			{
+				magazine="1Rnd_Smoke_Grenade_shell";
+				count=3;
+			};
+			class _xx_1Rnd_SmokeGreen_Grenade_shell
+			{
+				magazine="1Rnd_SmokeGreen_Grenade_shell";
+				count=3;
+			};
+			class _xx_1Rnd_SmokeOrange_Grenade_shell
+			{
+				magazine="1Rnd_SmokeOrange_Grenade_shell";
+				count=3;
+			};
+			class _xx_1Rnd_SmokeBlue_Grenade_shell
+			{
+				magazine="1Rnd_SmokeBlue_Grenade_shell";
+				count=3;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=8;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=8;
+			};
+			class _xx_SmokeShellOrange
+			{
+				magazine="SmokeShellOrange";
+				count=8;
+			};
+			class _xx_SmokeShellBlue
+			{
+				magazine="SmokeShellBlue";
+				count=8;
+			};
+			class _xx_NLAW_F
+			{
+				magazine="NLAW_F";
+				count=5;
+			};
+			class _xx_Titan_AT
+			{
+				magazine="Titan_AT";
+				count=2;
+			};
+			class _xx_Titan_AP
+			{
+				magazine="Titan_AP";
+				count=2;
+			};
+			class _xx_Titan_AA
+			{
+				magazine="Titan_AA";
+				count=2;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=10;
+			};
+		};
+		class TransportWeapons
+		{
+			class _xx_FR2035_arifle_416F_blk_F
+			{
+				weapon="FR2035_arifle_416F_blk_F";
+				count=2;
+			};
+			class _xx_FR2035_LMG_Minimi_blk_F
+			{
+				weapon="FR2035_LMG_Minimi_blk_F";
+				count=1;
+			};
+			class _xx_launch_NLAW_F
+			{
+				weapon="launch_NLAW_F";
+				count=1;
+			};
+		};
+	};
+	class B_APC_Tracked_01_CRV_F;
+	class FR2035_APC_Tracked_01_CRV_F: B_APC_Tracked_01_CRV_F
+	{
+		author="$STR_FR2035_Author";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_APC_Tracked_01_CRV_F.jpg";
+		_generalMacro="FR2035_APC_Tracked_01_CRV_F";
+		displayName="$STR_FR2035_APC_Tracked_01_CRV";
+		crew="FR2035_crew_F";
+		typicalCargo[]=
+		{
+			"FR2035_Soldier_F"
+		};
+		side=1;
+		faction="FR2035_F";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"camo4",
+			"CamoNet"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_armor_f\data\fr2035_apc_tracked_01_body_crv_co.paa",
+			"\fr2035_armor_f\data\fr2035_mbt_01_body_co.paa",
+			"\fr2035_data_f\vehicles\fr2035_turret_co.paa",
+			"\fr2035_armor_f\data\fr2035_apc_tracked_01_crv_co.paa",
+			"a3\Armor_F\Data\camonet_greenbeige_co.paa"
+		};
+		class TextureSources
+		{
+			class CE
+			{
+				displayName="$STR_FR2035_Camo_CE";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_armor_f\data\fr2035_apc_tracked_01_body_crv_co.paa",
+					"\fr2035_armor_f\data\fr2035_mbt_01_body_co.paa",
+					"\fr2035_data_f\vehicles\fr2035_turret_co.paa",
+					"\fr2035_armor_f\data\fr2035_apc_tracked_01_crv_co.paa",
+					"a3\Armor_F\Data\camonet_greenbeige_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
+			class BTDF
+			{
+				displayName="$STR_FR2035_Camo_BTDF";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_armor_f\data\btdf\fr2035_apc_tracked_01_body_crv_co.paa",
+					"\fr2035_armor_f\data\btdf\fr2035_mbt_01_body_co.paa",
+					"\fr2035_data_f\vehicles\fr2035_turret_co.paa",
+					"\fr2035_armor_f\data\btdf\fr2035_apc_tracked_01_crv_co.paa",
+					"a3\Armor_F\Data\camonet_greenbeige_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
+			class Daguet
+			{
+				displayName="$STR_FR2035_Camo_Daguet";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_armor_f\data\daguet\fr2035_apc_tracked_01_body_crv_co.paa",
+					"\fr2035_armor_f\data\daguet\fr2035_mbt_01_body_co.paa",
+					"\fr2035_data_f\vehicles\fr2035_turret_co.paa",
+					"\fr2035_armor_f\data\daguet\fr2035_apc_tracked_01_crv_co.paa",
+					"a3\Armor_F\Data\camonet_nato_desert_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
+		};
+		class TransportMagazines
+		{
+			class _xx_30Rnd_556x45_Stanag_red
+			{
+				magazine="30Rnd_556x45_Stanag_red";
+				count=24;
+			};
+			class _xx_200Rnd_556x45_Box_Red_F
+			{
+				magazine="200Rnd_556x45_Box_Red_F";
+				count=6;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=6;
+			};
+			class _xx_MiniGrenade
+			{
+				magazine="MiniGrenade";
+				count=6;
+			};
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=6;
+			};
+			class _xx_1Rnd_Smoke_Grenade_shell
+			{
+				magazine="1Rnd_Smoke_Grenade_shell";
+				count=3;
+			};
+			class _xx_1Rnd_SmokeGreen_Grenade_shell
+			{
+				magazine="1Rnd_SmokeGreen_Grenade_shell";
+				count=3;
+			};
+			class _xx_1Rnd_SmokeOrange_Grenade_shell
+			{
+				magazine="1Rnd_SmokeOrange_Grenade_shell";
+				count=3;
+			};
+			class _xx_1Rnd_SmokeBlue_Grenade_shell
+			{
+				magazine="1Rnd_SmokeBlue_Grenade_shell";
+				count=3;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=8;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=8;
+			};
+			class _xx_SmokeShellOrange
+			{
+				magazine="SmokeShellOrange";
+				count=8;
+			};
+			class _xx_SmokeShellBlue
+			{
+				magazine="SmokeShellBlue";
+				count=8;
+			};
+			class _xx_NLAW_F
+			{
+				magazine="NLAW_F";
+				count=5;
+			};
+			class _xx_Titan_AT
+			{
+				magazine="Titan_AT";
+				count=2;
+			};
+			class _xx_Titan_AP
+			{
+				magazine="Titan_AP";
+				count=2;
+			};
+			class _xx_Titan_AA
+			{
+				magazine="Titan_AA";
+				count=2;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=10;
+			};
+		};
+		class TransportWeapons
+		{
+			class _xx_FR2035_arifle_416F_blk_F
+			{
+				weapon="FR2035_arifle_416F_blk_F";
+				count=2;
+			};
+			class _xx_FR2035_LMG_Minimi_blk_F
+			{
+				weapon="FR2035_LMG_Minimi_blk_F";
+				count=1;
+			};
+			class _xx_launch_NLAW_F
+			{
+				weapon="launch_NLAW_F";
+				count=1;
+			};
+		};
+	};
+	class B_APC_Tracked_01_AA_F;
+	class FR2035_APC_Tracked_01_AA_F: B_APC_Tracked_01_AA_F
+	{
+		author="$STR_FR2035_Author";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_APC_Tracked_01_AA_F.jpg";
+		_generalMacro="FR2035_APC_Tracked_01_AA_F";
+		displayName="$STR_FR2035_APC_Tracked_01_AA";
+		crew="FR2035_crew_F";
+		typicalCargo[]=
+		{
+			"FR2035_Soldier_F"
+		};
+		side=1;
+		faction="FR2035_F";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"CamoNet"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_armor_f\data\fr2035_apc_tracked_01_aa_body_co.paa",
+			"\fr2035_armor_f\data\fr2035_mbt_01_body_co.paa",
+			"\fr2035_armor_f\data\fr2035_apc_tracked_01_aa_tower_co.paa",
+			"a3\Armor_F\Data\camonet_greenbeige_co.paa"
+		};
+		class TextureSources
+		{
+			class CE
+			{
+				displayName="$STR_FR2035_Camo_CE";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_armor_f\data\fr2035_apc_tracked_01_aa_body_co.paa",
+					"\fr2035_armor_f\data\fr2035_mbt_01_body_co.paa",
+					"\fr2035_armor_f\data\fr2035_apc_tracked_01_aa_tower_co.paa",
+					"a3\Armor_F\Data\camonet_greenbeige_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
+			class BTDF
+			{
+				displayName="$STR_FR2035_Camo_BTDF";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_armor_f\data\btdf\fr2035_apc_tracked_01_aa_body_co.paa",
+					"\fr2035_armor_f\data\btdf\fr2035_mbt_01_body_co.paa",
+					"\fr2035_armor_f\data\btdf\fr2035_apc_tracked_01_aa_tower_co.paa",
+					"a3\Armor_F\Data\camonet_greenbeige_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
+			class Daguet
+			{
+				displayName="$STR_FR2035_Camo_Daguet";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_armor_f\data\daguet\fr2035_apc_tracked_01_aa_body_co.paa",
+					"\fr2035_armor_f\data\daguet\fr2035_mbt_01_body_co.paa",
+					"\fr2035_armor_f\data\daguet\fr2035_apc_tracked_01_aa_tower_co.paa",
+					"a3\Armor_F\Data\camonet_nato_desert_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
+		};
+		class TransportMagazines
+		{
+			class _xx_30Rnd_556x45_Stanag_red
+			{
+				magazine="30Rnd_556x45_Stanag_red";
+				count=24;
+			};
+			class _xx_200Rnd_556x45_Box_Red_F
+			{
+				magazine="200Rnd_556x45_Box_Red_F";
+				count=6;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=6;
+			};
+			class _xx_MiniGrenade
+			{
+				magazine="MiniGrenade";
+				count=6;
+			};
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=6;
+			};
+			class _xx_1Rnd_Smoke_Grenade_shell
+			{
+				magazine="1Rnd_Smoke_Grenade_shell";
+				count=3;
+			};
+			class _xx_1Rnd_SmokeGreen_Grenade_shell
+			{
+				magazine="1Rnd_SmokeGreen_Grenade_shell";
+				count=3;
+			};
+			class _xx_1Rnd_SmokeOrange_Grenade_shell
+			{
+				magazine="1Rnd_SmokeOrange_Grenade_shell";
+				count=3;
+			};
+			class _xx_1Rnd_SmokeBlue_Grenade_shell
+			{
+				magazine="1Rnd_SmokeBlue_Grenade_shell";
+				count=3;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=8;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=8;
+			};
+			class _xx_SmokeShellOrange
+			{
+				magazine="SmokeShellOrange";
+				count=8;
+			};
+			class _xx_SmokeShellBlue
+			{
+				magazine="SmokeShellBlue";
+				count=8;
+			};
+			class _xx_NLAW_F
+			{
+				magazine="NLAW_F";
+				count=5;
+			};
+			class _xx_Titan_AT
+			{
+				magazine="Titan_AT";
+				count=2;
+			};
+			class _xx_Titan_AP
+			{
+				magazine="Titan_AP";
+				count=2;
+			};
+			class _xx_Titan_AA
+			{
+				magazine="Titan_AA";
+				count=2;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=10;
+			};
+		};
+		class TransportWeapons
+		{
+			class _xx_FR2035_arifle_416F_blk_F
+			{
+				weapon="FR2035_arifle_416F_blk_F";
+				count=2;
+			};
+			class _xx_FR2035_LMG_Minimi_blk_F
+			{
+				weapon="FR2035_LMG_Minimi_blk_F";
+				count=1;
+			};
+			class _xx_launch_NLAW_F
+			{
+				weapon="launch_NLAW_F";
+				count=1;
+			};
+		};
+	};
+	class B_MBT_01_arty_F;
+	class FR2035_MBT_01_arty_F: B_MBT_01_arty_F
+	{
+		author="$STR_FR2035_Author";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_MBT_01_arty_F.jpg";
+		_generalMacro="FR2035_MBT_01_arty_F";
+		displayName="$STR_FR2035_MBT_01_arty";
+		crew="FR2035_crew_F";
+		typicalCargo[]=
+		{
+			"FR2035_Soldier_F"
+		};
+		side=1;
+		faction="FR2035_F";
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"Camo3",
+			"CamoNet"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_armor_f\data\fr2035_mbt_01_body_co.paa",
+			"\fr2035_armor_f\data\fr2035_mbt_01_scorcher_co.paa",
+			"\fr2035_data_f\vehicles\fr2035_turret_co.paa",
+			"A3\Armor_F\Data\camonet_greenbeige_co.paa"
+		};
+		class TextureSources
+		{
+			class CE
+			{
+				displayName="$STR_FR2035_Camo_CE";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_armor_f\data\fr2035_mbt_01_body_co.paa",
+					"\fr2035_armor_f\data\fr2035_mbt_01_scorcher_co.paa",
+					"\fr2035_data_f\vehicles\fr2035_turret_co.paa",
+					"A3\Armor_F\Data\camonet_greenbeige_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
+			class BTDF
+			{
+				displayName="$STR_FR2035_Camo_BTDF";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_armor_f\data\btdf\fr2035_mbt_01_body_co.paa",
+					"\fr2035_armor_f\data\btdf\fr2035_mbt_01_scorcher_co.paa",
+					"\fr2035_data_f\vehicles\fr2035_turret_co.paa",
+					"A3\Armor_F\Data\camonet_greenbeige_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
+			class Daguet
+			{
+				displayName="$STR_FR2035_Camo_Daguet";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_armor_f\data\daguet\fr2035_mbt_01_body_co.paa",
+					"\fr2035_armor_f\data\daguet\fr2035_mbt_01_scorcher_co.paa",
+					"\fr2035_data_f\vehicles\fr2035_turret_co.paa",
+					"a3\Armor_F\Data\camonet_nato_desert_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
+		};
+		class TransportMagazines
+		{
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=2;
+			};
+			class _xx_SmokeShellBlue
+			{
+				magazine="SmokeShellBlue";
+				count=2;
+			};
+			class _xx_30Rnd_556x45_Stanag_red
+			{
+				magazine="30Rnd_556x45_Stanag_red";
+				count=4;
+			};
+		};
+		class TransportWeapons
+		{
+			class _xx_FR2035_arifle_416F_blk_F
+			{
+				weapon="FR2035_arifle_416F_blk_F";
+				count=2;
+			};
+		};
+		class TransportItems
+		{
+			class _xx_FirstAidKit
+			{
+				name="FirstAidKit";
+				count=10;
+			};
+		};
+	};
+	class B_MBT_01_mlrs_F;
+	class FR2035_MBT_01_mlrs_F: B_MBT_01_mlrs_F
+	{
+		author="$STR_FR2035_Author";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_MBT_01_mlrs_F.jpg";
+		_generalMacro="FR2035_MBT_01_mlrs_F";
+		displayName="$STR_FR2035_MBT_01_mlrs";
+		crew="FR2035_crew_F";
+		typicalCargo[]=
+		{
+			"FR2035_Soldier_F"
+		};
+		side=1;
+		faction="FR2035_F";
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"CamoNet"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\fr2035_armor_f\data\fr2035_mbt_01_body_co.paa",
+			"\fr2035_armor_f\data\fr2035_mbt_01_mlrs_co.paa",
+			"A3\Armor_F\Data\camonet_greenbeige_co.paa"
+		};
+		class TextureSources
+		{
+			class CE
+			{
+				displayName="$STR_FR2035_Camo_CE";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_armor_f\data\fr2035_mbt_01_body_co.paa",
+					"\fr2035_armor_f\data\fr2035_mbt_01_mlrs_co.paa",
+					"A3\Armor_F\Data\camonet_greenbeige_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
+			class BTDF
+			{
+				displayName="$STR_FR2035_Camo_BTDF";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_armor_f\data\btdf\fr2035_mbt_01_body_co.paa",
+					"\fr2035_armor_f\data\btdf\fr2035_mbt_01_mlrs_co.paa",
+					"A3\Armor_F\Data\camonet_greenbeige_co.paa"
+				};
+				factions[]=
+				{
+					"FR2035_F"
+				};
+			};
+			class Daguet
+			{
+				displayName="$STR_FR2035_Camo_Daguet";
+				author="$STR_FR2035_Author";
+				textures[]=
+				{
+					"\fr2035_armor_f\data\daguet\fr2035_mbt_01_body_co.paa",
+					"\fr2035_armor_f\data\daguet\fr2035_mbt_01_mlrs_co.paa",
+					"a3\Armor_F\Data\camonet_nato_desert_co.paa"
 				};
 				factions[]=
 				{

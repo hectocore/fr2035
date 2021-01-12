@@ -6796,5 +6796,162 @@
         </Key>
       </Container>
     </Container>
+    <Container name="FR2035_Armor_F">
+      <Container name="Vehicles">
+        <Key ID="str_fr2035_mbt_03_cannon">
+          <Original>MBT-R Leopard</Original>
+          <Chinese>MBT-R Leopard</Chinese>
+          <French>MBT-R Leopard</French>
+          <Spanish>MBT-R Leopard</Spanish>
+          <Italian>MBT-R Leopard</Italian>
+          <Polish>MBT-R Leopard</Polish>
+          <Russian>MBT-R Leopard</Russian>
+          <German>MBT-R Leopard</German>
+          <Czech>MBT-R Leopard</Czech>
+          <English>MBT-R Leopard</English>
+          <Portuguese>MBT-R Leopard</Portuguese>
+          <Korean>MBT-R Leopard</Korean>
+          <Chinesesimp>MBT-R Leopard</Chinesesimp>
+          <Japanese>MBT-R Leopard</Japanese>
+          <Turkish>MBT-R Leopard</Turkish>
+        </Key>
+        <Key ID="str_fr2035_apc_wheeled_01_cannon">
+          <Original>AMV Ocelot</Original>
+          <Chinese>AMV Ocelot</Chinese>
+          <French>AMV Ocelot</French>
+          <Spanish>AMV Ocelot</Spanish>
+          <Italian>AMV Ocelot</Italian>
+          <Polish>AMV Ocelot</Polish>
+          <Russian>AMV Ocelot</Russian>
+          <German>AMV Ocelot</German>
+          <Czech>AMV Ocelot</Czech>
+          <English>AMV Ocelot</English>
+          <Portuguese>AMV Ocelot</Portuguese>
+          <Korean>AMV Ocelot</Korean>
+          <Chinesesimp>AMV Ocelot</Chinesesimp>
+          <Japanese>AMV Ocelot</Japanese>
+          <Turkish>AMV Ocelot</Turkish>
+        </Key>
+        <Key ID="str_fr2035_afv_wheeled_01_cannon">
+          <Original>AFV Lynx</Original>
+          <Chinese>AFV Lynx</Chinese>
+          <French>AFV Lynx</French>
+          <Spanish>AFV Lynx</Spanish>
+          <Italian>AFV Lynx</Italian>
+          <Polish>AFV Lynx</Polish>
+          <Russian>AFV Lynx</Russian>
+          <German>AFV Lynx</German>
+          <Czech>AFV Lynx</Czech>
+          <English>AFV Lynx</English>
+          <Portuguese>AFV Lynx</Portuguese>
+          <Korean>AFV Lynx</Korean>
+          <Chinesesimp>AFV Lynx</Chinesesimp>
+          <Japanese>AFV Lynx</Japanese>
+          <Turkish>AFV Lynx</Turkish>
+        </Key>
+        <Key ID="str_fr2035_afv_wheeled_01_up_cannon">
+          <Original>AFV Lynx SIR</Original>
+          <Chinese>AFV Lynx SIR</Chinese>
+          <French>AFV Lynx SIR</French>
+          <Spanish>AFV Lynx SIR</Spanish>
+          <Italian>AFV Lynx SIR</Italian>
+          <Polish>AFV Lynx SIR</Polish>
+          <Russian>AFV Lynx SIR</Russian>
+          <German>AFV Lynx SIR</German>
+          <Czech>AFV Lynx SIR</Czech>
+          <English>AFV Lynx SIR</English>
+          <Portuguese>AFV Lynx SIR</Portuguese>
+          <Korean>AFV Lynx SIR</Korean>
+          <Chinesesimp>AFV Lynx SIR</Chinesesimp>
+          <Japanese>AFV Lynx SIR</Japanese>
+          <Turkish>AFV Lynx SIR</Turkish>
+        </Key>
+        <Key ID="str_fr2035_apc_tracked_01_rcws">
+          <Original>IFV Panthere</Original>
+          <Chinese>IFV Panthere</Chinese>
+          <French>IFV Panthere</French>
+          <Spanish>IFV Panthere</Spanish>
+          <Italian>IFV Panthere</Italian>
+          <Polish>IFV Panthere</Polish>
+          <Russian>IFV Panthere</Russian>
+          <German>IFV Panthere</German>
+          <Czech>IFV Panthere</Czech>
+          <English>IFV Panthere</English>
+          <Portuguese>IFV Panthere</Portuguese>
+          <Korean>IFV Panthere</Korean>
+          <Chinesesimp>IFV Panthere</Chinesesimp>
+          <Japanese>IFV Panthere</Japanese>
+          <Turkish>IFV Panthere</Turkish>
+        </Key>
+        <Key ID="str_fr2035_apc_tracked_01_crv">
+          <Original>IFV Panthere EBG</Original>
+          <Chinese>IFV Panthere EBG</Chinese>
+          <French>IFV Panthere EBG</French>
+          <Spanish>IFV Panthere EBG</Spanish>
+          <Italian>IFV Panthere EBG</Italian>
+          <Polish>IFV Panthere EBG</Polish>
+          <Russian>IFV Panthere EBG</Russian>
+          <German>IFV Panthere EBG</German>
+          <Czech>IFV Panthere EBG</Czech>
+          <English>IFV Panthere EBG</English>
+          <Portuguese>IFV Panthere EBG</Portuguese>
+          <Korean>IFV Panthere EBG</Korean>
+          <Chinesesimp>IFV Panthere EBG</Chinesesimp>
+          <Japanese>IFV Panthere EBG</Japanese>
+          <Turkish>IFV Panthere EBG</Turkish>
+        </Key>
+        <Key ID="str_fr2035_apc_tracked_01_aa">
+          <Original>IFV Panthere DCA</Original>
+          <Chinese>IFV Panthere DCA</Chinese>
+          <French>IFV Panthere DCA</French>
+          <Spanish>IFV Panthere DCA</Spanish>
+          <Italian>IFV Panthere DCA</Italian>
+          <Polish>IFV Panthere DCA</Polish>
+          <Russian>IFV Panthere DCA</Russian>
+          <German>IFV Panthere DCA</German>
+          <Czech>IFV Panthere DCA</Czech>
+          <English>IFV Panthere DCA</English>
+          <Portuguese>IFV Panthere DCA</Portuguese>
+          <Korean>IFV Panthere DCA</Korean>
+          <Chinesesimp>IFV Panthere DCA</Chinesesimp>
+          <Japanese>IFV Panthere DCA</Japanese>
+          <Turkish>IFV Panthere DCA</Turkish>
+        </Key>
+        <Key ID="str_fr2035_mbt_01_arty">
+          <Original>F2 GCT</Original>
+          <Chinese>F2 GCT</Chinese>
+          <French>F2 GCT</French>
+          <Spanish>F2 GCT</Spanish>
+          <Italian>F2 GCT</Italian>
+          <Polish>F2 GCT</Polish>
+          <Russian>F2 GCT</Russian>
+          <German>F2 GCT</German>
+          <Czech>F2 GCT</Czech>
+          <English>F2 GCT</English>
+          <Portuguese>F2 GCT</Portuguese>
+          <Korean>F2 GCT</Korean>
+          <Chinesesimp>F2 GCT</Chinesesimp>
+          <Japanese>F2 GCT</Japanese>
+          <Turkish>F2 GCT</Turkish>
+        </Key>
+        <Key ID="str_fr2035_mbt_01_mlrs">
+          <Original>LRM</Original>
+          <Chinese>LRM</Chinese>
+          <French>LRM</French>
+          <Spanish>LRM</Spanish>
+          <Italian>LRM</Italian>
+          <Polish>LRM</Polish>
+          <Russian>LRM</Russian>
+          <German>LRM</German>
+          <Czech>LRM</Czech>
+          <English>LRM</English>
+          <Portuguese>LRM</Portuguese>
+          <Korean>LRM</Korean>
+          <Chinesesimp>LRM</Chinesesimp>
+          <Japanese>LRM</Japanese>
+          <Turkish>LRM</Turkish>
+        </Key>
+      </Container>
+    </Container>
   </Package>
 </Project>

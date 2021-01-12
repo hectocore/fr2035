@@ -150,6 +150,7 @@ class CfgWeapons
 	};
 	class arifle_SPAR_02_blk_F;
 	class arifle_SPAR_02_blk_F_copy: arifle_SPAR_02_blk_F {
+		scope=0;
 		// You must copy the base class in order to retrieve its child class
 		class Single;
 		class FullAuto;

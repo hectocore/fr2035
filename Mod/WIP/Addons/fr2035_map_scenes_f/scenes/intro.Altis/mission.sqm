@@ -22,7 +22,7 @@ binarizationWanted=0;
 addons[]=
 {
 	"FR2035_Characters_F",
-	"FR2035legacy_armor_F",
+	"FR2035_Armor_F",
 	"A3_Props_F_Orange_Humanitarian_Garbage",
 	"A3_Modules_F_Effects",
 	"A3_Props_F_Tank_Military_Wrecks"
@@ -41,9 +41,9 @@ class AddonsMetaData
 		};
 		class Item1
 		{
-			className="FR2035legacy_armor_F";
-			name="FR2035legacy_armor_F";
-			author="Hector Corral (legacy)";
+			className="FR2035_Armor_F";
+			name="FR2035_Armor_F";
+			author="Hector Corral";
 		};
 		class Item2
 		{
