@@ -56,7 +56,7 @@ class AddonsMetaData
 			className="FR2035_Characters_F";
 			name="French Army 2035 - Characters and Clothing";
 			author="Hector Corral";
-			url="https://github.com/hectocore";
+			url="https://github.com/hectocore/fr2035";
 		};
 	};
 };

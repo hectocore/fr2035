@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		author="$STR_FR2035_Author";
 		name="French Army 2035 - Texts and Translations";
-		url="https://github.com/hectocore";
+		url="https://github.com/hectocore/fr2035";
 		requiredAddons[]=
 		{
 			"FR2035_Data_F",

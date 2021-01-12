@@ -44,12 +44,12 @@ class AddonsMetaData
 			className="FR2035_Characters_F";
 			name="French Army 2035 - Characters and Clothing";
 			author="Hector Corral";
-			url="https://github.com/hectocore";
+			url="https://github.com/hectocore/fr2035";
 		};
 		class Item2
 		{
 			className="A3_Structures_F_Enoch";
-			name="Arma 3 Enoch - Buildings and Structures";
+			name="Arma 3 Contact Platform - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
@@ -746,7 +746,7 @@ class Intro
 					};
 					id=143;
 					type="FR2035_Protagonist_VR_F";
-					atlOffset=0.5340004;
+					atlOffset=0.53399944;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -795,7 +795,7 @@ class Intro
 			{
 			};
 			id=142;
-			atlOffset=0.5340004;
+			atlOffset=0.53399944;
 		};
 		class Item43
 		{
@@ -852,7 +852,7 @@ class Intro
 					};
 					id=148;
 					type="FR2035_Soldier_VR_F";
-					atlOffset=0.5340004;
+					atlOffset=0.53399944;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -901,7 +901,7 @@ class Intro
 			{
 			};
 			id=147;
-			atlOffset=0.5340004;
+			atlOffset=0.53399944;
 		};
 		class Item46
 		{
@@ -926,7 +926,7 @@ class Intro
 					};
 					id=150;
 					type="FR2035_Soldier_VR_F";
-					atlOffset=0.5340004;
+					atlOffset=0.53399944;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -975,7 +975,7 @@ class Intro
 			{
 			};
 			id=149;
-			atlOffset=0.5340004;
+			atlOffset=0.53399944;
 		};
 		class Item47
 		{

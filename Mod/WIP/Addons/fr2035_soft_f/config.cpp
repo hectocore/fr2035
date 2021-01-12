@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		author="$STR_FR2035_Author";
 		name="French Army 2035 - Unarmored Land Vehicles";
-		url="https://github.com/hectocore";
+		url="https://github.com/hectocore/fr2035";
 		requiredAddons[]=
 		{
 			"FR2035_Characters_F",
@@ -46,6 +46,7 @@ class CfgVehicles
 	class FR2035_MRAP_01_F: B_MRAP_01_F
 	{
 		author="$STR_FR2035_Author";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_MRAP_01_F.jpg";
 		_generalMacro="FR2035_MRAP_01_F";
 		crew="FR2035_Soldier_F";
 		typicalCargo[]=
@@ -116,15 +117,15 @@ class CfgVehicles
 		};
 		class TransportMagazines
 		{
-			class _xx_30Rnd_65x39_caseless_mag
+			class _xx_30Rnd_556x45_Stanag_red
 			{
-				magazine="30Rnd_65x39_caseless_black_mag";
+				magazine="30Rnd_556x45_Stanag_red";
 				count=16;
 			};
-			class _xx_100Rnd_65x39_caseless_mag
+			class _xx_200Rnd_556x45_Box_Red_F
 			{
-				magazine="100Rnd_65x39_caseless_black_mag";
-				count=6;
+				magazine="200Rnd_556x45_Box_Red_F";
+				count=3;
 			};
 			class _xx_HandGrenade
 			{
@@ -197,9 +198,9 @@ class CfgVehicles
 		};
 		class TransportWeapons
 		{
-			class _xx_arifle_MX_F
+			class _xx_FR2035_arifle_416F_blk_F
 			{
-				weapon="arifle_FR2035_MX_F";
+				weapon="FR2035_arifle_416F_blk_F";
 				count=2;
 			};
 		};
@@ -208,6 +209,7 @@ class CfgVehicles
 	class FR2035_MRAP_01_gmg_F: B_MRAP_01_gmg_F
 	{
 		author="$STR_FR2035_Author";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_MRAP_01_gmg_F.jpg";
 		_generalMacro="FR2035_MRAP_01_gmg_F";
 		crew="FR2035_Soldier_F";
 		typicalCargo[]=
@@ -278,15 +280,15 @@ class CfgVehicles
 		};
 		class TransportMagazines
 		{
-			class _xx_30Rnd_65x39_caseless_mag
+			class _xx_30Rnd_556x45_Stanag_red
 			{
-				magazine="30Rnd_65x39_caseless_black_mag";
+				magazine="30Rnd_556x45_Stanag_red";
 				count=16;
 			};
-			class _xx_100Rnd_65x39_caseless_mag
+			class _xx_200Rnd_556x45_Box_Red_F
 			{
-				magazine="100Rnd_65x39_caseless_black_mag";
-				count=6;
+				magazine="200Rnd_556x45_Box_Red_F";
+				count=3;
 			};
 			class _xx_HandGrenade
 			{
@@ -359,9 +361,9 @@ class CfgVehicles
 		};
 		class TransportWeapons
 		{
-			class _xx_arifle_MX_F
+			class _xx_FR2035_arifle_416F_blk_F
 			{
-				weapon="arifle_FR2035_MX_F";
+				weapon="FR2035_arifle_416F_blk_F";
 				count=2;
 			};
 		};
@@ -370,6 +372,7 @@ class CfgVehicles
 	class FR2035_MRAP_01_hmg_F: B_MRAP_01_hmg_F
 	{
 		author="$STR_FR2035_Author";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_MRAP_01_hmg_F.jpg";
 		_generalMacro="FR2035_MRAP_01_hmg_F";
 		crew="FR2035_Soldier_F";
 		typicalCargo[]=
@@ -440,15 +443,15 @@ class CfgVehicles
 		};
 		class TransportMagazines
 		{
-			class _xx_30Rnd_65x39_caseless_mag
+			class _xx_30Rnd_556x45_Stanag_red
 			{
-				magazine="30Rnd_65x39_caseless_black_mag";
+				magazine="30Rnd_556x45_Stanag_red";
 				count=16;
 			};
-			class _xx_100Rnd_65x39_caseless_mag
+			class _xx_200Rnd_556x45_Box_Red_F
 			{
-				magazine="100Rnd_65x39_caseless_black_mag";
-				count=6;
+				magazine="200Rnd_556x45_Box_Red_F";
+				count=3;
 			};
 			class _xx_HandGrenade
 			{
@@ -521,9 +524,9 @@ class CfgVehicles
 		};
 		class TransportWeapons
 		{
-			class _xx_arifle_MX_F
+			class _xx_FR2035_arifle_416F_blk_F
 			{
-				weapon="arifle_FR2035_MX_F";
+				weapon="FR2035_arifle_416F_blk_F";
 				count=2;
 			};
 		};
@@ -532,6 +535,7 @@ class CfgVehicles
 	class FR2035_Truck_01_covered_F: B_Truck_01_covered_F
 	{
 		author="$STR_FR2035_Author";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Truck_01_covered_F.jpg";
 		_generalMacro="FR2035_Truck_01_covered_F";
 		crew="FR2035_Soldier_F";
 		typicalCargo[]=
@@ -610,6 +614,7 @@ class CfgVehicles
 	class FR2035_Truck_01_transport_F: B_Truck_01_transport_F
 	{
 		author="$STR_FR2035_Author";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Truck_01_transport_F.jpg";
 		_generalMacro="FR2035_Truck_01_transport_F";
 		crew="FR2035_Soldier_F";
 		typicalCargo[]=
@@ -683,6 +688,7 @@ class CfgVehicles
 	class FR2035_Truck_01_mover_F: B_Truck_01_mover_F
 	{
 		author="$STR_FR2035_Author";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Truck_01_mover_F.jpg";
 		_generalMacro="FR2035_Truck_01_mover_F";
 		crew="FR2035_Soldier_F";
 		typicalCargo[]=
@@ -756,6 +762,7 @@ class CfgVehicles
 	class FR2035_Truck_01_box_F: B_Truck_01_box_F
 	{
 		author="$STR_FR2035_Author";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Truck_01_box_F.jpg";
 		_generalMacro="FR2035_Truck_01_box_F";
 		crew="FR2035_Soldier_F";
 		typicalCargo[]=
@@ -834,6 +841,7 @@ class CfgVehicles
 	class FR2035_Truck_01_Repair_F: B_Truck_01_Repair_F
 	{
 		author="$STR_FR2035_Author";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Truck_01_Repair_F.jpg";
 		_generalMacro="FR2035_Truck_01_Repair_F";
 		crew="FR2035_Soldier_F";
 		typicalCargo[]=
@@ -912,6 +920,7 @@ class CfgVehicles
 	class FR2035_Truck_01_ammo_F: B_Truck_01_ammo_F
 	{
 		author="$STR_FR2035_Author";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Truck_01_ammo_F.jpg";
 		_generalMacro="FR2035_Truck_01_ammo_F";
 		crew="FR2035_Soldier_F";
 		typicalCargo[]=
@@ -985,6 +994,7 @@ class CfgVehicles
 	class FR2035_Truck_01_fuel_F: B_Truck_01_fuel_F
 	{
 		author="$STR_FR2035_Author";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Truck_01_fuel_F.jpg";
 		_generalMacro="FR2035_Truck_01_fuel_F";
 		crew="FR2035_Soldier_F";
 		typicalCargo[]=
@@ -1058,6 +1068,7 @@ class CfgVehicles
 	class FR2035_Truck_01_medical_F: B_Truck_01_medical_F
 	{
 		author="$STR_FR2035_Author";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Truck_01_medical_F.jpg";
 		_generalMacro="FR2035_Truck_01_medical_F";
 		crew="FR2035_Soldier_F";
 		typicalCargo[]=
@@ -1136,6 +1147,7 @@ class CfgVehicles
 	class FR2035_Truck_01_cargo_F: B_Truck_01_cargo_F
 	{
 		author="$STR_FR2035_Author";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Truck_01_cargo_F.jpg";
 		_generalMacro="FR2035_Truck_01_cargo_F";
 		crew="FR2035_Soldier_F";
 		typicalCargo[]=
@@ -1214,6 +1226,7 @@ class CfgVehicles
 	class FR2035_Truck_01_flatbed_F: B_Truck_01_flatbed_F
 	{
 		author="$STR_FR2035_Author";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Truck_01_flatbed_F.jpg";
 		_generalMacro="FR2035_Truck_01_flatbed_F";
 		crew="FR2035_Soldier_F";
 		typicalCargo[]=
@@ -1292,6 +1305,7 @@ class CfgVehicles
 	class FR2035_Quadbike_01_F: B_Quadbike_01_F
 	{
 		author="$STR_FR2035_Author";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Quadbike_01_F.jpg";
 		_generalMacro="FR2035_Quadbike_01_F";
 		crew="FR2035_Soldier_F";
 		typicalCargo[]=
@@ -1360,6 +1374,7 @@ class CfgVehicles
 	class FR2035_LSV_01_unarmed_F: B_LSV_01_unarmed_F
 	{
 		author="$STR_FR2035_Author";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_LSV_01_unarmed_F.jpg";
 		_generalMacro="FR2035_LSV_01_unarmed_F";
 		crew="FR2035_Soldier_F";
 		typicalCargo[]=
@@ -1435,15 +1450,15 @@ class CfgVehicles
 		};
 		class TransportMagazines
 		{
-			class _xx_30Rnd_65x39_caseless_mag
+			class _xx_30Rnd_556x45_Stanag_red
 			{
-				magazine="30Rnd_65x39_caseless_black_mag";
+				magazine="30Rnd_556x45_Stanag_red";
 				count=16;
 			};
-			class _xx_100Rnd_65x39_caseless_mag
+			class _xx_200Rnd_556x45_Box_Red_F
 			{
-				magazine="100Rnd_65x39_caseless_black_mag";
-				count=6;
+				magazine="200Rnd_556x45_Box_Red_F";
+				count=3;
 			};
 			class _xx_HandGrenade
 			{
@@ -1516,9 +1531,9 @@ class CfgVehicles
 		};
 		class TransportWeapons
 		{
-			class _xx_arifle_MX_F
+			class _xx_FR2035_arifle_416F_blk_F
 			{
-				weapon="arifle_FR2035_MX_F";
+				weapon="FR2035_arifle_416F_blk_F";
 				count=2;
 			};
 		};
@@ -1527,6 +1542,7 @@ class CfgVehicles
 	class FR2035_LSV_01_armed_F: B_LSV_01_armed_F
 	{
 		author="$STR_FR2035_Author";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_LSV_01_armed_F.jpg";
 		_generalMacro="FR2035_LSV_01_armed_F";
 		crew="FR2035_Soldier_F";
 		typicalCargo[]=
@@ -1602,15 +1618,15 @@ class CfgVehicles
 		};
 		class TransportMagazines
 		{
-			class _xx_30Rnd_65x39_caseless_mag
+			class _xx_30Rnd_556x45_Stanag_red
 			{
-				magazine="30Rnd_65x39_caseless_black_mag";
+				magazine="30Rnd_556x45_Stanag_red";
 				count=16;
 			};
-			class _xx_100Rnd_65x39_caseless_mag
+			class _xx_200Rnd_556x45_Box_Red_F
 			{
-				magazine="100Rnd_65x39_caseless_black_mag";
-				count=6;
+				magazine="200Rnd_556x45_Box_Red_F";
+				count=3;
 			};
 			class _xx_HandGrenade
 			{
@@ -1683,9 +1699,9 @@ class CfgVehicles
 		};
 		class TransportWeapons
 		{
-			class _xx_arifle_MX_F
+			class _xx_FR2035_arifle_416F_blk_F
 			{
-				weapon="arifle_FR2035_MX_F";
+				weapon="FR2035_arifle_416F_blk_F";
 				count=2;
 			};
 		};
@@ -1694,6 +1710,7 @@ class CfgVehicles
 	class FR2035_LSV_01_AT_F: B_LSV_01_AT_F
 	{
 		author="$STR_FR2035_Author";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_LSV_01_AT_F.jpg";
 		_generalMacro="FR2035_LSV_01_AT_F";
 		crew="FR2035_Soldier_F";
 		typicalCargo[]=
@@ -1779,15 +1796,15 @@ class CfgVehicles
 		};
 		class TransportMagazines
 		{
-			class _xx_30Rnd_65x39_caseless_mag
+			class _xx_30Rnd_556x45_Stanag_red
 			{
-				magazine="30Rnd_65x39_caseless_black_mag";
+				magazine="30Rnd_556x45_Stanag_red";
 				count=16;
 			};
-			class _xx_100Rnd_65x39_caseless_mag
+			class _xx_200Rnd_556x45_Box_Red_F
 			{
-				magazine="100Rnd_65x39_caseless_black_mag";
-				count=6;
+				magazine="200Rnd_556x45_Box_Red_F";
+				count=3;
 			};
 			class _xx_HandGrenade
 			{
@@ -1860,9 +1877,9 @@ class CfgVehicles
 		};
 		class TransportWeapons
 		{
-			class _xx_arifle_MX_F
+			class _xx_FR2035_arifle_416F_blk_F
 			{
-				weapon="arifle_FR2035_MX_F";
+				weapon="FR2035_arifle_416F_blk_F";
 				count=2;
 			};
 		};
@@ -1871,6 +1888,7 @@ class CfgVehicles
 	class FR2035_LSV_01_light_CTRG_F: B_CTRG_LSV_01_light_F
 	{
 		author="$STR_FR2035_Author";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_LSV_01_light_CTRG_F.jpg";
 		_generalMacro="FR2035_LSV_01_light_CTRG_F";
 		crew="FR2035_CTRG_Soldier_F";
 		typicalCargo[]=
@@ -1949,6 +1967,7 @@ class CfgVehicles
 	class FR2035_LSV_01_unarmed_CTRG_F: B_T_LSV_01_unarmed_CTRG_F
 	{
 		author="$STR_FR2035_Author";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_LSV_01_unarmed_F.jpg";
 		_generalMacro="FR2035_LSV_01_unarmed_CTRG_F";
 		crew="FR2035_CTRG_Soldier_F";
 		typicalCargo[]=
@@ -2027,6 +2046,7 @@ class CfgVehicles
 	class FR2035_LSV_01_armed_CTRG_F: B_T_LSV_01_armed_CTRG_F
 	{
 		author="$STR_FR2035_Author";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_LSV_01_armed_F.jpg";
 		_generalMacro="FR2035_LSV_01_armed_CTRG_F";
 		crew="FR2035_CTRG_Soldier_F";
 		typicalCargo[]=

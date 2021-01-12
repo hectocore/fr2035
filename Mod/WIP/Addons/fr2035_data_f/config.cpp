@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		author="$STR_FR2035_Author";
 		name="French Army 2035 - Main Configuration";
-		url="https://github.com/hectocore";
+		url="https://github.com/hectocore/fr2035";
 		requiredAddons[]=
 		{
 			"A3_Data_F"
@@ -24,7 +24,7 @@ class CfgMods
 		logoOver="\fr2035_data_f\logos\fr2035_logoover_ca.paa";
 		logoSmall="\fr2035_data_f\logos\fr2035_logo_small_ca.paa";
 		tooltipOwned="$STR_FR2035_Name";
-		action="https://github.com/hectocore";
+		action="https://github.com/hectocore/fr2035";
 		dlcColor[]={0.30980392,0.35686275,0.17647059,1};
 		overview="$STR_FR2035_Desc";
 		hideName=1;
@@ -43,8 +43,10 @@ class CfgAddons
 		{
 			list[]=
 			{
+				"FR2035_Armor_F",
 				"FR2035_Characters_F",
 				"FR2035_Data_F",
+				"FR2035_EditorPreviews_F",
 				"FR2035_Functions_F",
 				"FR2035_Language_F",
 				"FR2035_Map_Scenes_F",
@@ -2409,28 +2411,28 @@ class CfgGroups
 					class Unit0
 					{
 						side=1;
-						vehicle="FR2035_MBT_01_cannon_F";
+						vehicle="FR2035_MBT_03_cannon_F";
 						rank="LIEUTENANT";
 						position[]={0,0,0};
 					};
 					class Unit1
 					{
 						side=1;
-						vehicle="FR2035_MBT_01_cannon_F";
+						vehicle="FR2035_MBT_03_cannon_F";
 						rank="SERGEANT";
 						position[]={10,-10,0};
 					};
 					class Unit2
 					{
 						side=1;
-						vehicle="FR2035_MBT_01_cannon_F";
+						vehicle="FR2035_MBT_03_cannon_F";
 						rank="SERGEANT";
 						position[]={-10,-10,0};
 					};
 					class Unit3
 					{
 						side=1;
-						vehicle="FR2035_MBT_01_cannon_F";
+						vehicle="FR2035_MBT_03_cannon_F";
 						rank="CORPORAL";
 						position[]={20,-20,0};
 					};
@@ -2444,7 +2446,7 @@ class CfgGroups
 					class Unit0
 					{
 						side=1;
-						vehicle="FR2035_MBT_01_cannon_F";
+						vehicle="FR2035_MBT_03_cannon_F";
 						rank="LIEUTENANT";
 						position[]={0,0,0};
 					};
@@ -2458,7 +2460,7 @@ class CfgGroups
 					class Unit2
 					{
 						side=1;
-						vehicle="FR2035_MBT_01_cannon_F";
+						vehicle="FR2035_MBT_03_cannon_F";
 						rank="SERGEANT";
 						position[]={-10,-10,0};
 					};
@@ -2479,14 +2481,14 @@ class CfgGroups
 					class Unit0
 					{
 						side=1;
-						vehicle="FR2035_MBT_01_cannon_F";
+						vehicle="FR2035_MBT_03_cannon_F";
 						rank="LIEUTENANT";
 						position[]={0,0,0};
 					};
 					class Unit1
 					{
 						side=1;
-						vehicle="FR2035_MBT_01_cannon_F";
+						vehicle="FR2035_MBT_03_cannon_F";
 						rank="SERGEANT";
 						position[]={10,-10,0};
 					};

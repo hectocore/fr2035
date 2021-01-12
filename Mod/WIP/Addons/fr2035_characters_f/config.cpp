@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		author="$STR_FR2035_Author";
 		name="French Army 2035 - Characters and Clothing";
-		url="https://github.com/hectocore";
+		url="https://github.com/hectocore/fr2035";
 		requiredAddons[]=
 		{
 			"FR2035_Data_F",
@@ -92,49 +92,49 @@ class CfgPatches
 			"FR2035_soldier_LAT2_F"
 		};
 		weapons[]={
-			"U_FR2035_CombatUniform_ce",
-			"U_FR2035_CombatUniform_ce_tshirt",
-			"U_FR2035_CombatUniform_ce_vest",
-			"U_FR2035_GhillieSuit",
-			"U_FR2035_HeliPilotCoveralls",
-			"U_FR2035_PilotCoveralls",
-			"U_FR2035_Wetsuit",
-			"U_FR2035_survival_uniform",
-			"U_FR2035_Protagonist_VR",
-			"U_FR2035_FullGhillie_lsh",
-			"U_FR2035_FullGhillie_sard",
-			"U_FR2035_FullGhillie_ard",
-			"U_FR2035_FullGhillie_tna",
-			"U_FR2035_CTRG_Uniform_ce",
-			"U_FR2035_CTRG_Uniform_ce_tshirt",
-			"U_FR2035_CTRG_Uniform_ce_vest",
-			"H_FR2035_Helmet_ce",
-			"H_FR2035_Helmet_ce_camo",
-			"H_FR2035_Helmet_ce_light",
-			"H_FR2035_HelmetSpec_ce",
-			"H_FR2035_Bandanna_ce",
-			"H_FR2035_Beret_blue",
-			"H_FR2035_Beret_green",
-			"H_FR2035_Beret_marine",
-			"H_FR2035_Beret_red",
-			"H_FR2035_Booniehat_ce",
-			"H_FR2035_Booniehat_ce_hs",
-			"H_FR2035_Cap_ce",
-			"H_FR2035_Cap_ce_hs",
-			"H_FR2035_MilCap_ce",
-			"H_FR2035_HelmetCrew",
-			"H_FR2035_PilotHelmetFighter",
-			"H_FR2035_PilotHelmetHeli",
-			"H_FR2035_CrewHelmetHeli",
-			"H_FR2035_CTRG_Helmet_TI_ce",
-			"V_FR2035_Bandollier_ce",
-			"V_FR2035_Chestrig_ce",
-			"V_FR2035_PlateCarrier1_ce",
-			"V_FR2035_PlateCarrier2_ce",
-			"V_FR2035_PlateCarrierGL_ce",
-			"V_FR2035_PlateCarrierSpec_ce",
-			"V_FR2035_TacVest_ce",
-			"V_FR2035_PlateCarrierIAGL_ce"
+			"FR2035_U_CombatUniform_ce",
+			"FR2035_U_CombatUniform_ce_tshirt",
+			"FR2035_U_CombatUniform_ce_vest",
+			"FR2035_U_GhillieSuit",
+			"FR2035_U_HeliPilotCoveralls",
+			"FR2035_U_PilotCoveralls",
+			"FR2035_U_Wetsuit",
+			"FR2035_U_survival_uniform",
+			"FR2035_U_Protagonist_VR",
+			"FR2035_U_FullGhillie_lsh",
+			"FR2035_U_FullGhillie_sard",
+			"FR2035_U_FullGhillie_ard",
+			"FR2035_U_FullGhillie_tna",
+			"FR2035_U_CTRG_Uniform_ce",
+			"FR2035_U_CTRG_Uniform_ce_tshirt",
+			"FR2035_U_CTRG_Uniform_ce_vest",
+			"FR2035_H_Helmet_ce",
+			"FR2035_H_Helmet_ce_camo",
+			"FR2035_H_Helmet_ce_light",
+			"FR2035_H_HelmetSpec_ce",
+			"FR2035_H_Bandanna_ce",
+			"FR2035_H_Beret_blue",
+			"FR2035_H_Beret_green",
+			"FR2035_H_Beret_marine",
+			"FR2035_H_Beret_red",
+			"FR2035_H_Booniehat_ce",
+			"FR2035_H_Booniehat_ce_hs",
+			"FR2035_H_Cap_ce",
+			"FR2035_H_Cap_ce_hs",
+			"FR2035_H_MilCap_ce",
+			"FR2035_H_HelmetCrew",
+			"FR2035_H_PilotHelmetFighter",
+			"FR2035_H_PilotHelmetHeli",
+			"FR2035_H_CrewHelmetHeli",
+			"FR2035_H_CTRG_Helmet_TI_ce",
+			"FR2035_V_Bandollier_ce",
+			"FR2035_V_Chestrig_ce",
+			"FR2035_V_PlateCarrier1_ce",
+			"FR2035_V_PlateCarrier2_ce",
+			"FR2035_V_PlateCarrierGL_ce",
+			"FR2035_V_PlateCarrierSpec_ce",
+			"FR2035_V_TacVest_ce",
+			"FR2035_V_PlateCarrierIAGL_ce"
 		};
 	};
 };
@@ -149,9 +149,11 @@ class CfgVehicles
 		expansion=1;
 		identityTypes[]=
 		{
-			"LanguageGRE_F",
-			"Head_NATO",
-			"G_NATO_default"
+			"LanguageENGFRE_F",
+			"Head_Enoch",
+			"Head_Euro",
+			"Head_Tanoan",
+			"G_HAF_default"
 		};
 		faceType="Man_A3";
 		side=1;
@@ -201,7 +203,7 @@ class CfgVehicles
 		model="\A3\characters_F\BLUFOR\b_soldier_01.p3d";
 		modelSides[]={3,1};
 		nakedUniform="U_BasicBody";
-		uniformClass="U_FR2035_CombatUniform_ce";
+		uniformClass="FR2035_U_CombatUniform_ce";
 		class UniformInfo
 		{
 			class SlotsInfo
@@ -240,15 +242,15 @@ class CfgVehicles
 		class EventHandlers;
 		weapons[]=
 		{
-			"arifle_FR2035_MX_ACO_pointer_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416F_blk_ACO_pointer_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_FR2035_MX_ACO_pointer_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416F_blk_ACO_pointer_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
@@ -262,16 +264,16 @@ class CfgVehicles
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -284,16 +286,16 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -306,8 +308,8 @@ class CfgVehicles
 		};
 		linkedItems[]=
 		{
-			"V_FR2035_PlateCarrier1_ce",
-			"H_FR2035_Helmet_ce",
+			"FR2035_V_PlateCarrier1_ce",
+			"FR2035_H_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -316,8 +318,8 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_FR2035_PlateCarrier1_ce",
-			"H_FR2035_Helmet_ce",
+			"FR2035_V_PlateCarrier1_ce",
+			"FR2035_H_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -333,7 +335,7 @@ class CfgVehicles
 		displayName="Rifleman 2";
 		model="\A3\characters_F\BLUFOR\b_soldier_02.p3d";
 		modelSides[]={3,1};
-		uniformClass="U_FR2035_CombatUniform_ce_tshirt";
+		uniformClass="FR2035_U_CombatUniform_ce_tshirt";
 		armor=2;
 		armorStructural=4;
 		explosionShielding=0.40000001;
@@ -357,7 +359,7 @@ class CfgVehicles
 		displayName="Rifleman 3";
 		model="\A3\characters_F\BLUFOR\b_soldier_03.p3d";
 		modelSides[]={3,1};
-		uniformClass="U_FR2035_CombatUniform_ce_vest";
+		uniformClass="FR2035_U_CombatUniform_ce_vest";
 		armor=2;
 		armorStructural=4;
 		explosionShielding=0.40000001;
@@ -370,7 +372,7 @@ class CfgVehicles
 		displayName="Rifleman 4";
 		model="\A3\Characters_F\Common\coveralls.p3d";
 		modelSides[]={3,1};
-		uniformClass="U_FR2035_HeliPilotCoveralls";
+		uniformClass="FR2035_U_HeliPilotCoveralls";
 		role="Crewman";
 		cost=93000;
 		hiddenSelections[]=
@@ -546,7 +548,7 @@ class CfgVehicles
 		displayName="Rifleman 5";
 		model="\A3\characters_F\Common\pilot_f.p3d";
 		modelSides[]={3,1};
-		uniformClass="U_FR2035_PilotCoveralls";
+		uniformClass="FR2035_U_PilotCoveralls";
 		role="Crewman";
 		cost=93000;
 		hiddenSelections[]=
@@ -714,13 +716,13 @@ class CfgVehicles
 	class FR2035_Soldier_F: FR2035_Soldier_base_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_Soldier_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Soldier_F.jpg";
 		_generalMacro="FR2035_Soldier_F";
 		scope=2;
 		displayName="$STR_A3_CfgVehicles_B_Soldier_F0";
 		uniformAccessories[]={};
 		nakedUniform="U_BasicBody";
-		uniformClass="U_FR2035_CombatUniform_ce";
+		uniformClass="FR2035_U_CombatUniform_ce";
 		role="Rifleman";
 		class UniformInfo
 		{
@@ -745,7 +747,7 @@ class CfgVehicles
 	class FR2035_RangeMaster_F: FR2035_Soldier_base_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_RangeMaster_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_RangeMaster_F.jpg";
 		_generalMacro="FR2035_RangeMaster_F";
 		scope=2;
 		model="\A3\Characters_F\Civil\c_poloshirtpants.p3d";
@@ -834,33 +836,33 @@ class CfgVehicles
 	class FR2035_Soldier_lite_F: FR2035_Soldier_03_f
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_Soldier_lite_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Soldier_lite_F.jpg";
 		_generalMacro="FR2035_Soldier_lite_F";
 		scope=2;
 		displayName="$STR_B_Soldier_lite_F0";
-		uniformClass="U_FR2035_CombatUniform_ce_vest";
+		uniformClass="FR2035_U_CombatUniform_ce_vest";
 		weapons[]=
 		{
-			"arifle_FR2035_MX_ACO_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416F_blk_ACO_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_FR2035_MX_ACO_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416F_blk_ACO_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -871,12 +873,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -889,8 +891,8 @@ class CfgVehicles
 		role="Rifleman";
 		linkedItems[]=
 		{
-			"V_FR2035_Bandollier_ce",
-			"H_FR2035_MilCap_ce",
+			"FR2035_V_Bandollier_ce",
+			"FR2035_H_MilCap_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -899,8 +901,8 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_FR2035_Bandollier_ce",
-			"H_FR2035_MilCap_ce",
+			"FR2035_V_Bandollier_ce",
+			"FR2035_H_MilCap_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -911,33 +913,33 @@ class CfgVehicles
 	class FR2035_Soldier_GL_F: FR2035_Soldier_base_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_Soldier_GL_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Soldier_GL_F.jpg";
 		_generalMacro="FR2035_Soldier_GL_F";
 		scope=2;
 		displayName="$STR_B_Soldier_GL_F0";
 		weapons[]=
 		{
-			"arifle_FR2035_MX_GL_ACO_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416F_GL_blk_ACO_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_FR2035_MX_GL_ACO_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416F_GL_blk_ACO_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
 		overviewPicture="\A3\Data_F_Mark\Images\watermarkInfo_page09_ca.paa";
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -963,12 +965,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -996,8 +998,8 @@ class CfgVehicles
 		role="Grenadier";
 		linkedItems[]=
 		{
-			"V_FR2035_PlateCarrierGL_ce",
-			"H_FR2035_HelmetSpec_ce",
+			"FR2035_V_PlateCarrierGL_ce",
+			"FR2035_H_HelmetSpec_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -1006,8 +1008,8 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_FR2035_PlateCarrierGL_ce",
-			"H_FR2035_HelmetSpec_ce",
+			"FR2035_V_PlateCarrierGL_ce",
+			"FR2035_H_HelmetSpec_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -1035,32 +1037,29 @@ class CfgVehicles
 		textSingular="$STR_A3_nameSound_veh_infantry_MG_s";
 		textPlural="$STR_A3_nameSound_veh_infantry_MG_p";
 		nameSound="veh_infantry_MG_s";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_soldier_AR_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_soldier_AR_F.jpg";
 		_generalMacro="FR2035_soldier_AR_F";
 		scope=2;
 		displayName="$STR_B_soldier_AR_F0";
 		weapons[]=
 		{
-			"arifle_FR2035_MX_SW_pointer_F",
-			"hgun_P07_F",
+			"FR2035_LMG_Minimi_blk_pointer_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_FR2035_MX_SW_pointer_F",
-			"hgun_P07_F",
+			"FR2035_LMG_Minimi_blk_pointer_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
 		magazines[]=
 		{
-			"100Rnd_65x39_caseless_black_mag",
-			"100Rnd_65x39_caseless_black_mag",
-			"100Rnd_65x39_caseless_black_mag",
-			"100Rnd_65x39_caseless_black_mag",
-			"100Rnd_65x39_caseless_black_mag",
-			"100Rnd_65x39_caseless_black_mag",
+			"200Rnd_556x45_Box_Red_F",
+			"200Rnd_556x45_Box_Red_F",
+			"200Rnd_556x45_Box_Red_F",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -1072,12 +1071,9 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"100Rnd_65x39_caseless_black_mag",
-			"100Rnd_65x39_caseless_black_mag",
-			"100Rnd_65x39_caseless_black_mag",
-			"100Rnd_65x39_caseless_black_mag",
-			"100Rnd_65x39_caseless_black_mag",
-			"100Rnd_65x39_caseless_black_mag",
+			"200Rnd_556x45_Box_Red_F",
+			"200Rnd_556x45_Box_Red_F",
+			"200Rnd_556x45_Box_Red_F",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -1090,11 +1086,11 @@ class CfgVehicles
 		cost=220000;
 		icon="iconManMG";
 		role="MachineGunner";
-		uniformClass="U_FR2035_CombatUniform_ce_tshirt";
+		uniformClass="FR2035_U_CombatUniform_ce_tshirt";
 		linkedItems[]=
 		{
-			"V_FR2035_PlateCarrier2_ce",
-			"H_FR2035_Helmet_ce",
+			"FR2035_V_PlateCarrier2_ce",
+			"FR2035_H_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -1103,8 +1099,8 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_FR2035_PlateCarrier2_ce",
-			"H_FR2035_Helmet_ce",
+			"FR2035_V_PlateCarrier2_ce",
+			"FR2035_H_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -1115,35 +1111,35 @@ class CfgVehicles
 	class FR2035_Soldier_SL_F: FR2035_Soldier_03_f
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_Soldier_SL_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Soldier_SL_F.jpg";
 		_generalMacro="FR2035_Soldier_SL_F";
 		scope=2;
 		displayName="$STR_B_Soldier_SL_F0";
-		uniformClass="U_FR2035_CombatUniform_ce_vest";
+		uniformClass="FR2035_U_CombatUniform_ce_vest";
 		weapons[]=
 		{
-			"arifle_FR2035_MX_Hamr_pointer_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416F_blk_Hamr_pointer_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put",
 			"Binocular"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_FR2035_MX_Hamr_pointer_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416F_blk_Hamr_pointer_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put",
 			"Binocular"
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag_Tracer",
-			"30Rnd_65x39_caseless_black_mag_Tracer",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_Tracer_Red",
+			"30Rnd_556x45_Stanag_Tracer_Red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -1160,12 +1156,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag_Tracer",
-			"30Rnd_65x39_caseless_black_mag_Tracer",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_Tracer_Red",
+			"30Rnd_556x45_Stanag_Tracer_Red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -1186,8 +1182,8 @@ class CfgVehicles
 		role="Rifleman";
 		linkedItems[]=
 		{
-			"V_FR2035_PlateCarrierGL_ce",
-			"H_FR2035_Helmet_ce",
+			"FR2035_V_PlateCarrierGL_ce",
+			"FR2035_H_Helmet_ce",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
@@ -1197,8 +1193,8 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_FR2035_PlateCarrierGL_ce",
-			"H_FR2035_Helmet_ce",
+			"FR2035_V_PlateCarrierGL_ce",
+			"FR2035_H_Helmet_ce",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
@@ -1210,35 +1206,35 @@ class CfgVehicles
 	class FR2035_Soldier_TL_F: FR2035_Soldier_03_f
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_Soldier_TL_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Soldier_TL_F.jpg";
 		_generalMacro="FR2035_Soldier_TL_F";
 		scope=2;
 		displayName="$STR_B_Soldier_TL_F0";
-		uniformClass="U_FR2035_CombatUniform_ce_vest";
+		uniformClass="FR2035_U_CombatUniform_ce_vest";
 		weapons[]=
 		{
-			"arifle_FR2035_MX_GL_Hamr_pointer_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416F_GL_blk_Hamr_pointer_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put",
 			"Binocular"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_FR2035_MX_GL_Hamr_pointer_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416F_GL_blk_Hamr_pointer_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put",
 			"Binocular"
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag_Tracer",
-			"30Rnd_65x39_caseless_black_mag_Tracer",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_Tracer_Red",
+			"30Rnd_556x45_Stanag_Tracer_Red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -1264,12 +1260,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag_Tracer",
-			"30Rnd_65x39_caseless_black_mag_Tracer",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_Tracer_Red",
+			"30Rnd_556x45_Stanag_Tracer_Red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -1299,8 +1295,8 @@ class CfgVehicles
 		role="Grenadier";
 		linkedItems[]=
 		{
-			"V_FR2035_PlateCarrierGL_ce",
-			"H_FR2035_HelmetSpec_ce",
+			"FR2035_V_PlateCarrierGL_ce",
+			"FR2035_H_HelmetSpec_ce",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
@@ -1310,8 +1306,8 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_FR2035_PlateCarrierGL_ce",
-			"H_FR2035_HelmetSpec_ce",
+			"FR2035_V_PlateCarrierGL_ce",
+			"FR2035_H_HelmetSpec_ce",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
@@ -1323,34 +1319,34 @@ class CfgVehicles
 	class FR2035_soldier_M_F: FR2035_Soldier_base_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_soldier_M_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_soldier_M_F.jpg";
 		_generalMacro="FR2035_soldier_M_F";
 		scope=2;
 		displayName="$STR_B_soldier_M_F0";
 		weapons[]=
 		{
-			"arifle_FR2035_MXM_Hamr_LP_BI_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416FS_blk_Hamr_LP_BI_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_FR2035_MXM_Hamr_LP_BI_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416FS_blk_Hamr_LP_BI_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -1363,14 +1359,14 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -1385,8 +1381,8 @@ class CfgVehicles
 		role="Marksman";
 		linkedItems[]=
 		{
-			"V_FR2035_PlateCarrier1_ce",
-			"H_FR2035_Helmet_ce",
+			"FR2035_V_PlateCarrier1_ce",
+			"FR2035_H_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -1395,8 +1391,8 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_FR2035_PlateCarrier1_ce",
-			"H_FR2035_Helmet_ce",
+			"FR2035_V_PlateCarrier1_ce",
+			"FR2035_H_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -1424,35 +1420,35 @@ class CfgVehicles
 		textSingular="$STR_A3_nameSound_veh_infantry_AT_s";
 		textPlural="$STR_A3_nameSound_veh_infantry_AT_p";
 		nameSound="veh_infantry_AT_s";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_soldier_LAT_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_soldier_LAT_F.jpg";
 		_generalMacro="FR2035_soldier_LAT_F";
 		scope=2;
 		displayName="$STR_B_soldier_LAT_F0";
-		backpack="B_FR2035_AssaultPack_ce_LAT";
+		backpack="FR2035_B_AssaultPack_ce_LAT";
 		weapons[]=
 		{
-			"arifle_FR2035_MX_ACO_pointer_F",
+			"FR2035_arifle_416F_blk_ACO_pointer_F",
 			"launch_NLAW_F",
-			"hgun_P07_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_FR2035_MX_ACO_pointer_F",
+			"FR2035_arifle_416F_blk_ACO_pointer_F",
 			"launch_NLAW_F",
-			"hgun_P07_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -1464,12 +1460,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -1485,8 +1481,8 @@ class CfgVehicles
 		role="MissileSpecialist";
 		linkedItems[]=
 		{
-			"V_FR2035_PlateCarrier2_ce",
-			"H_FR2035_Helmet_ce",
+			"FR2035_V_PlateCarrier2_ce",
+			"FR2035_H_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -1495,8 +1491,8 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_FR2035_PlateCarrier2_ce",
-			"H_FR2035_Helmet_ce",
+			"FR2035_V_PlateCarrier2_ce",
+			"FR2035_H_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -1525,33 +1521,33 @@ class CfgVehicles
 		textSingular="$STR_A3_nameSound_veh_infantry_medic_s";
 		textPlural="$STR_A3_nameSound_veh_infantry_medic_p";
 		nameSound="veh_infantry_medic_s";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_medic_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_medic_F.jpg";
 		_generalMacro="FR2035_medic_F";
 		scope=2;
 		displayName="$STR_B_medic_F0";
 		attendant=1;
 		weapons[]=
 		{
-			"arifle_FR2035_MX_pointer_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416F_blk_pointer_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_FR2035_MX_pointer_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416F_blk_pointer_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -1564,12 +1560,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -1583,12 +1579,12 @@ class CfgVehicles
 		camouflage=1.6;
 		icon="iconManMedic";
 		role="CombatLifeSaver";
-		uniformClass="U_FR2035_CombatUniform_ce_tshirt";
-		backpack="B_FR2035_AssaultPack_ce_Medic";
+		uniformClass="FR2035_U_CombatUniform_ce_tshirt";
+		backpack="FR2035_B_AssaultPack_ce_Medic";
 		linkedItems[]=
 		{
-			"V_FR2035_PlateCarrierSpec_ce",
-			"H_FR2035_Helmet_ce_light",
+			"FR2035_V_PlateCarrierSpec_ce",
+			"FR2035_H_Helmet_ce_light",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -1597,8 +1593,8 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_FR2035_PlateCarrierSpec_ce",
-			"H_FR2035_Helmet_ce_light",
+			"FR2035_V_PlateCarrierSpec_ce",
+			"FR2035_H_Helmet_ce_light",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -1610,7 +1606,7 @@ class CfgVehicles
 	class FR2035_soldier_repair_F: FR2035_Soldier_base_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_soldier_repair_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_soldier_repair_F.jpg";
 		_generalMacro="FR2035_soldier_repair_F";
 		scope=2;
 		displayName="$STR_B_soldier_repair_F0";
@@ -1618,11 +1614,11 @@ class CfgVehicles
 		detectSkill=24;
 		cost=93000;
 		camouflage=1.6;
-		backpack="B_FR2035_AssaultPack_ce_Repair";
+		backpack="FR2035_B_AssaultPack_ce_Repair";
 		linkedItems[]=
 		{
-			"V_FR2035_PlateCarrier1_ce",
-			"H_FR2035_Helmet_ce_light",
+			"FR2035_V_PlateCarrier1_ce",
+			"FR2035_H_Helmet_ce_light",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -1631,8 +1627,8 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_FR2035_PlateCarrier1_ce",
-			"H_FR2035_Helmet_ce_light",
+			"FR2035_V_PlateCarrier1_ce",
+			"FR2035_H_Helmet_ce_light",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -1641,26 +1637,26 @@ class CfgVehicles
 		};
 		weapons[]=
 		{
-			"arifle_FR2035_MX_Holo_pointer_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416F_blk_Holo_pointer_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_FR2035_MX_Holo_pointer_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416F_blk_Holo_pointer_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -1675,12 +1671,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -1700,35 +1696,35 @@ class CfgVehicles
 	class FR2035_soldier_exp_F: FR2035_Soldier_base_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_soldier_exp_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_soldier_exp_F.jpg";
 		_generalMacro="FR2035_soldier_exp_F";
 		scope=2;
 		displayName="$STR_B_soldier_exp_F0";
 		cost=93000;
 		camouflage=1.6;
-		backpack="B_FR2035_Kitbag_ce_Exp";
+		backpack="FR2035_B_Kitbag_ce_Exp";
 		weapons[]=
 		{
-			"arifle_FR2035_MXC_Holo_pointer_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416F_blk_Holo_pointer_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_FR2035_MXC_Holo_pointer_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416F_blk_Holo_pointer_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -1744,12 +1740,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -1767,8 +1763,8 @@ class CfgVehicles
 		detectSkill=38;
 		linkedItems[]=
 		{
-			"V_FR2035_PlateCarrierGL_ce",
-			"H_FR2035_HelmetSpec_ce",
+			"FR2035_V_PlateCarrierGL_ce",
+			"FR2035_H_HelmetSpec_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -1777,8 +1773,8 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_FR2035_PlateCarrierGL_ce",
-			"H_FR2035_HelmetSpec_ce",
+			"FR2035_V_PlateCarrierGL_ce",
+			"FR2035_H_HelmetSpec_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -1809,22 +1805,24 @@ class CfgVehicles
 		textSingular="$STR_A3_nameSound_veh_infantry_pilot_s";
 		textPlural="$STR_A3_nameSound_veh_infantry_pilot_p";
 		nameSound="veh_infantry_pilot_s";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_Helipilot_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Helipilot_F.jpg";
 		_generalMacro="FR2035_Helipilot_F";
 		scope=2;
 		identityTypes[]=
 		{
-			"LanguageGRE_F",
-			"Head_NATO",
+			"LanguageENGFRE_F",
+			"Head_Enoch",
+			"Head_Euro",
+			"Head_Tanoan",
 			"G_NATO_pilot"
 		};
 		modelSides[]={3,1};
-		uniformClass="U_FR2035_HeliPilotCoveralls";
+		uniformClass="FR2035_U_HeliPilotCoveralls";
 		displayName="$STR_B_Helipilot_F0";
 		linkedItems[]=
 		{
-			"V_FR2035_TacVest_ce",
-			"H_FR2035_PilotHelmetHeli",
+			"FR2035_V_TacVest_ce",
+			"FR2035_H_PilotHelmetHeli",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -1833,8 +1831,8 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_FR2035_TacVest_ce",
-			"H_FR2035_PilotHelmetHeli",
+			"FR2035_V_TacVest_ce",
+			"FR2035_H_PilotHelmetHeli",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -1843,22 +1841,21 @@ class CfgVehicles
 		};
 		weapons[]=
 		{
-			"SMG_01_Holo_F",
+			"SMG_03C_black",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"SMG_01_Holo_F",
+			"SMG_03C_black",
 			"Throw",
 			"Put"
 		};
 		magazines[]=
 		{
-			"30Rnd_45ACP_Mag_SMG_01",
-			"30Rnd_45ACP_Mag_SMG_01",
-			"30Rnd_45ACP_Mag_SMG_01",
-			"30Rnd_45ACP_Mag_SMG_01",
+			"50Rnd_570x28_SMG_03",
+			"50Rnd_570x28_SMG_03",
+			"50Rnd_570x28_SMG_03",
 			"SmokeShellGreen",
 			"SmokeShellBlue",
 			"SmokeShellOrange",
@@ -1867,10 +1864,9 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_45ACP_Mag_SMG_01",
-			"30Rnd_45ACP_Mag_SMG_01",
-			"30Rnd_45ACP_Mag_SMG_01",
-			"30Rnd_45ACP_Mag_SMG_01",
+			"50Rnd_570x28_SMG_03",
+			"50Rnd_570x28_SMG_03",
+			"50Rnd_570x28_SMG_03",
 			"SmokeShellGreen",
 			"SmokeShellBlue",
 			"SmokeShellOrange",
@@ -1883,41 +1879,41 @@ class CfgVehicles
 	class FR2035_Soldier_A_F: FR2035_Soldier_base_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_Soldier_A_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Soldier_A_F.jpg";
 		_generalMacro="FR2035_Soldier_A_F";
 		scope=2;
 		displayName="$STR_B_Soldier_A_F0";
 		weapons[]=
 		{
-			"arifle_FR2035_MX_ACO_pointer_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416F_blk_ACO_pointer_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_FR2035_MX_ACO_pointer_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416F_blk_ACO_pointer_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
 		role="Rifleman";
 		camouflage=1.5;
-		backpack="B_FR2035_Carryall_ce_Ammo";
+		backpack="FR2035_B_Carryall_ce_Ammo";
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -1930,18 +1926,18 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -1954,8 +1950,8 @@ class CfgVehicles
 		};
 		linkedItems[]=
 		{
-			"V_FR2035_PlateCarrier1_ce",
-			"H_FR2035_Helmet_ce",
+			"FR2035_V_PlateCarrier1_ce",
+			"FR2035_H_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -1964,8 +1960,8 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_FR2035_PlateCarrier1_ce",
-			"H_FR2035_Helmet_ce",
+			"FR2035_V_PlateCarrier1_ce",
+			"FR2035_H_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -1993,35 +1989,35 @@ class CfgVehicles
 		textSingular="$STR_A3_nameSound_veh_infantry_AT_s";
 		textPlural="$STR_A3_nameSound_veh_infantry_AT_p";
 		nameSound="veh_infantry_AT_s";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_soldier_AT_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_soldier_AT_F.jpg";
 		_generalMacro="FR2035_soldier_AT_F";
 		scope=2;
 		displayName="$STR_B_soldier_AT_F0";
-		backpack="B_FR2035_Kitbag_ce_AT";
+		backpack="FR2035_B_Kitbag_ce_AT";
 		weapons[]=
 		{
-			"arifle_FR2035_MXC_Holo_pointer_F",
-			"launch_FR2035_Titan_short_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416F_blk_Holo_pointer_F",
+			"FR2035_launch_Titan_short_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_FR2035_MXC_Holo_pointer_F",
-			"launch_FR2035_Titan_short_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416F_blk_Holo_pointer_F",
+			"FR2035_launch_Titan_short_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -2033,12 +2029,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -2055,8 +2051,8 @@ class CfgVehicles
 		role="MissileSpecialist";
 		linkedItems[]=
 		{
-			"V_FR2035_PlateCarrier1_ce",
-			"H_FR2035_Helmet_ce_light",
+			"FR2035_V_PlateCarrier1_ce",
+			"FR2035_H_Helmet_ce_light",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -2065,8 +2061,8 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_FR2035_PlateCarrier1_ce",
-			"H_FR2035_Helmet_ce_light",
+			"FR2035_V_PlateCarrier1_ce",
+			"FR2035_H_Helmet_ce_light",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -2095,35 +2091,35 @@ class CfgVehicles
 		textSingular="$STR_A3_nameSound_veh_infantry_AT_s";
 		textPlural="$STR_A3_nameSound_veh_infantry_AT_p";
 		nameSound="veh_infantry_AT_s";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_soldier_AA_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_soldier_AA_F.jpg";
 		_generalMacro="FR2035_soldier_AA_F";
 		scope=2;
 		displayName="$STR_B_soldier_AA_F0";
-		backpack="B_FR2035_Kitbag_ce_AA";
+		backpack="FR2035_B_Kitbag_ce_AA";
 		weapons[]=
 		{
-			"arifle_FR2035_MXC_Holo_pointer_F",
-			"launch_FR2035_Titan_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416F_blk_Holo_pointer_F",
+			"FR2035_launch_Titan_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_FR2035_MXC_Holo_pointer_F",
-			"launch_FR2035_Titan_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416F_blk_Holo_pointer_F",
+			"FR2035_launch_Titan_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -2135,12 +2131,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -2157,8 +2153,8 @@ class CfgVehicles
 		role="MissileSpecialist";
 		linkedItems[]=
 		{
-			"V_FR2035_PlateCarrier1_ce",
-			"H_FR2035_Helmet_ce_light",
+			"FR2035_V_PlateCarrier1_ce",
+			"FR2035_H_Helmet_ce_light",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -2167,8 +2163,8 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_FR2035_PlateCarrier1_ce",
-			"H_FR2035_Helmet_ce_light",
+			"FR2035_V_PlateCarrier1_ce",
+			"FR2035_H_Helmet_ce_light",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -2180,35 +2176,35 @@ class CfgVehicles
 	class FR2035_engineer_F: FR2035_Soldier_03_f
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_engineer_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_engineer_F.jpg";
 		_generalMacro="FR2035_engineer_F";
 		scope=2;
 		displayName="$STR_B_engineer_F0";
 		camouflage=1.6;
-		uniformClass="U_FR2035_CombatUniform_ce_vest";
-		backpack="B_FR2035_Kitbag_ce_Eng";
+		uniformClass="FR2035_U_CombatUniform_ce_vest";
+		backpack="FR2035_B_Kitbag_ce_Eng";
 		weapons[]=
 		{
-			"arifle_FR2035_MXC_Holo_pointer_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416F_blk_Holo_pointer_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_FR2035_MXC_Holo_pointer_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416F_blk_Holo_pointer_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -2223,12 +2219,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -2246,8 +2242,8 @@ class CfgVehicles
 		detectSkill=31;
 		linkedItems[]=
 		{
-			"V_FR2035_Chestrig_ce",
-			"H_FR2035_Helmet_ce",
+			"FR2035_V_Chestrig_ce",
+			"FR2035_H_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -2256,8 +2252,8 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_FR2035_Chestrig_ce",
-			"H_FR2035_Helmet_ce",
+			"FR2035_V_Chestrig_ce",
+			"FR2035_H_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -2271,9 +2267,9 @@ class CfgVehicles
 	class FR2035_crew_F: FR2035_Soldier_03_f
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_crew_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_crew_F.jpg";
 		_generalMacro="FR2035_crew_F";
-		uniformClass="U_FR2035_CombatUniform_ce_vest";
+		uniformClass="FR2035_U_CombatUniform_ce_vest";
 		class UniformInfo
 		{
 			class SlotsInfo
@@ -2293,26 +2289,26 @@ class CfgVehicles
 		displayName="$STR_B_crew_F0";
 		weapons[]=
 		{
-			"arifle_FR2035_MXC_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416F_blk_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_FR2035_MXC_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416F_blk_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -2325,12 +2321,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -2346,8 +2342,8 @@ class CfgVehicles
 		camouflage=1.6;
 		linkedItems[]=
 		{
-			"V_FR2035_Bandollier_ce",
-			"H_FR2035_HelmetCrew",
+			"FR2035_V_Bandollier_ce",
+			"FR2035_H_HelmetCrew",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -2356,8 +2352,8 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_FR2035_Bandollier_ce",
-			"H_FR2035_HelmetCrew",
+			"FR2035_V_Bandollier_ce",
+			"FR2035_H_HelmetCrew",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -2385,36 +2381,38 @@ class CfgVehicles
 		textSingular="$STR_A3_nameSound_veh_infantry_officer_s";
 		textPlural="$STR_A3_nameSound_veh_infantry_officer_p";
 		nameSound="veh_infantry_officer_s";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_officer_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_officer_F.jpg";
 		_generalMacro="FR2035_officer_F";
 		scope=2;
 		displayName="$STR_B_officer_F0";
 		identityTypes[]=
 		{
-			"LanguageGRE_F",
-			"Head_NATO",
+			"LanguageENGFRE_F",
+			"Head_Enoch",
+			"Head_Euro",
+			"Head_Tanoan",
 			"G_NATO_casual"
 		};
 		weapons[]=
 		{
-			"arifle_FR2035_MXC_Aco_F",
+			"FR2035_arifle_416F_blk_ACO_F",
 			"hgun_Pistol_heavy_01_MRD_F",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_FR2035_MXC_Aco_F",
+			"FR2035_arifle_416F_blk_ACO_F",
 			"hgun_Pistol_heavy_01_MRD_F",
 			"Throw",
 			"Put"
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
@@ -2425,10 +2423,10 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
@@ -2443,8 +2441,8 @@ class CfgVehicles
 		role="Rifleman";
 		linkedItems[]=
 		{
-			"V_FR2035_Bandollier_ce",
-			"H_FR2035_MilCap_ce",
+			"FR2035_V_Bandollier_ce",
+			"FR2035_H_MilCap_ce",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
@@ -2453,8 +2451,8 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_FR2035_Bandollier_ce",
-			"H_FR2035_MilCap_ce",
+			"FR2035_V_Bandollier_ce",
+			"FR2035_H_MilCap_ce",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
@@ -2465,7 +2463,7 @@ class CfgVehicles
 	class FR2035_Competitor_F: FR2035_RangeMaster_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_Competitor_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Competitor_F.jpg";
 		_generalMacro="FR2035_Competitor_F";
 		identityTypes[]=
 		{
@@ -2487,40 +2485,38 @@ class CfgVehicles
 	class FR2035_Pilot_F: FR2035_Soldier_05_f
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_Pilot_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Pilot_F.jpg";
 		_generalMacro="FR2035_Pilot_F";
 		scope=2;
 		displayName="$STR_B_Pilot_F0";
 		modelSides[]={3,1};
-		uniformClass="U_FR2035_PilotCoveralls";
+		uniformClass="FR2035_U_PilotCoveralls";
 		weapons[]=
 		{
-			"SMG_01_Holo_F",
+			"SMG_03C_black",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"SMG_01_Holo_F",
+			"SMG_03C_black",
 			"Throw",
 			"Put"
 		};
 		magazines[]=
 		{
-			"30Rnd_45ACP_Mag_SMG_01",
-			"30Rnd_45ACP_Mag_SMG_01",
-			"30Rnd_45ACP_Mag_SMG_01",
-			"30Rnd_45ACP_Mag_SMG_01",
+			"50Rnd_570x28_SMG_03",
+			"50Rnd_570x28_SMG_03",
+			"50Rnd_570x28_SMG_03",
 			"SmokeShell",
 			"SmokeShellBlue",
 			"Chemlight_green"
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_45ACP_Mag_SMG_01",
-			"30Rnd_45ACP_Mag_SMG_01",
-			"30Rnd_45ACP_Mag_SMG_01",
-			"30Rnd_45ACP_Mag_SMG_01",
+			"50Rnd_570x28_SMG_03",
+			"50Rnd_570x28_SMG_03",
+			"50Rnd_570x28_SMG_03",
 			"SmokeShell",
 			"SmokeShellBlue",
 			"Chemlight_green"
@@ -2528,7 +2524,7 @@ class CfgVehicles
 		backpack="B_Parachute";
 		linkedItems[]=
 		{
-			"H_FR2035_PilotHelmetFighter",
+			"FR2035_H_PilotHelmetFighter",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -2536,7 +2532,7 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"H_FR2035_PilotHelmetFighter",
+			"FR2035_H_PilotHelmetFighter",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -2547,30 +2543,30 @@ class CfgVehicles
 	class FR2035_helicrew_F: FR2035_Helipilot_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_helicrew_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_helicrew_F.jpg";
 		_generalMacro="FR2035_helicrew_F";
 		displayName="$STR_B_helicrew_F0";
 		modelSides[]={3,1};
-		uniformClass="U_FR2035_HeliPilotCoveralls";
+		uniformClass="FR2035_U_HeliPilotCoveralls";
 		role="Crewman";
 		weapons[]=
 		{
-			"arifle_FR2035_MXC_Holo_F",
+			"FR2035_arifle_416F_blk_Holo_F",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_FR2035_MXC_Holo_F",
+			"FR2035_arifle_416F_blk_Holo_F",
 			"Throw",
 			"Put"
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"SmokeShellGreen",
 			"SmokeShellBlue",
 			"SmokeShellOrange",
@@ -2579,10 +2575,10 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"SmokeShellGreen",
 			"SmokeShellBlue",
 			"SmokeShellOrange",
@@ -2591,8 +2587,8 @@ class CfgVehicles
 		};
 		linkedItems[]=
 		{
-			"V_FR2035_TacVest_ce",
-			"H_FR2035_CrewHelmetHeli",
+			"FR2035_V_TacVest_ce",
+			"FR2035_H_CrewHelmetHeli",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -2601,8 +2597,8 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_FR2035_TacVest_ce",
-			"H_FR2035_CrewHelmetHeli",
+			"FR2035_V_TacVest_ce",
+			"FR2035_H_CrewHelmetHeli",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -2613,14 +2609,14 @@ class CfgVehicles
 	class FR2035_soldier_PG_F: FR2035_Soldier_base_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_soldier_PG_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_soldier_PG_F.jpg";
 		_generalMacro="FR2035_soldier_PG_F";
 		scope=2;
 		displayName="$STR_B_soldier_PG_F0";
 		linkedItems[]=
 		{
-			"V_FR2035_PlateCarrierSpec_ce",
-			"H_FR2035_Helmet_ce",
+			"FR2035_V_PlateCarrierSpec_ce",
+			"FR2035_H_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -2629,8 +2625,8 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_FR2035_PlateCarrierSpec_ce",
-			"H_FR2035_Helmet_ce",
+			"FR2035_V_PlateCarrierSpec_ce",
+			"FR2035_H_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -2643,14 +2639,14 @@ class CfgVehicles
 	class FR2035_soldier_UAV_F: FR2035_Soldier_base_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_soldier_UAV_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_soldier_UAV_F.jpg";
 		_generalMacro="FR2035_soldier_UAV_F";
 		scope=2;
 		displayName="$STR_A3_B_SOLDIER_UAV_F0";
 		linkedItems[]=
 		{
-			"V_FR2035_PlateCarrierSpec_ce",
-			"H_FR2035_Helmet_ce",
+			"FR2035_V_PlateCarrierSpec_ce",
+			"FR2035_H_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -2660,8 +2656,8 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_FR2035_PlateCarrierSpec_ce",
-			"H_FR2035_Helmet_ce",
+			"FR2035_V_PlateCarrierSpec_ce",
+			"FR2035_H_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -2704,7 +2700,7 @@ class CfgVehicles
 	class FR2035_Survivor_F: FR2035_Soldier_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_Survivor_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Survivor_F.jpg";
 		_generalMacro="FR2035_Survivor_F";
 		displayName="$STR_A3_CfgVehicles_b_survivor_f_displayName";
 		weapons[]=
@@ -2728,7 +2724,7 @@ class CfgVehicles
 	class FR2035_Soldier_unarmed_F: FR2035_Soldier_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_Soldier_unarmed_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Soldier_unarmed_F.jpg";
 		_generalMacro="FR2035_Soldier_unarmed_F";
 		displayName="$STR_A3_CfgVehicles_b_soldier_unarmed_f_displayName";
 		weapons[]=
@@ -2745,8 +2741,8 @@ class CfgVehicles
 		respawnMagazines[]={};
 		linkedItems[]=
 		{
-			"V_FR2035_PlateCarrier1_ce",
-			"H_FR2035_Helmet_ce",
+			"FR2035_V_PlateCarrier1_ce",
+			"FR2035_H_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -2754,8 +2750,8 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_FR2035_PlateCarrier1_ce",
-			"H_FR2035_Helmet_ce",
+			"FR2035_V_PlateCarrier1_ce",
+			"FR2035_H_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -2789,7 +2785,7 @@ class CfgVehicles
 		displayName="$STR_B_Soldier_diver_base_F0";
 		vehicleClass="MenDiver";
 		editorSubcategory="EdSubcat_Personnel_SpecialForces";
-		uniformClass="U_FR2035_Wetsuit";
+		uniformClass="FR2035_U_Wetsuit";
 		role="SpecialOperative";
 		hiddenSelections[]=
 		{
@@ -2833,8 +2829,10 @@ class CfgVehicles
 		selectionPersonality="personality";
 		identityTypes[]=
 		{
-			"LanguageGRE_F",
-			"Head_NATO",
+			"LanguageENGFRE_F",
+			"Head_Enoch",
+			"Head_Euro",
+			"Head_Tanoan",
 			"G_NATO_diver"
 		};
 		linkedItems[]=
@@ -2912,7 +2910,7 @@ class CfgVehicles
 	class FR2035_diver_F: FR2035_Soldier_diver_base_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_diver_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_diver_F.jpg";
 		_generalMacro="FR2035_diver_F";
 		scope=2;
 		displayName="$STR_B_diver_F0";
@@ -2925,7 +2923,7 @@ class CfgVehicles
 	class FR2035_diver_TL_F: FR2035_Soldier_diver_base_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_diver_TL_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_diver_TL_F.jpg";
 		_generalMacro="FR2035_diver_TL_F";
 		scope=2;
 		displayName="$STR_B_diver_TL_F0";
@@ -2957,7 +2955,7 @@ class CfgVehicles
 	class FR2035_diver_exp_F: FR2035_Soldier_diver_base_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_diver_exp_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_diver_exp_F.jpg";
 		_generalMacro="FR2035_diver_exp_F";
 		scope=2;
 		backpack="B_AssaultPack_blk_DiverExp";
@@ -3000,14 +2998,14 @@ class CfgVehicles
 	class FR2035_recon_F: FR2035_Soldier_recon_base
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_recon_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_recon_F.jpg";
 		_generalMacro="FR2035_recon_F";
 		scope=2;
 		displayName="$STR_B_recon_F0";
-		uniformClass="U_FR2035_CombatUniform_ce_vest";
+		uniformClass="FR2035_U_CombatUniform_ce_vest";
 		weapons[]=
 		{
-			"arifle_FR2035_MX_ACO_pointer_snds_F",
+			"FR2035_arifle_416F_blk_ACO_pointer_snds_F",
 			"hgun_P07_snds_F",
 			"Throw",
 			"Put",
@@ -3015,23 +3013,23 @@ class CfgVehicles
 		};
 		respawnWeapons[]=
 		{
-			"arifle_FR2035_MX_ACO_pointer_snds_F",
+			"FR2035_arifle_416F_blk_ACO_pointer_snds_F",
 			"Throw",
 			"Put",
 			"Binocular"
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -3044,16 +3042,16 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -3067,7 +3065,7 @@ class CfgVehicles
 		role="Rifleman";
 		linkedItems[]=
 		{
-			"V_FR2035_Chestrig_ce",
+			"FR2035_V_Chestrig_ce",
 			"H_Watchcap_camo",
 			"ItemGPS",
 			"ItemMap",
@@ -3078,7 +3076,7 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_FR2035_Chestrig_ce",
+			"FR2035_V_Chestrig_ce",
 			"H_Watchcap_camo",
 			"ItemGPS",
 			"ItemMap",
@@ -3091,15 +3089,15 @@ class CfgVehicles
 	class FR2035_recon_LAT_F: FR2035_Soldier_recon_base
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_recon_LAT_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_recon_LAT_F.jpg";
 		_generalMacro="FR2035_recon_LAT_F";
 		scope=2;
 		displayName="$STR_B_recon_LAT_F0";
-		uniformClass="U_FR2035_CombatUniform_ce_tshirt";
-		backpack="B_FR2035_AssaultPack_ce_ReconLAT";
+		uniformClass="FR2035_U_CombatUniform_ce_tshirt";
+		backpack="FR2035_B_AssaultPack_ce_ReconLAT";
 		weapons[]=
 		{
-			"arifle_FR2035_MX_ACO_pointer_snds_F",
+			"FR2035_arifle_416F_blk_ACO_pointer_snds_F",
 			"launch_NLAW_F",
 			"hgun_P07_snds_F",
 			"Throw",
@@ -3107,19 +3105,19 @@ class CfgVehicles
 		};
 		respawnWeapons[]=
 		{
-			"arifle_FR2035_MX_ACO_pointer_snds_F",
+			"FR2035_arifle_416F_blk_ACO_pointer_snds_F",
 			"launch_NLAW_F",
 			"Throw",
 			"Put"
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -3133,12 +3131,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -3156,8 +3154,8 @@ class CfgVehicles
 		role="MissileSpecialist";
 		linkedItems[]=
 		{
-			"V_FR2035_Chestrig_ce",
-			"H_FR2035_Helmet_ce",
+			"FR2035_V_Chestrig_ce",
+			"FR2035_H_Helmet_ce",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
@@ -3167,8 +3165,8 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_FR2035_Chestrig_ce",
-			"H_FR2035_Helmet_ce",
+			"FR2035_V_Chestrig_ce",
+			"FR2035_H_Helmet_ce",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
@@ -3181,33 +3179,33 @@ class CfgVehicles
 	class FR2035_recon_exp_F: FR2035_Soldier_recon_base
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_recon_exp_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_recon_exp_F.jpg";
 		_generalMacro="FR2035_recon_exp_F";
 		scope=2;
 		displayName="$STR_B_recon_exp_F0";
-		uniformClass="U_FR2035_CombatUniform_ce_tshirt";
-		backpack="B_FR2035_Kitbag_ce_ReconExp";
+		uniformClass="FR2035_U_CombatUniform_ce_tshirt";
+		backpack="FR2035_B_Kitbag_ce_ReconExp";
 		weapons[]=
 		{
-			"arifle_FR2035_MX_ACO_pointer_snds_F",
+			"FR2035_arifle_416F_blk_ACO_pointer_snds_F",
 			"hgun_P07_snds_F",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_FR2035_MX_ACO_pointer_snds_F",
+			"FR2035_arifle_416F_blk_ACO_pointer_snds_F",
 			"Throw",
 			"Put"
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -3223,12 +3221,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -3246,8 +3244,8 @@ class CfgVehicles
 		detectSkill=38;
 		linkedItems[]=
 		{
-			"V_FR2035_Chestrig_ce",
-			"H_FR2035_Booniehat_ce",
+			"FR2035_V_Chestrig_ce",
+			"FR2035_H_Booniehat_ce",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
@@ -3257,8 +3255,8 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_FR2035_Chestrig_ce",
-			"H_FR2035_Booniehat_ce",
+			"FR2035_V_Chestrig_ce",
+			"FR2035_H_Booniehat_ce",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
@@ -3273,37 +3271,37 @@ class CfgVehicles
 	class FR2035_recon_medic_F: FR2035_Soldier_recon_base
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_recon_medic_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_recon_medic_F.jpg";
 		_generalMacro="FR2035_recon_medic_F";
 		scope=2;
 		displayName="$STR_B_recon_medic_F0";
-		uniformClass="U_FR2035_CombatUniform_ce_tshirt";
+		uniformClass="FR2035_U_CombatUniform_ce_tshirt";
 		attendant=1;
 		weapons[]=
 		{
-			"arifle_FR2035_MXC_ACO_pointer_snds_F",
+			"FR2035_arifle_416F_blk_ACO_pointer_snds_F",
 			"hgun_P07_snds_F",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_FR2035_MXC_ACO_pointer_snds_F",
+			"FR2035_arifle_416F_blk_ACO_pointer_snds_F",
 			"hgun_P07_snds_F",
 			"Throw",
 			"Put"
 		};
-		backpack="B_FR2035_AssaultPack_ce_ReconMedic";
+		backpack="FR2035_B_AssaultPack_ce_ReconMedic";
 		icon="iconManMedic";
 		role="CombatLifeSaver";
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -3316,12 +3314,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -3334,8 +3332,8 @@ class CfgVehicles
 		};
 		linkedItems[]=
 		{
-			"V_FR2035_Chestrig_ce",
-			"H_FR2035_Helmet_ce_light",
+			"FR2035_V_Chestrig_ce",
+			"FR2035_H_Helmet_ce_light",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
@@ -3345,8 +3343,8 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_FR2035_Chestrig_ce",
-			"H_FR2035_Helmet_ce_light",
+			"FR2035_V_Chestrig_ce",
+			"FR2035_H_Helmet_ce_light",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
@@ -3359,14 +3357,14 @@ class CfgVehicles
 	class FR2035_recon_TL_F: FR2035_Soldier_recon_base
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_recon_TL_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_recon_TL_F.jpg";
 		_generalMacro="FR2035_recon_TL_F";
 		scope=2;
 		displayName="$STR_B_recon_TL_F0";
-		uniformClass="U_FR2035_CombatUniform_ce_vest";
+		uniformClass="FR2035_U_CombatUniform_ce_vest";
 		weapons[]=
 		{
-			"arifle_FR2035_MX_RCO_pointer_snds_F",
+			"FR2035_arifle_416F_blk_RCO_pointer_snds_F",
 			"hgun_P07_snds_F",
 			"Throw",
 			"Put",
@@ -3374,7 +3372,7 @@ class CfgVehicles
 		};
 		respawnWeapons[]=
 		{
-			"arifle_FR2035_MX_RCO_pointer_snds_F",
+			"FR2035_arifle_416F_blk_RCO_pointer_snds_F",
 			"hgun_P07_snds_F",
 			"Throw",
 			"Put",
@@ -3385,12 +3383,12 @@ class CfgVehicles
 		role="Grenadier";
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag_Tracer",
-			"30Rnd_65x39_caseless_black_mag_Tracer",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_Tracer_Red",
+			"30Rnd_556x45_Stanag_Tracer_Red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"MiniGrenade",
@@ -3404,12 +3402,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag_Tracer",
-			"30Rnd_65x39_caseless_black_mag_Tracer",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_Tracer_Red",
+			"30Rnd_556x45_Stanag_Tracer_Red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"MiniGrenade",
@@ -3423,8 +3421,8 @@ class CfgVehicles
 		};
 		linkedItems[]=
 		{
-			"V_FR2035_Chestrig_ce",
-			"H_FR2035_MilCap_ce",
+			"FR2035_V_Chestrig_ce",
+			"FR2035_H_MilCap_ce",
 			"G_Shades_Black",
 			"ItemGPS",
 			"ItemMap",
@@ -3435,8 +3433,8 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_FR2035_Chestrig_ce",
-			"H_FR2035_MilCap_ce",
+			"FR2035_V_Chestrig_ce",
+			"FR2035_H_MilCap_ce",
 			"G_Shades_Black",
 			"ItemGPS",
 			"ItemMap",
@@ -3449,14 +3447,14 @@ class CfgVehicles
 	class FR2035_recon_M_F: FR2035_Soldier_recon_base
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_recon_M_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_recon_M_F.jpg";
 		_generalMacro="FR2035_recon_M_F";
 		scope=2;
 		displayName="$STR_B_recon_M_F0";
-		uniformClass="U_FR2035_CombatUniform_ce";
+		uniformClass="FR2035_U_CombatUniform_ce";
 		weapons[]=
 		{
-			"arifle_FR2035_MXM_DMS_LP_BI_snds_F",
+			"FR2035_arifle_416FS_blk_DMS_LP_BI_snds_F",
 			"hgun_P07_snds_F",
 			"Throw",
 			"Put",
@@ -3464,7 +3462,7 @@ class CfgVehicles
 		};
 		respawnWeapons[]=
 		{
-			"arifle_FR2035_MXM_DMS_LP_BI_snds_F",
+			"FR2035_arifle_416FS_blk_DMS_LP_BI_snds_F",
 			"hgun_P07_snds_F",
 			"Throw",
 			"Put",
@@ -3472,12 +3470,12 @@ class CfgVehicles
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -3490,12 +3488,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -3510,8 +3508,8 @@ class CfgVehicles
 		cost=250000;
 		linkedItems[]=
 		{
-			"V_FR2035_Chestrig_ce",
-			"H_FR2035_Booniehat_ce",
+			"FR2035_V_Chestrig_ce",
+			"FR2035_H_Booniehat_ce",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
@@ -3521,8 +3519,8 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_FR2035_Chestrig_ce",
-			"H_FR2035_Booniehat_ce",
+			"FR2035_V_Chestrig_ce",
+			"FR2035_H_Booniehat_ce",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
@@ -3537,14 +3535,14 @@ class CfgVehicles
 	class FR2035_recon_JTAC_F: FR2035_Soldier_recon_base
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_recon_JTAC_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_recon_JTAC_F.jpg";
 		_generalMacro="FR2035_recon_JTAC_F";
 		scope=2;
 		displayName="$STR_B_recon_JTAC_F0";
-		uniformClass="U_FR2035_CombatUniform_ce";
+		uniformClass="FR2035_U_CombatUniform_ce";
 		weapons[]=
 		{
-			"arifle_FR2035_MX_GL_Holo_pointer_snds_F",
+			"FR2035_arifle_416F_GL_blk_Holo_pointer_snds_F",
 			"hgun_P07_snds_F",
 			"Throw",
 			"Put",
@@ -3552,7 +3550,7 @@ class CfgVehicles
 		};
 		respawnWeapons[]=
 		{
-			"arifle_FR2035_MX_GL_Holo_pointer_snds_F",
+			"FR2035_arifle_416F_GL_blk_Holo_pointer_snds_F",
 			"hgun_P07_snds_F",
 			"Throw",
 			"Put",
@@ -3560,12 +3558,12 @@ class CfgVehicles
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -3592,12 +3590,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -3626,7 +3624,7 @@ class CfgVehicles
 		role="SpecialOperative";
 		linkedItems[]=
 		{
-			"V_FR2035_Chestrig_ce",
+			"FR2035_V_Chestrig_ce",
 			"H_Watchcap_camo",
 			"ItemGPS",
 			"ItemMap",
@@ -3637,7 +3635,7 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_FR2035_Chestrig_ce",
+			"FR2035_V_Chestrig_ce",
 			"H_Watchcap_camo",
 			"ItemGPS",
 			"ItemMap",
@@ -3654,15 +3652,17 @@ class CfgVehicles
 		scope=0;
 		identityTypes[]=
 		{
-			"LanguageGRE_F",
-			"Head_NATO",
+			"LanguageENGFRE_F",
+			"Head_Enoch",
+			"Head_Euro",
+			"Head_Tanoan",
 			"G_NATO_sniper"
 		};
 		displayName="$STR_B_Soldier_sniper_base_F0";
 		vehicleClass="MenSniper";
 		editorSubcategory="EdSubcat_Personnel_SpecialForces";
 		role="Marksman";
-		uniformClass="U_FR2035_GhillieSuit";
+		uniformClass="FR2035_U_GhillieSuit";
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -3677,7 +3677,7 @@ class CfgVehicles
 		model="A3\Characters_F\BLUFOR\b_sniper.p3d";
 		linkedItems[]=
 		{
-			"V_FR2035_Chestrig_ce",
+			"FR2035_V_Chestrig_ce",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
@@ -3687,7 +3687,7 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_FR2035_Chestrig_ce",
+			"FR2035_V_Chestrig_ce",
 			"ItemGPS",
 			"ItemMap",
 			"ItemCompass",
@@ -3719,7 +3719,7 @@ class CfgVehicles
 		textSingular="$STR_A3_nameSound_veh_infantry_SF_s";
 		textPlural="$STR_A3_nameSound_veh_infantry_SF_p";
 		nameSound="veh_infantry_SF_s";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_spotter_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_spotter_F.jpg";
 		_generalMacro="FR2035_spotter_F";
 		scope=2;
 		displayName="$STR_B_spotter_F0";
@@ -3729,7 +3729,7 @@ class CfgVehicles
 		camouflage=0.60000002;
 		weapons[]=
 		{
-			"arifle_FR2035_MX_Hamr_pointer_F",
+			"FR2035_arifle_416F_blk_Hamr_pointer_F",
 			"hgun_P07_snds_F",
 			"Throw",
 			"Put",
@@ -3737,7 +3737,7 @@ class CfgVehicles
 		};
 		respawnWeapons[]=
 		{
-			"arifle_FR2035_MX_Hamr_pointer_F",
+			"FR2035_arifle_416F_blk_Hamr_pointer_F",
 			"hgun_P07_snds_F",
 			"Throw",
 			"Put",
@@ -3745,12 +3745,12 @@ class CfgVehicles
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -3770,12 +3770,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -3814,7 +3814,7 @@ class CfgVehicles
 		textSingular="$STR_A3_nameSound_veh_infantry_sniper_s";
 		textPlural="$STR_A3_nameSound_veh_infantry_sniper_p";
 		nameSound="veh_infantry_sniper_s";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_sniper_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_sniper_F.jpg";
 		_generalMacro="FR2035_sniper_F";
 		scope=2;
 		displayName="$STR_B_sniper_F0";
@@ -3904,7 +3904,7 @@ class CfgVehicles
 		displayName="$STR_A3_survival_fatigues_F0";
 		model="\A3\Characters_F_EPA\BLUFOR\b_soldier_survival_01.p3d";
 		modelSides[]={3,1};
-		uniformClass="U_FR2035_survival_uniform";
+		uniformClass="FR2035_U_survival_uniform";
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -3942,33 +3942,33 @@ class CfgVehicles
 		vehicleClass="MenSupport";
 		editorSubcategory="EdSubcat_Personnel";
 		role="Assistant";
-		uniformClass="U_FR2035_CombatUniform_ce_tshirt";
+		uniformClass="FR2035_U_CombatUniform_ce_tshirt";
 		weapons[]=
 		{
-			"arifle_FR2035_MX_Aco_pointer_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416F_blk_ACO_pointer_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put",
 			"Rangefinder"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_FR2035_MX_Aco_pointer_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416F_blk_ACO_pointer_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put",
 			"Rangefinder"
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -3983,14 +3983,14 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -4005,8 +4005,8 @@ class CfgVehicles
 		};
 		linkedItems[]=
 		{
-			"V_FR2035_Chestrig_ce",
-			"H_FR2035_Helmet_ce_light",
+			"FR2035_V_Chestrig_ce",
+			"FR2035_H_Helmet_ce_light",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -4015,8 +4015,8 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_FR2035_Chestrig_ce",
-			"H_FR2035_Helmet_ce_light",
+			"FR2035_V_Chestrig_ce",
+			"FR2035_H_Helmet_ce_light",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -4027,54 +4027,54 @@ class CfgVehicles
 	class FR2035_soldier_AAR_F: FR2035_Soldier_support_base_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_soldier_AAR_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_soldier_AAR_F.jpg";
 		_generalMacro="FR2035_soldier_AAR_F";
 		scope=2;
 		displayName="$STR_O_SOLDIERU_AAR_F0";
-		backpack="B_FR2035_Kitbag_ce_AAR";
+		backpack="FR2035_B_Kitbag_ce_AAR";
 		role="Assistant";
 	};
 	class FR2035_soldier_AAT_F: FR2035_Soldier_support_base_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_soldier_AAT_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_soldier_AAT_F.jpg";
 		_generalMacro="FR2035_soldier_AAT_F";
 		scope=2;
 		displayName="$STR_B_soldier_AAT_F0";
 		cost=130000;
 		role="Assistant";
-		backpack="B_FR2035_Carryall_ce_AAT";
+		backpack="FR2035_B_Carryall_ce_AAT";
 	};
 	class FR2035_soldier_AAA_F: FR2035_soldier_AAT_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_soldier_AAA_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_soldier_AAA_F.jpg";
 		_generalMacro="FR2035_soldier_AAA_F";
 		scope=2;
 		displayName="$STR_B_soldier_AAA_F0";
 		cost=220000;
 		role="Assistant";
-		backpack="B_FR2035_Carryall_ce_AAA";
+		backpack="FR2035_B_Carryall_ce_AAA";
 	};
 	class FR2035_support_MG_F: FR2035_Soldier_support_base_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_support_MG_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_support_MG_F.jpg";
 		_generalMacro="FR2035_support_MG_F";
 		scope=2;
 		displayName="$STR_B_support_MG_F0";
 		backpack="B_HMG_01_weapon_grn_F";
 		weapons[]=
 		{
-			"arifle_FR2035_MXC_Holo_pointer_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416F_blk_Holo_pointer_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
 		respawnweapons[]=
 		{
-			"arifle_FR2035_MXC_Holo_pointer_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416F_blk_Holo_pointer_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
@@ -4084,22 +4084,22 @@ class CfgVehicles
 	class FR2035_support_GMG_F: FR2035_Soldier_support_base_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_support_GMG_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_support_GMG_F.jpg";
 		_generalMacro="FR2035_support_GMG_F";
 		scope=2;
 		displayName="$STR_B_support_GMG_F0";
 		backpack="B_GMG_01_weapon_grn_F";
 		weapons[]=
 		{
-			"arifle_FR2035_MXC_Holo_pointer_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416F_blk_Holo_pointer_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
 		respawnweapons[]=
 		{
-			"arifle_FR2035_MXC_Holo_pointer_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416F_blk_Holo_pointer_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
@@ -4109,22 +4109,22 @@ class CfgVehicles
 	class FR2035_support_Mort_F: FR2035_Soldier_support_base_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_support_Mort_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_support_Mort_F.jpg";
 		_generalMacro="FR2035_support_Mort_F";
 		scope=2;
 		displayName="$STR_B_support_Mort_F0";
 		backpack="B_Mortar_01_weapon_grn_F";
 		weapons[]=
 		{
-			"arifle_FR2035_MXC_Holo_pointer_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416F_blk_Holo_pointer_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
 		respawnweapons[]=
 		{
-			"arifle_FR2035_MXC_Holo_pointer_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416F_blk_Holo_pointer_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
@@ -4134,22 +4134,22 @@ class CfgVehicles
 	class FR2035_support_AMG_F: FR2035_Soldier_support_base_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_support_AMG_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_support_AMG_F.jpg";
 		_generalMacro="FR2035_support_AMG_F";
 		scope=2;
 		displayName="$STR_B_support_AMG_F0";
 		backpack="B_HMG_01_support_grn_F";
 		weapons[]=
 		{
-			"arifle_FR2035_MXC_Holo_pointer_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416F_blk_Holo_pointer_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
 		respawnweapons[]=
 		{
-			"arifle_FR2035_MXC_Holo_pointer_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416F_blk_Holo_pointer_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
@@ -4159,22 +4159,22 @@ class CfgVehicles
 	class FR2035_support_AMort_F: FR2035_Soldier_support_base_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_support_AMort_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_support_AMort_F.jpg";
 		_generalMacro="FR2035_support_AMort_F";
 		scope=2;
 		displayName="$STR_B_support_AMort_F0";
 		backpack="B_Mortar_01_support_grn_F";
 		weapons[]=
 		{
-			"arifle_FR2035_MXC_Holo_pointer_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416F_blk_Holo_pointer_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
 		respawnweapons[]=
 		{
-			"arifle_FR2035_MXC_Holo_pointer_F",
-			"hgun_P07_F",
+			"FR2035_arifle_416F_blk_Holo_pointer_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
@@ -4205,7 +4205,7 @@ class CfgVehicles
 	class FR2035_Soldier_VR_F: FR2035_Soldier_base_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_Soldier_VR_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Soldier_VR_F.jpg";
 		_generalMacro="FR2035_Soldier_VR_F";
 		identityTypes[]=
 		{
@@ -4226,7 +4226,7 @@ class CfgVehicles
 		editorSubcategory="EdSubcat_Personnel_VR";
 		icon="iconManVirtual";
 		role="Unarmed";
-		nakedUniform="U_FR2035_Soldier_VR";
+		nakedUniform="FR2035_U_Soldier_VR";
 		uniformClass="";
 		hiddenSelections[]=
 		{
@@ -4464,7 +4464,7 @@ class CfgVehicles
 	class FR2035_Protagonist_VR_F: FR2035_Soldier_base_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_Protagonist_VR_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Protagonist_VR_F.jpg";
 		_generalMacro="B_Protagonist_VR_F";
 		scope=2;
 		displayName="$STR_A3_CfgVehicles_B_Protagonist_VR_F0";
@@ -4478,7 +4478,7 @@ class CfgVehicles
 		editorSubcategory="EdSubcat_Personnel_VR";
 		role="Unarmed";
 		nakedUniform="U_BasicBody";
-		uniformClass="U_FR2035_Protagonist_VR";
+		uniformClass="FR2035_U_Protagonist_VR";
 		hiddenSelections[]=
 		{
 			"camo_stripes",
@@ -4731,7 +4731,7 @@ class CfgVehicles
 		nameSound="veh_infantry_sniper_s";
 		_generalMacro="FR2035_ghillie_base_F";
 		displayName="$STR_A3_cfgVehicles_B_ghillie_base_F0";
-		uniformClass="U_FR2035_FullGhillie_lsh";
+		uniformClass="FR2035_U_FullGhillie_lsh";
 		model="\A3\Characters_F_Mark\BLUFOR\b_fullghillie_f.p3d";
 		hiddenSelections[]=
 		{
@@ -4844,7 +4844,7 @@ class CfgVehicles
 	class FR2035_ghillie_lsh_F: FR2035_ghillie_base_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_ghillie_lsh_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_ghillie_lsh_F.jpg";
 		_generalMacro="FR2035_ghillie_lsh_F";
 		scope=2;
 		displayName="$STR_A3_cfgVehicles_B_ghillie_lsh_F0";
@@ -4856,7 +4856,7 @@ class CfgVehicles
 		};
 		identityTypes[]=
 		{
-			"LanguageGRE_F",
+			"LanguageENGFRE_F",
 			"Head_NATO_camo_lush",
 			"G_NATO_sniper"
 		};
@@ -4864,11 +4864,11 @@ class CfgVehicles
 	class FR2035_ghillie_sard_F: FR2035_ghillie_base_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_ghillie_sard_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_ghillie_sard_F.jpg";
 		_generalMacro="FR2035_ghillie_sard_F";
 		scope=2;
 		displayName="$STR_A3_cfgVehicles_B_ghillie_sard_F0";
-		uniformClass="U_FR2035_FullGhillie_sard";
+		uniformClass="FR2035_U_FullGhillie_sard";
 		hiddenSelectionsTextures[]=
 		{
 			"\fr2035_characters_f\data\fr2035_ghillie_coverall_co.paa",
@@ -4877,7 +4877,7 @@ class CfgVehicles
 		};
 		identityTypes[]=
 		{
-			"LanguageGRE_F",
+			"LanguageENGFRE_F",
 			"Head_NATO_camo_semiarid",
 			"G_NATO_sniper"
 		};
@@ -4885,11 +4885,11 @@ class CfgVehicles
 	class FR2035_ghillie_ard_F: FR2035_ghillie_base_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_ghillie_ard_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_ghillie_ard_F.jpg";
 		_generalMacro="B_ghillie_ard_F";
 		scope=2;
 		displayName="$STR_A3_cfgVehicles_B_ghillie_ard_F0";
-		uniformClass="U_FR2035_FullGhillie_ard";
+		uniformClass="FR2035_U_FullGhillie_ard";
 		hiddenSelectionsTextures[]=
 		{
 			"\fr2035_characters_f\data\fr2035_ghillie_coverall_co.paa",
@@ -4898,7 +4898,7 @@ class CfgVehicles
 		};
 		identityTypes[]=
 		{
-			"LanguageGRE_F",
+			"LanguageENGFRE_F",
 			"Head_NATO_camo_arid",
 			"G_NATO_sniper"
 		};
@@ -4906,11 +4906,11 @@ class CfgVehicles
 	class FR2035_ghillie_tna_F: FR2035_ghillie_base_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F_Exp\Data\CfgVehicles\B_T_ghillie_tna_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_ghillie_tna_F.jpg";
 		_generalMacro="FR2035_ghillie_tna_F";
 		scope=2;
 		displayName="$STR_A3_O_T_GHILLIE_TNA_F0";
-		uniformClass="U_FR2035_FullGhillie_tna";
+		uniformClass="FR2035_U_FullGhillie_tna";
 		hiddenSelectionsTextures[]=
 		{
 			"\fr2035_characters_f\data\fr2035_ghillie_coverall_co.paa",
@@ -4919,7 +4919,7 @@ class CfgVehicles
 		};
 		identityTypes[]=
 		{
-			"LanguageGRE_F",
+			"LanguageENGFRE_F",
 			"Head_NATO_camo_arid",
 			"G_NATO_sniper"
 		};
@@ -4944,7 +4944,7 @@ class CfgVehicles
 		textSingular="$STR_A3_nameSound_veh_infantry_sniper_s";
 		textPlural="$STR_A3_nameSound_veh_infantry_sniper_p";
 		nameSound="veh_infantry_sniper_s";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_Sharpshooter_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Sharpshooter_F.jpg";
 		_generalMacro="FR2035_Sharpshooter_F";
 		scope=2;
 		displayName="$STR_A3_cfgVehicles_B_Sharpshooter_F0";
@@ -4952,16 +4952,16 @@ class CfgVehicles
 		role="Marksman";
 		weapons[]=
 		{
-			"srifle_FR2035_DMR_03_AMS_LP_F",
-			"hgun_P07_F",
+			"FR2035_srifle_417_blk_AMS_LP_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put",
 			"Binocular"
 		};
 		respawnWeapons[]=
 		{
-			"srifle_FR2035_DMR_03_AMS_LP_F",
-			"hgun_P07_F",
+			"FR2035_srifle_417_blk_AMS_LP_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put",
 			"Binocular"
@@ -5008,8 +5008,8 @@ class CfgVehicles
 		};
 		linkedItems[]=
 		{
-			"V_FR2035_PlateCarrier1_ce",
-			"H_FR2035_Helmet_ce",
+			"FR2035_V_PlateCarrier1_ce",
+			"FR2035_H_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -5018,8 +5018,8 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_FR2035_PlateCarrier1_ce",
-			"H_FR2035_Helmet_ce",
+			"FR2035_V_PlateCarrier1_ce",
+			"FR2035_H_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -5047,7 +5047,7 @@ class CfgVehicles
 		textSingular="$STR_A3_nameSound_veh_infantry_sniper_s";
 		textPlural="$STR_A3_nameSound_veh_infantry_sniper_p";
 		nameSound="veh_infantry_sniper_s";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_Recon_Sharpshooter_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Recon_Sharpshooter_F.jpg";
 		_generalMacro="FR2035_Recon_Sharpshooter_F";
 		scope=2;
 		displayName="$STR_A3_cfgVehicles_B_Recon_Sharpshooter_F0";
@@ -5055,7 +5055,7 @@ class CfgVehicles
 		role="Marksman";
 		weapons[]=
 		{
-			"srifle_FR2035_DMR_02_AMS_LP_S_F",
+			"FR2035_srifle_417_blk_AMS_LP_S_F",
 			"hgun_P07_snds_F",
 			"Throw",
 			"Put",
@@ -5063,7 +5063,7 @@ class CfgVehicles
 		};
 		respawnWeapons[]=
 		{
-			"srifle_FR2035_DMR_02_AMS_LP_S_F",
+			"FR2035_srifle_417_blk_AMS_LP_S_F",
 			"hgun_P07_snds_F",
 			"Throw",
 			"Put",
@@ -5071,14 +5071,14 @@ class CfgVehicles
 		};
 		magazines[]=
 		{
-			"10Rnd_338_Mag",
-			"10Rnd_338_Mag",
-			"10Rnd_338_Mag",
-			"10Rnd_338_Mag",
-			"10Rnd_338_Mag",
-			"10Rnd_338_Mag",
-			"10Rnd_338_Mag",
-			"10Rnd_338_Mag",
+			"20Rnd_762x51_Mag",
+			"20Rnd_762x51_Mag",
+			"20Rnd_762x51_Mag",
+			"20Rnd_762x51_Mag",
+			"20Rnd_762x51_Mag",
+			"20Rnd_762x51_Mag",
+			"20Rnd_762x51_Mag",
+			"20Rnd_762x51_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -5091,14 +5091,14 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"10Rnd_338_Mag",
-			"10Rnd_338_Mag",
-			"10Rnd_338_Mag",
-			"10Rnd_338_Mag",
-			"10Rnd_338_Mag",
-			"10Rnd_338_Mag",
-			"10Rnd_338_Mag",
-			"10Rnd_338_Mag",
+			"20Rnd_762x51_Mag",
+			"20Rnd_762x51_Mag",
+			"20Rnd_762x51_Mag",
+			"20Rnd_762x51_Mag",
+			"20Rnd_762x51_Mag",
+			"20Rnd_762x51_Mag",
+			"20Rnd_762x51_Mag",
+			"20Rnd_762x51_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -5111,7 +5111,7 @@ class CfgVehicles
 		};
 		linkedItems[]=
 		{
-			"V_FR2035_Chestrig_ce",
+			"FR2035_V_Chestrig_ce",
 			"H_Watchcap_camo",
 			"ItemGPS",
 			"ItemMap",
@@ -5122,7 +5122,7 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_FR2035_Chestrig_ce",
+			"FR2035_V_Chestrig_ce",
 			"H_Watchcap_camo",
 			"ItemGPS",
 			"ItemMap",
@@ -5152,7 +5152,7 @@ class CfgVehicles
 		textSingular="$STR_A3_nameSound_veh_infantry_MG_s";
 		textPlural="$STR_A3_nameSound_veh_infantry_MG_p";
 		nameSound="veh_infantry_MG_s";
-		editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_HeavyGunner_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_HeavyGunner_F.jpg";
 		_generalMacro="FR2035_HeavyGunner_F";
 		scope=2;
 		displayName="$STR_A3_cfgVehicles_B_HeavyGunner_F0";
@@ -5161,15 +5161,15 @@ class CfgVehicles
 		role="MachineGunner";
 		weapons[]=
 		{
-			"MMG_FR2035_02_black_RCO_LP_BI_F",
-			"hgun_P07_F",
+			"FR2035_MMG_02_black_RCO_LP_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"MMG_FR2035_02_black_RCO_LP_BI_F",
-			"hgun_P07_F",
+			"FR2035_MMG_02_black_RCO_LP_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
@@ -5201,8 +5201,8 @@ class CfgVehicles
 		};
 		linkedItems[]=
 		{
-			"V_FR2035_PlateCarrier1_ce",
-			"H_FR2035_Helmet_ce",
+			"FR2035_V_PlateCarrier1_ce",
+			"FR2035_H_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -5211,8 +5211,8 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_FR2035_PlateCarrier1_ce",
-			"H_FR2035_Helmet_ce",
+			"FR2035_V_PlateCarrier1_ce",
+			"FR2035_H_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -5228,7 +5228,7 @@ class CfgVehicles
 		editorSubcategory="EdSubcat_Personnel_FR2035_CTRG";
 		displayName="";
 		model="\A3\Characters_F_Exp\BLUFOR\B_CTRG_Soldier_01_F.p3d";
-		uniformClass="U_FR2035_CTRG_Uniform_ce";
+		uniformClass="FR2035_U_CTRG_Uniform_ce";
 		hiddenSelections[]=
 		{
 			"camo",
@@ -5241,7 +5241,7 @@ class CfgVehicles
 		backpack="";
 		weapons[]=
 		{
-			"arifle_SPAR_01_blk_ERCO_Pointer_F",
+			"FR2035_arifle_416F_blk_ERCO_Pointer_F",
 			"hgun_P07_khk_Snds_F",
 			"Throw",
 			"Put",
@@ -5249,7 +5249,7 @@ class CfgVehicles
 		};
 		respawnWeapons[]=
 		{
-			"arifle_SPAR_01_blk_ERCO_Pointer_F",
+			"FR2035_arifle_416F_blk_ERCO_Pointer_F",
 			"hgun_P07_khk_Snds_F",
 			"Throw",
 			"Put",
@@ -5309,8 +5309,8 @@ class CfgVehicles
 		};
 		linkedItems[]=
 		{
-			"H_FR2035_CTRG_Helmet_TI_ce",
-			"V_FR2035_TacVest_ce",
+			"FR2035_H_CTRG_Helmet_TI_ce",
+			"FR2035_V_TacVest_ce",
 			"G_Balaclava_TI_G_blk_F",
 			"ItemGPS",
 			"ItemMap",
@@ -5321,8 +5321,8 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"H_FR2035_CTRG_Helmet_TI_ce",
-			"V_FR2035_TacVest_ce",
+			"FR2035_H_CTRG_Helmet_TI_ce",
+			"FR2035_V_TacVest_ce",
 			"G_Balaclava_TI_G_blk_F",
 			"ItemGPS",
 			"ItemMap",
@@ -5337,7 +5337,7 @@ class CfgVehicles
 		author="$STR_FR2035_Author";
 		_generalMacro="FR2035_CTRG_Soldier_F";
 		faction="FR2035_F";
-		uniformClass="U_FR2035_CTRG_Uniform_ce";
+		uniformClass="FR2035_U_CTRG_Uniform_ce";
 		model="\A3\Characters_F_Exp\BLUFOR\B_CTRG_Soldier_01_F.p3d";
 		scope=1;
 		hiddenSelectionsTextures[]=
@@ -5363,7 +5363,7 @@ class CfgVehicles
 		author="$STR_FR2035_Author";
 		_generalMacro="FR2035_CTRG_Soldier_2_F";
 		faction="FR2035_F";
-		uniformClass="U_FR2035_CTRG_Uniform_ce_tshirt";
+		uniformClass="FR2035_U_CTRG_Uniform_ce_tshirt";
 		model="\A3\Characters_F_Exp\BLUFOR\B_CTRG_Soldier_02_F.p3d";
 		scope=1;
 		hiddenSelections[]=
@@ -5401,7 +5401,7 @@ class CfgVehicles
 		author="$STR_FR2035_Author";
 		_generalMacro="FR2035_CTRG_Soldier_3_F";
 		faction="FR2035_F";
-		uniformClass="U_FR2035_CTRG_Uniform_ce_vest";
+		uniformClass="FR2035_U_CTRG_Uniform_ce_vest";
 		model="\A3\Characters_F_Exp\BLUFOR\B_CTRG_Soldier_03_F.p3d";
 		scope=1;
 		hiddenSelectionsTextures[]=
@@ -5428,14 +5428,14 @@ class CfgVehicles
 	class FR2035_CTRG_Soldier_TL_F: FR2035_CTRG_Soldier_h_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F_Exp\Data\CfgVehicles\B_CTRG_Soldier_TL_tna_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_CTRG_Soldier_TL_F.jpg";
 		_generalMacro="FR2035_CTRG_Soldier_TL_F";
 		scope=2;
 		displayName="$STR_B_SOLDIER_TL_F0";
 		cost=250000;
 		weapons[]=
 		{
-			"arifle_SPAR_01_blk_ERCO_Pointer_F",
+			"FR2035_arifle_416F_blk_ERCO_Pointer_F",
 			"hgun_P07_khk_Snds_F",
 			"Throw",
 			"Put",
@@ -5443,7 +5443,7 @@ class CfgVehicles
 		};
 		respawnWeapons[]=
 		{
-			"arifle_SPAR_01_blk_ERCO_Pointer_F",
+			"FR2035_arifle_416F_blk_ERCO_Pointer_F",
 			"hgun_P07_khk_Snds_F",
 			"Throw",
 			"Put",
@@ -5493,14 +5493,14 @@ class CfgVehicles
 	class FR2035_CTRG_Soldier_Exp_F: FR2035_CTRG_Soldier_h_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F_Exp\Data\CfgVehicles\B_CTRG_Soldier_Exp_tna_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_CTRG_Soldier_Exp_F.jpg";
 		_generalMacro="FR2035_CTRG_Soldier_Exp_F";
 		scope=2;
 		displayName="$STR_A3_B_CTRG_Soldier_Exp_tna_F0";
 		role="Sapper";
 		canDeactivateMines=1;
 		detectSkill=38;
-		backpack="B_FR2035_Kitbag_ce_CTRGExp_F";
+		backpack="FR2035_B_Kitbag_ce_CTRGExp_F";
 		magazines[]=
 		{
 			"30Rnd_556x45_Stanag_red",
@@ -5545,8 +5545,8 @@ class CfgVehicles
 		};
 		linkedItems[]=
 		{
-			"H_FR2035_CTRG_Helmet_TI_ce",
-			"V_FR2035_PlateCarrierIAGL_ce",
+			"FR2035_H_CTRG_Helmet_TI_ce",
+			"FR2035_V_PlateCarrierIAGL_ce",
 			"G_Balaclava_TI_G_blk_F",
 			"ItemGPS",
 			"ItemMap",
@@ -5557,8 +5557,8 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"H_FR2035_CTRG_Helmet_TI_ce",
-			"V_FR2035_PlateCarrierIAGL_ce",
+			"FR2035_H_CTRG_Helmet_TI_ce",
+			"FR2035_V_PlateCarrierIAGL_ce",
 			"G_Balaclava_TI_G_blk_F",
 			"ItemGPS",
 			"ItemMap",
@@ -5588,12 +5588,12 @@ class CfgVehicles
 		textSingular="$STR_A3_nameSound_veh_infantry_medic_s";
 		textPlural="$STR_A3_nameSound_veh_infantry_medic_p";
 		nameSound="veh_infantry_medic_s";
-		editorPreview="\A3\EditorPreviews_F_Exp\Data\CfgVehicles\B_CTRG_Soldier_Medic_tna_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_CTRG_Soldier_Medic_F.jpg";
 		_generalMacro="FR2035_CTRG_Soldier_Medic_F";
 		scope=2;
 		displayName="$STR_A3_B_CTRG_Soldier_Medic_tna_F0";
 		role="CombatLifeSaver";
-		backpack="B_FR2035_AssaultPack_ce_CTRGMedic_F";
+		backpack="FR2035_B_AssaultPack_ce_CTRGMedic_F";
 		magazines[]=
 		{
 			"30Rnd_556x45_Stanag_red",
@@ -5652,7 +5652,7 @@ class CfgVehicles
 		textSingular="$STR_A3_nameSound_veh_infantry_sniper_s";
 		textPlural="$STR_A3_nameSound_veh_infantry_sniper_p";
 		nameSound="veh_infantry_sniper_s";
-		editorPreview="\A3\EditorPreviews_F_Exp\Data\CfgVehicles\B_CTRG_Soldier_M_tna_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_CTRG_Soldier_M_F.jpg";
 		_generalMacro="FR2035_CTRG_Soldier_M_F";
 		scope=2;
 		displayName="$STR_B_SOLDIER_M_F0";
@@ -5661,7 +5661,7 @@ class CfgVehicles
 		backpack="";
 		weapons[]=
 		{
-			"arifle_SPAR_03_blk_MOS_Pointer_Bipod_F",
+			"FR2035_srifle_417_blk_MOS_Pointer_Bipod_F",
 			"hgun_P07_khk_Snds_F",
 			"Throw",
 			"Put",
@@ -5669,7 +5669,7 @@ class CfgVehicles
 		};
 		respawnWeapons[]=
 		{
-			"arifle_SPAR_03_blk_MOS_Pointer_Bipod_F",
+			"FR2035_srifle_417_blk_MOS_Pointer_Bipod_F",
 			"hgun_P07_khk_Snds_F",
 			"Throw",
 			"Put",
@@ -5719,7 +5719,7 @@ class CfgVehicles
 	class FR2035_CTRG_Soldier_F: FR2035_CTRG_Soldier_h_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F_Exp\Data\CfgVehicles\B_CTRG_Soldier_tna_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_CTRG_Soldier_F.jpg";
 		_generalMacro="FR2035_CTRG_Soldier_F";
 		scope=2;
 		displayName="$STR_A3_B_CTRG_Soldier_tna_F0";
@@ -5729,17 +5729,17 @@ class CfgVehicles
 	class FR2035_CTRG_Soldier_LAT_F: FR2035_CTRG_Soldier_h_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F_Exp\Data\CfgVehicles\B_CTRG_Soldier_LAT_tna_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_CTRG_Soldier_LAT_F.jpg";
 		_generalMacro="FR2035_CTRG_Soldier_LAT_F";
 		scope=2;
 		displayName="$STR_A3_B_CTRG_Soldier_LAT_tna_F0";
 		role="MissileSpecialist";
 		cost=130000;
 		threat[]={0.80000001,0.80000001,0.30000001};
-		backpack="B_FR2035_AssaultPack_ce_CTRGLAT_F";
+		backpack="FR2035_B_AssaultPack_ce_CTRGLAT_F";
 		weapons[]=
 		{
-			"arifle_SPAR_01_blk_ERCO_Pointer_F",
+			"FR2035_arifle_416F_blk_ERCO_Pointer_F",
 			"launch_NLAW_F",
 			"hgun_P07_khk_Snds_F",
 			"Throw",
@@ -5748,7 +5748,7 @@ class CfgVehicles
 		};
 		respawnWeapons[]=
 		{
-			"arifle_SPAR_01_blk_ERCO_Pointer_F",
+			"FR2035_arifle_416F_blk_ERCO_Pointer_F",
 			"launch_NLAW_F",
 			"hgun_P07_khk_Snds_F",
 			"Throw",
@@ -5797,7 +5797,7 @@ class CfgVehicles
 	class FR2035_CTRG_Soldier_AR_F: FR2035_CTRG_Soldier_h_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F_Exp\Data\CfgVehicles\B_CTRG_Soldier_AR_tna_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_CTRG_Soldier_AR_F.jpg";
 		_generalMacro="FR2035_CTRG_Soldier_AR_F";
 		scope=2;
 		displayName="$STR_B_SOLDIER_AR_F0";
@@ -5806,24 +5806,23 @@ class CfgVehicles
 		backpack="";
 		weapons[]=
 		{
-			"arifle_SPAR_02_blk_ERCO_Pointer_F",
+			"FR2035_LMG_Minimi_blk_ERCO_Pointer_F",
 			"hgun_P07_khk_Snds_F",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_SPAR_02_blk_ERCO_Pointer_F",
+			"FR2035_LMG_Minimi_blk_ERCO_Pointer_F",
 			"hgun_P07_khk_Snds_F",
 			"Throw",
 			"Put"
 		};
 		magazines[]=
 		{
-			"150Rnd_556x45_Drum_Mag_F",
-			"150Rnd_556x45_Drum_Mag_F",
-			"150Rnd_556x45_Drum_Mag_F",
-			"150Rnd_556x45_Drum_Mag_Tracer_F",
+			"200Rnd_556x45_Box_Red_F",
+			"200Rnd_556x45_Box_Red_F",
+			"200Rnd_556x45_Box_Tracer_Red_F",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -5835,10 +5834,9 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"150Rnd_556x45_Drum_Mag_F",
-			"150Rnd_556x45_Drum_Mag_F",
-			"150Rnd_556x45_Drum_Mag_F",
-			"150Rnd_556x45_Drum_Mag_Tracer_F",
+			"200Rnd_556x45_Box_Red_F",
+			"200Rnd_556x45_Box_Red_F",
+			"200Rnd_556x45_Box_Tracer_Red_F",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -5852,7 +5850,7 @@ class CfgVehicles
 	class FR2035_CTRG_Soldier_JTAC_F: FR2035_CTRG_Soldier_h_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F_Exp\Data\CfgVehicles\B_CTRG_Soldier_JTAC_tna_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_CTRG_Soldier_JTAC_F.jpg";
 		_generalMacro="FR2035_CTRG_Soldier_JTAC_F";
 		scope=2;
 		displayName="$STR_A3_B_CTRG_Soldier_JTAC_tna_F0";
@@ -5860,7 +5858,7 @@ class CfgVehicles
 		backpack="";
 		weapons[]=
 		{
-			"arifle_SPAR_01_GL_blk_ERCO_Pointer_F",
+			"FR2035_arifle_416F_GL_blk_ERCO_Pointer_F",
 			"hgun_P07_khk_Snds_F",
 			"Throw",
 			"Put",
@@ -5868,7 +5866,7 @@ class CfgVehicles
 		};
 		respawnWeapons[]=
 		{
-			"arifle_SPAR_01_GL_blk_ERCO_Pointer_F",
+			"FR2035_arifle_416F_GL_blk_ERCO_Pointer_F",
 			"hgun_P07_khk_Snds_F",
 			"Throw",
 			"Put",
@@ -5940,8 +5938,8 @@ class CfgVehicles
 		};
 		linkedItems[]=
 		{
-			"H_FR2035_CTRG_Helmet_TI_ce",
-			"V_FR2035_PlateCarrierIAGL_ce",
+			"FR2035_H_CTRG_Helmet_TI_ce",
+			"FR2035_V_PlateCarrierIAGL_ce",
 			"G_Balaclava_TI_G_blk_F",
 			"ItemGPS",
 			"ItemMap",
@@ -5952,8 +5950,8 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"H_FR2035_CTRG_Helmet_TI_ce",
-			"V_FR2035_PlateCarrierIAGL_ce",
+			"FR2035_H_CTRG_Helmet_TI_ce",
+			"FR2035_V_PlateCarrierIAGL_ce",
 			"G_Balaclava_TI_G_blk_F",
 			"ItemGPS",
 			"ItemMap",
@@ -5994,7 +5992,7 @@ class CfgVehicles
 	class FR2035_Deck_Crew_F: FR2035_Helipilot_F
 	{
 		displayName="$STR_A3_B_Deck_Crew_name";
-		editorPreview="\A3\EditorPreviews_F_Jets\Data\CfgVehicles\B_Deck_Crew_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Deck_Crew_F.jpg";
 		Items[]=
 		{
 			"FirstAidKit"
@@ -6006,7 +6004,7 @@ class CfgVehicles
 		linkedItems[]=
 		{
 			"V_DeckCrew_yellow_F",
-			"H_FR2035_HelmetCrew",
+			"FR2035_H_HelmetCrew",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -6016,7 +6014,7 @@ class CfgVehicles
 		respawnLinkedItems[]=
 		{
 			"V_DeckCrew_yellow_F",
-			"H_FR2035_HelmetCrew",
+			"FR2035_H_HelmetCrew",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -6040,16 +6038,16 @@ class CfgVehicles
 	class FR2035_Fighter_Pilot_F: FR2035_Pilot_F
 	{
 		displayName="$STR_A3_B_Fighter_Pilot_name";
-		editorPreview="\A3\EditorPreviews_F_Jets\Data\CfgVehicles\B_Fighter_Pilot_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Fighter_Pilot_F.jpg";
 		weapons[]=
 		{
-			"hgun_P07_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"hgun_P07_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
@@ -6078,15 +6076,15 @@ class CfgVehicles
 	class FR2035_soldier_mine_F: FR2035_soldier_exp_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F_Orange\Data\CfgVehicles\B_soldier_mine_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_soldier_mine_F.jpg";
 		_generalMacro="FR2035_soldier_mine_F";
 		displayName="$STR_A3_B_soldier_mine_F0";
-		backpack="B_FR2035_Carryall_ce_Mine";
+		backpack="FR2035_B_Carryall_ce_Mine";
 	};
 	class FR2035_soldier_UAV_06_F: FR2035_soldier_UAV_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F_Orange\Data\CfgVehicles\B_soldier_UAV_06_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_soldier_UAV_06_F.jpg";
 		_generalMacro="FR2035_soldier_UAV_06_F";
 		displayName="$STR_A3_B_soldier_UAV_06_F0";
 		backpack="B_UAV_06_backpack_F";
@@ -6094,7 +6092,7 @@ class CfgVehicles
 	class FR2035_soldier_UAV_06_medical_F: FR2035_soldier_UAV_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\A3\EditorPreviews_F_Orange\Data\CfgVehicles\B_soldier_UAV_06_medical_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_soldier_UAV_06_medical_F.jpg";
 		_generalMacro="FR2035_soldier_UAV_06_medical_F";
 		displayName="$STR_A3_B_soldier_UAV_06_medical_F0";
 		backpack="B_UAV_06_medical_backpack_F";
@@ -6119,35 +6117,35 @@ class CfgVehicles
 		textSingular="$STR_A3_nameSound_veh_infantry_AT_s";
 		textPlural="$STR_A3_nameSound_veh_infantry_AT_p";
 		nameSound="veh_infantry_AT_s";
-		editorPreview="\A3\EditorPreviews_F_Tank\Data\CfgVehicles\B_soldier_LAT2_F.jpg";
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_soldier_LAT2_F.jpg";
 		_generalMacro="FR2035_soldier_LAT2_F";
 		scope=2;
 		displayName="$STR_A3_CfgVehicles_B_soldier_LAT2_F0";
-		backpack="B_FR2035_AssaultPack_ce_LAT2";
+		backpack="FR2035_B_AssaultPack_ce_LAT2";
 		weapons[]=
 		{
-			"arifle_FR2035_MX_ACO_pointer_F",
+			"FR2035_arifle_416F_blk_ACO_pointer_F",
 			"launch_MRAWS_olive_F",
-			"hgun_P07_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[]=
 		{
-			"arifle_FR2035_MX_ACO_pointer_F",
+			"FR2035_arifle_416F_blk_ACO_pointer_F",
 			"launch_MRAWS_olive_F",
-			"hgun_P07_F",
+			"hgun_P07_blk_F",
 			"Throw",
 			"Put"
 		};
 		magazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -6159,12 +6157,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
-			"30Rnd_65x39_caseless_black_mag",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_red",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
 			"16Rnd_9x21_Mag",
@@ -6180,8 +6178,8 @@ class CfgVehicles
 		role="MissileSpecialist";
 		linkedItems[]=
 		{
-			"V_FR2035_PlateCarrier2_ce",
-			"H_FR2035_Helmet_ce",
+			"FR2035_V_PlateCarrier2_ce",
+			"FR2035_H_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -6190,8 +6188,8 @@ class CfgVehicles
 		};
 		respawnLinkedItems[]=
 		{
-			"V_FR2035_PlateCarrier2_ce",
-			"H_FR2035_Helmet_ce",
+			"FR2035_V_PlateCarrier2_ce",
+			"FR2035_H_Helmet_ce",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -6208,7 +6206,7 @@ class CfgWeapons
 	class ItemCore;
 	class HeadgearItem;
 
-	class U_FR2035_CombatUniform_ce: Uniform_Base
+	class FR2035_U_CombatUniform_ce: Uniform_Base
 	{
 		author="$STR_FR2035_Author";
 		scope=2;
@@ -6231,7 +6229,7 @@ class CfgWeapons
 			mass=40;
 		};
 	};
-	class U_FR2035_CombatUniform_ce_tshirt: Uniform_Base
+	class FR2035_U_CombatUniform_ce_tshirt: Uniform_Base
 	{
 		author="$STR_FR2035_Author";
 		scope=2;
@@ -6254,7 +6252,7 @@ class CfgWeapons
 			mass=40;
 		};
 	};
-	class U_FR2035_CombatUniform_ce_vest: Uniform_Base
+	class FR2035_U_CombatUniform_ce_vest: Uniform_Base
 	{
 		author="$STR_FR2035_Author";
 		scope=2;
@@ -6277,7 +6275,7 @@ class CfgWeapons
 			mass=40;
 		};
 	};
-	class U_FR2035_GhillieSuit: Uniform_Base
+	class FR2035_U_GhillieSuit: Uniform_Base
 	{
 		author="$STR_FR2035_Author";
 		scope=2;
@@ -6300,7 +6298,7 @@ class CfgWeapons
 			mass=60;
 		};
 	};
-	class U_FR2035_HeliPilotCoveralls: Uniform_Base
+	class FR2035_U_HeliPilotCoveralls: Uniform_Base
 	{
 		author="$STR_FR2035_Author";
 		scope=2;
@@ -6323,7 +6321,7 @@ class CfgWeapons
 			mass=60;
 		};
 	};
-	class U_FR2035_PilotCoveralls: Uniform_Base
+	class FR2035_U_PilotCoveralls: Uniform_Base
 	{
 		author="$STR_FR2035_Author";
 		scope=2;
@@ -6346,7 +6344,7 @@ class CfgWeapons
 			mass=80;
 		};
 	};
-	class U_FR2035_Wetsuit: Uniform_Base
+	class FR2035_U_Wetsuit: Uniform_Base
 	{
 		author="$STR_FR2035_Author";
 		scope=2;
@@ -6370,7 +6368,7 @@ class CfgWeapons
 			mass=60;
 		};
 	};
-	class U_FR2035_survival_uniform: Uniform_Base
+	class FR2035_U_survival_uniform: Uniform_Base
 	{
 		author="$STR_FR2035_Author";
 		scope=2;
@@ -6394,7 +6392,7 @@ class CfgWeapons
 			mass=60;
 		};
 	};
-	class U_FR2035_Soldier_VR: Uniform_Base
+	class FR2035_U_Soldier_VR: Uniform_Base
 	{
 		author="$STR_FR2035_Author";
 		scope=1;
@@ -6417,7 +6415,7 @@ class CfgWeapons
 			"#(argb,8,8,3)color(0.0,0.3,0.9,1,ca)"
 		};
 	};
-	class U_FR2035_Protagonist_VR: Uniform_Base
+	class FR2035_U_Protagonist_VR: Uniform_Base
 	{
 		author="$STR_FR2035_Author";
 		scope=2;
@@ -6440,7 +6438,7 @@ class CfgWeapons
 			mass=60;
 		};
 	};
-	class U_FR2035_FullGhillie_lsh: Uniform_Base
+	class FR2035_U_FullGhillie_lsh: Uniform_Base
 	{
 		author="$STR_FR2035_Author";
 		scope=2;
@@ -6463,7 +6461,7 @@ class CfgWeapons
 			mass=80;
 		};
 	};
-	class U_FR2035_FullGhillie_sard: Uniform_Base
+	class FR2035_U_FullGhillie_sard: Uniform_Base
 	{
 		author="$STR_FR2035_Author";
 		scope=2;
@@ -6486,7 +6484,7 @@ class CfgWeapons
 			mass=80;
 		};
 	};
-	class U_FR2035_FullGhillie_ard: Uniform_Base
+	class FR2035_U_FullGhillie_ard: Uniform_Base
 	{
 		author="$STR_FR2035_Author";
 		scope=2;
@@ -6509,7 +6507,7 @@ class CfgWeapons
 			mass=80;
 		};
 	};
-	class U_FR2035_FullGhillie_tna: Uniform_Base
+	class FR2035_U_FullGhillie_tna: Uniform_Base
 	{
 		author="$STR_FR2035_Author";
 		scope=2;
@@ -6532,7 +6530,7 @@ class CfgWeapons
 			mass=80;
 		};
 	};
-	class U_FR2035_CTRG_Uniform_ce: Uniform_Base
+	class FR2035_U_CTRG_Uniform_ce: Uniform_Base
 	{
 		author="$STR_FR2035_Author";
 		scope=2;
@@ -6555,7 +6553,7 @@ class CfgWeapons
 			mass=40;
 		};
 	};
-	class U_FR2035_CTRG_Uniform_ce_tshirt: Uniform_Base
+	class FR2035_U_CTRG_Uniform_ce_tshirt: Uniform_Base
 	{
 		author="$STR_FR2035_Author";
 		scope=2;
@@ -6578,7 +6576,7 @@ class CfgWeapons
 			mass=40;
 		};
 	};
-	class U_FR2035_CTRG_Uniform_ce_vest: Uniform_Base
+	class FR2035_U_CTRG_Uniform_ce_vest: Uniform_Base
 	{
 		author="$STR_FR2035_Author";
 		scope=2;
@@ -6601,10 +6599,10 @@ class CfgWeapons
 			mass=40;
 		};
 	};
-	class H_FR2035_Helmet_ce: ItemCore
+	class FR2035_H_Helmet_ce: ItemCore
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="H_FR2035_Helmet_ce";
+		_generalMacro="FR2035_H_Helmet_ce";
 		scope=2;
 		weaponPoolAvailable=1;
 		displayName="$STR_FR2035_Helmet_ce";
@@ -6639,10 +6637,10 @@ class CfgWeapons
 			};
 		};
 	};
-	class H_FR2035_Helmet_ce_camo: H_FR2035_Helmet_ce
+	class FR2035_H_Helmet_ce_camo: FR2035_H_Helmet_ce
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="H_FR2035_Helmet_ce_camo";
+		_generalMacro="FR2035_H_Helmet_ce_camo";
 		displayName="$STR_FR2035_Helmet_ce_camo";
 		model="\A3\Characters_F\BLUFOR\headgear_b_helmet_camo";
 		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_helmet_camo_ce_ca.paa";
@@ -6677,10 +6675,10 @@ class CfgWeapons
 			};
 		};
 	};
-	class H_FR2035_Helmet_ce_light: H_FR2035_Helmet_ce
+	class FR2035_H_Helmet_ce_light: FR2035_H_Helmet_ce
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="H_FR2035_Helmet_ce_light";
+		_generalMacro="FR2035_H_Helmet_ce_light";
 		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_helmet_light_ce_ca.paa";
 		displayName="$STR_FR2035_Helmet_ce_light";
 		model="\A3\Characters_F\BLUFOR\headgear_b_helmet_light";
@@ -6700,10 +6698,10 @@ class CfgWeapons
 			};
 		};
 	};
-	class H_FR2035_HelmetSpec_ce: H_FR2035_Helmet_ce
+	class FR2035_H_HelmetSpec_ce: FR2035_H_Helmet_ce
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="H_FR2035_HelmetSpec_ce";
+		_generalMacro="FR2035_H_HelmetSpec_ce";
 		scope=2;
 		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_helmet_ce_ca.paa";
 		displayName="$STR_FR2035_HelmetSpec_ce";
@@ -6730,10 +6728,10 @@ class CfgWeapons
 		};
 	};
 	class H_Bandanna_surfer;
-	class H_FR2035_Bandanna_ce: H_Bandanna_surfer
+	class FR2035_H_Bandanna_ce: H_Bandanna_surfer
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="H_FR2035_Bandanna_ce";
+		_generalMacro="FR2035_H_Bandanna_ce";
 		displayName="$STR_FR2035_Bandanna_ce";
 		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_bandanna_ce_ca.paa";
 		hiddenSelectionsTextures[]=
@@ -6742,10 +6740,10 @@ class CfgWeapons
 		};
 	};
 	class H_Bandanna_khk_hs;
-	class H_FR2035_Bandanna_ce_hs: H_Bandanna_khk_hs
+	class FR2035_H_Bandanna_ce_hs: H_Bandanna_khk_hs
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="H_FR2035_Bandanna_ce_hs";
+		_generalMacro="FR2035_H_Bandanna_ce_hs";
 		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_bandanna_ce_hs_ca.paa";
 		displayName="$STR_FR2035_Bandanna_ce_hs";
 		hiddenSelectionsTextures[]=
@@ -6754,10 +6752,10 @@ class CfgWeapons
 		};
 	};
 	class H_Beret_blk;
-	class H_FR2035_Beret_blue: H_Beret_blk
+	class FR2035_H_Beret_blue: H_Beret_blk
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="H_FR2035_Beret_blue";
+		_generalMacro="FR2035_H_Beret_blue";
 		displayName="$STR_FR2035_Beret_blue";
 		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_beret_blue_ca.paa";
 		hiddenSelectionsTextures[]=
@@ -6765,10 +6763,10 @@ class CfgWeapons
 			"\fr2035_characters_f\data\fr2035_beret_blue_co.paa"
 		};
 	};
-	class H_FR2035_Beret_green: H_Beret_blk
+	class FR2035_H_Beret_green: H_Beret_blk
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="H_FR2035_Beret_green";
+		_generalMacro="FR2035_H_Beret_green";
 		displayName="$STR_FR2035_Beret_green";
 		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_beret_green_ca.paa";
 		hiddenSelectionsTextures[]=
@@ -6776,10 +6774,10 @@ class CfgWeapons
 			"\fr2035_characters_f\data\fr2035_beret_green_co.paa"
 		};
 	};
-	class H_FR2035_Beret_marine: H_Beret_blk
+	class FR2035_H_Beret_marine: H_Beret_blk
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="H_FR2035_Beret_marine";
+		_generalMacro="FR2035_H_Beret_marine";
 		displayName="$STR_FR2035_Beret_marine";
 		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_beret_marine_ca.paa";
 		hiddenSelectionsTextures[]=
@@ -6787,10 +6785,10 @@ class CfgWeapons
 			"\fr2035_characters_f\data\fr2035_beret_marine_co.paa"
 		};
 	};
-	class H_FR2035_Beret_red: H_Beret_blk
+	class FR2035_H_Beret_red: H_Beret_blk
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="H_FR2035_Beret_red";
+		_generalMacro="FR2035_H_Beret_red";
 		displayName="$STR_FR2035_Beret_red";
 		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_beret_red_ca.paa";
 		hiddenSelectionsTextures[]=
@@ -6799,10 +6797,10 @@ class CfgWeapons
 		};
 	};
 	class H_Booniehat_khk;
-	class H_FR2035_Booniehat_ce: H_Booniehat_khk
+	class FR2035_H_Booniehat_ce: H_Booniehat_khk
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="H_FR2035_Booniehat_ce";
+		_generalMacro="FR2035_H_Booniehat_ce";
 		displayName="$STR_FR2035_Booniehat_ce";
 		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_booniehat_ce_ca.paa";
 		hiddenSelectionsTextures[]=
@@ -6811,10 +6809,10 @@ class CfgWeapons
 		};
 	};
 	class H_Booniehat_khk_hs;
-	class H_FR2035_Booniehat_ce_hs: H_Booniehat_khk_hs
+	class FR2035_H_Booniehat_ce_hs: H_Booniehat_khk_hs
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="H_FR2035_Booniehat_ce_hs";
+		_generalMacro="FR2035_H_Booniehat_ce_hs";
 		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_booniehat_ce_hs_ca.paa";
 		displayName="$STR_FR2035_Booniehat_ce_hs";
 		hiddenSelectionsTextures[]=
@@ -6823,10 +6821,10 @@ class CfgWeapons
 		};
 	};
 	class H_Cap_red;
-	class H_FR2035_Cap_ce: H_Cap_red
+	class FR2035_H_Cap_ce: H_Cap_red
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="H_FR2035_Cap_ce";
+		_generalMacro="FR2035_H_Cap_ce";
 		displayName="$STR_FR2035_Cap_ce";
 		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_cap_ce_ca.paa";
 		hiddenSelectionsTextures[]=
@@ -6835,10 +6833,10 @@ class CfgWeapons
 		};
 	};
 	class H_Cap_oli_hs;
-	class H_FR2035_Cap_ce_hs: H_Cap_oli_hs
+	class FR2035_H_Cap_ce_hs: H_Cap_oli_hs
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="H_FR2035_Cap_ce_hs";
+		_generalMacro="FR2035_H_Cap_ce_hs";
 		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_cap_ce_hs_ca.paa";
 		displayName="$STR_FR2035_Cap_ce_hs";
 		hiddenSelectionsTextures[]=
@@ -6847,10 +6845,10 @@ class CfgWeapons
 		};
 	};
 	class H_MilCap_ocamo;
-	class H_FR2035_MilCap_ce: H_MilCap_ocamo
+	class FR2035_H_MilCap_ce: H_MilCap_ocamo
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="H_FR2035_MilCap_ce";
+		_generalMacro="FR2035_H_MilCap_ce";
 		displayName="$STR_FR2035_MilCap_ce";
 		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_milcap_ce_ca.paa";
 		hiddenSelectionsTextures[]=
@@ -6858,10 +6856,10 @@ class CfgWeapons
 			"\fr2035_characters_f\data\fr2035_milcap_ce_co.paa"
 		};
 	};
-	class H_FR2035_HelmetCrew: H_FR2035_Helmet_ce
+	class FR2035_H_HelmetCrew: FR2035_H_Helmet_ce
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="H_FR2035_HelmetCrew";
+		_generalMacro="FR2035_H_HelmetCrew";
 		displayName="$STR_FR2035_HelmetCrew";
 		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_helmetcrew_ca.paa";
 		model="\A3\Characters_F\BLUFOR\headgear_b_helmet_crew";
@@ -6886,10 +6884,10 @@ class CfgWeapons
 			};
 		};
 	};
-	class H_FR2035_PilotHelmetFighter: H_FR2035_Helmet_ce
+	class FR2035_H_PilotHelmetFighter: FR2035_H_Helmet_ce
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="H_FR2035_PilotHelmetFighter";
+		_generalMacro="FR2035_H_PilotHelmetFighter";
 		displayName="$STR_FR2035_HelmetPilot";
 		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_pilot_fighter_ca.paa";
 		model="A3\Characters_F\Common\headgear_helmet_pilot";
@@ -6924,10 +6922,10 @@ class CfgWeapons
 			"Integrated_NVG_F"
 		};
 	};
-	class H_FR2035_PilotHelmetHeli: H_FR2035_Helmet_ce
+	class FR2035_H_PilotHelmetHeli: FR2035_H_Helmet_ce
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="H_FR2035_PilotHelmetHeli";
+		_generalMacro="FR2035_H_PilotHelmetHeli";
 		displayName="$STR_FR2035_HelmetHeliPilot";
 		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_pilot_helmet_heli_ca.paa";
 		model="A3\Characters_F\Common\headgear_helmet_heli";
@@ -6951,10 +6949,10 @@ class CfgWeapons
 			};
 		};
 	};
-	class H_FR2035_CrewHelmetHeli: H_FR2035_Helmet_ce
+	class FR2035_H_CrewHelmetHeli: FR2035_H_Helmet_ce
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="H_FR2035_CrewHelmetHeli";
+		_generalMacro="FR2035_H_CrewHelmetHeli";
 		displayName="$STR_FR2035_HelmetHeliCrew";
 		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_crew_helmet_heli_ca.paa";
 		model="A3\Characters_F\Common\headgear_helmet_heli_shield";
@@ -6984,10 +6982,10 @@ class CfgWeapons
 			};
 		};
 	};
-	class H_FR2035_CTRG_Helmet_TI_ce: H_FR2035_Helmet_ce
+	class FR2035_H_CTRG_Helmet_TI_ce: FR2035_H_Helmet_ce
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="H_FR2035_CTRG_Helmet_TI_ce";
+		_generalMacro="FR2035_H_CTRG_Helmet_TI_ce";
 		displayName="$STR_FR2035_HelmetSpec_CTRG_ce";
 		picture="\fr2035_characters_f\data\ui\fr2035_icon_h_helmet_ctrg_ce_ca.paa";
 		model="\A3\Characters_F_Exp\BLUFOR\H_HelmetB_TI_tna_F.p3d";
@@ -7027,10 +7025,10 @@ class CfgWeapons
 		};
 	};
 	class V_BandollierB_khk;
-	class V_FR2035_Bandollier_ce: V_BandollierB_khk
+	class FR2035_V_Bandollier_ce: V_BandollierB_khk
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="V_FR2035_Bandollier_ce";
+		_generalMacro="FR2035_V_Bandollier_ce";
 		displayName="$STR_FR2035_Bandollier_ce";
 		picture="\fr2035_characters_f\data\ui\fr2035_icon_v_bandollier_ce_ca.paa";
 		hiddenSelectionsTextures[]=
@@ -7039,10 +7037,10 @@ class CfgWeapons
 		};
 	};
 	class V_Chestrig_khk;
-	class V_FR2035_Chestrig_ce: V_Chestrig_khk
+	class FR2035_V_Chestrig_ce: V_Chestrig_khk
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="V_FR2035_Chestrig_ce";
+		_generalMacro="FR2035_V_Chestrig_ce";
 		scope=2;
 		displayName="$STR_FR2035_Chestrig_ce";
 		picture="\fr2035_characters_f\data\ui\fr2035_icon_v_chestrig_ce_ca.paa";
@@ -7054,10 +7052,10 @@ class CfgWeapons
 		};
 	};
 	class V_PlateCarrier1_blk;
-	class V_FR2035_PlateCarrier1_ce: V_PlateCarrier1_blk
+	class FR2035_V_PlateCarrier1_ce: V_PlateCarrier1_blk
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="V_FR2035_PlateCarrier1_ce";
+		_generalMacro="FR2035_V_PlateCarrier1_ce";
 		displayName="$STR_FR2035_PlateCarrier1_ce";
 		picture="\fr2035_characters_f\data\ui\fr2035_icon_v_platecarrier1_ce_ca.paa";
 		hiddenSelectionsTextures[]=
@@ -7066,10 +7064,10 @@ class CfgWeapons
 		};
 	};
 	class V_PlateCarrier2_blk;
-	class V_FR2035_PlateCarrier2_ce: V_PlateCarrier2_blk
+	class FR2035_V_PlateCarrier2_ce: V_PlateCarrier2_blk
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="V_FR2035_PlateCarrier2_ce";
+		_generalMacro="FR2035_V_PlateCarrier2_ce";
 		displayName="$STR_FR2035_PlateCarrier2_ce";
 		picture="\fr2035_characters_f\data\ui\fr2035_icon_v_platecarrier2_ce_ca.paa";
 		hiddenSelectionsTextures[]=
@@ -7078,10 +7076,10 @@ class CfgWeapons
 		};
 	};
 	class V_PlateCarrierGL_rgr;
-	class V_FR2035_PlateCarrierGL_ce: V_PlateCarrierGL_rgr
+	class FR2035_V_PlateCarrierGL_ce: V_PlateCarrierGL_rgr
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="V_FR2035_PlateCarrierGL_ce";
+		_generalMacro="FR2035_V_PlateCarrierGL_ce";
 		displayName="$STR_FR2035_PlateCarrierGL_ce";
 		picture="\fr2035_characters_f\data\ui\fr2035_icon_v_carriergl_rig_ce.paa";
 		hiddenSelectionsTextures[]=
@@ -7090,10 +7088,10 @@ class CfgWeapons
 		};
 	};
 	class V_PlateCarrierSpec_rgr;
-	class V_FR2035_PlateCarrierSpec_ce: V_PlateCarrierSpec_rgr
+	class FR2035_V_PlateCarrierSpec_ce: V_PlateCarrierSpec_rgr
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="V_FR2035_PlateCarrierSpec_ce";
+		_generalMacro="FR2035_V_PlateCarrierSpec_ce";
 		displayName="$STR_FR2035_PlateCarrierSpec_ce";
 		picture="\fr2035_characters_f\data\ui\fr2035_icon_v_carrierspec_rig_ce.paa";
 		hiddenSelectionsTextures[]=
@@ -7102,10 +7100,10 @@ class CfgWeapons
 		};
 	};
 	class V_TacVest_khk;
-	class V_FR2035_TacVest_ce: V_TacVest_khk
+	class FR2035_V_TacVest_ce: V_TacVest_khk
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="V_FR2035_TacVest_ce";
+		_generalMacro="FR2035_V_TacVest_ce";
 		displayName="$STR_FR2035_TacVest_ce";
 		picture="\fr2035_characters_f\data\ui\fr2035_icon_v_tacvest_ce_ca.paa";
 		hiddenSelectionsTextures[]=
@@ -7114,10 +7112,10 @@ class CfgWeapons
 		};
 	};
 	class V_PlateCarrierIAGL_dgtl;
-	class V_FR2035_PlateCarrierIAGL_ce: V_PlateCarrierIAGL_dgtl
+	class FR2035_V_PlateCarrierIAGL_ce: V_PlateCarrierIAGL_dgtl
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="V_FR2035_PlateCarrierIAGL_ce";
+		_generalMacro="FR2035_V_PlateCarrierIAGL_ce";
 		displayName="$STR_FR2035_PlateCarrierIAGL_ce";
 		picture="\fr2035_characters_f\data\ui\fr2035_icon_v_ia_carriergl_rig_ce.paa";
 		hiddenSelectionsTextures[]=

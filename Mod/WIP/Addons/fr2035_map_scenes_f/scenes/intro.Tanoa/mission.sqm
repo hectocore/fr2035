@@ -13,16 +13,16 @@ class EditorData
 	class Camera
 	{
 		pos[]={5898.6499,23.68001,10464.5};
-		dir[]={0.19371408,0.21895736,0.95631194};
-		up[]={-0.043469951,0.97573447,-0.21459892};
-		aside[]={0.98009455,-3.7252903e-009,-0.19853158};
+		dir[]={0.41318119,0.0061018732,0.9106344};
+		up[]={-0.002521351,0.99998409,-0.0055569466};
+		aside[]={0.91065437,5.8716978e-008,-0.41318998};
 	};
 };
 binarizationWanted=0;
 addons[]=
 {
 	"A3_Modules_F",
-	"FR2035_Soft_f",
+	"FR2035_Soft_F",
 	"A3_Soft_F_Enoch_Offroad_01",
 	"A3_Characters_F_Exp",
 	"A3_Weapons_F",
@@ -33,9 +33,6 @@ addons[]=
 	"A3_Soft_F_Exp_Offroad_01",
 	"A3_Signs_F",
 	"FR2035_Characters_F",
-	"FR2035_Weapons_F",
-	"A3_Weapons_F_Acc",
-	"A3_Weapons_F_Pistols_P07",
 	"A3_Structures_F_Enoch_VR_Helpers",
 	"A3_Props_F_Enoch_Military_Camps",
 	"A3_Characters_F_Exp_Civil",
@@ -45,7 +42,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=15;
+		items=14;
 		class Item0
 		{
 			className="A3_Modules_F";
@@ -55,14 +52,15 @@ class AddonsMetaData
 		};
 		class Item1
 		{
-			className="FR2035_Soft_f";
-			name="FR2035_Soft_f";
-			author="Hector Corral (legacy)";
+			className="FR2035_Soft_F";
+			name="French Army 2035 - Unarmored Land Vehicles";
+			author="Hector Corral";
+			url="https://github.com/hectocore/fr2035";
 		};
 		class Item2
 		{
 			className="A3_Soft_F_Enoch";
-			name="Arma 3 Enoch - Unarmored Land Vehicles";
+			name="Arma 3 Contact Platform - Unarmored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
@@ -120,30 +118,23 @@ class AddonsMetaData
 			className="FR2035_Characters_F";
 			name="French Army 2035 - Characters and Clothing";
 			author="Hector Corral";
-			url="https://github.com/hectocore";
+			url="https://github.com/hectocore/fr2035";
 		};
 		class Item11
 		{
-			className="FR2035_Weapons_F";
-			name="French Army 2035 - Weapons and Accessories";
-			author="Hector Corral";
-			url="https://github.com/hectocore";
+			className="A3_Structures_F_Enoch";
+			name="Arma 3 Contact Platform - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
 		};
 		class Item12
 		{
-			className="A3_Structures_F_Enoch";
-			name="Arma 3 Enoch - Buildings and Structures";
+			className="A3_Props_F_Enoch";
+			name="Arma 3 Contact Platform - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
 		class Item13
-		{
-			className="A3_Props_F_Enoch";
-			name="Arma 3 Enoch - Decorative and Mission Objects";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item14
 		{
 			className="A3_Soft_F_Orange";
 			name="Arma 3 Orange - Unarmored Land Vehicles";
@@ -2118,110 +2109,7 @@ class Intro
 					flags=7;
 					class Attributes
 					{
-						class Inventory
-						{
-							class primaryWeapon
-							{
-								name="arifle_FR2035_MX_F";
-								optics="optic_Aco";
-								flashlight="acc_pointer_IR";
-								class primaryMuzzleMag
-								{
-									name="30Rnd_65x39_caseless_black_mag";
-									ammoLeft=30;
-								};
-							};
-							class handgun
-							{
-								name="hgun_P07_F";
-								class primaryMuzzleMag
-								{
-									name="16Rnd_9x21_Mag";
-									ammoLeft=16;
-								};
-							};
-							class uniform
-							{
-								typeName="U_FR2035_CombatUniform_ce";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=2;
-									class Item0
-									{
-										name="30Rnd_65x39_caseless_black_mag";
-										count=2;
-										ammoLeft=30;
-									};
-									class Item1
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
-								class ItemCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="FirstAidKit";
-										count=1;
-									};
-								};
-							};
-							class vest
-							{
-								typeName="V_FR2035_PlateCarrier1_ce";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=6;
-									class Item0
-									{
-										name="30Rnd_65x39_caseless_black_mag";
-										count=7;
-										ammoLeft=30;
-									};
-									class Item1
-									{
-										name="16Rnd_9x21_Mag";
-										count=2;
-										ammoLeft=16;
-									};
-									class Item2
-									{
-										name="SmokeShell";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item3
-									{
-										name="SmokeShellGreen";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item4
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item5
-									{
-										name="HandGrenade";
-										count=2;
-										ammoLeft=1;
-									};
-								};
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-							radio="ItemRadio";
-							goggles="G_Combat";
-							headgear="H_FR2035_Helmet_ce";
-						};
+						init="this unlinkItem ""NVGoggles_OPFOR"";";
 					};
 					id=41;
 					type="FR2035_Soldier_F";
@@ -2288,148 +2176,59 @@ class Intro
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={5906.5503,21.181438,10476.757};
-						angles[]={0,4.1646867,0};
+						position[]={5906.5498,21.181438,10476.757};
+						angles[]={0,4.1646872,0};
 					};
 					side="West";
 					flags=7;
 					class Attributes
 					{
-						class Inventory
-						{
-							class primaryWeapon
-							{
-								name="arifle_FR2035_MX_F";
-								optics="optic_Hamr";
-								flashlight="acc_pointer_IR";
-								class primaryMuzzleMag
-								{
-									name="30Rnd_65x39_caseless_black_mag";
-									ammoLeft=30;
-								};
-							};
-							class handgun
-							{
-								name="hgun_P07_F";
-								class primaryMuzzleMag
-								{
-									name="16Rnd_9x21_Mag";
-									ammoLeft=16;
-								};
-							};
-							class binocular
-							{
-								name="Binocular";
-							};
-							class uniform
-							{
-								typeName="U_FR2035_CombatUniform_ce_vest";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=2;
-									class Item0
-									{
-										name="30Rnd_65x39_caseless_black_mag";
-										count=2;
-										ammoLeft=30;
-									};
-									class Item1
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
-								class ItemCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="FirstAidKit";
-										count=1;
-									};
-								};
-							};
-							class vest
-							{
-								typeName="V_FR2035_PlateCarrierGL_ce";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=10;
-									class Item0
-									{
-										name="30Rnd_65x39_caseless_black_mag";
-										count=1;
-										ammoLeft=30;
-									};
-									class Item1
-									{
-										name="30Rnd_65x39_caseless_black_mag_Tracer";
-										count=2;
-										ammoLeft=30;
-									};
-									class Item2
-									{
-										name="16Rnd_9x21_Mag";
-										count=2;
-										ammoLeft=16;
-									};
-									class Item3
-									{
-										name="HandGrenade";
-										count=2;
-										ammoLeft=1;
-									};
-									class Item4
-									{
-										name="B_IR_Grenade";
-										count=2;
-										ammoLeft=1;
-									};
-									class Item5
-									{
-										name="SmokeShell";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item6
-									{
-										name="SmokeShellGreen";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item7
-									{
-										name="SmokeShellBlue";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item8
-									{
-										name="SmokeShellOrange";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item9
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-							radio="ItemRadio";
-							gps="ItemGPS";
-							headgear="H_FR2035_Helmet_ce";
-						};
+						init="this unlinkItem ""NVGoggles_OPFOR"";";
 					};
 					id=44;
 					type="FR2035_Soldier_SL_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01ENGFRE";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 			};
 			class Attributes
@@ -2529,118 +2328,14 @@ class Intro
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={5911.0977,21.181438,10475.378};
+						position[]={5911.0981,21.181438,10475.378};
 						angles[]={0,1.798492,0};
 					};
 					side="West";
 					flags=7;
 					class Attributes
 					{
-						init="[this, ""WATCH2"", ""ASIS""] call BIS_fnc_ambientAnim;";
-						class Inventory
-						{
-							class primaryWeapon
-							{
-								name="arifle_FR2035_MX_F";
-								optics="optic_Aco";
-								flashlight="acc_pointer_IR";
-								class primaryMuzzleMag
-								{
-									name="30Rnd_65x39_caseless_black_mag";
-									ammoLeft=30;
-								};
-							};
-							class handgun
-							{
-								name="hgun_P07_F";
-								class primaryMuzzleMag
-								{
-									name="16Rnd_9x21_Mag";
-									ammoLeft=16;
-								};
-							};
-							class uniform
-							{
-								typeName="U_FR2035_CombatUniform_ce";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=2;
-									class Item0
-									{
-										name="30Rnd_65x39_caseless_black_mag";
-										count=2;
-										ammoLeft=30;
-									};
-									class Item1
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
-								class ItemCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="FirstAidKit";
-										count=1;
-									};
-								};
-							};
-							class vest
-							{
-								typeName="V_FR2035_PlateCarrier1_ce";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=6;
-									class Item0
-									{
-										name="30Rnd_65x39_caseless_black_mag";
-										count=7;
-										ammoLeft=30;
-									};
-									class Item1
-									{
-										name="16Rnd_9x21_Mag";
-										count=2;
-										ammoLeft=16;
-									};
-									class Item2
-									{
-										name="SmokeShell";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item3
-									{
-										name="SmokeShellGreen";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item4
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item5
-									{
-										name="HandGrenade";
-										count=2;
-										ammoLeft=1;
-									};
-								};
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-							radio="ItemRadio";
-							goggles="G_Combat";
-							headgear="H_FR2035_Helmet_ce";
-						};
+						init="this unlinkItem ""NVGoggles_OPFOR""; [this, ""WATCH2"", ""ASIS""] call BIS_fnc_ambientAnim;";
 					};
 					id=63;
 					type="FR2035_Soldier_F";

@@ -45,9 +45,9 @@
           <Japanese>Shigumitsu</Japanese>
         </Key>
         <Key ID="str_fr2035_desc">
-          <Original>Join the battle with the French army! Its role within NATO is crucial because of the gain of influence of CSAT in the Mediterranean Sea. Get ready to join one of the last pillars of the falling European Union.</Original>
+          <Original>As a key actor of NATO forces, France involvement in the Mediterranean Sea crisis keeps growing as CSAT gains more influence across Africa and middle-east. Enroll in the French army and get ready to join one of the last pillars of the falling European Union.</Original>
           <French>Rejoignez le combat avec l'armée française! Son rôle au sein de l'OTAN est crucial à cause du gain d'influence du CSAT autour du bassin méditerranéen. Préparez-vous à rejoindre l'un des derniers pilliers encore debout de l'Union Européenne.</French>
-          <English>Join the battle with the French army! Its role within NATO is crucial because of the gain of influence of CSAT in the Mediterranean Sea. Get ready to join one of the last pillars of the falling European Union.</English>
+          <English>As a key actor of NATO forces, France involvement in the Mediterranean Sea crisis keeps growing as CSAT gains more influence across Africa and middle-east. Enroll in the French army and get ready to join one of the last pillars of the falling European Union.</English>
         </Key>
       </Container>
       <Container name="Faction">
@@ -6669,76 +6669,78 @@
     </Container>
     <Container name="FR2035_Weapons_F">
       <Container name="Rifles">
-        <Key ID="str_fr2035_arifle_mx_ce">
-          <Original>MX 6.5 mm (CE)</Original>
-          <French>MX 6,5 mm (CE)</French>
-          <Spanish>MX 6,5 mm (CE)</Spanish>
-          <Italian>MX 6,5 mm (mimetico CE)</Italian>
-          <Polish>MX 6,5 mm (CE)</Polish>
-          <Russian>MX 6,5 мм (CE)</Russian>
-          <German>MX 6,5 mm (CE)</German>
-          <Czech>MX 6,5 mm (CE kamufláž)</Czech>
-          <English>MX 6.5 mm (CE)</English>
-          <Portuguese>MX 6,5 mm (CE)</Portuguese>
-          <Korean>MX 6.5 mm (CE)</Korean>
-          <Japanese>MX 6.5 mm（CE）</Japanese>
+        <Key ID="str_fr2035_arifle_416f_blk">
+          <Original>416 F 5.56 mm</Original>
+          <Chinese>416 F 5.56 mm</Chinese>
+          <French>416 F 5,56 mm</French>
+          <Spanish>416 F 5,56 mm</Spanish>
+          <Italian>416 F 5,56 mm</Italian>
+          <Polish>416 F 5,56 mm</Polish>
+          <Russian>416 F 5,56 мм</Russian>
+          <German>416 F 5,56 mm</German>
+          <Czech>416 F 5,56 mm</Czech>
+          <English>416 F 5.56 mm</English>
+          <Portuguese>416 F 5,56 mm</Portuguese>
+          <Korean>416 F 5.56 mm</Korean>
+          <Chinesesimp>416 F 5.56 毫米</Chinesesimp>
+          <Japanese>416 F 5.56 mm</Japanese>
+          <Turkish>416 F 5.56 mm</Turkish>
         </Key>
-        <Key ID="str_fr2035_arifle_mx_gl_ce">
-          <Original>MX 3GL 6.5 mm (CE)</Original>
-          <French>MX 3GL 6,5 mm (CE)</French>
-          <Spanish>MX 3GL 6,5 mm (CE)</Spanish>
-          <Italian>MX 3GL 6,5 mm (mimetico CE)</Italian>
-          <Polish>MX 3GL 6,5 mm (CE)</Polish>
-          <Russian>MX 3GL 6,5 мм (CE)</Russian>
-          <German>MX 3GL 6,5 mm (CE)</German>
-          <Czech>MX 3GL 6,5 mm (CE kamufláž)</Czech>
-          <English>MX 3GL 6.5 mm (CE)</English>
-          <Portuguese>MX 3GL 6,5 mm (CE)</Portuguese>
-          <Korean>MX 3GL 6.5 mm (CE)</Korean>
-          <Japanese>MX 3GL 6.5 mm（CE）</Japanese>
+        <Key ID="str_fr2035_arifle_416f_gl_blk">
+          <Original>416 F GL 5.56 mm</Original>
+          <Chinese>416 F GL 5.56 mm</Chinese>
+          <French>416 F GL 5,56 mm</French>
+          <Spanish>416 F GL 5,56 mm</Spanish>
+          <Italian>416 F GL 5,56 mm</Italian>
+          <Polish>416 F GL 5,56 mm</Polish>
+          <Russian>416 F GL 5,56 мм</Russian>
+          <German>416 F GL 5,56 mm</German>
+          <Czech>416 F GL 5,56 mm</Czech>
+          <English>416 F GL 5.56 mm</English>
+          <Portuguese>416 F GL 5,56 mm</Portuguese>
+          <Korean>416 F GL 5.56 mm</Korean>
+          <Chinesesimp>416 F GL 5.56 毫米</Chinesesimp>
+          <Japanese>416 F GL 5.56 mm</Japanese>
+          <Turkish>416 F GL 5.56 mm</Turkish>
         </Key>
-        <Key ID="str_fr2035_arifle_mx_sw_ce">
-          <Original>MX SW 6.5 mm (CE)</Original>
-          <French>MX SW 6,5 mm (CE)</French>
-          <Spanish>MX SW 6,5 mm (CE)</Spanish>
-          <Italian>MX SW 6,5 mm (mimetico CE)</Italian>
-          <Polish>MX SW 6,5 mm (CE)</Polish>
-          <Russian>MX SW 6,5 мм (CE)</Russian>
-          <German>MX SW 6,5 mm (CE)</German>
-          <Czech>MX SW 6,5 mm (CE kamufláž)</Czech>
-          <English>MX SW 6.5 mm (CE)</English>
-          <Portuguese>MX SW 6,5 mm (CE)</Portuguese>
-          <Korean>MX SW 6.5 mm (CE)</Korean>
-          <Japanese>MX SW 6.5 mm（CE）</Japanese>
+        <Key ID="str_fr2035_arifle_416fs_blk">
+          <Original>416 F-S 5.56 mm</Original>
+          <Chinese>416 F-S 5.56 mm</Chinese>
+          <French>416 F-S 5,56 mm</French>
+          <Spanish>416 F-S 5,56 mm</Spanish>
+          <Italian>416 F-S 5,56 mm</Italian>
+          <Polish>416 F-S 5,56 mm</Polish>
+          <Russian>416 F-S 5,56 мм</Russian>
+          <German>416 F-S 5,56 mm</German>
+          <Czech>416 F-S 5,56 mm</Czech>
+          <English>416 F-S 5.56 mm</English>
+          <Portuguese>416 F-S 5,56 mm</Portuguese>
+          <Korean>416 F-S 5.56 mm</Korean>
+          <Chinesesimp>416 F-S 5.56 毫米</Chinesesimp>
+          <Japanese>416 F-S 5.56 mm</Japanese>
+          <Turkish>416 F-S 5.56 mm</Turkish>
         </Key>
-        <Key ID="str_fr2035_arifle_mxc_ce">
-          <Original>MXC 6.5 mm (CE)</Original>
-          <French>MXC 6,5 mm (CE)</French>
-          <Spanish>MXC 6,5 mm (CE)</Spanish>
-          <Italian>MXC 6,5 mm (mimetico CE)</Italian>
-          <Polish>MXC 6,5 mm (CE)</Polish>
-          <Russian>MXC 6,5 мм (CE)</Russian>
-          <German>MXC 6,5 mm (CE)</German>
-          <Czech>MXC 6,5 mm (CE kamufláž)</Czech>
-          <English>MXC 6.5 mm (CE)</English>
-          <Portuguese>MXC 6,5 mm (CE)</Portuguese>
-          <Korean>MXC 6.5 mm (CE)</Korean>
-          <Japanese>MXC 6.5 mm（CE）</Japanese>
+      </Container>
+      <Container name="LongRangeRifles">
+        <Key ID="str_fr2035_srifle_417_blk">
+          <Original>417 7.62 mm</Original>
+          <Chinese>417 7.62 mm</Chinese>
+          <French>417 7,62 mm</French>
+          <Spanish>417 7,62 mm</Spanish>
+          <Italian>417 7,62 mm</Italian>
+          <Polish>417 7,62 mm</Polish>
+          <Russian>417 7,62 мм</Russian>
+          <German>417 7,62 mm</German>
+          <Czech>417 7,62 mm</Czech>
+          <English>417 7.62 mm</English>
+          <Portuguese>417 7,62 mm</Portuguese>
+          <Korean>417 7.62 mm</Korean>
+          <Chinesesimp>417 7.62 毫米</Chinesesimp>
+          <Japanese>417 7.62 mm</Japanese>
+          <Turkish>417 7.62 mm</Turkish>
         </Key>
-        <Key ID="str_fr2035_arifle_mxm_ce">
-          <Original>MXM 6.5 mm (CE)</Original>
-          <French>MXM 6,5 mm (CE)</French>
-          <Spanish>MXM 6,5 mm (CE)</Spanish>
-          <Italian>MXM 6,5 mm (mimetico CE)</Italian>
-          <Polish>MXM 6,5 mm (CE)</Polish>
-          <Russian>MXM 6,5 мм (CE)</Russian>
-          <German>MXM 6,5 mm (CE)</German>
-          <Czech>MXM 6,5 mm (CE kamufláž)</Czech>
-          <English>MXM 6.5 mm (CE)</English>
-          <Portuguese>MXM 6,5 mm (CE)</Portuguese>
-          <Korean>MXM 6.5 mm (CE)</Korean>
-          <Japanese>MXM 6.5 mm（CE）</Japanese>
-        </Key>
+      </Container>
+      <Container name="Launchers">
         <Key ID="str_fr2035_launcher_titan">
           <Original>Titan MPRL (Green)</Original>
           <Chinese>Titan 多用途火箭發射器（綠色）</Chinese>
@@ -6772,6 +6774,25 @@
           <Chinesesimp>Titan MPRL Compact（绿色）</Chinesesimp>
           <Japanese>タイタンMPRLコンパクト（緑）</Japanese>
           <Turkish>Titan MPRL Kompakt (Yeşil)</Turkish>
+        </Key>
+      </Container>
+      <Container name="Machineguns">
+        <Key ID="str_fr2035_lmg_minimi_blk">
+          <Original>Minimi 5.56 mm</Original>
+          <Chinese>Minimi 5.56 mm</Chinese>
+          <French>Minimi 5,56 mm</French>
+          <Spanish>Minimi 5,56 mm</Spanish>
+          <Italian>Minimi 5,56 mm</Italian>
+          <Polish>Minimi 5,56 mm</Polish>
+          <Russian>Minimi 5,56 мм</Russian>
+          <German>Minimi 5,56 mm</German>
+          <Czech>Minimi 5,56 mm</Czech>
+          <English>Minimi 5.56 mm</English>
+          <Portuguese>Minimi 5,56 mm</Portuguese>
+          <Korean>Minimi 5.56 mm</Korean>
+          <Chinesesimp>Minimi 5.56 毫米</Chinesesimp>
+          <Japanese>Minimi 5.56 mm</Japanese>
+          <Turkish>Minimi 5.56 mm</Turkish>
         </Key>
       </Container>
     </Container>

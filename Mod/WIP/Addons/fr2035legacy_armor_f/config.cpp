@@ -10,12 +10,9 @@ class CfgPatches
 	{
 		units[]=
 		{
-			"FR2035_APC_Wheeled_01_cannon_F",
 			"FR2035_APC_Tracked_01_rcws_F",
 			"FR2035_APC_Tracked_01_CRV_F",
 			"FR2035_APC_Tracked_01_AA_F",
-			"FR2035_MBT_01_cannon_F",
-			"FR2035_MBT_01_TUSK_F",
 			"FR2035_MBT_01_arty_F",
 			"FR2035_MBT_01_mlrs_F"
 		};
@@ -33,46 +30,12 @@ class CfgPatches
 
 class CfgVehicles
 {
-	class B_APC_Wheeled_01_cannon_F;
 	class B_APC_Tracked_01_rcws_F;
 	class B_APC_Tracked_01_CRV_F;
 	class B_APC_Tracked_01_AA_F;
-	class B_MBT_01_cannon_F;
-	class B_MBT_01_TUSK_F;
 	class B_MBT_01_arty_F;
 	class B_MBT_01_mlrs_F;
 
-	class FR2035_APC_Wheeled_01_cannon_F: B_APC_Wheeled_01_cannon_F
-	{
-		author="$STR_fr2035legacy_author";
-		_generalMacro="FR2035_APC_Wheeled_01_cannon_F";
-		crew="FR2035_crew_F";
-		typicalCargo[]=
-		{
-			"FR2035_soldier_F"
-		};
-		faction="FR2035_F";
-		class TransportWeapons
-		{
-			class _xx_arifle_FR2035_MX_F
-			{
-				weapon="arifle_FR2035_MX_F";
-				count=2;
-			};
-		};
-		hiddenSelections[]=
-		{
-			"camo1",
-			"camo2",
-			"camo3"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\fr2035legacy_armor_f\data\fr2035_amv_base_co.paa",
-			"\fr2035legacy_armor_f\data\fr2035_amv_adds_co.paa",
-			"\fr2035legacy_armor_f\data\fr2035_amv_turret_co.paa"
-		};
-	};
 	class FR2035_APC_Tracked_01_rcws_F: B_APC_Tracked_01_rcws_F
 	{
 		author="$STR_fr2035legacy_author";
@@ -83,24 +46,6 @@ class CfgVehicles
 			"FR2035_Soldier_F"
 		};
 		faction="FR2035_F";
-		class TransportWeapons
-		{
-			class _xx_arifle_FR2035_MX_F
-			{
-				weapon="arifle_FR2035_MX_F";
-				count=2;
-			};
-			class _xx_arifle_FR2035_MX_SW_F
-			{
-				weapon="arifle_FR2035_MX_SW_F";
-				count=1;
-			};
-			class _xx_launch_NLAW_F
-			{
-				weapon="launch_NLAW_F";
-				count=1;
-			};
-		};
 		hiddenSelections[]=
 		{
 			"camo1",
@@ -124,24 +69,6 @@ class CfgVehicles
 			"FR2035_Engineer_F"
 		};
 		faction="FR2035_F";
-		class TransportWeapons
-		{
-			class _xx_arifle_FR2035_MX_F
-			{
-				weapon="arifle_FR2035_MX_F";
-				count=2;
-			};
-			class _xx_arifle_FR2035_MX_SW_F
-			{
-				weapon="arifle_FR2035_MX_SW_F";
-				count=1;
-			};
-			class _xx_launch_NLAW_F
-			{
-				weapon="launch_NLAW_F";
-				count=1;
-			};
-		};
 		hiddenSelections[]=
 		{
 			"camo1",
@@ -167,24 +94,6 @@ class CfgVehicles
 			"FR2035_Soldier_F"
 		};
 		faction="FR2035_F";
-		class TransportWeapons
-		{
-			class _xx_arifle_FR2035_MX_F
-			{
-				weapon="arifle_FR2035_MX_F";
-				count=2;
-			};
-			class _xx_arifle_FR2035_MX_SW_F
-			{
-				weapon="arifle_FR2035_MX_SW_F";
-				count=1;
-			};
-			class _xx_launch_NLAW_F
-			{
-				weapon="launch_NLAW_F";
-				count=1;
-			};
-		};
 		hiddenSelections[]=
 		{
 			"camo1",
@@ -198,66 +107,6 @@ class CfgVehicles
 			"\fr2035legacy_armor_f\data\fr2035_aa_turret_co.paa"
 		};
 	};
-	class FR2035_MBT_01_cannon_F: B_MBT_01_cannon_F
-	{
-		author="$STR_fr2035legacy_author";
-		_generalMacro="FR2035_MBT_01_cannon_F";
-		crew="FR2035_crew_F";
-		typicalCargo[]=
-		{
-			"FR2035_Soldier_F"
-		};
-		faction="FR2035_F";
-		class TransportWeapons
-		{
-			class _xx_arifle_FR2035_MXC_F
-			{
-				weapon="arifle_FR2035_MXC_F";
-				count=2;
-			};
-		};
-		hiddenSelections[]=
-		{
-			"Camo1",
-			"Camo2"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\fr2035legacy_armor_f\data\fr2035_mbt_base_co.paa",
-			"\fr2035legacy_armor_f\data\fr2035_mbt_turret_co.paa"
-		};
-	};
-	class FR2035_MBT_01_TUSK_F: B_MBT_01_TUSK_F
-	{
-		author="$STR_fr2035legacy_author";
-		_generalMacro="FR2035_MBT_01_TUSK_F";
-		crew="FR2035_crew_F";
-		typicalCargo[]=
-		{
-			"FR2035_Soldier_F"
-		};
-		faction="FR2035_F";
-		class TransportWeapons
-		{
-			class _xx_arifle_FR2035_MXC_F
-			{
-				weapon="arifle_FR2035_MXC_F";
-				count=2;
-			};
-		};
-		hiddenSelections[]=
-		{
-			"Camo1",
-			"Camo2",
-			"Camo3"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\fr2035legacy_armor_f\data\fr2035_mbt_base_co.paa",
-			"\fr2035legacy_armor_f\data\fr2035_mbt_turret_co.paa",
-			"\fr2035legacy_armor_f\data\fr2035_mbt_adds_co.paa"
-		};
-	};
 	class FR2035_MBT_01_arty_F: B_MBT_01_arty_F
 	{
 		author="$STR_fr2035legacy_author";
@@ -268,14 +117,6 @@ class CfgVehicles
 			"FR2035_Soldier_F"
 		};
 		faction="FR2035_F";
-		class TransportWeapons
-		{
-			class _xx_arifle_FR2035_MXC_F
-			{
-				weapon="arifle_FR2035_MXC_F";
-				count=2;
-			};
-		};
 		hiddenSelections[]=
 		{
 			"Camo1",
@@ -299,14 +140,6 @@ class CfgVehicles
 			"FR2035_Soldier_F"
 		};
 		faction="FR2035_F";
-		class TransportWeapons
-		{
-			class _xx_arifle_FR2035_MXC_F
-			{
-				weapon="arifle_FR2035_MXC_F";
-				count=2;
-			};
-		};
 		hiddenSelections[]=
 		{
 			"Camo1",

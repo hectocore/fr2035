@@ -12,10 +12,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={2542.01,227.07436,5540.8599};
-		dir[]={-0.64816195,0.25718847,-0.7167567};
-		up[]={0.17250255,0.96636128,0.19075844};
-		aside[]={-0.74170679,-7.4505806e-009,0.67072427};
+		pos[]={2541.3135,227.48814,5540.0078};
+		dir[]={-0.66897315,-0.060230691,-0.7408514};
+		up[]={-0.040366683,0.99818403,-0.044703867};
+		aside[]={-0.74220031,-8.106872e-008,0.67018843};
 	};
 };
 binarizationWanted=0;
@@ -34,7 +34,7 @@ addons[]=
 	"A3_Weapons_F_Items",
 	"A3_Props_F_Enoch_Military_Equipment",
 	"FR2035_Characters_F",
-	"FR2035_Soft_f",
+	"FR2035_Soft_F",
 	"A3_Supplies_F_Heli_CargoNets",
 	"A3_Props_F_Enoch_Military_Decontamination",
 	"A3_Structures_F_EPA_Mil_Scrapyard"
@@ -47,7 +47,7 @@ class AddonsMetaData
 		class Item0
 		{
 			className="A3_Structures_F_Enoch_Military";
-			name="Arma 3 Enoch - Military Buildings and Structures";
+			name="Arma 3 Contact Platform - Military Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
@@ -60,7 +60,7 @@ class AddonsMetaData
 		class Item2
 		{
 			className="A3_Props_F_Enoch";
-			name="Arma 3 Enoch - Decorative and Mission Objects";
+			name="Arma 3 Contact Platform - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
@@ -88,7 +88,7 @@ class AddonsMetaData
 		class Item6
 		{
 			className="A3_Sounds_F_Enoch";
-			name="Arma 3 Enoch - Sound Effects";
+			name="Arma 3 Contact Platform - Sound Effects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
@@ -97,13 +97,14 @@ class AddonsMetaData
 			className="FR2035_Characters_F";
 			name="French Army 2035 - Characters and Clothing";
 			author="Hector Corral";
-			url="https://github.com/hectocore";
+			url="https://github.com/hectocore/fr2035";
 		};
 		class Item8
 		{
-			className="FR2035_Soft_f";
-			name="FR2035_Soft_f";
-			author="Hector Corral (legacy)";
+			className="FR2035_Soft_F";
+			name="French Army 2035 - Unarmored Land Vehicles";
+			author="Hector Corral";
+			url="https://github.com/hectocore/fr2035";
 		};
 		class Item9
 		{
@@ -229,7 +230,7 @@ class Intro
 			{
 			};
 			id=21;
-			type="FR2035_MBT_01_TUSK_F";
+			type="FR2035_MBT_03_cannon_F";
 			atlOffset=-0.00068664551;
 		};
 		class Item2
@@ -557,8 +558,8 @@ class Intro
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2532.8694,225.30702,5535.7646};
-						angles[]={0,2.681869,0};
+						position[]={2532.8689,225.30699,5535.7646};
+						angles[]={0,2.6818731,0};
 					};
 					side="West";
 					flags=7;
@@ -623,7 +624,7 @@ class Intro
 											"STRING"
 										};
 									};
-									value="EnochJointTraining";
+									value="FR2035_Insignia_France";
 								};
 							};
 						};

@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		author="$STR_FR2035_Author";
 		name="French Army 2035 - Ammoboxes and Supplies";
-		url="https://github.com/hectocore";
+		url="https://github.com/hectocore/fr2035";
 		requiredAddons[]=
 		{
 			"FR2035_Data_F",
@@ -14,30 +14,30 @@ class CfgPatches
 		};
 		requiredVersion=1.66;
 		units[]={
-			"B_FR2035_AssaultPack_ce",
-			"B_FR2035_AssaultPack_ce_LAT",
-			"B_FR2035_AssaultPack_ce_Medic",
-			"B_FR2035_AssaultPack_ce_Repair",
-			"B_FR2035_AssaultPack_ce_ReconLAT",
-			"B_FR2035_AssaultPack_ce_ReconMedic",
-			"B_FR2035_AssaultPack_ce_CTRGMedic_F",
-			"B_FR2035_AssaultPack_ce_CTRGLAT_F",
-			"B_FR2035_Bergen_ce",
-			"B_FR2035_Carryall_ce",
-			"B_FR2035_Carryall_ce_Ammo",
-			"B_FR2035_Carryall_ce_AAT",
-			"B_FR2035_Carryall_ce_AAA",
-			"B_FR2035_Kitbag_ce",
-			"B_FR2035_Kitbag_ce_Exp",
-			"B_FR2035_Kitbag_ce_AT",
-			"B_FR2035_Kitbag_ce_AA",
-			"B_FR2035_Kitbag_ce_Eng",
-			"B_FR2035_Kitbag_ce_ReconExp",
-			"B_FR2035_Kitbag_ce_AAR",
-			"B_FR2035_Kitbag_ce_CTRGExp_F",
-			"B_FR2035_TacticalPack_ce",
-			"B_FR2035_Carryall_ce_Mine",
-			"B_FR2035_AssaultPack_ce_LAT2"
+			"FR2035_B_AssaultPack_ce",
+			"FR2035_B_AssaultPack_ce_LAT",
+			"FR2035_B_AssaultPack_ce_Medic",
+			"FR2035_B_AssaultPack_ce_Repair",
+			"FR2035_B_AssaultPack_ce_ReconLAT",
+			"FR2035_B_AssaultPack_ce_ReconMedic",
+			"FR2035_B_AssaultPack_ce_CTRGMedic_F",
+			"FR2035_B_AssaultPack_ce_CTRGLAT_F",
+			"FR2035_B_Bergen_ce",
+			"FR2035_B_Carryall_ce",
+			"FR2035_B_Carryall_ce_Ammo",
+			"FR2035_B_Carryall_ce_AAT",
+			"FR2035_B_Carryall_ce_AAA",
+			"FR2035_B_Kitbag_ce",
+			"FR2035_B_Kitbag_ce_Exp",
+			"FR2035_B_Kitbag_ce_AT",
+			"FR2035_B_Kitbag_ce_AA",
+			"FR2035_B_Kitbag_ce_Eng",
+			"FR2035_B_Kitbag_ce_ReconExp",
+			"FR2035_B_Kitbag_ce_AAR",
+			"FR2035_B_Kitbag_ce_CTRGExp_F",
+			"FR2035_B_TacticalPack_ce",
+			"FR2035_B_Carryall_ce_Mine",
+			"FR2035_B_AssaultPack_ce_LAT2"
 		};
 		weapons[]={};
 	};
@@ -45,10 +45,10 @@ class CfgPatches
 class CfgVehicles
 {
 	class B_AssaultPack_Base;
-	class B_FR2035_AssaultPack_ce: B_AssaultPack_Base
+	class FR2035_B_AssaultPack_ce: B_AssaultPack_Base
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="B_FR2035_AssaultPack_ce";
+		_generalMacro="FR2035_B_AssaultPack_ce";
 		scope=2;
 		displayName="$STR_FR2035_AssaultPack_ce";
 		picture="\fr2035_supplies_f\data\ui\fr2035_icon_b_compact_ce_ca.paa";
@@ -57,10 +57,10 @@ class CfgVehicles
 			"\fr2035_supplies_f\data\fr2035_backpack_compact_ce_co.paa"
 		};
 	};
-	class B_FR2035_AssaultPack_ce_LAT: B_FR2035_AssaultPack_ce
+	class FR2035_B_AssaultPack_ce_LAT: FR2035_B_AssaultPack_ce
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="B_FR2035_AssaultPack_ce_LAT";
+		_generalMacro="FR2035_B_AssaultPack_ce_LAT";
 		scope=1;
 		class TransportMagazines
 		{
@@ -71,10 +71,10 @@ class CfgVehicles
 			};
 		};
 	};
-	class B_FR2035_AssaultPack_ce_Medic: B_FR2035_AssaultPack_ce
+	class FR2035_B_AssaultPack_ce_Medic: FR2035_B_AssaultPack_ce
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="B_FR2035_AssaultPack_ce_Medic";
+		_generalMacro="FR2035_B_AssaultPack_ce_Medic";
 		scope=1;
 		class TransportItems
 		{
@@ -90,10 +90,10 @@ class CfgVehicles
 			};
 		};
 	};
-	class B_FR2035_AssaultPack_ce_Repair: B_FR2035_AssaultPack_ce
+	class FR2035_B_AssaultPack_ce_Repair: FR2035_B_AssaultPack_ce
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="B_FR2035_AssaultPack_ce_Repair";
+		_generalMacro="FR2035_B_AssaultPack_ce_Repair";
 		scope=1;
 		class TransportItems
 		{
@@ -104,10 +104,10 @@ class CfgVehicles
 			};
 		};
 	};
-	class B_FR2035_AssaultPack_ce_ReconLAT: B_FR2035_AssaultPack_ce
+	class FR2035_B_AssaultPack_ce_ReconLAT: FR2035_B_AssaultPack_ce
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="B_FR2035_AssaultPack_ce_ReconLAT";
+		_generalMacro="FR2035_B_AssaultPack_ce_ReconLAT";
 		scope=1;
 		class TransportMagazines
 		{
@@ -118,10 +118,10 @@ class CfgVehicles
 			};
 		};
 	};
-	class B_FR2035_AssaultPack_ce_ReconMedic: B_FR2035_AssaultPack_ce
+	class FR2035_B_AssaultPack_ce_ReconMedic: FR2035_B_AssaultPack_ce
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="B_FR2035_AssaultPack_ce_ReconMedic";
+		_generalMacro="FR2035_B_AssaultPack_ce_ReconMedic";
 		scope=1;
 		class TransportMagazines
 		{
@@ -155,10 +155,10 @@ class CfgVehicles
 			};
 		};
 	};
-	class B_FR2035_AssaultPack_ce_CTRGMedic_F: B_FR2035_AssaultPack_ce
+	class FR2035_B_AssaultPack_ce_CTRGMedic_F: FR2035_B_AssaultPack_ce
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="B_FR2035_AssaultPack_ce_CTRGMedic_F";
+		_generalMacro="FR2035_B_AssaultPack_ce_CTRGMedic_F";
 		scope=1;
 		class TransportMagazines
 		{
@@ -192,10 +192,10 @@ class CfgVehicles
 			};
 		};
 	};
-	class B_FR2035_AssaultPack_ce_CTRGLAT_F: B_FR2035_AssaultPack_ce
+	class FR2035_B_AssaultPack_ce_CTRGLAT_F: FR2035_B_AssaultPack_ce
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="B_FR2035_AssaultPack_ce_CTRGLAT_F";
+		_generalMacro="FR2035_B_AssaultPack_ce_CTRGLAT_F";
 		scope=1;
 		class TransportMagazines
 		{
@@ -207,10 +207,10 @@ class CfgVehicles
 		};
 	};
 	class B_Bergen_Base_F;
-	class B_FR2035_Bergen_ce: B_Bergen_Base_F
+	class FR2035_B_Bergen_ce: B_Bergen_Base_F
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="B_FR2035_Bergen_ce";
+		_generalMacro="FR2035_B_Bergen_ce";
 		scope=2;
 		displayName="$STR_FR2035_Bergen_ce";
 		picture="\fr2035_supplies_f\data\ui\fr2035_icon_b_bergen_ce_ca.paa";
@@ -220,10 +220,10 @@ class CfgVehicles
 		};
 	};
 	class B_Carryall_Base;
-	class B_FR2035_Carryall_ce: B_Carryall_Base
+	class FR2035_B_Carryall_ce: B_Carryall_Base
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="B_FR2035_Carryall_ce";
+		_generalMacro="FR2035_B_Carryall_ce";
 		scope=2;
 		displayName="$STR_FR2035_Carryall_ce";
 		picture="\fr2035_supplies_f\data\ui\fr2035_icon_b_carryall_ce_ca.paa";
@@ -232,21 +232,21 @@ class CfgVehicles
 			"\fr2035_supplies_f\data\fr2035_backpack_carryall_ce_co.paa"
 		};
 	};
-	class B_FR2035_Carryall_ce_Ammo: B_FR2035_Carryall_ce
+	class FR2035_B_Carryall_ce_Ammo: FR2035_B_Carryall_ce
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="B_FR2035_Carryall_ce_Ammo";
+		_generalMacro="FR2035_B_Carryall_ce_Ammo";
 		scope=1;
 		class TransportMagazines
 		{
-			class _xx_30Rnd_65x39_caseless_mag
+			class _xx_30Rnd_556x45_Stanag_red
 			{
-				magazine="30Rnd_65x39_caseless_mag";
+				magazine="30Rnd_556x45_Stanag_red";
 				count=6;
 			};
-			class _xx_100Rnd_65x39_caseless_mag
+			class _xx_200Rnd_556x45_Box_Red_F
 			{
-				magazine="100Rnd_65x39_caseless_mag";
+				magazine="200Rnd_556x45_Box_Red_F";
 				count=1;
 			};
 			class _xx_NLAW_F
@@ -267,12 +267,7 @@ class CfgVehicles
 			class _xx_1Rnd_HE_Grenade_shell
 			{
 				magazine="1Rnd_HE_Grenade_shell";
-				count=3;
-			};
-			class _xx_3Rnd_HE_Grenade_shell
-			{
-				magazine="3Rnd_HE_Grenade_shell";
-				count=1;
+				count=4;
 			};
 			class _xx_10Rnd_338_Mag
 			{
@@ -294,10 +289,10 @@ class CfgVehicles
 			};
 		};
 	};
-	class B_FR2035_Carryall_ce_AAT: B_FR2035_Carryall_ce
+	class FR2035_B_Carryall_ce_AAT: FR2035_B_Carryall_ce
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="B_FR2035_Carryall_ce_AAT";
+		_generalMacro="FR2035_B_Carryall_ce_AAT";
 		scope=1;
 		class TransportMagazines
 		{
@@ -313,10 +308,10 @@ class CfgVehicles
 			};
 		};
 	};
-	class B_FR2035_Carryall_ce_AAA: B_FR2035_Carryall_ce
+	class FR2035_B_Carryall_ce_AAA: FR2035_B_Carryall_ce
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="B_FR2035_Carryall_ce_AAA";
+		_generalMacro="FR2035_B_Carryall_ce_AAA";
 		scope=1;
 		class TransportMagazines
 		{
@@ -328,10 +323,10 @@ class CfgVehicles
 		};
 	};
 	class B_Kitbag_Base;
-	class B_FR2035_Kitbag_ce: B_Kitbag_Base
+	class FR2035_B_Kitbag_ce: B_Kitbag_Base
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="B_FR2035_Kitbag_ce";
+		_generalMacro="FR2035_B_Kitbag_ce";
 		scope=2;
 		picture="\fr2035_supplies_f\data\ui\fr2035_icon_b_fast_ce_ca.paa";
 		displayName="$STR_FR2035_Kitbag_ce";
@@ -340,10 +335,10 @@ class CfgVehicles
 			"\fr2035_supplies_f\data\fr2035_backpack_fast_ce_co.paa"
 		};
 	};
-	class B_FR2035_Kitbag_ce_Exp: B_FR2035_Kitbag_ce
+	class FR2035_B_Kitbag_ce_Exp: FR2035_B_Kitbag_ce
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="B_FR2035_Kitbag_ce_Exp";
+		_generalMacro="FR2035_B_Kitbag_ce_Exp";
 		scope=1;
 		class TransportMagazines
 		{
@@ -382,10 +377,10 @@ class CfgVehicles
 			};
 		};
 	};
-	class B_FR2035_Kitbag_ce_AT: B_FR2035_Kitbag_ce
+	class FR2035_B_Kitbag_ce_AT: FR2035_B_Kitbag_ce
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="B_FR2035_Kitbag_ce_AT";
+		_generalMacro="FR2035_B_Kitbag_ce_AT";
 		scope=1;
 		class TransportMagazines
 		{
@@ -396,10 +391,10 @@ class CfgVehicles
 			};
 		};
 	};
-	class B_FR2035_Kitbag_ce_AA: B_FR2035_Kitbag_ce
+	class FR2035_B_Kitbag_ce_AA: FR2035_B_Kitbag_ce
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="B_FR2035_Kitbag_ce_AA";
+		_generalMacro="FR2035_B_Kitbag_ce_AA";
 		scope=1;
 		class TransportMagazines
 		{
@@ -410,10 +405,10 @@ class CfgVehicles
 			};
 		};
 	};
-	class B_FR2035_Kitbag_ce_Eng: B_FR2035_Kitbag_ce
+	class FR2035_B_Kitbag_ce_Eng: FR2035_B_Kitbag_ce
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="B_FR2035_Kitbag_ce_Eng";
+		_generalMacro="FR2035_B_Kitbag_ce_Eng";
 		scope=1;
 		class TransportMagazines
 		{
@@ -442,10 +437,10 @@ class CfgVehicles
 			};
 		};
 	};
-	class B_FR2035_Kitbag_ce_ReconExp: B_FR2035_Kitbag_ce
+	class FR2035_B_Kitbag_ce_ReconExp: FR2035_B_Kitbag_ce
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="B_FR2035_Kitbag_ce_ReconExp";
+		_generalMacro="FR2035_B_Kitbag_ce_ReconExp";
 		scope=1;
 		class TransportMagazines
 		{
@@ -484,22 +479,22 @@ class CfgVehicles
 			};
 		};
 	};
-	class B_FR2035_Kitbag_ce_AAR: B_FR2035_Kitbag_ce
+	class FR2035_B_Kitbag_ce_AAR: FR2035_B_Kitbag_ce
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="B_FR2035_Kitbag_ce_AAR";
+		_generalMacro="FR2035_B_Kitbag_ce_AAR";
 		scope=1;
 		class TransportMagazines
 		{
-			class _xx_100Rnd_65x39_caseless_mag
+			class _xx_200Rnd_556x45_Box_Red_F
 			{
-				magazine="100Rnd_65x39_caseless_mag";
-				count=2;
+				magazine="200Rnd_556x45_Box_Red_F";
+				count=1;
 			};
-			class _xx_100Rnd_65x39_caseless_mag_Tracer
+			class _xx_200Rnd_556x45_Box_Tracer_Red_F
 			{
-				magazine="100Rnd_65x39_caseless_mag_Tracer";
-				count=2;
+				magazine="200Rnd_556x45_Box_Tracer_Red_F";
+				count=1;
 			};
 			class _xx_130Rnd_338_Mag
 			{
@@ -514,27 +509,27 @@ class CfgVehicles
 				name="optic_tws_mg";
 				count=1;
 			};
-			class _xx_bipod_01_F_snd
+			class _xx_bipod_01_F_blk
 			{
-				name="bipod_01_F_snd";
+				name="bipod_01_F_blk";
 				count=1;
 			};
-			class _xx_muzzle_snds_338_sand
+			class _xx_muzzle_snds_338_black
 			{
-				name="muzzle_snds_338_sand";
+				name="muzzle_snds_338_black";
 				count=1;
 			};
-			class _xx_muzzle_snds_H
+			class _xx_muzzle_snds_M
 			{
-				name="muzzle_snds_H";
+				name="muzzle_snds_M";
 				count=1;
 			};
 		};
 	};
-	class B_FR2035_Kitbag_ce_CTRGExp_F: B_FR2035_Kitbag_ce
+	class FR2035_B_Kitbag_ce_CTRGExp_F: FR2035_B_Kitbag_ce
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="B_FR2035_Kitbag_ce_CTRGExp_F";
+		_generalMacro="FR2035_B_Kitbag_ce_CTRGExp_F";
 		scope=1;
 		class TransportMagazines
 		{
@@ -574,10 +569,10 @@ class CfgVehicles
 		};
 	};
 	class B_TacticalPack_Base;
-	class B_FR2035_TacticalPack_ce: B_TacticalPack_Base
+	class FR2035_B_TacticalPack_ce: B_TacticalPack_Base
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="B_FR2035_TacticalPack_ce";
+		_generalMacro="FR2035_B_TacticalPack_ce";
 		scope=2;
 		displayName="$STR_FR2035_TacticalPack_ce";
 		picture="\fr2035_supplies_f\data\ui\fr2035_icon_b_small_ce_ca.paa";
@@ -586,10 +581,10 @@ class CfgVehicles
 			"\fr2035_supplies_f\data\fr2035_backpack_small_ce_co.paa"
 		};
 	};
-	class B_FR2035_Carryall_ce_Mine: B_FR2035_Carryall_ce
+	class FR2035_B_Carryall_ce_Mine: FR2035_B_Carryall_ce
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="B_FR2035_Carryall_ce_Mine";
+		_generalMacro="FR2035_B_Carryall_ce_Mine";
 		scope=1;
 		class TransportMagazines
 		{
@@ -628,10 +623,10 @@ class CfgVehicles
 			};
 		};
 	};
-	class B_FR2035_AssaultPack_ce_LAT2: B_FR2035_AssaultPack_ce
+	class FR2035_B_AssaultPack_ce_LAT2: FR2035_B_AssaultPack_ce
 	{
 		author="$STR_FR2035_Author";
-		_generalMacro="B_FR2035_AssaultPack_ce_LAT2";
+		_generalMacro="FR2035_B_AssaultPack_ce_LAT2";
 		scope=1;
 		class TransportMagazines
 		{

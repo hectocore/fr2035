@@ -12,7 +12,7 @@ It can be downloaded directly into the game from the [Steam Workshop](https://st
 As a key actor of NATO forces, France involvement in the Mediterranean Sea
 crisis keeps growing as CSAT gains more influence across Africa and middle-east.
 
-Join the French army and get ready to join one of the last pillars of the
+Enroll in the French army and get ready to join one of the last pillars of the
 falling European Union.
 
 ## Why is French Army 2035 Open source?
