@@ -122,6 +122,8 @@ class CfgWeapons
 			"\fr2035_weapons_f\data\416f\fr2035_arifle_spar_01_blk_f_01_co.paa",
 			"\A3\Weapons_F_Exp\Rifles\SPAR_01\Data\arifle_SPAR_01_blk_F_02_co.paa"
 		};
+		aiDispersionCoefX=3;
+		aiDispersionCoefY=5;
 	};
 	class arifle_SPAR_01_GL_blk_F;
 	class FR2035_arifle_416F_GL_blk_F: arifle_SPAR_01_GL_blk_F
@@ -147,6 +149,8 @@ class CfgWeapons
 			"\A3\Weapons_F_Exp\Rifles\SPAR_01\Data\arifle_SPAR_01_blk_F_02_co.paa",
 			"\A3\Weapons_F_Exp\Rifles\SPAR_01\Data\arifle_SPAR_01_GL_blk_F_01_co.paa"
 		};
+		aiDispersionCoefX=3;
+		aiDispersionCoefY=5;
 	};
 	class arifle_SPAR_02_blk_F;
 	class arifle_SPAR_02_blk_F_copy: arifle_SPAR_02_blk_F {
@@ -260,6 +264,8 @@ class CfgWeapons
 			"\A3\Weapons_F_Exp\Rifles\SPAR_01\Data\arifle_SPAR_01_blk_F_02_co.paa"
 		};
 		class LinkedItems {};
+		aiDispersionCoefX=2;
+		aiDispersionCoefY=3;
 	};
 	class arifle_SPAR_03_blk_F;
 	class FR2035_srifle_417_blk_F: arifle_SPAR_03_blk_F
@@ -276,6 +282,8 @@ class CfgWeapons
 			"\fr2035_weapons_f\data\417\fr2035_arifle_spar_03_blk_f_02_co.paa",
 			"\A3\Weapons_F_Exp\Rifles\SPAR_01\Data\arifle_SPAR_01_blk_F_01_co.paa"
 		};
+		aiDispersionCoefX=2;
+		aiDispersionCoefY=3;
 	};
 	class LMG_03_F;
 	class FR2035_LMG_Minimi_blk_F: LMG_03_F
@@ -304,6 +312,8 @@ class CfgWeapons
 			"\A3\Weapons_F_Exp\Machineguns\LMG_03\Data\lmg_03_f_acc.rvmat",
 			"\A3\Weapons_F\Machineguns\M200\data\grip_metal.rvmat"
 		};
+		aiDispersionCoefX=16;
+		aiDispersionCoefY=20;
 	};
 
 	class FR2035_arifle_416F_blk_ACO_F: FR2035_arifle_416F_blk_F
