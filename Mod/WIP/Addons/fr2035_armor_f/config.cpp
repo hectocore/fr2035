@@ -782,7 +782,7 @@ class CfgVehicles
 				{
 					"\fr2035_armor_f\data\btdf\fr2035_apc_tracked_01_body_co.paa",
 					"\fr2035_armor_f\data\btdf\fr2035_mbt_01_body_co.paa",
-					"\fr2035_data_f\vehicles\fr2035_turret_co.paa",
+					"\fr2035_data_f\vehicles\btdf\fr2035_turret_co.paa",
 					"a3\Armor_F\Data\camonet_greenbeige_co.paa"
 				};
 				factions[]=
@@ -798,7 +798,7 @@ class CfgVehicles
 				{
 					"\fr2035_armor_f\data\daguet\fr2035_apc_tracked_01_body_co.paa",
 					"\fr2035_armor_f\data\daguet\fr2035_mbt_01_body_co.paa",
-					"\fr2035_data_f\vehicles\fr2035_turret_co.paa",
+					"\fr2035_data_f\vehicles\daguet\fr2035_turret_co.paa",
 					"a3\Armor_F\Data\camonet_nato_desert_co.paa"
 				};
 				factions[]=
@@ -979,7 +979,7 @@ class CfgVehicles
 				{
 					"\fr2035_armor_f\data\btdf\fr2035_apc_tracked_01_body_crv_co.paa",
 					"\fr2035_armor_f\data\btdf\fr2035_mbt_01_body_co.paa",
-					"\fr2035_data_f\vehicles\fr2035_turret_co.paa",
+					"\fr2035_data_f\vehicles\btdf\fr2035_turret_co.paa",
 					"\fr2035_armor_f\data\btdf\fr2035_apc_tracked_01_crv_co.paa",
 					"a3\Armor_F\Data\camonet_greenbeige_co.paa"
 				};
@@ -996,7 +996,7 @@ class CfgVehicles
 				{
 					"\fr2035_armor_f\data\daguet\fr2035_apc_tracked_01_body_crv_co.paa",
 					"\fr2035_armor_f\data\daguet\fr2035_mbt_01_body_co.paa",
-					"\fr2035_data_f\vehicles\fr2035_turret_co.paa",
+					"\fr2035_data_f\vehicles\daguet\fr2035_turret_co.paa",
 					"\fr2035_armor_f\data\daguet\fr2035_apc_tracked_01_crv_co.paa",
 					"a3\Armor_F\Data\camonet_nato_desert_co.paa"
 				};
@@ -1369,7 +1369,7 @@ class CfgVehicles
 				{
 					"\fr2035_armor_f\data\btdf\fr2035_mbt_01_body_co.paa",
 					"\fr2035_armor_f\data\btdf\fr2035_mbt_01_scorcher_co.paa",
-					"\fr2035_data_f\vehicles\fr2035_turret_co.paa",
+					"\fr2035_data_f\vehicles\btdf\fr2035_turret_co.paa",
 					"A3\Armor_F\Data\camonet_greenbeige_co.paa"
 				};
 				factions[]=
@@ -1385,7 +1385,7 @@ class CfgVehicles
 				{
 					"\fr2035_armor_f\data\daguet\fr2035_mbt_01_body_co.paa",
 					"\fr2035_armor_f\data\daguet\fr2035_mbt_01_scorcher_co.paa",
-					"\fr2035_data_f\vehicles\fr2035_turret_co.paa",
+					"\fr2035_data_f\vehicles\daguet\fr2035_turret_co.paa",
 					"a3\Armor_F\Data\camonet_nato_desert_co.paa"
 				};
 				factions[]=

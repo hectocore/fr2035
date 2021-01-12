@@ -255,7 +255,7 @@ class CfgVehicles
 				{
 					"\fr2035_soft_f\data\btdf\fr2035_mrap_01_base_co.paa",
 					"\fr2035_soft_f\data\btdf\fr2035_mrap_01_adds_co.paa",
-					"\fr2035_data_f\vehicles\fr2035_turret_co.paa"
+					"\fr2035_data_f\vehicles\btdf\fr2035_turret_co.paa"
 				};
 				factions[]=
 				{
@@ -270,7 +270,7 @@ class CfgVehicles
 				{
 					"\fr2035_soft_f\data\daguet\fr2035_mrap_01_base_co.paa",
 					"\fr2035_soft_f\data\daguet\fr2035_mrap_01_adds_co.paa",
-					"\fr2035_data_f\vehicles\fr2035_turret_co.paa"
+					"\fr2035_data_f\vehicles\daguet\fr2035_turret_co.paa"
 				};
 				factions[]=
 				{
@@ -418,7 +418,7 @@ class CfgVehicles
 				{
 					"\fr2035_soft_f\data\btdf\fr2035_mrap_01_base_co.paa",
 					"\fr2035_soft_f\data\btdf\fr2035_mrap_01_adds_co.paa",
-					"\fr2035_data_f\vehicles\fr2035_turret_co.paa"
+					"\fr2035_data_f\vehicles\btdf\fr2035_turret_co.paa"
 				};
 				factions[]=
 				{
@@ -433,7 +433,7 @@ class CfgVehicles
 				{
 					"\fr2035_soft_f\data\daguet\fr2035_mrap_01_base_co.paa",
 					"\fr2035_soft_f\data\daguet\fr2035_mrap_01_adds_co.paa",
-					"\fr2035_data_f\vehicles\fr2035_turret_co.paa"
+					"\fr2035_data_f\vehicles\daguet\fr2035_turret_co.paa"
 				};
 				factions[]=
 				{

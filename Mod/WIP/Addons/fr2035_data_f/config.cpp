@@ -46,6 +46,7 @@ class CfgAddons
 				"FR2035_Armor_F",
 				"FR2035_Characters_F",
 				"FR2035_Data_F",
+				"FR2035_Drones_F",
 				"FR2035_EditorPreviews_F",
 				"FR2035_Functions_F",
 				"FR2035_Language_F",
@@ -55,7 +56,6 @@ class CfgAddons
 				"FR2035_Supplies_F",
 				"FR2035_Weapons_F",
 				"FR2035legacy_boat_F",
-				"FR2035legacy_drones_F",
 				"FR2035legacy_language_F",
 				"FR2035legacy_structures_F"
 			};
@@ -1435,7 +1435,7 @@ class CfgGroups
 					class Unit2
 					{
 						side=1;
-						vehicle="FR2035_UAV_01_F";
+						vehicle="B_UAV_01_F";
 						rank="PRIVATE";
 						position[]={-5,-5,0};
 					};
@@ -1519,7 +1519,7 @@ class CfgGroups
 					class Unit2
 					{
 						side=1;
-						vehicle="FR2035_UAV_02_F";
+						vehicle="B_UAV_02_F";
 						rank="PRIVATE";
 						position[]={-5,-5,0};
 					};
@@ -1547,7 +1547,7 @@ class CfgGroups
 					class Unit2
 					{
 						side=1;
-						vehicle="FR2035_UAV_02_CAS_F";
+						vehicle="B_UAV_02_CAS_F";
 						rank="PRIVATE";
 						position[]={-5,-5,0};
 					};
