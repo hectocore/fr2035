@@ -1,3 +1,7 @@
+## Arma
+# PBOs (packed bank of files)
+*.pbo
+
 ## CPP
 # Prerequisites
 *.d
