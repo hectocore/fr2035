@@ -1,6 +1,7 @@
 ## Arma
 # PBOs (packed bank of files)
 *.pbo
+*.bisign
 
 ## CPP
 # Prerequisites
