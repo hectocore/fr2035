@@ -44,6 +44,7 @@ class CfgAddons
 			list[]=
 			{
 				"FR2035_Armor_F",
+				"FR2035_Boat_F",
 				"FR2035_Characters_F",
 				"FR2035_Data_F",
 				"FR2035_Drones_F",
@@ -53,11 +54,9 @@ class CfgAddons
 				"FR2035_Map_Scenes_F",
 				"FR2035_Music_F",
 				"FR2035_Soft_F",
+				"FR2035_Structures_F",
 				"FR2035_Supplies_F",
-				"FR2035_Weapons_F",
-				"FR2035legacy_boat_F",
-				"FR2035legacy_language_F",
-				"FR2035legacy_structures_F"
+				"FR2035_Weapons_F"
 			};
 		};
 	};
