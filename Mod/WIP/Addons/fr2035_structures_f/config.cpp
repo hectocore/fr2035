@@ -14,7 +14,9 @@ class CfgPatches
 		};
 		requiredVersion=1.66;
 		units[]={
+			"FR2035_Flag_APrank_F", // To remove
       "FR2035_Flag_FR_F",
+			"FR2035_Flag_EU_F",
 			"FR2035_Flag_FR_Air_F",
 			"FR2035_Flag_FR_Army_F",
 			"FR2035_Flag_FR_Navy_F",
