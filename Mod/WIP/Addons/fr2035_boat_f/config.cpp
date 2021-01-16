@@ -28,7 +28,7 @@ class CfgVehicles
 	class FR2035_Boat_Armed_01_minigun_F: B_Boat_Armed_01_minigun_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Boat_Armed_01_minigun_F.jpg"; // TODO : Generate and add preview
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Boat_Armed_01_minigun_F.jpg";
 		_generalMacro="FR2035_Boat_Armed_01_minigun_F";
 		crew="FR2035_Soldier_F";
 		typicalCargo[]=
@@ -92,7 +92,7 @@ class CfgVehicles
 	class FR2035_Boat_Transport_01_F: B_Boat_Transport_01_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Boat_Transport_01_F.jpg"; // TODO : Generate and add preview
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Boat_Transport_01_F.jpg";
 		_generalMacro="FR2035_Boat_Transport_01_F";
 		crew="FR2035_Soldier_F";
 		typicalCargo[]=
@@ -163,7 +163,7 @@ class CfgVehicles
 	class FR2035_Lifeboat: B_Lifeboat
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Lifeboat.jpg"; // TODO : Generate and add preview
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Lifeboat.jpg";
 		_generalMacro="FR2035_Lifeboat";
 		crew="FR2035_Soldier_F";
 		typicalCargo[]=
@@ -234,7 +234,7 @@ class CfgVehicles
 	class FR2035_SDV_01_F: B_SDV_01_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_SDV_01_F.jpg"; // TODO : Generate and add preview
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_SDV_01_F.jpg";
 		_generalMacro="FR2035_SDV_01_F";
 		crew="FR2035_diver_F";
 		typicalCargo[]=

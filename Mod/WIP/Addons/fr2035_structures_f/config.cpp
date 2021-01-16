@@ -14,7 +14,6 @@ class CfgPatches
 		};
 		requiredVersion=1.66;
 		units[]={
-			"FR2035_Flag_APrank_F", // To remove
       "FR2035_Flag_FR_F",
 			"FR2035_Flag_EU_F",
 			"FR2035_Flag_FR_Air_F",
@@ -37,7 +36,7 @@ class CfgVehicles
 		author="$STR_FR2035_Author";
 		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Flag_FR_F.jpg";
 		_generalMacro="FR2035_Flag_FR_F";
-		displayName="Flag (FR)"; // TODO : Add to stringtable
+		displayName="$STR_FR2035_Flag_FR";
 		class EventHandlers
 		{
 			init="(_this select 0) setFlagTexture '\fr2035_data_f\flags\fr2035_flag_fr_co.paa'";
@@ -48,7 +47,7 @@ class CfgVehicles
 		author="$STR_FR2035_Author";
 		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Flag_EU_F.jpg";
 		_generalMacro="FR2035_Flag_EU_F";
-		displayName="Flag (EU)"; // TODO : Add to stringtable
+		displayName="$STR_FR2035_Flag_EU";
 		class EventHandlers
 		{
 			init="(_this select 0) setFlagTexture '\fr2035_data_f\flags\fr2035_flag_eu_co.paa'";
@@ -60,7 +59,7 @@ class CfgVehicles
 		author="$STR_FR2035_Author";
 		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Flag_FR_Air_F.jpg";
 		_generalMacro="FR2035_Flag_FR_Air_F";
-		displayName="Flag (FR - Air)"; // TODO : Add to stringtable
+		displayName="$STR_FR2035_Flag_FR_Air";
 		class EventHandlers
 		{
 			init="(_this select 0) setFlagTexture '\fr2035_data_f\flags\fr2035_flag_fr_air_co.paa'";
@@ -71,7 +70,7 @@ class CfgVehicles
 		author="$STR_FR2035_Author";
 		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Flag_FR_Army_F.jpg";
 		_generalMacro="FR2035_Flag_FR_Army_F";
-		displayName="Flag (FR - Terre)"; // TODO : Add to stringtable
+		displayName="$STR_FR2035_Flag_FR_Army";
 		class EventHandlers
 		{
 			init="(_this select 0) setFlagTexture '\fr2035_data_f\flags\fr2035_flag_fr_army_co.paa'";
@@ -82,7 +81,7 @@ class CfgVehicles
 		author="$STR_FR2035_Author";
 		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Flag_FR_Navy_F.jpg";
 		_generalMacro="FR2035_Flag_FR_Navy_F";
-		displayName="Flag (FR - Marine)"; // TODO : Add to stringtable
+		displayName="$STR_FR2035_Flag_FR_Navy";
 		class EventHandlers
 		{
 			init="(_this select 0) setFlagTexture '\fr2035_data_f\flags\fr2035_flag_fr_navy_co.paa'";
@@ -94,7 +93,7 @@ class CfgVehicles
 		author="$STR_FR2035_Author";
 		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Banner_01_FR_F.jpg";
 		_generalMacro="FR2035_Banner_01_FR_F";
-		displayName="Banner (FR)"; // TODO : Add to stringtable
+		displayName="$STR_FR2035_Banner_FR";
 		hiddenSelectionsTextures[]=
 		{
 			"\fr2035_data_f\flags\fr2035_flag_fr_co.paa"
@@ -105,7 +104,7 @@ class CfgVehicles
 		author="$STR_FR2035_Author";
 		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Banner_01_EU_F.jpg";
 		_generalMacro="FR2035_Banner_01_EU_F";
-		displayName="Banner (EU)"; // TODO : Add to stringtable
+		displayName="$STR_FR2035_Banner_EU";
 		hiddenSelectionsTextures[]=
 		{
 			"\fr2035_data_f\flags\fr2035_flag_eu_co.paa"
@@ -116,7 +115,7 @@ class CfgVehicles
 		author="$STR_FR2035_Author";
 		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Banner_01_FR_Air_F.jpg";
 		_generalMacro="FR2035_Banner_01_FR_Air_F";
-		displayName="Banner (FR - Air)"; // TODO : Add to stringtable
+		displayName="$STR_FR2035_Banner_FR_Air";
 		hiddenSelectionsTextures[]=
 		{
 			"\fr2035_data_f\flags\fr2035_flag_fr_air_co.paa"
@@ -127,7 +126,7 @@ class CfgVehicles
 		author="$STR_FR2035_Author";
 		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Banner_01_FR_Army_F.jpg";
 		_generalMacro="FR2035_Banner_01_FR_Army_F";
-		displayName="Banner (FR - Army)"; // TODO : Add to stringtable
+		displayName="$STR_FR2035_Banner_FR_Army";
 		hiddenSelectionsTextures[]=
 		{
 			"\fr2035_data_f\flags\fr2035_flag_fr_army_co.paa"
@@ -138,7 +137,7 @@ class CfgVehicles
 		author="$STR_FR2035_Author";
 		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_Banner_01_FR_Navy_F.jpg";
 		_generalMacro="FR2035_Banner_01_FR_Navy_F";
-		displayName="Banner (FR - Navy)"; // TODO : Add to stringtable
+		displayName="$STR_FR2035_Banner_FR_Navy";
 		hiddenSelectionsTextures[]=
 		{
 			"\fr2035_data_f\flags\fr2035_flag_fr_navy_co.paa"

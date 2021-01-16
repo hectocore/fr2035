@@ -25,7 +25,7 @@ class CfgVehicles
 	class FR2035_UGV_01_F: B_UGV_01_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_UGV_01_F.jpg"; // TODO : Generate and add preview
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_UGV_01_F.jpg";
 		_generalMacro="FR2035_UGV_01_F";
 		crew="FR2035_UAV_AI";
 		typicalCargo[]=
@@ -113,7 +113,7 @@ class CfgVehicles
 	class FR2035_UGV_01_rcws_F: B_UGV_01_rcws_F
 	{
 		author="$STR_FR2035_Author";
-		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_UGV_01_rcws_F.jpg"; // TODO : Generate and add preview
+		editorPreview="\fr2035_editorpreviews_f\data\cfgvehicles\FR2035_UGV_01_rcws_F.jpg";
 		_generalMacro="FR2035_UGV_01_rcws_F";
 		crew="FR2035_UAV_AI";
 		typicalCargo[]=

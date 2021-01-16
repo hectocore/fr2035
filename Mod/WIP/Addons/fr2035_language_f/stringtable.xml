@@ -6953,5 +6953,179 @@
         </Key>
       </Container>
     </Container>
+    <Container name="FR2035_Structures_F">
+      <Container name="Flags">
+        <Key ID="str_fr2035_flag_fr">
+          <Original>Flag (FR)</Original>
+          <Chinese>旗幟（FR）</Chinese>
+          <French>Drapeau (FR)</French>
+          <Spanish>Bandera (FR)</Spanish>
+          <Italian>Bandiera (FR)</Italian>
+          <Polish>Flaga (FR)</Polish>
+          <Russian>Флаг (FR)</Russian>
+          <German>Flagge (FR)</German>
+          <Czech>Vlajka (FR)</Czech>
+          <English>Flag (FR)</English>
+          <Portuguese>Bandeira (FR)</Portuguese>
+          <Korean>깃발(FR)</Korean>
+          <Chinesesimp>旗 (FR)</Chinesesimp>
+          <Japanese>旗（FR）</Japanese>
+          <Turkish>Bayrak (FR)</Turkish>
+        </Key>
+        <Key ID="str_fr2035_flag_eu">
+          <Original>Flag (EU)</Original>
+          <Chinese>旗幟（EU）</Chinese>
+          <French>Drapeau (UE)</French>
+          <Spanish>Bandera (UE)</Spanish>
+          <Italian>Bandiera (UE)</Italian>
+          <Polish>Flaga (UE)</Polish>
+          <Russian>Флаг (ЕС)</Russian>
+          <German>Flagge (EU)</German>
+          <Czech>Vlajka (EU)</Czech>
+          <English>Flag (EU)</English>
+          <Portuguese>Bandeira (UE)</Portuguese>
+          <Korean>깃발(EU)</Korean>
+          <Chinesesimp>旗 (EU)</Chinesesimp>
+          <Japanese>旗（EU）</Japanese>
+          <Turkish>Bayrak (AB)</Turkish>
+        </Key>
+        <Key ID="str_fr2035_flag_fr_air">
+          <Original>Flag (FR - Armée de l'Air)</Original>
+          <Chinese>旗幟（FR - Armée de l'Air）</Chinese>
+          <French>Drapeau (FR - Armée de l'Air)</French>
+          <Spanish>Bandera (FR - Armée de l'Air)</Spanish>
+          <Italian>Bandiera (FR - Armée de l'Air)</Italian>
+          <Polish>Flaga (FR - Armée de l'Air)</Polish>
+          <Russian>Флаг (FR - Armée de l'Air)</Russian>
+          <German>Flagge (FR - Armée de l'Air)</German>
+          <Czech>Vlajka (FR - Armée de l'Air)</Czech>
+          <English>Flag (FR - Armée de l'Air)</English>
+          <Portuguese>Bandeira (FR - Armée de l'Air)</Portuguese>
+          <Korean>깃발(FR - Armée de l'Air)</Korean>
+          <Chinesesimp>旗 (FR - Armée de l'Air)</Chinesesimp>
+          <Japanese>旗（FR - Armée de l'Air）</Japanese>
+          <Turkish>Bayrak (FR - Armée de l'Air)</Turkish>
+        </Key>
+        <Key ID="str_fr2035_flag_fr_army">
+          <Original>Flag (FR - Armée de Terre)</Original>
+          <Chinese>旗幟（FR - Armée de Terre）</Chinese>
+          <French>Drapeau (FR - Armée de Terre)</French>
+          <Spanish>Bandera (FR - Armée de Terre)</Spanish>
+          <Italian>Bandiera (FR - Armée de Terre)</Italian>
+          <Polish>Flaga (FR - Armée de Terre)</Polish>
+          <Russian>Флаг (FR - Armée de Terre)</Russian>
+          <German>Flagge (FR - Armée de Terre)</German>
+          <Czech>Vlajka (FR - Armée de Terre)</Czech>
+          <English>Flag (FR - Armée de Terre)</English>
+          <Portuguese>Bandeira (FR - Armée de Terre)</Portuguese>
+          <Korean>깃발(FR - Armée de Terre)</Korean>
+          <Chinesesimp>旗 (FR - Armée de Terre)</Chinesesimp>
+          <Japanese>旗（FR - Armée de Terre）</Japanese>
+          <Turkish>Bayrak (FR - Armée de Terre)</Turkish>
+        </Key>
+        <Key ID="str_fr2035_flag_fr_navy">
+          <Original>Flag (FR - Marine Nationale)</Original>
+          <Chinese>旗幟（FR - Marine Nationale）</Chinese>
+          <French>Drapeau (FR - Marine Nationale)</French>
+          <Spanish>Bandera (FR - Marine Nationale)</Spanish>
+          <Italian>Bandiera (FR - Marine Nationale)</Italian>
+          <Polish>Flaga (FR - Marine Nationale)</Polish>
+          <Russian>Флаг (FR - Marine Nationale)</Russian>
+          <German>Flagge (FR - Marine Nationale)</German>
+          <Czech>Vlajka (FR - Marine Nationale)</Czech>
+          <English>Flag (FR - Marine Nationale)</English>
+          <Portuguese>Bandeira (FR - Marine Nationale)</Portuguese>
+          <Korean>깃발(FR - Marine Nationale)</Korean>
+          <Chinesesimp>旗 (FR - Marine Nationale)</Chinesesimp>
+          <Japanese>旗（FR - Marine Nationale）</Japanese>
+          <Turkish>Bayrak (FR - Marine Nationale)</Turkish>
+        </Key>
+        <Key ID="str_fr2035_banner_fr">
+          <Original>Banner (FR)</Original>
+          <Chinese>徽記（FR）</Chinese>
+          <French>Bannière (FR)</French>
+          <Spanish>Estandarte (FR)</Spanish>
+          <Italian>Striscione (FR)</Italian>
+          <Polish>Sztandar (FR)</Polish>
+          <Russian>Баннер (FR)</Russian>
+          <German>Banner (FR)</German>
+          <Czech>Prapor (FR)</Czech>
+          <English>Banner (FR)</English>
+          <Portuguese>Bandeira (FR)</Portuguese>
+          <Korean>배너 (FR)</Korean>
+          <Chinesesimp>横幅 (FR)</Chinesesimp>
+          <Japanese>垂れ幕（FR）</Japanese>
+          <Turkish>Flama (FR)</Turkish>
+        </Key>
+        <Key ID="str_fr2035_banner_eu">
+          <Original>Banner (EU)</Original>
+          <Chinese>徽記（EU）</Chinese>
+          <French>Bannière (UE)</French>
+          <Spanish>Estandarte (UE)</Spanish>
+          <Italian>Striscione (UE)</Italian>
+          <Polish>Sztandar (UE)</Polish>
+          <Russian>Баннер (ЕС)</Russian>
+          <German>Banner (EU)</German>
+          <Czech>Prapor (EU)</Czech>
+          <English>Banner (EU)</English>
+          <Portuguese>Bandeira (UE)</Portuguese>
+          <Korean>배너 (EU)</Korean>
+          <Chinesesimp>横幅 (EU)</Chinesesimp>
+          <Japanese>垂れ幕（EU）</Japanese>
+          <Turkish>Flama (AB)</Turkish>
+        </Key>
+        <Key ID="str_fr2035_banner_fr_air">
+          <Original>Banner (FR - Armée de l'Air)</Original>
+          <Chinese>徽記（FR - Armée de l'Air）</Chinese>
+          <French>Bannière (FR - Armée de l'Air)</French>
+          <Spanish>Estandarte (FR - Armée de l'Air)</Spanish>
+          <Italian>Striscione (FR - Armée de l'Air)</Italian>
+          <Polish>Sztandar (FR - Armée de l'Air)</Polish>
+          <Russian>Баннер (FR - Armée de l'Air)</Russian>
+          <German>Banner (FR - Armée de l'Air)</German>
+          <Czech>Prapor (FR - Armée de l'Air)</Czech>
+          <English>Banner (FR - Armée de l'Air)</English>
+          <Portuguese>Bandeira (FR - Armée de l'Air)</Portuguese>
+          <Korean>배너 (FR - Armée de l'Air)</Korean>
+          <Chinesesimp>横幅 (FR - Armée de l'Air)</Chinesesimp>
+          <Japanese>垂れ幕（FR - Armée de l'Air）</Japanese>
+          <Turkish>Flama (FR - Armée de l'Air)</Turkish>
+        </Key>
+        <Key ID="str_fr2035_banner_fr_army">
+          <Original>Banner (FR - Armée de Terre)</Original>
+          <Chinese>徽記（FR - Armée de Terre）</Chinese>
+          <French>Bannière (FR - Armée de Terre)</French>
+          <Spanish>Estandarte (FR - Armée de Terre)</Spanish>
+          <Italian>Striscione (FR - Armée de Terre)</Italian>
+          <Polish>Sztandar (FR - Armée de Terre)</Polish>
+          <Russian>Баннер (FR - Armée de Terre)</Russian>
+          <German>Banner (FR - Armée de Terre)</German>
+          <Czech>Prapor (FR - Armée de Terre)</Czech>
+          <English>Banner (FR - Armée de Terre)</English>
+          <Portuguese>Bandeira (FR - Armée de Terre)</Portuguese>
+          <Korean>배너 (FR - Armée de Terre)</Korean>
+          <Chinesesimp>横幅 (FR - Armée de Terre)</Chinesesimp>
+          <Japanese>垂れ幕（FR - Armée de Terre）</Japanese>
+          <Turkish>Flama (FR - Armée de Terre)</Turkish>
+        </Key>
+        <Key ID="str_fr2035_banner_fr_navy">
+          <Original>Banner (FR - Marine Nationale)</Original>
+          <Chinese>徽記（FR - Marine Nationale）</Chinese>
+          <French>Bannière (FR - Marine Nationale)</French>
+          <Spanish>Estandarte (FR - Marine Nationale)</Spanish>
+          <Italian>Striscione (FR - Marine Nationale)</Italian>
+          <Polish>Sztandar (FR - Marine Nationale)</Polish>
+          <Russian>Баннер (FR - Marine Nationale)</Russian>
+          <German>Banner (FR - Marine Nationale)</German>
+          <Czech>Prapor (FR - Marine Nationale)</Czech>
+          <English>Banner (FR - Marine Nationale)</English>
+          <Portuguese>Bandeira (FR - Marine Nationale)</Portuguese>
+          <Korean>배너 (FR - Marine Nationale)</Korean>
+          <Chinesesimp>横幅 (FR - Marine Nationale)</Chinesesimp>
+          <Japanese>垂れ幕（FR - Marine Nationale）</Japanese>
+          <Turkish>Flama (FR - Marine Nationale)</Turkish>
+        </Key>
+      </Container>
+    </Container>
   </Package>
 </Project>
